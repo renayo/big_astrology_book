@@ -60,7 +60,7 @@ All documentation should be uploaded in the next days to weeks as time allows. (
 | **32**  | [History, Predictions](https://bigastrologybook.com/2/research/414/results-of-project-32) |       0.05       |    0.10     |     No     |     N.S.     |      Low      |    Low     |
 | **33**  | [Dignities, Character ](https://bigastrologybook.com/2/research/421/project-33)|       0.05       |     0.10     |     No     |      0.01      |   Moderate    | **Positive** |
 | **34**  | Solar Returns      |       0.05       |      0.10     |     No     |     < 0.01     |   Moderate    | **Positive** |
-| **35**  | Proffessional Clusters      |       0.05       |    0.10    |     No     |     < 0.05     |   Moderate    | **Positive** |
+| **35**  | Professional Clusters      |       0.05       |    0.10    |     No     |     < 0.05     |   Moderate    | **Positive** |
 | **36**  | Synastry, Logistic |       0.05       |    0.10      |     No     |      N.S.      |     High      |     Null     |
 | **37**  | Mood, Cycles       |       0.05       |    0.10    |     No     |      0.90      |   Moderate    |     Null     |
 | **38**  | Group Dynamics     |       0.05       |      0.20      |     No     |      0.52      |     ~0.80     |     Null     |
