@@ -8,7 +8,7 @@ renay@ayurastro.com
 
 > 
 
-Here are some forty seven (and counting) computational astrology research experiments.
+Here are some forty seven (and counting) computational astrology research experiments available in their totality at https://bigastrologybook.com/.
 
 _Already, thirty one, or over half, are clear successes, and five are mixed._
 
