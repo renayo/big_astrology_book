@@ -1,6 +1,6 @@
 # Project 44: Machine Learning Chart Rectification — Teaching an Algorithm to See Aspects
 
-> **Source:** [bigastrologybook.com/2/research/19/project-44](https://bigastrologybook.com/2/research/19/project-44)
+> **Source:** [bigastrologybook.com/project-44](https://bigastrologybook.com/project-44/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** 5,000 synthetic individuals with 83,203+ generated life events; Random Forest regressor trained to predict birth hour from event geometry; two-phase experiment (raw coordinates vs. cosine features)

@@ -1,6 +1,6 @@
 # Project 43: Progressions & Psychological Development — What Changes, and What Doesn't
 
-> **Source:** [bigastrologybook.com/2/research/19/project-43](https://bigastrologybook.com/2/research/19/project-43)
+> **Source:** [bigastrologybook.com/project-43](https://bigastrologybook.com/project-43/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** 171 verified celebrities with AA-rated birth times (AstroDatabank); 925 documented life events from biographical sources; secondary progressions calculated via Swiss Ephemeris (day-for-year method)

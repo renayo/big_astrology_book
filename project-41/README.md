@@ -1,6 +1,6 @@
 # Project 41: Lunar Nodes & Life Purpose — The Destiny Vector
 
-> **Source:** [bigastrologybook.com/2/research/19/project-41](https://bigastrologybook.com/2/research/19/project-41)
+> **Source:** [bigastrologybook.com/project-41](https://bigastrologybook.com/project-41/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** 763 verified historical professionals across 8 career categories; True North Node calculated via Swiss Ephemeris; analyzed by sign placement, Whole Sign house from Sun, and Equal house from Sun

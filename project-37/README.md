@@ -1,6 +1,6 @@
 # Project 37: Planetary Cycles & Mood — The Great Chronocrators Survive
 
-> **Source:** [bigastrologybook.com/2/research/19/project-37](https://bigastrologybook.com/2/research/19/project-37)
+> **Source:** [bigastrologybook.com/project-37](https://bigastrologybook.com/project-37/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** University of Michigan Consumer Sentiment Index (UMCSENT), November 1952 — present; N=668 valid monthly data points; Swiss Ephemeris planetary calculations aligned to monthly periods

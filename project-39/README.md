@@ -1,6 +1,6 @@
 # Project 39: Retrograde Periods & Market Volatility — Mercury Myth, Venus Reality
 
-> **Source:** [bigastrologybook.com/2/research/19/project-39](https://bigastrologybook.com/2/research/19/project-39)
+> **Source:** [bigastrologybook.com/project-39](https://bigastrologybook.com/project-39/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** CBOE VIX Index (1990–present, ~9,100 trading days); S&P 500 realized volatility (1950–2026, N=19,106 trading days); retrograde periods calculated daily via Swiss Ephemeris

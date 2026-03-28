@@ -1,6 +1,6 @@
 # The Big Astrology Book of Research — Project Index
 
-> **By Renay Oshop** | [bigastrologybook.com/2/research](https://bigastrologybook.com/2/research)
+> **By Renay Oshop** | [bigastrologybook.com](https://bigastrologybook.com)
 > **Projects:** 48 research studies | **Methodology:** Computational, statistical, empirical
 
 ---

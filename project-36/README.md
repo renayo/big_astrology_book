@@ -1,6 +1,6 @@
 # Project 36: Synastry Harmonics & Logistic Regression — The Generational Confound
 
-> **Source:** [bigastrologybook.com/2/research/19/project-36](https://bigastrologybook.com/2/research/19/project-36)
+> **Source:** [bigastrologybook.com/project-36](https://bigastrologybook.com/project-36/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** ~4,000 couples from Wikidata; 700+ astrological features (Tropical signs, Vedic signs, inter-chart cosine interactions); logistic regression and Random Forest models

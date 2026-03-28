@@ -1,6 +1,6 @@
 # Project 38: Composite Charts & Group Dynamics — Band Longevity
 
-> **Source:** [bigastrologybook.com/2/research/19/project-38](https://bigastrologybook.com/2/research/19/project-38)
+> **Source:** [bigastrologybook.com/project-38](https://bigastrologybook.com/project-38/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** N=31 musical groups (Wikidata, SPARQL extraction) with full member birth data; Angular Cohesion metric applied to all planets; correlation with band lifespan; supplemented by synthetic N=200 group test

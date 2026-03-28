@@ -1,6 +1,6 @@
 # Project 47: Moon Phase & Sleep — The Tithi System and Deep Sleep Suppression
 
-> **Source:** [bigastrologybook.com/2/research/19/project-47](https://bigastrologybook.com/2/research/19/project-47)
+> **Source:** [bigastrologybook.com/project-47](https://bigastrologybook.com/project-47/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** Authenticated aggregated wearables data (2023–2024), 99 records representing ~118,000 user-nights; Tithi (lunar day) calculated via Sun-Moon elongation; deep sleep duration as primary outcome; patterns derived from University of Washington sleep study methodology (Casiraghi et al., 2021)

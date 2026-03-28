@@ -1,7 +1,7 @@
 # Project 34: Solar Return Predictions — Cosine Method
 
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
-> **Source:** [bigastrologybook.com/2/research](https://bigastrologybook.com/2/research)
+> **Source:** [bigastrologybook.com](https://bigastrologybook.com)
 
 ---
 

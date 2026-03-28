@@ -1,6 +1,6 @@
 # Project 35: Professional Clustering — Unsupervised Learning
 
-> **Source:** [bigastrologybook.com/2/research/19/project-35](https://bigastrologybook.com/2/research/19/project-35)
+> **Source:** [bigastrologybook.com/project-35](https://bigastrologybook.com/project-35/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** 766 verified professionals from Astro-Databank across 8 career categories; K-means, HDBSCAN, GMM, Spectral Clustering on planetary longitudes and cosine interaction features

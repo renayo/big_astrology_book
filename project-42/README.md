@@ -1,6 +1,6 @@
 # Project 42: Solar Cycles & Social Sentiment — The 11-Year Rhythm
 
-> **Source:** [bigastrologybook.com/2/research/19/project-42](https://bigastrologybook.com/2/research/19/project-42)
+> **Source:** [bigastrologybook.com/project-42](https://bigastrologybook.com/project-42/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** University of Michigan Consumer Sentiment Index (UMCSENT) paired with SILSO/SIDC Monthly Mean Total Sunspot Number; February 1960 — December 2023; N=624 monthly data points

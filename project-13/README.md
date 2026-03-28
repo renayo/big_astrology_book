@@ -1,7 +1,7 @@
 # Project 13: Circular Statistics and Personality by Birth Angle
 
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
-> **Source:** [bigastrologybook.com/2/research](https://bigastrologybook.com/2/research)
+> **Source:** [bigastrologybook.com](https://bigastrologybook.com)
 
 ---
 

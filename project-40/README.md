@@ -1,6 +1,6 @@
 # Project 40: Medical Astrology & Decumbiture — What 82 Million ED Visits Reveal
 
-> **Source:** [bigastrologybook.com/2/research/19/project-40](https://bigastrologybook.com/2/research/19/project-40)
+> **Source:** [bigastrologybook.com/project-40](https://bigastrologybook.com/project-40/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** NYC Department of Health Syndromic Surveillance data, ~82 million Emergency Department visits aggregated into 1,008 unique days; 45 planetary pair cosine metrics per day; Pearson correlation with daily admission severity ratio

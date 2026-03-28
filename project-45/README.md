@@ -1,6 +1,6 @@
 # Project 45: Seismicity & Gravitational Vectors — The Moon's Inverted Signal
 
-> **Source:** [bigastrologybook.com/2/research/19/project-45](https://bigastrologybook.com/2/research/19/project-45)
+> **Source:** [bigastrologybook.com/project-45](https://bigastrologybook.com/project-45/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** USGS Earthquake Catalog, M5.5+ (1970–2024), N=25,961 events; lunar day assignments via synodic cycle; planetary alignment score and tidal proxy calculations via Swiss Ephemeris

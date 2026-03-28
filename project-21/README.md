@@ -1,7 +1,7 @@
 # Project 21: Eclipse Cycles and Collective Behavior (Seattle 911 Calls)
 
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
-> **Source:** [bigastrologybook.com/2/research](https://bigastrologybook.com/2/research)
+> **Source:** [bigastrologybook.com](https://bigastrologybook.com)
 
 ---
 

@@ -1,6 +1,6 @@
 # Project 46: NLP & Thematic Archetypes — The Internal Coherence of the Symbolic System
 
-> **Source:** [bigastrologybook.com/2/research/19/project-46](https://bigastrologybook.com/2/research/19/project-46)
+> **Source:** [bigastrologybook.com/project-46](https://bigastrologybook.com/project-46/)
 > **Archive Date:** 2026-03-21
 > **Book:** *The Big Astrology Book of Research* by Renay Oshop
 > **Dataset:** 10,000 astrology readings from public horoscope archives; TF-IDF vectorization; Latent Dirichlet Allocation (LDA) topic modeling; cosine similarity between sign description vectors
