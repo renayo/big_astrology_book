@@ -1,0 +1,271 @@
+name,birth_order,category,sun_sign_trop,sun_sign_sid,sun_element_sid,sun_saturn,sun_jupiter,sat_type,jup_type
+Gautama Buddha,2,Youngest,Aries,Aries,Fire,None,Square,None,Hard
+Donald Trump,4,Middle,Gemini,Taurus,Earth,None,Trine,None,Soft
+Genghis Khan,3,Middle,Gemini,Taurus,Earth,Opposition,Square,Hard,Hard
+Cleopatra,6,Middle,Capricorn,Capricorn,Earth,Conjunction,None,Hard,None
+Pope Francis,1,First,Sagittarius,Sagittarius,Fire,None,None,None,None
+Ludwig van Beethoven,1,First,Sagittarius,Sagittarius,Fire,None,None,None,None
+Elizabeth I of England,4,Middle,Virgo,Leo,Fire,None,Square,None,Hard
+Plato,2,Middle,Taurus,Taurus,Earth,None,None,None,None
+Alexander the Great,5,Middle,Cancer,Leo,Fire,Sextile,Sextile,Soft,Soft
+Saint Peter,2,Youngest,Capricorn,Capricorn,Earth,None,Trine,None,Soft
+Wolfgang Amadeus Mozart,2,Youngest,Aquarius,Capricorn,Earth,Conjunction,None,Hard,None
+Napoleon,2,Middle,Leo,Leo,Fire,None,Square,None,Hard
+Galileo Galilei,1,First,Aquarius,Aquarius,Air,None,None,None,None
+Adolf Hitler,5,Middle,Taurus,Aries,Fire,None,Trine,None,Soft
+Albert Einstein,1,First,Pisces,Pisces,Water,None,None,None,None
+Henry VIII of England,3,Middle,Cancer,Gemini,Air,None,None,None,None
+Marie Curie,4,Youngest,Scorpio,Libra,Air,None,None,None,None
+Jimmy Carter,1,First,Libra,Virgo,Earth,None,Sextile,None,Soft
+Pope Benedict XVI,2,Youngest,Aries,Aries,Fire,None,None,None,None
+Julius Caesar,1,First,Cancer,Cancer,Water,None,None,None,None
+Vincent van Gogh,1,First,Aries,Pisces,Water,None,None,None,None
+Fyodor Dostoevsky,2,Middle,Scorpio,Libra,Air,None,None,None,None
+Thomas Jefferson,1,First,Aries,Aries,Fire,Trine,None,Soft,None
+Louis XIV of France,1,First,Virgo,Leo,Fire,None,None,None,None
+Johann Sebastian Bach,3,Youngest,Aries,Pisces,Water,None,None,None,None
+Martin Luther,1,First,Scorpio,Scorpio,Water,Conjunction,None,Hard,None
+William Shakespeare,1,First,Taurus,Aries,Fire,Square,Square,Hard,Hard
+Pope John Paul II,2,Youngest,Taurus,Taurus,Earth,Square,None,Hard,None
+Martin Luther King Jr.,2,Middle,Capricorn,Capricorn,Earth,None,Square,None,Hard
+Frédéric Chopin,2,Middle,Pisces,Aquarius,Air,None,None,None,None
+Karl Marx,3,Middle,Taurus,Aries,Fire,Sextile,Trine,Soft,Soft
+Joseph Stalin,3,Middle,Sagittarius,Scorpio,Water,None,None,None,None
+Akbar,3,Middle,Libra,Libra,Air,None,None,None,None
+Dante Alighieri,1,First,Gemini,Taurus,Earth,Conjunction,None,Hard,None
+René Descartes,2,Youngest,Aries,Pisces,Water,None,Conjunction,None,Hard
+Nikola Tesla,1,First,Cancer,Gemini,Air,None,None,None,None
+"Charles, Prince of Wales",1,First,Scorpio,Libra,Air,None,None,None,None
+Pablo Picasso,1,First,Scorpio,Libra,Air,Opposition,None,Hard,None
+Thomas Edison,2,Youngest,Aquarius,Aquarius,Air,None,None,None,None
+Suleiman the Magnificent,1,First,Scorpio,Libra,Air,Trine,None,Soft,None
+Vladimir Lenin,3,Middle,Taurus,Aries,Fire,Trine,None,Soft,None
+Charles Darwin,6,Middle,Aquarius,Aquarius,Air,None,None,None,None
+Kublai Khan,2,Middle,Virgo,Virgo,Earth,Conjunction,None,Hard,None
+Sigmund Freud,1,First,Taurus,Aries,Fire,None,None,None,None
+Blaise Pascal,2,Middle,Gemini,Gemini,Air,None,None,None,None
+Qin Shi Huang,3,Youngest,Aquarius,Aquarius,Air,None,None,None,None
+Johann Wolfgang von Goethe,1,First,Virgo,Leo,Fire,None,None,None,None
+J. Robert Oppenheimer,1,First,Taurus,Aries,Fire,None,None,None,None
+Muhammad Ali,1,First,Capricorn,Capricorn,Earth,Trine,None,Soft,None
+George VI,2,Middle,Sagittarius,Scorpio,Water,None,None,None,None
+J. R. R. Tolkien,1,First,Capricorn,Sagittarius,Fire,None,Sextile,None,Soft
+Franz Joseph I of Austria,1,First,Leo,Leo,Fire,Conjunction,None,Hard,None
+Louis XVI of France,5,Middle,Virgo,Leo,Fire,None,Conjunction,None,Hard
+Niccolò Machiavelli,1,First,Taurus,Aries,Fire,None,None,None,None
+Edgar Allan Poe,2,Youngest,Capricorn,Capricorn,Earth,Sextile,None,Soft,None
+Francis Bacon,7,Youngest,Aquarius,Capricorn,Earth,None,None,None,None
+Friedrich Nietzsche,1,First,Libra,Libra,Air,None,None,None,None
+Carl Linnaeus,2,Middle,Gemini,Taurus,Earth,Conjunction,None,Hard,None
+Hans Christian Andersen,2,Youngest,Aries,Pisces,Water,Opposition,Trine,Hard,Soft
+Salvador Dalí,1,First,Taurus,Aries,Fire,Square,None,Hard,None
+Charles I of England,4,Middle,Scorpio,Scorpio,Water,None,None,None,None
+Charlie Chaplin,2,Middle,Aries,Aries,Fire,None,None,None,None
+Charlemagne,1,First,Aries,Aries,Fire,None,Opposition,None,Hard
+George V,2,Middle,Gemini,Taurus,Earth,None,None,None,None
+Leo Tolstoy,2,Middle,Virgo,Leo,Fire,None,Sextile,None,Soft
+Pope John Paul I,1,First,Libra,Libra,Air,None,None,None,None
+Commodus,5,Middle,Virgo,Virgo,Earth,None,Trine,None,Soft
+Elizabeth II,1,First,Taurus,Aries,Fire,None,None,None,None
+Edward VII,2,Middle,Scorpio,Libra,Air,None,None,None,None
+Edward VI of England,9,Youngest,Libra,Libra,Air,None,None,None,None
+Franz Kafka,1,First,Cancer,Gemini,Air,None,Conjunction,None,Hard
+Empress Elisabeth of Austria,3,Middle,Capricorn,Sagittarius,Fire,None,None,None,None
+Victor Hugo,3,Youngest,Pisces,Aquarius,Air,Opposition,Opposition,Hard,Hard
+Albrecht Dürer,1,First,Taurus,Taurus,Earth,Conjunction,Trine,Hard,Soft
+Pope Leo XIV,2,Youngest,Virgo,Leo,Fire,Sextile,None,Soft,None
+Mehmed the Conqueror,2,Youngest,Aries,Pisces,Water,Sextile,Sextile,Soft,Soft
+Pyotr Ilyich Tchaikovsky,1,First,Taurus,Aries,Fire,None,None,None,None
+James Joyce,1,First,Aquarius,Capricorn,Earth,Square,Square,Hard,Hard
+Ali,5,Youngest,Virgo,Virgo,Earth,None,Square,None,Hard
+William McKinley,7,Middle,Aquarius,Capricorn,Earth,None,Conjunction,None,Hard
+Johannes Kepler,1,First,Capricorn,Sagittarius,Fire,Sextile,None,Soft,None
+Edward VIII,1,First,Cancer,Gemini,Air,None,None,None,None
+Sylvester Stallone,1,First,Cancer,Gemini,Air,None,Square,None,Hard
+Frida Kahlo,1,First,Cancer,Gemini,Air,None,Conjunction,None,Hard
+George III of the United Kingdom,2,Middle,Gemini,Taurus,Earth,None,None,None,None
+Kim Il-sung,1,First,Aries,Aries,Fire,None,None,None,None
+Constantine the Great,1,First,Pisces,Pisces,Water,Opposition,None,Hard,None
+Martin Van Buren,3,Middle,Sagittarius,Scorpio,Water,None,None,None,None
+Alfred Nobel,3,Middle,Libra,Libra,Air,None,Opposition,None,Hard
+Steve Jobs,1,First,Pisces,Aquarius,Air,None,None,None,None
+Hillary Clinton,1,First,Scorpio,Libra,Air,None,None,None,None
+Winston Churchill,1,First,Sagittarius,Scorpio,Water,Sextile,None,Soft,None
+Mao Zedong,1,First,Capricorn,Sagittarius,Fire,None,None,None,None
+Claude Monet,2,Youngest,Scorpio,Scorpio,Water,None,Conjunction,None,Hard
+Otto von Bismarck,2,Middle,Aries,Pisces,Water,Sextile,Opposition,Soft,Hard
+Charles II of England,1,First,Gemini,Taurus,Earth,None,Square,None,Hard
+Marilyn Monroe,3,Youngest,Gemini,Taurus,Earth,None,None,None,None
+Pope Leo XIII,3,Youngest,Pisces,Aquarius,Air,Square,None,Hard,None
+"Wilhelm II, German Emperor",1,First,Aquarius,Capricorn,Earth,Opposition,Trine,Hard,Soft
+"Anne, Queen of Great Britain",7,Middle,Aquarius,Capricorn,Earth,None,None,None,None
+Benito Mussolini,1,First,Leo,Cancer,Water,Sextile,None,Soft,None
+Erasmus,2,Youngest,Scorpio,Libra,Air,None,None,None,None
+Jules Verne,1,First,Aquarius,Capricorn,Earth,None,Square,None,Hard
+Joseph Haydn,1,First,Aries,Pisces,Water,Conjunction,Opposition,Hard,Hard
+"John, King of England",12,Middle,Capricorn,Sagittarius,Fire,None,None,None,None
+Peter Paul Rubens,3,Youngest,Cancer,Gemini,Air,Opposition,Sextile,Hard,Soft
+Georg Wilhelm Friedrich Hegel,1,First,Virgo,Leo,Fire,None,None,None,None
+Cicero,2,Youngest,Capricorn,Capricorn,Earth,Sextile,None,Soft,None
+Richard Wagner,5,Middle,Gemini,Taurus,Earth,None,Sextile,None,Soft
+Richard III of England,8,Youngest,Libra,Virgo,Earth,None,None,None,None
+Pope Paul VI,2,Youngest,Libra,Virgo,Earth,Sextile,None,Soft,None
+Xerxes I,1,First,Capricorn,Capricorn,Earth,None,None,None,None
+Nicholas II of Russia,1,First,Taurus,Aries,Fire,None,None,None,None
+John Locke,1,First,Virgo,Leo,Fire,None,None,None,None
+Pelé,1,First,Libra,Libra,Air,None,None,None,None
+Henry Kissinger,1,First,Gemini,Taurus,Earth,None,None,None,None
+Abraham Lincoln,2,Youngest,Aquarius,Aquarius,Air,None,None,None,None
+Ada Lovelace,2,Middle,Sagittarius,Scorpio,Water,None,None,None,None
+Franz Schubert,3,Middle,Aquarius,Capricorn,Earth,None,None,None,None
+James II of England,4,Middle,Libra,Libra,Air,None,None,None,None
+Pope Pius XII,2,Youngest,Pisces,Aquarius,Air,None,None,None,None
+Pompey,2,Youngest,Virgo,Virgo,Earth,Sextile,None,Soft,None
+Darius the Great,1,First,Capricorn,Capricorn,Earth,Square,Trine,Hard,Soft
+Steven Spielberg,1,First,Sagittarius,Sagittarius,Fire,None,None,None,None
+Kim Jong-il,1,First,Aquarius,Aquarius,Air,None,None,None,None
+Elvis Presley,1,First,Capricorn,Sagittarius,Fire,None,Sextile,None,Soft
+Arthur Schopenhauer,1,First,Pisces,Aquarius,Air,Conjunction,None,Hard,None
+"Charles V, Holy Roman Emperor",3,Middle,Pisces,Aquarius,Air,None,Conjunction,None,Hard
+Attila,1,First,Virgo,Virgo,Earth,None,None,None,None
+Maria Theresa,1,First,Taurus,Taurus,Earth,None,None,None,None
+Marie Antoinette,15,Middle,Scorpio,Libra,Air,None,None,None,None
+Marcus Aurelius,1,First,Taurus,Taurus,Earth,None,None,None,None
+Maximilien Robespierre,1,First,Taurus,Aries,Fire,None,None,None,None
+Igor Stravinsky,2,Youngest,Gemini,Gemini,Air,None,None,None,None
+Nefertiti,1,First,Capricorn,Aquarius,Air,Sextile,Trine,Soft,Soft
+T. S. Eliot,6,Youngest,Libra,Virgo,Earth,None,Sextile,None,Soft
+Musa I of Mali,1,First,Capricorn,Sagittarius,Fire,None,None,None,None
+Max Weber,1,First,Taurus,Aries,Fire,None,None,None,None
+Yuri Gagarin,4,Middle,Pisces,Aquarius,Air,None,None,None,None
+Hafez al-Assad,1,First,Libra,Virgo,Earth,Square,Square,Hard,Hard
+Edvard Munch,1,First,Sagittarius,Scorpio,Water,Sextile,None,Soft,None
+"Francis II, Holy Roman Emperor",2,Middle,Aquarius,Aquarius,Air,Trine,Trine,Soft,Soft
+Henry VI of England,1,First,Sagittarius,Scorpio,Water,Sextile,Trine,Soft,Soft
+Freddie Mercury,1,First,Virgo,Leo,Fire,None,None,None,None
+Louis XV of France,3,Youngest,Aquarius,Aquarius,Air,None,Square,None,Hard
+Dmitri Mendeleev,1,First,Aquarius,Capricorn,Earth,None,None,None,None
+William IV of the United Kingdom,3,Middle,Leo,Leo,Fire,Square,None,Hard,None
+Edward IV of England,2,Middle,Taurus,Aries,Fire,None,None,None,None
+Peter the Great,12,Middle,Gemini,Taurus,Earth,None,None,None,None
+Muhammad Ali Jinnah,1,First,Capricorn,Sagittarius,Fire,Sextile,None,Soft,None
+Le Corbusier,2,Youngest,Libra,Virgo,Earth,Sextile,None,Soft,None
+Elon Musk,1,First,Cancer,Gemini,Air,None,None,None,None
+Ibn Khaldun,2,Youngest,Gemini,Taurus,Earth,Square,None,Hard,None
+Charles de Gaulle,3,Middle,Sagittarius,Scorpio,Water,None,Sextile,None,Soft
+Margrethe II of Denmark,1,First,Aries,Aries,Fire,Conjunction,Conjunction,Hard,Hard
+Anton Chekhov,3,Middle,Aquarius,Capricorn,Earth,None,None,None,None
+Nostradamus,1,First,Sagittarius,Sagittarius,Fire,None,None,None,None
+Ögedei Khan,6,Middle,Scorpio,Scorpio,Water,None,Sextile,None,Soft
+Hannibal,3,Middle,Capricorn,Capricorn,Earth,Conjunction,None,Hard,None
+Catherine the Great,1,First,Taurus,Aries,Fire,Sextile,Sextile,Soft,Soft
+Grace Kelly,2,Middle,Scorpio,Libra,Air,None,None,None,None
+Khufu,4,Middle,Capricorn,Aquarius,Air,Trine,Conjunction,Soft,Hard
+George IV of the United Kingdom,1,First,Leo,Cancer,Water,Trine,None,Soft,None
+Richard I of England,8,Middle,Virgo,Virgo,Earth,None,None,None,None
+Fatimah,7,Middle,Leo,Cancer,Water,None,None,None,None
+Malcolm X,2,Middle,Taurus,Taurus,Earth,None,Trine,None,Soft
+Honoré de Balzac,1,First,Taurus,Taurus,Earth,Sextile,Conjunction,Soft,Hard
+Vlad the Impaler,9,Youngest,Scorpio,Libra,Air,None,None,None,None
+Ronald Reagan,2,Youngest,Aquarius,Capricorn,Earth,None,Square,None,Hard
+Queen Victoria,5,Youngest,Gemini,Taurus,Earth,Sextile,None,Soft,None
+Mary II of England,2,Middle,Taurus,Aries,Fire,None,Opposition,None,Hard
+Geta,2,Middle,Pisces,Pisces,Water,Trine,None,Soft,None
+Caligula,4,Middle,Virgo,Virgo,Earth,Sextile,None,Soft,None
+Bruce Lee,3,Middle,Sagittarius,Scorpio,Water,None,None,None,None
+Chiang Kai-shek,2,Middle,Scorpio,Libra,Air,Square,Conjunction,Hard,Hard
+Leon Trotsky,1,First,Scorpio,Libra,Air,None,None,None,None
+Antoine de Saint-Exupéry,3,Youngest,Cancer,Gemini,Air,Opposition,None,Hard,None
+Gabriel García Márquez,1,First,Pisces,Aquarius,Air,Square,Conjunction,Hard,Hard
+Caracalla,1,First,Aries,Aries,Fire,None,Square,None,Hard
+Eleanor Roosevelt,1,First,Libra,Virgo,Earth,Trine,None,Soft,None
+George Washington,6,Middle,Pisces,Aquarius,Air,None,None,None,None
+John F. Kennedy,2,Middle,Gemini,Taurus,Earth,None,None,None,None
+Joe Biden,1,First,Scorpio,Scorpio,Water,None,Trine,None,Soft
+Pope Clement I,2,Middle,Capricorn,Capricorn,Earth,None,Conjunction,None,Hard
+Al-Ghazali,1,First,Capricorn,Capricorn,Earth,Trine,None,Soft,None
+Franklin D. Roosevelt,2,Youngest,Aquarius,Capricorn,Earth,Square,Square,Hard,Hard
+Benjamin Franklin,2,Middle,Capricorn,Capricorn,Earth,None,Opposition,None,Hard
+Edward V of England,7,Middle,Scorpio,Libra,Air,None,None,None,None
+Fidel Castro,3,Middle,Leo,Cancer,Water,Square,Opposition,Hard,Hard
+Trajan,2,Youngest,Virgo,Virgo,Earth,Opposition,None,Hard,None
+Mumtaz Mahal,1,First,Taurus,Aries,Fire,None,None,None,None
+"Frederick I, Holy Roman Emperor",1,First,Capricorn,Sagittarius,Fire,None,Square,None,Hard
+Selim II,7,Middle,Gemini,Taurus,Earth,None,Sextile,None,Soft
+Agatha Christie,3,Youngest,Virgo,Virgo,Earth,None,None,None,None
+Frederick the Great,4,Middle,Aquarius,Capricorn,Earth,Opposition,None,Hard,None
+Johannes Brahms,1,First,Taurus,Aries,Fire,Trine,None,Soft,None
+Cher,1,First,Taurus,Taurus,Earth,Sextile,None,Soft,None
+H. G. Wells,3,Youngest,Virgo,Virgo,Earth,None,Trine,None,Soft
+Madonna,3,Middle,Leo,Cancer,Water,Trine,Sextile,Soft,Soft
+Friedrich Engels,1,First,Sagittarius,Scorpio,Water,Trine,Square,Soft,Hard
+Francisco Franco,3,Middle,Sagittarius,Scorpio,Water,Sextile,Trine,Soft,Soft
+Justinian I,1,First,Taurus,Taurus,Earth,None,None,None,None
+Angela Merkel,1,First,Cancer,Cancer,Water,None,None,None,None
+Pocahontas,2,Youngest,Capricorn,Sagittarius,Fire,None,None,None,None
+Niels Bohr,1,First,Libra,Virgo,Earth,Square,None,Hard,None
+Guru Nanak,2,Youngest,Aries,Aries,Fire,Conjunction,Square,Hard,Hard
+Pope Alexander VI,1,First,Capricorn,Sagittarius,Fire,Conjunction,None,Hard,None
+Harald V of Norway,3,Youngest,Pisces,Aquarius,Air,None,None,None,None
+Hans Christian Ørsted,1,First,Leo,Leo,Fire,Sextile,None,Soft,None
+Max Planck,3,Middle,Taurus,Aries,Fire,None,None,None,None
+Leonid Brezhnev,1,First,Sagittarius,Sagittarius,Fire,None,None,None,None
+Joseph Smith,3,Middle,Capricorn,Sagittarius,Fire,Sextile,None,Soft,None
+Basil II,1,First,Capricorn,Capricorn,Earth,None,None,None,None
+Brutus the Younger,3,Middle,Capricorn,Capricorn,Earth,None,None,None,None
+Nicolae Ceaușescu,1,First,Aquarius,Capricorn,Earth,Opposition,Trine,Hard,Soft
+Anne Frank,3,Youngest,Gemini,Taurus,Earth,Opposition,None,Hard,None
+George Orwell,2,Middle,Cancer,Gemini,Air,None,None,None,None
+"Sigismund, Holy Roman Emperor",6,Middle,Aquarius,Aquarius,Air,None,None,None,None
+Hirohito,1,First,Taurus,Aries,Fire,Trine,Trine,Soft,Soft
+Mary I of England,6,Middle,Aquarius,Aquarius,Air,None,None,None,None
+Charles Dickens,1,First,Aquarius,Capricorn,Earth,None,None,None,None
+Louis XIII of France,4,Middle,Libra,Virgo,Earth,None,Conjunction,None,Hard
+Selim I,4,Youngest,Libra,Libra,Air,None,None,None,None
+Hermann Hesse,1,First,Cancer,Gemini,Air,None,None,None,None
+Emily Dickinson,2,Middle,Sagittarius,Scorpio,Water,None,None,None,None
+Ferdinand Marcos,2,Middle,Virgo,Leo,Fire,None,Square,None,Hard
+Michael Jackson,8,Middle,Virgo,Leo,Fire,None,Sextile,None,Soft
+Napoleon III,3,Middle,Taurus,Aries,Fire,None,None,None,None
+Roald Amundsen,2,Youngest,Cancer,Cancer,Water,Opposition,None,Hard,None
+Ernest Hemingway,2,Middle,Cancer,Cancer,Water,None,Square,None,Hard
+Al Gore,2,Youngest,Aries,Pisces,Water,Trine,None,Soft,None
+"Otto I, Holy Roman Emperor",3,Middle,Sagittarius,Scorpio,Water,Opposition,None,Hard,None
+Pablo Escobar,2,Middle,Sagittarius,Scorpio,Water,None,None,None,None
+Ivan the Terrible,1,First,Virgo,Leo,Fire,None,None,None,None
+Martin Heidegger,1,First,Libra,Virgo,Earth,None,Square,None,Hard
+Boris Yeltsin,1,First,Aquarius,Capricorn,Earth,None,None,None,None
+Heinrich Himmler,2,Middle,Libra,Virgo,Earth,None,Sextile,None,Soft
+Juan Carlos I of Spain,2,Middle,Capricorn,Sagittarius,Fire,None,None,None,None
+Tiberius,2,Youngest,Scorpio,Scorpio,Water,None,None,None,None
+Harald Hardrada,3,Youngest,Capricorn,Capricorn,Earth,None,None,None,None
+George W. Bush,1,First,Cancer,Gemini,Air,None,Square,None,Hard
+Philip II of Spain,4,Middle,Taurus,Taurus,Earth,None,None,None,None
+"Camilla, Duchess of Cornwall",1,First,Cancer,Cancer,Water,None,Trine,None,Soft
+Hassanal Bolkiah,1,First,Cancer,Gemini,Air,Conjunction,Square,Hard,Hard
+Murad II,1,First,Gemini,Taurus,Earth,None,Trine,None,Soft
+Bartolomeu Dias,3,Youngest,Capricorn,Sagittarius,Fire,None,None,None,None
+Louis XVIII of France,6,Middle,Scorpio,Scorpio,Water,Sextile,None,Soft,None
+Sulla,2,Youngest,Capricorn,Capricorn,Earth,Square,None,Hard,None
+Claudius,1,First,Leo,Leo,Fire,Opposition,None,Hard,None
+Alexander Pushkin,2,Middle,Gemini,Taurus,Earth,None,Conjunction,None,Hard
+Johann Strauss II,1,First,Scorpio,Libra,Air,None,Sextile,None,Soft
+Simone de Beauvoir,1,First,Capricorn,Sagittarius,Fire,Sextile,None,Soft,None
+Walt Disney,2,Youngest,Sagittarius,Scorpio,Water,None,None,None,None
+Hadrian,2,Youngest,Aquarius,Aquarius,Air,None,Conjunction,None,Hard
+Friedrich Schiller,2,Youngest,Scorpio,Libra,Air,None,Sextile,None,Soft
+Gustav Klimt,1,First,Cancer,Gemini,Air,Sextile,Sextile,Soft,Soft
+Robert Schumann,3,Youngest,Gemini,Taurus,Earth,Opposition,None,Hard,None
+Pope Julius II,1,First,Sagittarius,Scorpio,Water,None,Opposition,None,Hard
+Carl XVI Gustaf of Sweden,5,Youngest,Taurus,Aries,Fire,None,None,None,None
+Søren Kierkegaard,2,Youngest,Taurus,Aries,Fire,Trine,None,Soft,None
+Marcel Proust,1,First,Cancer,Gemini,Air,None,Conjunction,None,Hard
+Severus Alexander,3,Youngest,Libra,Libra,Air,Square,Opposition,Hard,Hard
+Henry IV of France,1,First,Sagittarius,Sagittarius,Fire,None,None,None,None
+Pierre Curie,2,Youngest,Taurus,Taurus,Earth,None,None,None,None
+Uthman,1,First,Capricorn,Capricorn,Earth,None,None,None,None
+Josef Mengele,1,First,Pisces,Pisces,Water,None,None,None,None
+Prince Henry the Navigator,5,Middle,Pisces,Aquarius,Air,None,None,None,None
+Pope Leo XI,2,Youngest,Gemini,Taurus,Earth,Sextile,Square,Soft,Hard
+Murad III,4,Middle,Cancer,Gemini,Air,None,None,None,None
+Ahmed I,5,Middle,Aries,Aries,Fire,None,None,None,None

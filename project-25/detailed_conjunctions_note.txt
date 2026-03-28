@@ -1,0 +1,6 @@
+NOTE: The detailed_conjunctions.csv files contain data for 936 celebrities with fixed star conjunctions.
+The data is very large. The entries follow this format:
+planet,star,orb,cosine,name,category
+
+The full data includes musicians, actors, politicians, scientists, etc.
+Categories include: overdose, cardiac, cancer, homicide, suicide, accident, disease, natural.

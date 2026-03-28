@@ -1,0 +1,2 @@
+n_eclipses,n_solar,n_lunar,eclipse_distress_mean,non_eclipse_distress_mean,ttest_t,ttest_p,solar_lunar_p,magnitude_anova_p,year_correlation_r,year_correlation_p
+81,40,41,70.69135802469135,72.21265560165975,-1.1096955535661646,0.2673860222986882,0.8154344051684334,0.33009175842434973,0.20935332076752702,0.06069127236903511

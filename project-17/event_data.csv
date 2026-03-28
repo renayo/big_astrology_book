@@ -1,0 +1,499 @@
+event,date,year,category,cosine_metric
+Abraham Lincoln Assassination,1865-04-14,1865,political,-2.89759449918642
+James Garfield Shot,1881-07-02,1881,political,10.133232358303903
+William McKinley Shot,1901-09-06,1901,political,-2.6990523971445017
+Archduke Franz Ferdinand Assassination,1914-06-28,1914,political,2.0817476559140147
+Rasputin Assassination,1916-12-30,1916,political,-1.760459967623616
+Rosa Luxemburg Assassination,1919-01-15,1919,political,-1.6281005252634446
+Michael Collins Assassination,1922-08-22,1922,political,3.666721173087148
+Pancho Villa Assassination,1923-07-20,1923,political,4.51459145695633
+Huey Long Assassination,1935-09-10,1935,political,-3.013487101215599
+Leon Trotsky Assassination,1940-08-21,1940,political,5.366693411340836
+Mahatma Gandhi Assassination,1948-01-30,1948,political,3.1196723792318224
+King Abdullah I Assassination,1951-07-20,1951,political,1.7247731593164137
+Patrice Lumumba Assassination,1961-01-17,1961,political,-1.0439389565527821
+Dag Hammarskjold Death,1961-09-18,1961,political,6.320667853923415
+JFK Assassination,1963-11-22,1963,political,1.6981507171860655
+Malcolm X Assassination,1965-02-21,1965,political,-1.915665407226642
+Che Guevara Death,1967-10-09,1967,political,4.584612544607139
+Martin Luther King Jr Assassination,1968-04-04,1968,political,-1.755231982867628
+Robert F Kennedy Assassination,1968-06-05,1968,political,3.2070302376857582
+Aldo Moro Assassination,1978-05-09,1978,political,1.437231675091026
+Park Chung-hee Assassination,1979-10-26,1979,political,12.121529752842303
+John Lennon Assassination,1980-12-08,1980,political,17.48690001604953
+Anwar Sadat Assassination,1981-10-06,1981,political,14.117296902205846
+Indira Gandhi Assassination,1984-10-31,1984,political,18.775250332697727
+Olof Palme Assassination,1986-02-28,1986,political,13.017796138339936
+Rajiv Gandhi Assassination,1991-05-21,1991,political,-3.300858089330355
+Yitzhak Rabin Assassination,1995-11-04,1995,political,10.558909864192643
+Princess Diana Death,1997-08-31,1997,political,-0.5001306403118237
+Benazir Bhutto Assassination,2007-12-27,2007,political,-2.203543946963193
+Osama bin Laden Death,2011-05-02,2011,political,5.944031458666667
+Muammar Gaddafi Death,2011-10-20,2011,political,-3.922489868704314
+Boris Nemtsov Assassination,2015-02-27,2015,political,0.5073425737717654
+Jamal Khashoggi Assassination,2018-10-02,2018,political,-0.4529519800192061
+Qasem Soleimani Assassination,2020-01-03,2020,political,10.136664540847672
+Shinzo Abe Assassination,2022-07-08,2022,political,2.7569167579422675
+FDR First Inauguration,1933-03-04,1933,political,-1.6772758709133955
+FDR Fourth Inauguration,1945-01-20,1945,political,-2.9967925247757723
+Truman Inauguration,1949-01-20,1949,political,-1.3671895050791047
+Eisenhower First Inauguration,1953-01-20,1953,political,-3.8640867178532816
+JFK Inauguration,1961-01-20,1961,political,-2.6444134770391017
+LBJ Inauguration,1965-01-20,1965,political,-0.9173915941335657
+Nixon First Inauguration,1969-01-20,1969,political,1.2749415606524808
+Nixon Second Inauguration,1973-01-20,1973,political,1.7029213482042813
+Carter Inauguration,1977-01-20,1977,political,0.5530810132141468
+Reagan First Inauguration,1981-01-20,1981,political,5.493455297176026
+Reagan Second Inauguration,1985-01-20,1985,political,15.671631868297915
+Bush Sr Inauguration,1989-01-20,1989,political,-0.6047590343461983
+Clinton First Inauguration,1993-01-20,1993,political,6.195533093960045
+Clinton Second Inauguration,1997-01-20,1997,political,3.136770301008154
+Bush Jr First Inauguration,2001-01-20,2001,political,2.9042865649266467
+Bush Jr Second Inauguration,2005-01-20,2005,political,-0.6399851779124107
+Obama First Inauguration,2009-01-20,2009,political,10.445295545581006
+Obama Second Inauguration,2013-01-21,2013,political,3.651002530834178
+Trump Inauguration,2017-01-20,2017,political,5.223255480952645
+Biden Inauguration,2021-01-20,2021,political,13.426496992030453
+UK Churchill PM,1940-05-10,1940,political,12.967865771915656
+UK Attlee PM,1945-07-26,1945,political,5.242182451420847
+UK Thatcher PM,1979-05-04,1979,political,-0.9287966404257426
+UK Blair PM,1997-05-02,1997,political,3.713732295046702
+UK Cameron PM,2010-05-11,2010,political,-0.10174214245269231
+UK Brexit Vote,2016-06-23,2016,political,-1.318543372404517
+UK May PM,2016-07-13,2016,political,-1.369936040889824
+UK Johnson PM,2019-07-24,2019,political,-2.1605409984980906
+France De Gaulle President,1959-01-08,1959,political,0.8209273840946305
+France Mitterrand President,1981-05-21,1981,political,0.36723126810904827
+France Chirac President,1995-05-17,1995,political,1.9127609734510989
+France Sarkozy President,2007-05-16,2007,political,0.5505033079575703
+France Hollande President,2012-05-15,2012,political,-1.1984494740231866
+France Macron President,2017-05-14,2017,political,-1.1214991038809403
+Germany Adenauer Chancellor,1949-09-15,1949,political,6.923395387819213
+Germany Brandt Chancellor,1969-10-21,1969,political,1.4239211883699006
+Germany Kohl Chancellor,1982-10-01,1982,political,12.90856125270569
+Germany Merkel Chancellor,2005-11-22,2005,political,-2.884208109400307
+Germany Scholz Chancellor,2021-12-08,2021,political,11.343797481595859
+Russia Putin President First,2000-05-07,2000,political,3.5233159953459476
+Russia Medvedev President,2008-05-07,2008,political,-2.371864265612855
+Russia Putin President Second,2012-05-07,2012,political,-3.102729240669385
+China Mao Proclaims PRC,1949-10-01,1949,political,2.2023904449005856
+China Deng Xiaoping Leader,1978-12-22,1978,political,9.324606656308648
+China Xi Jinping President,2013-03-14,2013,political,6.671545496153195
+India Nehru PM,1947-08-15,1947,political,13.269213602435915
+India Modi PM,2014-05-26,2014,political,-2.983918547038609
+Japan Hirohito Emperor,1926-12-25,1926,political,-3.9765408051131437
+Japan Akihito Emperor,1989-01-07,1989,political,6.873635059614153
+Japan Naruhito Emperor,2019-05-01,2019,political,5.923817176331048
+South Africa Mandela President,1994-05-10,1994,political,1.2657985794081121
+Brazil Lula President First,2003-01-01,2003,political,1.6671930700722428
+Brazil Bolsonaro President,2019-01-01,2019,political,9.045247239489257
+Venezuela Chavez President,1999-02-02,1999,political,1.772185617554726
+Cuba Castro Revolution Victory,1959-01-01,1959,political,2.0822954566883682
+Iran Khomeini Returns,1979-02-01,1979,political,-0.9216485253857369
+Poland Solidarity Founded,1980-08-31,1980,political,8.620832055224817
+Poland Walesa President,1990-12-22,1990,political,2.694232666704673
+Russian Revolution October,1917-11-07,1917,political,4.566319147099366
+German Revolution,1918-11-09,1918,political,-2.9697077724162275
+Turkish Republic Proclaimed,1923-10-29,1923,political,1.425648293122186
+Spanish Civil War Begins,1936-07-17,1936,political,2.5740597072799725
+Chinese Communist Revolution,1949-10-01,1949,political,2.2023904449005856
+Egyptian Revolution,1952-07-23,1952,political,8.845472793994826
+Hungarian Revolution,1956-10-23,1956,political,2.119898540396214
+Cuban Revolution Success,1959-01-01,1959,political,2.0822954566883682
+Bay of Pigs Invasion,1961-04-17,1961,political,-3.5407581971209994
+South Vietnam Coup,1963-11-01,1963,political,-2.048152949921397
+Brazil Military Coup,1964-04-01,1964,political,-3.5103132889801913
+Indonesia Coup Attempt,1965-09-30,1965,political,3.1959907923932946
+Greek Military Coup,1967-04-21,1967,political,1.0331427935645652
+Prague Spring Invasion,1968-08-20,1968,political,8.454116339660658
+Chile Coup,1973-09-11,1973,political,-3.0142904338590366
+Portuguese Carnation Revolution,1974-04-25,1974,political,-2.420792751483365
+Ethiopian Revolution,1974-09-12,1974,political,4.388628026552364
+Cambodian Khmer Rouge Takeover,1975-04-17,1975,political,-3.8163798872871544
+Argentine Military Coup,1976-03-24,1976,political,-3.9469155933943707
+Iranian Revolution,1979-02-11,1979,political,0.07862595310415993
+Nicaragua Sandinista Victory,1979-07-19,1979,political,2.9483385719174096
+Polish Martial Law,1981-12-13,1981,political,12.5924102349452
+Philippines People Power,1986-02-25,1986,political,9.496342031328785
+Tiananmen Square Crackdown,1989-06-04,1989,political,-3.9762086319009446
+Romanian Revolution,1989-12-22,1989,political,9.939382838177897
+Soviet Coup Attempt,1991-08-19,1991,political,4.4379991088483965
+USSR Dissolution,1991-12-26,1991,political,9.615687254075592
+Rwandan Genocide Begins,1994-04-07,1994,political,9.186250505082144
+Arab Spring Tunisia,2010-12-17,2010,political,5.391789636048735
+Arab Spring Egypt,2011-01-25,2011,political,5.895051237869424
+Arab Spring Libya,2011-02-15,2011,political,3.4924844360866434
+Arab Spring Syria,2011-03-15,2011,political,2.7659621086753803
+Ukraine Euromaidan,2013-11-21,2013,political,-3.431270301688646
+Ukraine Revolution,2014-02-22,2014,political,0.31285205997074095
+Thailand Military Coup,2014-05-22,2014,political,-2.61511263983675
+Turkey Coup Attempt,2016-07-15,2016,political,-0.9379653881427532
+Myanmar Military Coup,2021-02-01,2021,political,5.663804442763843
+US Capitol Riot,2021-01-06,2021,political,6.425725071357366
+WWI Begins,1914-07-28,1914,military,-0.32140981165084415
+WWI Battle of Marne,1914-09-05,1914,military,-3.140121350089855
+WWI Gallipoli Landing,1915-04-25,1915,military,2.8765487692383416
+WWI Battle of Verdun Begins,1916-02-21,1916,military,-1.056767303618952
+WWI Battle of Somme Begins,1916-07-01,1916,military,7.803217059709065
+WWI US Enters War,1917-04-06,1917,military,2.172100411939242
+WWI Armistice,1918-11-11,1918,military,-3.4725470714694655
+Treaty of Versailles,1919-06-28,1919,military,13.417696226155027
+WWII Germany Invades Poland,1939-09-01,1939,military,-1.0394682987029138
+WWII France Falls,1940-06-22,1940,military,4.811830421265114
+WWII Battle of Britain Begins,1940-07-10,1940,military,9.349833729877018
+WWII Pearl Harbor,1941-12-07,1941,military,2.650998772623261
+WWII Battle of Midway,1942-06-04,1942,military,8.307988255150581
+WWII Stalingrad Begins,1942-08-23,1942,military,5.389579244658196
+WWII Stalingrad Ends,1943-02-02,1943,military,-3.6824827533001256
+WWII D-Day,1944-06-06,1944,military,8.140527259817727
+WWII Paris Liberation,1944-08-25,1944,military,12.509875493101747
+WWII Battle of Bulge,1944-12-16,1944,military,-0.28321738649752803
+WWII Iwo Jima,1945-02-19,1945,military,-1.3633286995206901
+WWII Hitler Death,1945-04-30,1945,military,-0.4364713420791886
+WWII VE Day,1945-05-08,1945,military,2.8594801111777852
+WWII Hiroshima,1945-08-06,1945,military,15.802626967021336
+WWII Nagasaki,1945-08-09,1945,military,15.359530432433438
+WWII Japan Surrenders,1945-09-02,1945,military,15.78523278409432
+Korean War Begins,1950-06-25,1950,military,4.279031318968897
+Korean War Inchon Landing,1950-09-15,1950,military,5.670150234748173
+Korean War Armistice,1953-07-27,1953,military,4.746661408682696
+Vietnam Dien Bien Phu,1954-05-07,1954,military,1.1897860595430139
+Vietnam Gulf of Tonkin,1964-08-02,1964,military,1.0277159424575004
+Vietnam Tet Offensive,1968-01-30,1968,military,-2.471055129833666
+Vietnam My Lai Massacre,1968-03-16,1968,military,-2.976661146755484
+Vietnam Fall of Saigon,1975-04-30,1975,military,-3.3516680431649397
+Six Day War Begins,1967-06-05,1967,military,0.15991723307782651
+Six Day War Ends,1967-06-10,1967,military,3.645233638946821
+Yom Kippur War,1973-10-06,1973,military,-1.5342199896158182
+Falklands War Begins,1982-04-02,1982,military,5.3056431243462905
+Falklands War Ends,1982-06-14,1982,military,3.814362928647903
+Lebanon Marine Barracks Bombing,1983-10-23,1983,military,8.409925429677171
+US Invasion of Grenada,1983-10-25,1983,military,9.319753479425518
+US Invasion of Panama,1989-12-20,1989,military,8.28337891961191
+Gulf War Begins,1991-01-17,1991,military,3.258482973139789
+Gulf War Ends,1991-02-28,1991,military,-2.518233426698241
+Somalia Black Hawk Down,1993-10-03,1993,military,3.7185507211991586
+Bosnia Srebrenica Massacre,1995-07-11,1995,military,2.4837360797489874
+Kosovo War NATO Bombing,1999-03-24,1999,military,1.3023051368007346
+Afghanistan War Begins,2001-10-07,2001,military,-3.479411310681344
+Iraq War Begins,2003-03-20,2003,military,-1.4966194161362734
+Iraq Saddam Capture,2003-12-13,2003,military,-3.042644092581184
+Iraq Saddam Execution,2006-12-30,2006,military,2.9480395009613733
+Libya NATO Intervention,2011-03-19,2011,military,1.8503548268466052
+Syria Civil War Begins,2011-03-15,2011,military,2.7659621086753803
+Crimea Annexation,2014-03-18,2014,military,-2.2814245346623334
+ISIS Declares Caliphate,2014-06-29,2014,military,-3.602883125277959
+Russia Syria Intervention,2015-09-30,2015,military,-3.71512711541291
+Afghanistan US Withdrawal,2021-08-31,2021,military,-2.3712946442572522
+Russia Ukraine War Begins,2022-02-24,2022,military,14.598785670594673
+Ukraine Kherson Liberation,2022-11-11,2022,military,1.8916104934459343
+Israel Hamas War 2023,2023-10-07,2023,military,-2.9880617424172797
+Munich Olympics Massacre,1972-09-05,1972,disaster,8.026993733674221
+Entebbe Hijacking,1976-06-27,1976,disaster,3.8750420210907865
+Bologna Station Bombing,1980-08-02,1980,disaster,5.9832084583383995
+Beirut US Embassy Bombing,1983-04-18,1983,disaster,-2.0806049495440297
+Air India Flight 182,1985-06-23,1985,disaster,-0.7636207663998803
+Lockerbie Bombing,1988-12-21,1988,disaster,0.5088131308150238
+WTC Bombing 1993,1993-02-26,1993,disaster,0.10100861951648576
+Oklahoma City Bombing,1995-04-19,1995,disaster,3.1762969852694996
+Tokyo Subway Sarin Attack,1995-03-20,1995,disaster,3.6200126370716985
+Centennial Park Bombing,1996-07-27,1996,disaster,-0.07925022398693649
+US Embassy Nairobi Bombing,1998-08-07,1998,disaster,-1.0864895747379066
+USS Cole Bombing,2000-10-12,2000,disaster,-3.460932338984091
+9/11 Attacks,2001-09-11,2001,disaster,-3.9453047255195455
+Bali Bombing 2002,2002-10-12,2002,disaster,-1.443245055176741
+Madrid Train Bombings,2004-03-11,2004,disaster,-2.6400211401651275
+Beslan School Siege,2004-09-01,2004,disaster,-3.541430907494284
+London 7/7 Bombings,2005-07-07,2005,disaster,-3.5922960307914784
+Mumbai Train Bombings,2006-07-11,2006,disaster,-3.1869820119961063
+Mumbai Attacks 2008,2008-11-26,2008,disaster,9.524623240209893
+Norway Attacks Breivik,2011-07-22,2011,disaster,-0.47656730545738357
+Boston Marathon Bombing,2013-04-15,2013,disaster,2.6146128067324654
+Westgate Mall Attack,2013-09-21,2013,disaster,-3.9640417978336693
+Peshawar School Massacre,2014-12-16,2014,disaster,2.124498628809868
+Charlie Hebdo Attack,2015-01-07,2015,disaster,-0.734436605017295
+Paris Bataclan Attacks,2015-11-13,2015,disaster,2.919322328018928
+Brussels Airport Bombing,2016-03-22,2016,disaster,-0.9234876025829808
+Nice Truck Attack,2016-07-14,2016,disaster,-1.1277900269687324
+Berlin Christmas Market,2016-12-19,2016,disaster,2.3220376215981036
+Manchester Arena Bombing,2017-05-22,2017,disaster,-0.23631777765404405
+Las Vegas Shooting,2017-10-01,2017,disaster,0.14452846418586052
+Barcelona Van Attack,2017-08-17,2017,disaster,-3.87402361277937
+Christchurch Mosque Shootings,2019-03-15,2019,disaster,4.160968547502445
+Sri Lanka Easter Bombings,2019-04-21,2019,disaster,2.4782655066356027
+El Paso Shooting,2019-08-03,2019,disaster,-3.6477897344561514
+Hanau Shooting,2020-02-19,2020,disaster,16.410237014191576
+Vienna Attack,2020-11-02,2020,disaster,4.283802334021177
+Kabul Airport Bombing,2021-08-26,2021,disaster,-0.3282800211800456
+Buffalo Supermarket Shooting,2022-05-14,2022,disaster,7.35586520155236
+Uvalde School Shooting,2022-05-24,2022,disaster,16.695151241086396
+San Francisco Earthquake,1906-04-18,1906,disaster,6.175334702036736
+Tokyo Earthquake,1923-09-01,1923,disaster,1.8022480584747553
+Chile Earthquake 1960,1960-05-22,1960,disaster,-3.9616017663918006
+Alaska Earthquake 1964,1964-03-27,1964,disaster,-3.977887030868651
+Tangshan Earthquake,1976-07-28,1976,disaster,7.700726649288677
+Mexico City Earthquake,1985-09-19,1985,disaster,12.232789206488155
+Armenia Earthquake,1988-12-07,1988,disaster,5.909845940839681
+Loma Prieta Earthquake,1989-10-17,1989,disaster,1.082734418092913
+Northridge Earthquake,1994-01-17,1994,disaster,14.425480408931247
+Kobe Earthquake,1995-01-17,1995,disaster,2.2806363345013034
+Turkey Izmit Earthquake,1999-08-17,1999,disaster,-2.0702831564414117
+Gujarat Earthquake,2001-01-26,2001,disaster,4.3499688062600415
+Bam Earthquake Iran,2003-12-26,2003,disaster,1.4798010613501513
+Indian Ocean Earthquake,2004-12-26,2004,disaster,-1.0151550941267824
+Kashmir Earthquake,2005-10-08,2005,disaster,-1.3988834220635769
+Sichuan Earthquake,2008-05-12,2008,disaster,-3.835144694454417
+Haiti Earthquake,2010-01-12,2010,disaster,2.9282630970929033
+Chile Earthquake 2010,2010-02-27,2010,disaster,-2.4768257642806524
+Christchurch Earthquake,2011-02-22,2011,disaster,5.311115900990766
+Tohoku Earthquake,2011-03-11,2011,disaster,6.346361091041742
+Nepal Earthquake,2015-04-25,2015,disaster,-1.4425531944758263
+Ecuador Earthquake,2016-04-16,2016,disaster,-2.612914012335436
+Mexico Earthquake 2017,2017-09-19,2017,disaster,-1.0762575805013317
+Turkey Syria Earthquake,2023-02-06,2023,disaster,4.992207796131406
+Morocco Earthquake,2023-09-08,2023,disaster,-1.9003186444679874
+Krakatoa Eruption,1883-08-27,1883,disaster,14.859813838278683
+Mont Pelee Eruption,1902-05-08,1902,disaster,2.6593121238809814
+Mt St Helens Eruption,1980-05-18,1980,disaster,5.28759580783388
+Nevado del Ruiz Eruption,1985-11-13,1985,disaster,18.543917304110256
+Pinatubo Eruption,1991-06-15,1991,disaster,-3.0072231303097863
+Eyjafjallajokull Eruption,2010-04-14,2010,disaster,0.985488695350784
+Tonga Volcano Eruption,2022-01-15,2022,disaster,7.543781705025907
+Boxing Day Tsunami,2004-12-26,2004,disaster,-1.0151550941267824
+Japan Tsunami 2011,2011-03-11,2011,disaster,6.346361091041742
+Indonesia Tsunami 2018,2018-12-22,2018,disaster,4.54272094746841
+Galveston Hurricane,1900-09-08,1900,disaster,-3.505696765681237
+Great Miami Hurricane,1926-09-18,1926,disaster,-3.9494728823793155
+Labor Day Hurricane,1935-09-02,1935,disaster,-0.02250256361585301
+Hurricane Camille,1969-08-17,1969,disaster,8.22126100490853
+Cyclone Bhola,1970-11-12,1970,disaster,2.574269248347247
+Hurricane Agnes,1972-06-19,1972,disaster,2.020389391397627
+Typhoon Nina,1975-08-05,1975,disaster,0.8179320533586428
+Hurricane David,1979-08-31,1979,disaster,8.997214252768533
+Hurricane Gilbert,1988-09-14,1988,disaster,0.9458855517392187
+Hurricane Hugo,1989-09-22,1989,disaster,0.9290090734352318
+Hurricane Andrew,1992-08-24,1992,disaster,-2.869216040119036
+Hurricane Mitch,1998-10-29,1998,disaster,2.4365361289819583
+Cyclone Nargis,2008-05-02,2008,disaster,-0.4093068195173106
+Hurricane Katrina,2005-08-29,2005,disaster,-3.759715719037777
+Hurricane Sandy,2012-10-29,2012,disaster,-1.3003669762839727
+Typhoon Haiyan,2013-11-08,2013,disaster,-1.0384543285293992
+Hurricane Harvey,2017-08-25,2017,disaster,-1.791041065752557
+Hurricane Maria,2017-09-20,2017,disaster,-0.5773913944827266
+Hurricane Dorian,2019-09-01,2019,disaster,-1.90122285886478
+Hurricane Ian,2022-09-28,2022,disaster,-1.3139532506704545
+Johnstown Flood,1889-05-31,1889,disaster,4.409557367507457
+China Flood 1931,1931-07-01,1931,disaster,-1.292137429606226
+North Sea Flood,1953-01-31,1953,disaster,-2.573942628642181
+Bangladesh Flood 1974,1974-07-01,1974,disaster,-0.244232371983447
+Big Thompson Flood,1976-07-31,1976,disaster,7.859422580870429
+Bangladesh Flood 1988,1988-08-01,1988,disaster,-1.573969917162131
+Mississippi Flood 1993,1993-07-01,1993,disaster,0.9999170710708809
+Red River Flood 1997,1997-04-17,1997,disaster,-1.2753024006561422
+Venezuela Floods,1999-12-15,1999,disaster,10.142701294031143
+European Floods 2002,2002-08-12,2002,disaster,-2.2347130267331647
+Pakistan Floods 2010,2010-07-29,2010,disaster,-2.745806856923737
+Thailand Floods 2011,2011-10-06,2011,disaster,-2.6732427573335524
+Pakistan Floods 2022,2022-06-14,2022,disaster,8.265290513197899
+Great Chicago Fire,1871-10-08,1871,disaster,-2.044068259208559
+Peshtigo Fire,1871-10-08,1871,disaster,-2.044068259208559
+Great Fire of London,1666-09-02,1666,disaster,-1.0402489468905294
+Black Saturday Bushfires,2009-02-07,2009,disaster,3.230171502977207
+Camp Fire California,2018-11-08,2018,disaster,7.938304593861856
+Amazon Fires 2019,2019-08-01,2019,disaster,-3.94686372665509
+Australian Bushfires 2020,2020-01-04,2020,disaster,9.21083642102193
+Oregon Wildfires 2020,2020-09-08,2020,disaster,1.8888695200605574
+Maui Wildfires,2023-08-08,2023,disaster,1.2417083778065112
+Tri-State Tornado,1925-03-18,1925,disaster,-3.0863055372888066
+Super Outbreak 1974,1974-04-03,1974,disaster,-3.115018845923875
+Jarrell Tornado,1997-05-27,1997,disaster,2.4246962315927347
+Oklahoma City Tornado,1999-05-03,1999,disaster,1.305285498184637
+Joplin Tornado,2011-05-22,2011,disaster,3.116452590641726
+Moore Tornado,2013-05-20,2013,disaster,-2.4067385377700785
+El Reno Tornado,2013-05-31,2013,disaster,1.0836805985421223
+Irish Potato Famine Start,1845-09-01,1845,disaster,0.8473457528123414
+Russian Famine 1921,1921-01-01,1921,disaster,-2.2539478453158903
+Ukraine Holodomor,1932-01-01,1932,disaster,-2.8400763237699578
+Bengal Famine,1943-01-01,1943,disaster,-1.3104761296554726
+China Great Famine Start,1959-01-01,1959,disaster,2.0822954566883682
+Ethiopian Famine 1983,1983-01-01,1983,disaster,9.850291573815094
+North Korea Famine,1994-01-01,1994,disaster,10.009649251525333
+Horn of Africa Famine,2011-07-20,2011,disaster,-0.5807565096054992
+Hindenburg Disaster,1937-05-06,1937,disaster,-1.7975471553916411
+Tenerife Airport Disaster,1977-03-27,1977,disaster,-3.864734483096358
+American Airlines 191,1979-05-25,1979,disaster,-1.681394298480234
+Japan Airlines 123,1985-08-12,1985,disaster,0.5192552476902841
+Challenger Disaster,1986-01-28,1986,disaster,11.171949728288904
+Pan Am 103 Lockerbie,1988-12-21,1988,disaster,0.5088131308150238
+Avianca 52,1990-01-25,1990,disaster,10.97765863500131
+USAir 427,1994-09-08,1994,disaster,1.7309465478053636
+TWA 800,1996-07-17,1996,disaster,-3.4299352839330997
+Swissair 111,1998-09-02,1998,disaster,-1.3328876996921561
+EgyptAir 990,1999-10-31,1999,disaster,-0.9647907958049342
+Air France Concorde,2000-07-25,2000,disaster,-0.9763153092394498
+American Airlines 587,2001-11-12,2001,disaster,-1.4964942042935934
+Columbia Disaster,2003-02-01,2003,disaster,1.9550404322313706
+Air France 447,2009-06-01,2009,disaster,-2.0457476746744057
+Malaysia Airlines 370,2014-03-08,2014,disaster,-2.385675629921853
+Malaysia Airlines 17,2014-07-17,2014,disaster,-3.7596782661704937
+Germanwings 9525,2015-03-24,2015,disaster,2.023184705329943
+Metrojet 9268,2015-10-31,2015,disaster,-2.6470335101987215
+Ethiopian Airlines 302,2019-03-10,2019,disaster,9.32387109425937
+Ukraine Airlines 752,2020-01-08,2020,disaster,5.650536513050651
+Titanic Sinking,1912-04-15,1912,disaster,1.682314582860589
+Lusitania Sinking,1915-05-07,1915,disaster,6.310584699213367
+Britannic Sinking,1916-11-21,1916,disaster,-3.2205776184051826
+Eastland Disaster,1915-07-24,1915,disaster,0.6268384961555424
+Andrea Doria Sinking,1956-07-25,1956,disaster,-0.8628197405204748
+Herald of Free Enterprise,1987-03-06,1987,disaster,1.354134801949891
+Estonia Sinking,1994-09-28,1994,disaster,-1.2420135635585665
+Sewol Ferry,2014-04-16,2014,disaster,-2.865931694499581
+Costa Concordia,2012-01-13,2012,disaster,-1.9449572107407844
+Great Train Wreck 1918,1918-07-09,1918,disaster,9.547072109270285
+Eschede Train Disaster,1998-06-03,1998,disaster,-1.2015211696045653
+Paddington Rail Crash,1999-10-05,1999,disaster,-2.160589688269411
+Amagasaki Train Derailment,2005-04-25,2005,disaster,-1.218108938175949
+Santiago de Compostela Derailment,2013-07-24,2013,disaster,-3.029768923942793
+Triangle Shirtwaist Fire,1911-03-25,1911,disaster,-0.7702392508552943
+Texas City Explosion,1947-04-16,1947,disaster,-2.7568827805469294
+Seveso Disaster,1976-07-10,1976,disaster,1.2890188001117466
+Three Mile Island,1979-03-28,1979,disaster,-3.7862013068595366
+Bhopal Gas Tragedy,1984-12-03,1984,disaster,12.045841668275484
+Chernobyl,1986-04-26,1986,disaster,8.820687196861394
+Piper Alpha Explosion,1988-07-06,1988,disaster,-1.4363176686189365
+Deepwater Horizon,2010-04-20,2010,disaster,-1.9649277723288012
+Fukushima,2011-03-11,2011,disaster,6.346361091041742
+Tianjin Explosions,2015-08-12,2015,disaster,-2.925362243558423
+Beirut Port Explosion,2020-08-04,2020,disaster,5.606264206816007
+Courrières Mine Disaster,1906-03-10,1906,disaster,1.0872781896735066
+Monongah Mine Disaster,1907-12-06,1907,disaster,-3.2203933189234526
+Senghenydd Colliery,1913-10-14,1913,disaster,-2.2122315762744607
+Chile Mine Rescue,2010-10-13,2010,disaster,3.809156603643248
+Turkish Mine Disaster,2014-05-13,2014,disaster,-3.6244609842853706
+Panic of 1873,1873-09-18,1873,economic,-1.8579353608504636
+Panic of 1893,1893-05-05,1893,economic,-0.7681857304348216
+Panic of 1907,1907-10-22,1907,economic,-3.2421222185844343
+Black Thursday 1929,1929-10-24,1929,economic,-1.2081548137191707
+Black Tuesday 1929,1929-10-29,1929,economic,-0.7135451086284652
+Black Monday 1987,1987-10-19,1987,economic,6.603964602099305
+Asian Financial Crisis,1997-07-02,1997,economic,-2.3975818949555068
+Russian Financial Crisis,1998-08-17,1998,economic,-3.06654445398257
+LTCM Bailout,1998-09-23,1998,economic,-1.8887451285364714
+Dot-com Bubble Peak,2000-03-10,2000,economic,9.742008441561868
+Dot-com Crash,2000-03-13,2000,economic,6.446118146854443
+Enron Bankruptcy,2001-12-02,2001,economic,-2.138645117009419
+WorldCom Bankruptcy,2002-07-21,2002,economic,-3.909574762067116
+Bear Stearns Collapse,2008-03-16,2008,economic,-2.365393557958634
+Lehman Brothers Collapse,2008-09-15,2008,economic,-0.23510787051668192
+AIG Bailout,2008-09-16,2008,economic,-0.7883387919711264
+TARP Passed,2008-10-03,2008,economic,5.121554809547569
+Flash Crash 2010,2010-05-06,2010,economic,-0.04720954971593405
+Greece Bailout,2010-05-02,2010,economic,-1.2294355480843442
+US Credit Downgrade,2011-08-05,2011,economic,-3.9572737115495684
+Cyprus Bailout,2013-03-25,2013,economic,-0.304098373143577
+Swiss Franc Unpeg,2015-01-15,2015,economic,3.4258004860717732
+China Stock Crash,2015-08-24,2015,economic,-2.878090375266196
+Brexit Market Crash,2016-06-24,2016,economic,-1.524326440363796
+COVID Market Crash,2020-03-16,2020,economic,15.056661711540462
+COVID Market Bottom,2020-03-23,2020,economic,16.66093153973535
+GameStop Squeeze,2021-01-28,2021,economic,5.888100595790101
+Crypto Crash 2022,2022-05-09,2022,economic,7.666719132332224
+FTX Collapse,2022-11-11,2022,economic,1.8916104934459343
+SVB Collapse,2023-03-10,2023,economic,4.887517293815445
+Fed Created,1913-12-23,1913,economic,-3.8566654165314462
+US Leaves Gold Standard,1933-06-05,1933,economic,0.24523839780463053
+Bretton Woods,1944-07-22,1944,economic,18.749087969463847
+Nixon Shock,1971-08-15,1971,economic,-0.9559473340018518
+Volcker Fed Chair,1979-08-06,1979,economic,3.520798773592875
+Greenspan Fed Chair,1987-08-11,1987,economic,-1.6637264595476156
+Bernanke Fed Chair,2006-02-01,2006,economic,1.4323682927707346
+QE1 Announced,2008-11-25,2008,economic,8.77229931968706
+QE2 Announced,2010-11-03,2010,economic,2.3365157961150205
+Operation Twist,2011-09-21,2011,economic,-3.7219214560047584
+QE3 Announced,2012-09-13,2012,economic,-3.141229355544612
+Taper Tantrum,2013-05-22,2013,economic,-2.649461962809548
+ECB Negative Rates,2014-06-05,2014,economic,-3.808939736314309
+Fed First Rate Hike,2015-12-16,2015,economic,3.223023835250668
+Fed COVID Rate Cut,2020-03-15,2020,economic,13.956363928892483
+Fed Inflation Fight,2022-03-16,2022,economic,8.16988796813476
+NAFTA Signed,1992-12-17,1992,economic,4.82086565190457
+WTO Created,1995-01-01,1995,economic,11.013665627807724
+Euro Introduced,1999-01-01,1999,economic,1.0158100653763038
+China Joins WTO,2001-12-11,2001,economic,-0.1492922452848463
+US China Trade War,2018-07-06,2018,economic,1.814878833404079
+Apollo 1 Fire,1967-01-27,1967,disaster,1.0405367944344455
+Apollo 13 Accident,1970-04-13,1970,disaster,-2.0081068057076488
+Challenger Disaster,1986-01-28,1986,disaster,11.171949728288904
+Columbia Disaster,2003-02-01,2003,disaster,1.9550404322313706
+Spanish Flu Start,1918-03-04,1918,disaster,-2.1214088029500324
+Spanish Flu Peak,1918-10-01,1918,disaster,4.111899913625831
+Polio Epidemic 1952,1952-08-01,1952,disaster,4.4344619788043245
+Asian Flu,1957-02-01,1957,disaster,-2.888123443997498
+Hong Kong Flu,1968-07-13,1968,disaster,0.15084818853875648
+First AIDS Cases,1981-06-05,1981,disaster,1.4040053495010985
+AIDS Identified,1983-05-20,1983,disaster,0.6655480066862786
+Mad Cow Disease UK,1996-03-20,1996,disaster,13.327910204356717
+SARS Outbreak,2003-03-15,2003,disaster,-2.839404725636755
+H1N1 Swine Flu,2009-04-26,2009,disaster,4.546146868577586
+H1N1 Pandemic Declared,2009-06-11,2009,disaster,1.841940421547271
+MERS First Case,2012-06-13,2012,disaster,-2.352673077093977
+Ebola Outbreak West Africa,2014-03-23,2014,disaster,-0.3360904795226871
+Zika Emergency,2016-02-01,2016,disaster,4.141688002725875
+COVID-19 First Case,2019-12-01,2019,disaster,9.956610800286187
+COVID-19 Wuhan Lockdown,2020-01-23,2020,disaster,15.483011336395066
+COVID-19 WHO Pandemic,2020-03-11,2020,disaster,8.757525160273426
+COVID-19 Italy Lockdown,2020-03-09,2020,disaster,6.911385384863207
+COVID-19 US Emergency,2020-03-13,2020,disaster,11.366499017716322
+COVID-19 UK Lockdown,2020-03-23,2020,disaster,16.66093153973535
+COVID-19 1 Million Cases,2020-04-02,2020,disaster,6.857984462763173
+COVID-19 Pfizer Vaccine,2020-12-11,2020,disaster,6.942417001746501
+COVID-19 Moderna Vaccine,2020-12-18,2020,disaster,13.764680298988296
+COVID-19 Delta Variant,2021-06-15,2021,disaster,-0.43585328724479144
+COVID-19 Omicron Variant,2021-11-26,2021,disaster,1.3772477005842725
+Monkeypox Emergency,2022-07-23,2022,disaster,8.068765597838675
+Suffragettes UK March,1913-06-04,1913,political,4.5450738401013
+US Women Vote 19th Amendment,1920-08-18,1920,political,5.725922594717539
+Montgomery Bus Boycott Start,1955-12-05,1955,political,12.36717789231696
+Little Rock Nine,1957-09-04,1957,political,10.364898014679483
+Greensboro Sit-Ins,1960-02-01,1960,political,1.0325240174237593
+Freedom Riders,1961-05-04,1961,political,-3.137497525584929
+March on Washington,1963-08-28,1963,political,1.034903513791748
+Civil Rights Act,1964-07-02,1964,political,-1.2434183049053185
+Selma March,1965-03-07,1965,political,-3.7055679749586945
+Voting Rights Act,1965-08-06,1965,political,2.081038068409736
+Stonewall Riots,1969-06-28,1969,political,2.7021094766372227
+Kent State Shootings,1970-05-04,1970,political,-2.7257148288777016
+Equal Rights Amendment,1972-03-22,1972,political,-3.7845169169298574
+Roe v Wade,1973-01-22,1973,political,3.1519056517272355
+Harvey Milk Assassination,1978-11-27,1978,political,13.668582533533968
+Berlin Wall Fall,1989-11-09,1989,political,4.81284696176967
+Nelson Mandela Released,1990-02-11,1990,political,3.7577308222007275
+LA Riots,1992-04-29,1992,political,2.2505521751179463
+Million Man March,1995-10-16,1995,political,4.759490602523964
+Marriage Equality Massachusetts,2004-05-17,2004,political,-1.297182030841122
+Marriage Equality US,2015-06-26,2015,political,-3.9288411551743274
+Ferguson Protests,2014-08-09,2014,political,-2.3287143100708096
+Me Too Movement,2017-10-15,2017,political,-0.393716162918591
+March For Our Lives,2018-03-24,2018,political,2.9300063696479395
+George Floyd Death,2020-05-25,2020,political,5.945203692343461
+BLM Protests,2020-06-06,2020,political,8.162879350808685
+Roe v Wade Overturned,2022-06-24,2022,political,12.426679380258516
+EPA Created,1970-12-02,1970,political,6.985341152423994
+DDT Banned,1972-06-14,1972,political,1.246257462482143
+Love Canal,1978-08-07,1978,disaster,13.655058729455542
+Three Mile Island,1979-03-28,1979,disaster,-3.7862013068595366
+Bhopal Gas Tragedy,1984-12-03,1984,disaster,12.045841668275484
+Chernobyl,1986-04-26,1986,disaster,8.820687196861394
+Montreal Protocol,1987-09-16,1987,political,0.23210162844230364
+Exxon Valdez,1989-03-24,1989,disaster,-1.244195382845402
+Rio Earth Summit,1992-06-03,1992,political,-3.482500662657601
+Kyoto Protocol,1997-12-11,1997,political,10.355062543230348
+Deepwater Horizon,2010-04-20,2010,disaster,-1.9649277723288012
+Fukushima,2011-03-11,2011,disaster,6.346361091041742
+Paris Climate Agreement,2015-12-12,2015,political,4.658273819764709
+US Leaves Paris Agreement,2017-06-01,2017,political,-3.8128645910564134
+Greta Thunberg School Strike,2018-08-20,2018,political,3.332425535154069
+Global Climate Strike,2019-09-20,2019,political,-2.8903477483829914
+US Rejoins Paris Agreement,2021-02-19,2021,political,11.641876848530071
+COP26 Glasgow,2021-11-01,2021,political,0.4274959885802437
+Inflation Reduction Act,2022-08-16,2022,political,6.891590298459326

@@ -1,0 +1,171 @@
+import pandas as pd
+import swisseph as swe
+import numpy as np
+import os
+
+# CONFIG
+# ==============================================================================
+# WEALTHY DATA ANALYSIS (MOON ONLY)
+
+SIGN_NAMES = ['Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo', 
+              'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces']
+
+def get_positions(date_str):
+    if pd.isna(date_str): return None
+    try:
+        dt = pd.to_datetime(date_str)
+    except:
+        return None
+
+    # Noon UTC
+    jd = swe.julday(dt.year, dt.month, dt.day, 12.0)
+    pos = {}
+
+    # 1. MOON (Tropical)
+    res_trop = swe.calc_ut(jd, swe.MOON)[0][0]
+    sign_trop = int(res_trop / 30) % 12
+    pos["Moon_Tropical"] = SIGN_NAMES[sign_trop]
+
+    # 2. MOON (Vedic)
+    swe.set_sid_mode(swe.SIDM_LAHIRI)
+    res_vedic = swe.calc_ut(jd, swe.MOON, swe.FLG_SIDEREAL)[0][0]
+    sign_vedic = int(res_vedic / 30) % 12
+    pos["Moon_Vedic"] = SIGN_NAMES[sign_vedic]
+
+    # --- ADDED: SUN SIGN ---
+    # Sun Tropical (already calc below for Tithi, but let's be explicit)
+    res_sun_trop = swe.calc_ut(jd, swe.SUN)[0][0]
+    sign_sun_trop = int(res_sun_trop / 30) % 12
+    pos["Sun_Tropical"] = SIGN_NAMES[sign_sun_trop]
+
+    # Sun Vedic
+    res_sun_vedic = swe.calc_ut(jd, swe.SUN, swe.FLG_SIDEREAL)[0][0]
+    sign_sun_vedic = int(res_sun_vedic / 30) % 12
+    pos["Sun_Vedic"] = SIGN_NAMES[sign_sun_vedic]
+
+
+    # 3. TITHI
+    # Tithi = (Moon_Lon - Sun_Lon) / 12 (using Tropical for convenience as diff is same)
+    # Re-calc tropical for consistency within this block or just use what we have if available
+    # swe.calc_ut(jd, swe.MOON) was already called. 
+    # Let's get Sun.
+    res_sun = swe.calc_ut(jd, swe.SUN)[0][0]
+
+    diff = (res_trop - res_sun) % 360
+    tithi_num = int(diff / 12) + 1 # 1 to 30
+
+    if tithi_num <= 15:
+        paksha = "Shukla"
+        day = tithi_num
+    else:
+        paksha = "Krishna"
+        day = tithi_num - 15
+
+    tithi_name = f"{paksha} {day:02d}"
+    if tithi_num == 15: tithi_name = "Purnima (Full)"
+    if tithi_num == 30: tithi_name = "Amavasya (New)"
+
+    pos["Tithi"] = tithi_name
+
+    return pos
+
+def analyze():
+    input_file = "01-temporal-pattern-birth-data/wealthy_birthdata_v2.csv"
+    if not os.path.exists(input_file):
+        print(f"File {input_file} not found.")
+        return
+
+    print("Loading wealthy data...")
+    df = pd.read_csv(input_file)
+    print(f"Dataset Size: {len(df)}")
+
+    results = []
+
+    for i, row in df.iterrows():
+        bday = row['Birthdate']
+        pos = get_positions(bday)
+        if pos:
+            entry = {'Name': row['Name'], 'Birthdate': bday}
+            entry.update(pos)
+            results.append(entry)
+
+    res_df = pd.DataFrame(results)
+    N = len(res_df)
+    print(f"Records with valid birthdates: {N}")
+
+    if N == 0: return
+
+    # --- ANALYSIS ---
+
+    print("\n--- MOON SIGN (TROPICAL) ---")
+    counts = res_df['Moon_Tropical'].value_counts()
+    expected_count = N / 12
+
+    moon_trop_summary = []
+    for sign in SIGN_NAMES:
+        count = counts.get(sign, 0)
+        pct = (count / N) * 100
+        # Deviation % relative to expected (like previous scripts)
+        # expected is 8.33%
+        # deviance = (observed - expected) / expected * 100
+        deviance = (count - expected_count) / expected_count * 100
+
+        moon_trop_summary.append({
+            'Sign': sign, 'Count': count, 'Pct': pct, 'Deviance_Pct': deviance
+        })
+
+    df_trop = pd.DataFrame(moon_trop_summary).sort_values('Deviance_Pct', ascending=False)
+    print(df_trop.to_string(index=False))
+
+    print("\n--- MOON SIGN (VEDIC) ---")
+    counts_vedic = res_df['Moon_Vedic'].value_counts()
+
+    moon_vedic_summary = []
+    for sign in SIGN_NAMES:
+        count = counts_vedic.get(sign, 0)
+        pct = (count / N) * 100
+        deviance = (count - expected_count) / expected_count * 100
+        moon_vedic_summary.append({
+            'Sign': sign, 'Count': count, 'Pct': pct, 'Deviance_Pct': deviance
+        })
+
+    df_vedic = pd.DataFrame(moon_vedic_summary).sort_values('Deviance_Pct', ascending=False)
+    print(df_vedic.to_string(index=False))
+
+    print("\n--- TITHI (LUNAR PHASE) ---")
+    counts_tithi = res_df['Tithi'].value_counts()
+    expected_tithi = N / 30
+
+    tithi_summary = []
+    for tithi, count in counts_tithi.items():
+        pct = (count / N) * 100
+        deviance = (count - expected_tithi) / expected_tithi * 100
+        tithi_summary.append({
+            'Tithi': tithi, 'Count': count, 'Pct': pct, 'Deviance_Pct': deviance
+        })
+
+    df_tithi = pd.DataFrame(tithi_summary).sort_values('Deviance_Pct', ascending=False)
+    print(df_tithi.head(10).to_string(index=False))
+
+    print("\n--- SUN SIGN (TROPICAL) ---")
+    counts_sun = res_df['Sun_Tropical'].value_counts()
+
+    sun_summary = []
+    for sign in SIGN_NAMES:
+        count = counts_sun.get(sign, 0)
+        pct = (count / N) * 100
+        deviance = (count - expected_count) / expected_count * 100
+        sun_summary.append({
+            'Sign': sign, 'Count': count, 'Pct': pct, 'Deviance_Pct': deviance
+        })
+
+    df_sun = pd.DataFrame(sun_summary).sort_values('Deviance_Pct', ascending=False)
+    print(df_sun.to_string(index=False))
+
+    # Save Results
+    output_path = "01-temporal-pattern-birth-data/wealthy_moon_results.csv"
+    res_df.to_csv(output_path, index=False)
+    print(f"\nDetailed positions saved to {output_path}")
+
+if __name__ == "__main__":
+    analyze()

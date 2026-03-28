@@ -1,0 +1,2 @@
+total_events,random_dates,events_hard_mean,random_hard_mean,events_with_hard_pct,random_with_hard_pct,ttest_p,chi2,chi2_p,saturn_pluto_war_p,uranus_pluto_revolution_p,conclusion
+512,5000,1.939453125,1.9058,93.359375,92.34,0.5537803027887134,0.7521756636700221,0.3857882758139294,0.8524895369377279,0.27150173561171664,No significant correlation
