@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 34: Solar Return Predictions — Cosine Method · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 34: Solar Return Predictions — Cosine Method</span></div></nav>
+<main class="article"><div class="container"><h1>Project 34: Solar Return Predictions — Cosine Method</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Do Solar Return charts — cast when the Sun returns to its exact natal longitude each year — contain planetary configurations that differ systematically between years when major life events occur and years when they don't? Can the annual Solar Return chart predict the <em>type</em> of year that follows?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>The Solar Return is one of traditional astrology's most practical predictive tools. Every year on or near your birthday, the Sun returns to the exact degree it occupied when you were born. The chart cast for that moment is said to describe the themes, challenges, and opportunities of the coming 12 months.</p>
+<p>This project tests that claim with a mathematically rigorous, symbolism-agnostic approach: compute cosine similarity between all 66 planetary pairs in each Solar Return chart, and compare event years to non-event years statistically. No pre-assigned symbolism — let the numbers speak first.</p>
+<p>The result demonstrates something methodologically valuable: the approach <em>correctly identifies</em> confounds before reporting genuine findings.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sample</strong></td>
+<td>104 historical figures (Scientists, Artists, Writers)</td>
+</tr>
+<tr>
+<td><strong>Life events</strong></td>
+<td><strong>451 verified events</strong> from biographical records</td>
+</tr>
+<tr>
+<td><strong>Event categories</strong></td>
+<td>Marriage (129), Awards (113), Death (91), Divorce (63), Crisis (48)</td>
+</tr>
+<tr>
+<td><strong>Chart type</strong></td>
+<td>Solar Return — cast when Sun returns to exact natal longitude</td>
+</tr>
+<tr>
+<td><strong>Location</strong></td>
+<td>Birth location used for all Solar Return calculations</td>
+</tr>
+<tr>
+<td><strong>Ephemeris</strong></td>
+<td>Swiss Ephemeris, Tropical zodiac</td>
+</tr>
+<tr>
+<td><strong>Includes</strong></td>
+<td>Black Moon Lilith (Mean Apogee — the point where the Moon is farthest from Earth)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>⚠️ Part I: Historical Artifacts — The Method Validates Itself</h2>
+<p>Before any astrological findings, two enormous "signals" appeared in the data — and both turned out to be demographic artifacts. This is the methodological success story of this project.</p>
+<h3>Artifact 1: Uranus-Neptune Conjunction → Death Signal (p &lt; 0.001)</h3>
+<p>Uranus and Neptune were in close conjunction from roughly 1987–1998, spending most of that time in Capricorn. Many of the 104 historical figures (born primarily in the 1800s–early 1900s) died during this period simply because they were elderly by the 1990s. The "signal" was: <em>these specific celebrities died in the 1990s, and the 1990s had Uranus conjunct Neptune.</em> That's demographics, not astrology.</p>
+<h3>Artifact 2: Uranus-Pluto Conjunction → Divorce Signal (p &lt; 0.001)</h3>
+<p>Uranus and Pluto were in exact conjunction in the mid-1960s. Western divorce rates rose dramatically in the 1960s–70s due to changing social norms and legal reforms. Famous subjects who divorced then did so partly because <em>everyone</em> divorced more in that era. The Uranus-Pluto conjunction is a historical era marker, not a personal astrological trigger.</p>
+<p><strong>Why this matters:</strong> The method correctly detected real temporal clustering — people in the dataset really did die in the 1990s and divorce in the 1960s at elevated rates. The method then <em>explained why</em>: demographics, not astrology. This validates the cosine approach as sensitive enough to detect genuine temporal clustering while being transparent enough to identify its source.</p>
+<p><strong>The filtering rule:</strong> For Solar Return analysis of biographical events, only fast-moving bodies should provide primary findings. Slow movers (Uranus, Neptune, Pluto in multi-year configurations) will reflect historical era, not personal chart dynamics.</p>
+<hr>
+<h2>📈 Part II: Genuine Findings — Fast-Mover Archetypes</h2>
+<p>After filtering for fast-moving bodies, four findings emerge:</p>
+<h3>1. Death: Moon–Lilith Conjunction (p = 0.009) ✨</h3>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Pair</th>
+<th>Signal</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Death</strong></td>
+<td><strong>Moon–Lilith</strong></td>
+<td><strong>Conjunction (+)</strong></td>
+<td><strong>0.009</strong></td>
+</tr>
+</tbody>
+</table>
+<p>In Solar Return charts for the year of death, the Moon and Black Moon Lilith (the lunar apogee — the point where the Moon is most distant from Earth, most extreme in its orbit) tend significantly toward conjunction, compared to non-death years.</p>
+<p>The mythological resonance is striking. The Moon represents the body, vital rhythms, and the biological self. Lilith as the apogee — the Moon at its farthest, most extreme orbital point — carries the archetype of the void, the dark counterpart, the maximum pulling-away from center.</p>
+<p>Moon conjunct Lilith at the year of death: the body and its dark counterpart align. The vital self and the apogee of its own arc converge at the moment of departure.</p>
+<p>Neither the Moon nor the Mean Apogee are slow outer planets subject to generational artifacts. The Moon moves through all 12 signs monthly; Lilith cycles approximately every 9 years. Their conjunction is an individual and time-specific configuration — not a demographic proxy.</p>
+<h3>2. Marriage: Venus–Uranus Conjunction (p = 0.016) ⚡</h3>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Pair</th>
+<th>Signal</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Marriage</strong></td>
+<td><strong>Venus–Uranus</strong></td>
+<td><strong>Conjunction (+)</strong></td>
+<td><strong>0.016</strong></td>
+</tr>
+</tbody>
+</table>
+<p>In Solar Return charts for the year of marriage, Venus and Uranus tend toward conjunction compared to non-marriage years.</p>
+<p>This <strong>contradicts traditional expectation.</strong> Conventional astrology associates marriage with stable Saturn (long-term commitment) or benefic Jupiter (expansion and fortune) — not Uranus, the planet of sudden disruption and electric excitement.</p>
+<p>Venus-Uranus carries the archetype of sudden attraction, unconventional unions, and relationships that feel like lightning strikes. For the artistic and intellectual historical figures in this dataset — whose personal lives often differed from bourgeois convention — marriage may have been more commonly a Uranian event: sudden, exciting, unexpected crystallization of connection.</p>
+<h3>3. Awards: Jupiter–Node Opposition (p = 0.015) 🏆</h3>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Pair</th>
+<th>Signal</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Awards</strong></td>
+<td><strong>Jupiter–Node</strong></td>
+<td><strong>Opposition (−)</strong></td>
+<td><strong>0.015</strong></td>
+</tr>
+</tbody>
+</table>
+<p>In Solar Return charts for award years, Jupiter and the Mean Node tend toward <em>opposition</em>. This is counterintuitive — conventional astrology predicts Jupiter <em>conjunct</em> the North Node as a "success/luck" signature.</p>
+<p>One interpretation using traditional Vedic node symbolism: North Node (Rahu) represents worldly ambition and striving; South Node (Ketu) represents release, mastery already earned, and spiritual inheritance. Jupiter opposing the North Node (conjunct the South Node) may suggest success through <em>releasing</em> rather than grasping — being recognized for accumulated wisdom rather than active pursuit. "Success through letting go."</p>
+<h3>4. Crisis: Mercury–Neptune Opposition (p = 0.063 — Marginal, Not Confirmed)</h3>
+<p>Mercury opposing Neptune during crisis years (p=0.063) has an intuitive archetypal match: rational clarity (Mercury) in tension with fog and dissolution (Neptune) = mental confusion, misdiagnosis, unclear communication. Below conventional significance and does not survive multiple testing correction. Presented as hypothesis-generating only.</p>
+<hr>
+<h2>📊 Summary of Findings</h2>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Pair</th>
+<th>Direction</th>
+<th>p-value</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Death</td>
+<td>Moon–Lilith</td>
+<td>Conjunction</td>
+<td><strong>0.009</strong></td>
+<td>Exploratory finding — FDR candidate</td>
+</tr>
+<tr>
+<td>Awards</td>
+<td>Jupiter–Node</td>
+<td>Opposition</td>
+<td><strong>0.015</strong></td>
+<td>Exploratory finding — FDR candidate</td>
+</tr>
+<tr>
+<td>Marriage</td>
+<td>Venus–Uranus</td>
+<td>Conjunction</td>
+<td><strong>0.016</strong></td>
+<td>Exploratory finding — FDR candidate</td>
+</tr>
+<tr>
+<td>Crisis</td>
+<td>Mercury–Neptune</td>
+<td>Opposition</td>
+<td>0.063</td>
+<td>Marginal only</td>
+</tr>
+<tr>
+<td><em>Artifact</em> Death</td>
+<td>Uranus–Neptune</td>
+<td>Conjunction</td>
+<td>&lt; 0.001</td>
+<td>N/A — demographic confound</td>
+</tr>
+<tr>
+<td><em>Artifact</em> Divorce</td>
+<td>Uranus–Pluto</td>
+<td>Conjunction</td>
+<td>&lt; 0.001</td>
+<td>N/A — demographic confound</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<p><strong>Multiple testing:</strong> 66 pairs × 5 event types = 330 t-tests. Under Bonferroni (p &lt; 0.000152), no finding survives. Under FDR, the three findings at p ≤ 0.016 are strong candidates. These are <strong>exploratory findings requiring pre-registered replication in an independent, larger dataset.</strong></p>
+<p><strong>Black Moon Lilith:</strong> The Mean Apogee is a mathematical point, not a physical body. Its theoretical status in astrology is contested. The Moon-Lilith Death finding, while archetypal, should carry awareness that Lilith's astronomical basis is weaker than physical planets.</p>
+<p><strong>Sample characteristics:</strong> 104 historical figures, skewed toward European and American artists, scientists, and writers born primarily in the 19th and early 20th centuries. Marriage and award patterns may reflect social practices of that era rather than universal patterns.</p>
+<p><strong>Solar Return location:</strong> This analysis uses birth location for all Solar Return calculations. Solar Returns are theoretically sensitive to location, but most historical figures didn't purposively travel on their solar return date.</p>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>The cosine method applied to 451 life events across 104 historical figures produced two kinds of results:</p>
+<p><strong>Historical artifacts correctly identified:</strong> Uranus-Neptune at Death and Uranus-Pluto at Divorce reflect 1990s and 1960s demographic clustering, not personal astrological triggers. The method found them, explained them, and set them aside.</p>
+<p><strong>Genuine pattern candidates (fast-moving bodies):</strong><br>
+- <strong>Moon–Lilith</strong> conjunction elevated in Death years (p=0.009): body meets the void<br>
+- <strong>Venus–Uranus</strong> conjunction elevated in Marriage years (p=0.016): sudden, electric union — not conventional Saturnine commitment<br>
+- <strong>Jupiter–Node</strong> opposition elevated in Award years (p=0.015): success through release rather than grasping</p>
+<p>None survive Bonferroni correction for 330 tests; all three are candidates under FDR correction. They should be treated as <strong>exploratory findings</strong> requiring pre-registered replication.</p>
+<p>The meta-finding — the method both detected real clustering <em>and</em> correctly explained it as artifactual in the outer-planet cases — validates the cosine approach as methodologically sound for Solar Return research. The genuine findings that survive artifact-filtering carry greater credibility precisely because the method demonstrated it could distinguish signal from demographic noise.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

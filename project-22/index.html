@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 22: Astro-Weather Forecasting vs. Meteorological Data · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 22: Astro-Weather Forecasting vs. Meteorological Data</span></div></nav>
+<main class="article"><div class="container"><h1>Project 22: Astro-Weather Forecasting vs. Meteorological Data</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Do planetary positions — particularly placement in astrological elements (Fire, Earth, Air, Water) — correlate with measurable changes in daily precipitation and temperature across the global historical weather record? Does the ancient claim "Water signs bring rain" survive scrutiny?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Weather prediction is one of astrology's oldest claimed practical applications. Ancient agricultural calendars were partly astrological; folk traditions in many cultures link lunar phases and planetary positions to planting conditions. With 129,562 NOAA stations spanning 124 years, this is the most comprehensive possible test: if any systematic planetary weather correlation exists, this dataset will find it.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NOAA GHCN-Daily</td>
+<td>Global Historical Climatology Network; 129,562 station files; daily PRCP and TMAX; 1900–2024</td>
+</tr>
+<tr>
+<td>Swiss Ephemeris</td>
+<td>Planetary positions for all 12 bodies in both Tropical and Vedic (Lahiri) zodiacs, every day 1900–2024</td>
+</tr>
+</tbody>
+</table>
+<p>Both data sources are genuine. NOAA GHCN-Daily is the premier publicly available long-term daily weather dataset. A pre-computed planetary lookup table (<code>astro_weather_features.csv</code>) was generated using the Swiss Ephemeris, recording daily sign and element for each body.</p>
+<hr>
+<h2>📈 Results</h2>
+<h3>1. The "Water Sign" Hypothesis: Seasonal Artifact</h3>
+<table>
+<thead>
+<tr>
+<th>Sun Element (Tropical)</th>
+<th>Mean Precipitation (tenths mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fire</td>
+<td>23.05</td>
+</tr>
+<tr>
+<td>Earth</td>
+<td>23.31</td>
+</tr>
+<tr>
+<td>Air</td>
+<td>23.40</td>
+</tr>
+<tr>
+<td><strong>Water</strong></td>
+<td><strong>23.45</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The Water sign bias exists — but it's tiny: <strong>+1.7% above average</strong>, with near-zero practical significance.</p>
+<h3>⚠️ The Critical Confound</h3>
+<p><strong>The stronger Water sign / precipitation correlation found in pilot analysis (+14%) was a regional seasonal artifact.</strong></p>
+<p>The Sun moves through Cancer (June–July) during Northern Hemisphere summer monsoon season, through Scorpio (October–November) during Northern Hemisphere autumn rains, and through Pisces (February–March) during late-winter precipitation in many climates. Any correlation between "Sun in Water signs" and increased precipitation in a Northern-Hemisphere-dominated dataset is tracking <em>seasonality</em> — the calendar, not astrology.</p>
+<p><strong>Hemisphere split confirms it:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Hemisphere</th>
+<th>Wettest Sign Element</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Northern (104,205 stations)</td>
+<td>Differences negligible — fractions of a percent</td>
+</tr>
+<tr>
+<td>Southern (25,357 stations)</td>
+<td>Air/Water wetter, Fire/Earth drier — <em>reversed</em> from Northern</td>
+</tr>
+</tbody>
+</table>
+<p>In the Southern Hemisphere, Water and Air sign periods are wetter — because June–August (Fire signs) is the Southern winter/dry season, while October–March (Air/Water signs) is the Southern summer/wet season. Both hemispheres track their own seasonal calendars.</p>
+<p><strong>Conclusion:</strong> The Tropical Zodiac functions as a calendar. Different regions have different rain calendars. When the dataset is dominated by any geographic region, zodiacal correlations emerge — but they track climate, not planetary influence.</p>
+<h3>2. Moon Sign: Consistent Null</h3>
+<table>
+<thead>
+<tr>
+<th>Hemisphere</th>
+<th>Moon in Water</th>
+<th>Moon in Fire</th>
+<th>Difference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Northern</td>
+<td>23.43</td>
+<td>23.35</td>
+<td>+0.4%</td>
+</tr>
+<tr>
+<td>Southern</td>
+<td>22.10</td>
+<td>22.02</td>
+<td>+0.4%</td>
+</tr>
+</tbody>
+</table>
+<p>The Moon moves through all 12 signs every 27.3 days. It shows no consistent precipitation variation by sign in either hemisphere.</p>
+<h3>3. Slow Planets: Climate-Epoch Proxies</h3>
+<p>The full element analysis found the Neptune Tropical result strikingly large (+0.899 mean PRCP difference). But Neptune moves ~1° per year, spending ~14 years in each sign. Its "sign" at any given time is nearly identical to its sign a year earlier — and to the sign 14 years ago. Neptune-in-Water is a multi-decade climate epoch marker, not a causal variable. The correlation tracks decadal climate patterns (El Niño cycles, Atlantic Multidecadal Oscillation) that happen to coincide with Neptune's extremely slow sign transitions.</p>
+<p>This is the <strong>"Slow Planet as Climate Proxy"</strong> pattern: outer planets serve as demographic/climate-epoch tags, not astrological signals.</p>
+<h3>4. Tithi Analysis — One Potentially Non-Trivial Signal</h3>
+<p>The Tithi analysis (30 lunar day bins based on Moon–Sun angular separation) revealed a persistent pattern:</p>
+<table>
+<thead>
+<tr>
+<th>Lunar Phase</th>
+<th>Approximate PRCP (tenths mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Waxing Quarter (Tithi 8–9)</td>
+<td>~46.0 (highest)</td>
+</tr>
+<tr>
+<td>Waning Quarter (Tithi 23–24)</td>
+<td>~45.5</td>
+</tr>
+<tr>
+<td>New Moon (Tithi 1)</td>
+<td>~41.5</td>
+</tr>
+<tr>
+<td>Full Moon (Tithi 16)</td>
+<td>~40.9</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Precipitation dips ~11% during New Moon and Full Moon (syzygy) periods</strong> compared to Quarter Moon phases. This pattern is physically plausible: at syzygy (Sun, Moon, Earth aligned), tidal forces are maximized, which may affect atmospheric circulation. Notably, this <em>contradicts</em> the folk belief that Full Moons bring storms — it suggests they may actually correlate with slightly drier conditions.</p>
+<p>This is the one potentially non-trivial signal in the dataset. It requires replication and mechanism investigation before interpretation.</p>
+<hr>
+<h2>🔍 What the Numbers Mean</h2>
+<p>Fast planets (Sun, Moon, Mercury, Venus, Mars) cycle through all signs frequently and correlate with precipitation primarily through <strong>seasonal timing</strong>. Their "element" is effectively a calendar proxy.</p>
+<p>Slow planets (Jupiter through Pluto) spend years in a sign and act as <strong>climate-epoch markers</strong> — tagging multi-year climate patterns they coincide with by chance of slow motion.</p>
+<p>The question "do Water signs bring rain?" dissolves on inspection: the Tropical Zodiac <em>is</em> a calendar, and different parts of the calendar are wetter or drier depending on geography. There is no evidence of a planetary mechanism beyond this.</p>
+<hr>
+<h2>⚠️ Statistical Caveats</h2>
+<ul>
+<li>Multiple testing: 12 bodies × 2 zodiacs × 4 elements × 2 weather variables = hundreds of comparisons. No results should be treated as confirmed without preregistered replication.</li>
+<li>Seasonal confounding is the primary concern for all Sun-based correlations.</li>
+<li>Station coverage is uneven globally — Northern Hemisphere is overrepresented.</li>
+<li>Effect sizes are tiny: even the largest effects are fractions of a percent of mean precipitation, with no practical meteorological significance.</li>
+</ul>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>After analyzing 124 years of daily precipitation data from 129,562 global weather stations:</p>
+<ol>
+<li>The "Water sign" precipitation effect is a <strong>seasonal confound</strong> — the Tropical Zodiac tracks the calendar, which tracks climate</li>
+<li>Moon sign placement has <strong>no detectable effect</strong> on daily precipitation</li>
+<li>Outer planet "element" correlations reflect <strong>multi-decade climate patterns</strong>, not planetary influence</li>
+<li>The <strong>Tithi syzygy suppression</strong> (New/Full Moon ~11% drier than Quarter phases) is the only consistent globally-replicated pattern — and it contradicts the folk belief about Full Moon weather</li>
+</ol>
+<p>The data does not support traditional astro-meteorological claims.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

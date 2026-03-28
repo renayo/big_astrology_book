@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 02: Planetary Cycles and Market Volatility · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 02: Planetary Cycles and Market Volatility</span></div></nav>
+<main class="article"><div class="container"><h1>Project 02: Planetary Cycles and Market Volatility</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Is there a measurable, statistically robust correlation between major planetary cycles — particularly the ~20-year Jupiter-Saturn synodic cycle — and changes in stock market volatility or returns across 74 years of daily trading data?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Financial astrology is one of the oldest practical applications of astrological thinking. And of all the domains where you might look for astrological effects, markets are one of the most compelling candidates: they are driven <em>entirely</em> by human psychology, and they produce precise daily numbers stretching back decades. If planetary cycles encode any real structural information about collective human behavior, the cumulative buying and selling decisions of millions of people should be where a signal shows up.</p>
+<p>This project doesn't rely on anecdote or cherry-picked historical "hits." It applies the full toolkit of modern time-series econometrics to 74 years of daily data and asks: <em>is there anything here, and if so, is it big enough to matter?</em></p>
+<p>The answer is illuminating precisely because it's split. There is a statistically real signal. And it is essentially useless for prediction.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yahoo Finance</td>
+<td>S&amp;P 500, VIX, Gold, Crude Oil — daily close prices, 1950–2024</td>
+</tr>
+<tr>
+<td>Swiss Ephemeris</td>
+<td>Jupiter-Saturn angular separation (degrees of orb from exact aspect) — same period</td>
+</tr>
+<tr>
+<td><strong>Scope</strong></td>
+<td><strong>18,869 trading days across 74 years</strong></td>
+</tr>
+</tbody>
+</table>
+<p>All data is real. No synthetic datasets, no generated numbers. This is the most extensive time-series analysis in the book.</p>
+<hr>
+<h2>🔬 Method</h2>
+<p>The analysis used four complementary approaches:</p>
+<p><strong>ARIMA modeling</strong> fitted time-series models to daily returns and tested whether adding planetary variables improved in-sample fit (AIC criterion) and out-of-sample prediction error (MSE).</p>
+<p><strong>GARCH(1,1)</strong> modeled volatility clustering — the well-established pattern where calm periods cluster together and turbulent periods cluster together. GARCH-X extended this by including planetary variables as exogenous regressors in the variance equation.</p>
+<p><strong>Granger Causality Tests</strong> asked a directional question: does knowing yesterday's planetary position help you predict tomorrow's market price, above and beyond knowing yesterday's price? This is the operational definition of predictive information.</p>
+<p><strong>Polar Cycle Analysis</strong> mapped 74 years of daily returns and volatility onto the 360° wheel of the Jupiter-Saturn synodic cycle — essentially a full picture of which parts of that cycle are historically associated with what market behavior.</p>
+<p><strong>15-Pair Expanded Analysis</strong> extended the single Jupiter-Saturn pair to all combinations of Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto — 15 pairwise cycles in total.</p>
+<hr>
+<h2>📈 Results</h2>
+<h3>The Core Finding: Real But Tiny</h3>
+<p>The headline number: <strong>Pearson r = 0.0226 (p = 0.0019)</strong> between Jupiter-Saturn angular separation and GARCH-derived market volatility.</p>
+<p>That p-value is genuine. Bootstrap resampling (1,000 iterations) produced a 95% confidence interval of <strong>[0.0050, 0.0354]</strong> — the interval does not contain zero, meaning the correlation is unlikely to be pure noise.</p>
+<p>But "statistically significant" and "practically meaningful" are two very different things. This correlation explains <strong>less than 0.1% of market variance</strong>. For comparison, the day of the week explains more about returns than planetary positions do.</p>
+<p>The direction is also counterintuitive: the correlation is <em>positive</em> with orb degrees, meaning as Jupiter and Saturn move <em>farther apart</em>, volatility <em>increases</em>. Exact aspects (conjunction, opposition, trine — 0° orb) are associated with <em>calmer</em> markets. Most financial astrology would predict the opposite.</p>
+<h3>Predictive Power: Worse Than Nothing</h3>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Baseline Model</th>
+<th>With Planetary Data</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ARIMA AIC</td>
+<td>−120,451.54</td>
+<td>−120,449.56</td>
+<td><strong>Worse</strong> (higher AIC is worse)</td>
+</tr>
+<tr>
+<td>Out-of-sample MSE (2016–2024)</td>
+<td>0.00013050</td>
+<td>0.00013054</td>
+<td><strong>Worse</strong></td>
+</tr>
+<tr>
+<td>Granger causality, lag 5</td>
+<td>—</td>
+<td>p = 0.84</td>
+<td><strong>Fail</strong></td>
+</tr>
+<tr>
+<td>Granger causality, lag 20</td>
+<td>—</td>
+<td>p = 0.78</td>
+<td><strong>Fail</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Adding planetary data to a predictive model makes it <em>slightly worse</em>, not better. Past planetary positions add noise. The correlation, while statistically detectable, contains no actionable predictive information.</p>
+<p>Think of it this way: imagine you had a friend who could tell you, with perfect accuracy, where Jupiter and Saturn are in the sky on any given trading day. Would that help you beat the market? According to 74 years of daily data: no. Not even a little.</p>
+<p><img alt="Polar cycle map: Jupiter-Saturn orb degrees vs. market volatility" src="images/project-02-figure-1.png"></p>
+<h3>The Trine Instability Paradox</h3>
+<p>The polar cycle analysis produced the project's most intellectually interesting surprise.</p>
+<p><strong>The Trine (120°) is the most unstable zone in the data:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect Zone</th>
+<th>Avg. Daily Volatility</th>
+<th>Avg. Daily Return</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Trine (115°–125°)</strong></td>
+<td><strong>0.011 (highest)</strong></td>
+<td><strong>−0.12% (negative)</strong></td>
+</tr>
+<tr>
+<td>Conjunction (355°–5°)</td>
+<td>0.0108 (high)</td>
+<td>+0.05% (positive)</td>
+</tr>
+<tr>
+<td>Quincunx (155°)</td>
+<td>—</td>
+<td><strong>+0.13% (highest returns)</strong></td>
+</tr>
+<tr>
+<td>Semi-Square (315°)</td>
+<td>—</td>
+<td>+0.10%</td>
+</tr>
+</tbody>
+</table>
+<p>In traditional astrology, the Trine is the most "harmonious" aspect — associated with ease, luck, and natural flow. In 74 years of market data, it correlates with the highest volatility and negative average returns. The Conjunction generates similar turbulence but with positive average returns — a "market reset" rather than a correction.</p>
+<p>The highest actual returns appear at the <em>minor</em> Quincunx and Semi-Square aspects — the ones most traditional systems consider insignificant or ignore entirely.</p>
+<p>One possible interpretation: the "ease of flow" that a Trine represents might manifest in markets as ease of <em>selling</em> — capitulation happening without friction. This is speculative and interesting. It suggests that if any planetary influence operates on markets, it follows its own logic rather than mapping neatly onto traditional astrological symbolism.</p>
+<h3>The 15-Pair Expanded Analysis</h3>
+<table>
+<thead>
+<tr>
+<th>Pair</th>
+<th>Correlation</th>
+<th>Character</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Saturn-Uranus</strong></td>
+<td><strong>−0.18 (strongest)</strong></td>
+<td>Volatility at hard aspects <em>and</em> the Trine</td>
+</tr>
+<tr>
+<td>Saturn-Neptune</td>
+<td>+0.14</td>
+<td>Separating aspects correlate with volatility</td>
+</tr>
+<tr>
+<td>Jupiter-Saturn</td>
+<td>+0.08</td>
+<td>"Trine Instability" + "Cycle Reset"</td>
+</tr>
+<tr>
+<td>Mars-Jupiter</td>
+<td>+0.05</td>
+<td>Volatility concentrated at Conjunction</td>
+</tr>
+<tr>
+<td>Neptune-Pluto</td>
+<td>+0.05</td>
+<td>The Long Sextile — correlates with its persistent aspect</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Saturn-Uranus</strong> is the standout: nearly 8× stronger than Jupiter-Saturn (r = −0.18). Volatility spikes at hard aspects <em>and</em> at the Trine, suggesting this pair's influence is unusually pervasive.</p>
+<p><strong>The Conjunction Effect:</strong> The 0° zone appears as a primary volatility peak in roughly 7 of 15 tested pairs. The start of a planetary cycle — the "New Moon" of synodic astrology — consistently coincides with elevated market instability.</p>
+<blockquote>
+<p><strong>Multiple testing caveat:</strong> With 15 pairs × multiple aspect zones × multiple metrics, many hypothesis tests were implicitly run. The Saturn-Uranus result (r = −0.18) is robust enough to likely survive correction; weaker traces (r = 0.03–0.05) should be treated as suggestive only.</p>
+</blockquote>
+<hr>
+<h2>🔍 What the Numbers Mean</h2>
+<p>The data supports a specific, modest claim: <strong>planetary cycles may function as background "seasons" of volatility</strong> — describing the risk climate in very general terms, not forecasting daily prices.</p>
+<p>The Conjunction Effect (volatility at cycle starts) is the most replicable structural finding. The Trine Anomaly (sharp drops at astrology's "lucky" aspect) is the most intellectually interesting. Neither provides actionable trading information.</p>
+<p>The project's real contribution is methodological: showing what "planetary-market correlation" actually looks like when tested rigorously. It looks like a signal-to-noise ratio of roughly 1:1000, and a model that gets slightly <em>worse</em> when you add planetary data. That's the honest picture.</p>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<ul>
+<li><strong>r = 0.0226 explains &lt;0.1% of variance.</strong> The day of the week explains more about market behavior.</li>
+<li>ARIMA and Granger tests confirm no predictive value, regardless of the correlation.</li>
+<li>The Trine Instability finding, while reproducible, is a historical observation — not a trading rule.</li>
+<li>With 15 pairs and multiple metrics, some patterns are expected from multiple comparisons. Bonferroni correction would tighten all significance thresholds.</li>
+<li>Market correlations in historical data do not guarantee future performance.</li>
+</ul>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>Seventy-four years of daily market data and rigorous econometric testing yield an honest split verdict:</p>
+<p><strong>Yes, a correlation exists.</strong> Jupiter-Saturn orbital distance correlates with GARCH volatility at r=0.0226, p=0.0019. Saturn-Uranus shows r=−0.18 — the strongest single-pair signal. The correlation is not imaginary.</p>
+<p><strong>No, it cannot predict markets.</strong> ARIMA and Granger tests show planetary data adds noise to prediction models. Out-of-sample error worsens when planets are included. The statistical signal, while real, carries no information that improves forecasts.</p>
+<p>The genuinely surprising result — that the Trine correlates with market drops, not rises — is the most interesting finding. It suggests that if planetary influence on markets operates at all, it follows its own logic rather than the traditional astrological symbolism. That's worth knowing, even if the practical implications are nil.</p>
+<blockquote>
+<p><strong>This project does not constitute financial advice.</strong> Correlations in historical data do not guarantee future performance.</p>
+</blockquote></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

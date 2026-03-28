@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 04: Who Believes in Astrology, and Where? · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 04: Who Believes in Astrology, and Where?</span></div></nav>
+<main class="article"><div class="container"><h1>Project 04: Who Believes in Astrology, and Where?</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>What geographic, demographic, and cultural factors predict interest in and belief in astrology across the United States? Can we explain why some states are more astrologically engaged than others?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Before we can evaluate whether astrology <em>works</em>, it helps to understand who actually engages with it — and why. The cultural distribution of astrological belief is not random, and the patterns reveal something important: astrology in 21st-century America is not what the "folk superstition" stereotype would lead you to expect.</p>
+<p>This project doesn't test whether the zodiac predicts character. It tests whether <em>demographic variables</em> predict <em>astrological engagement</em>. The answer is a remarkably clean yes — and the direction of the relationships upends the usual assumptions about astrology's audience.</p>
+<hr>
+<h2>📊 The Data</h2>
+<p>Two data sources, measuring two different things:</p>
+<p><strong>Google Trends "horoscope" search interest</strong> — measures <em>engagement and curiosity.</em> Searching for one's horoscope is a behavioral measure; it doesn't necessarily indicate deep belief. This is state-level data from 2023.</p>
+<p><strong>Pew Research Center survey (2017–2018)</strong> — measures <em>stated belief in astrology</em>, from a nationally representative survey of 4,729 respondents. This is a conviction measure.</p>
+<p>Both tell the same demographic story, but they're distinct — a curious non-believer contributes to Google Trends but not to Pew's "belief" category. The findings below draw on both and are labeled accordingly.</p>
+<blockquote>
+<p><em>Data transparency note: The Google Trends state-level figures used cached 2023 data. The Pew survey figures are fully published and verified.</em></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Description</th>
+<th>N</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pew Research Center (2017–2018)</td>
+<td>National survey, belief in astrology by age/gender/region</td>
+<td>4,729</td>
+</tr>
+<tr>
+<td>Google Trends (2023)</td>
+<td>State-level relative search interest for "horoscope"</td>
+<td>50 states</td>
+</tr>
+<tr>
+<td>US Census Bureau</td>
+<td>Urbanization %, college graduation %, median income, median age</td>
+<td>All states</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>🔬 Method</h2>
+<p><strong>For the Pew analysis:</strong> Standard frequency and cross-tabulation analysis to characterize belief rates by age group, gender, and census region.</p>
+<p><strong>For the state-level analysis:</strong> Pearson correlation between Google Trends search interest and Census demographic variables, followed by multiple linear regression to identify the best predictor combination.</p>
+<hr>
+<h2>📈 Results</h2>
+<h3>Who Believes: The National Picture</h3>
+<p>The national baseline from Pew: <strong>29% of Americans believe in astrology.</strong> But that aggregate conceals dramatic variation.</p>
+<p><strong>By age — the steepest gradient:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Age Group</th>
+<th>% Who Believe in Astrology</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18–29</td>
+<td><strong>44%</strong></td>
+</tr>
+<tr>
+<td>30–49</td>
+<td>32%</td>
+</tr>
+<tr>
+<td>50–64</td>
+<td>22%</td>
+</tr>
+<tr>
+<td>65+</td>
+<td>17%</td>
+</tr>
+</tbody>
+</table>
+<p>Young adults are more than twice as likely to believe in astrology as seniors. Whether this reflects a cohort effect (younger generations are genuinely more drawn to astrology) or a life-stage effect (people grow out of it as they age) can't be determined from a single survey. But the gap is enormous — larger than most cultural belief differences measured by Pew.</p>
+<p><strong>By gender:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Gender</th>
+<th>% Who Believe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Women</td>
+<td><strong>37%</strong></td>
+</tr>
+<tr>
+<td>Men</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table>
+<p>A 17-point gap. This is consistent with decades of research on gender and metaphysical belief systems.</p>
+<p><strong>By region:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Region</th>
+<th>% Who Believe</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>West</td>
+<td><strong>33%</strong></td>
+</tr>
+<tr>
+<td>Northeast</td>
+<td>31%</td>
+</tr>
+<tr>
+<td>South</td>
+<td>28%</td>
+</tr>
+<tr>
+<td>Midwest</td>
+<td>25%</td>
+</tr>
+</tbody>
+</table>
+<p>The regional spread is modest — only 8 points between the most and least astrologically engaged regions. But the direction is clear: coastal and urban-heavy regions lead.</p>
+<h3>Where the Interest Is: State-Level Correlations</h3>
+<table>
+<thead>
+<tr>
+<th>Demographic Variable</th>
+<th>Correlation (r)</th>
+<th>p-value</th>
+<th>Significant?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Urban population %</strong></td>
+<td><strong>0.719</strong></td>
+<td>&lt;0.0001</td>
+<td>✓ Yes</td>
+</tr>
+<tr>
+<td><strong>Median income</strong></td>
+<td><strong>0.621</strong></td>
+<td>&lt;0.0001</td>
+<td>✓ Yes</td>
+</tr>
+<tr>
+<td><strong>College graduation %</strong></td>
+<td><strong>0.620</strong></td>
+<td>&lt;0.0001</td>
+<td>✓ Yes</td>
+</tr>
+<tr>
+<td><strong>Total population</strong></td>
+<td>0.518</td>
+<td>0.0001</td>
+<td>✓ Yes</td>
+</tr>
+<tr>
+<td>Median age</td>
+<td>0.214</td>
+<td>0.135</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Urbanization is the strongest single predictor</strong> — r = 0.719, which is a remarkably clean relationship for social science data. A state's urban population share accounts for a substantial fraction of its astrological search activity.</p>
+<p>A multiple regression model combining urbanization, college graduation rate, and median income explains <strong>74.3% of state-level variation in astrological interest</strong> (R² = 0.743).</p>
+<blockquote>
+<p><em>Methodological note: Urbanization, education, and income are themselves correlated with each other. The model tells us these variables together predict astrological interest well, but cannot cleanly partition the effect across them.</em></p>
+</blockquote>
+<p><img alt="State-level astrological search interest vs. urbanization rate" src="images/project-04-figure-1.png"></p>
+<hr>
+<h2>🔍 What the Numbers Mean</h2>
+<h3>The Counterintuitive Finding</h3>
+<p>The most important result here is directional. Astrology interest is <strong>higher</strong> in more urban, more educated, higher-income states. This is the opposite of what a "folk superstition" framing would predict.</p>
+<p>If astrology were primarily a belief system of rural or less educated communities — as it is sometimes stereotyped — we would expect negative correlations with education and income, and weak correlations with urbanization. We find exactly the reverse: all three variables correlate positively with astrological engagement, and urbanization does so most strongly.</p>
+<p><strong>What this means:</strong> In 21st-century America, astrology is an urban cultural practice, embedded in wellness culture, identity-based spirituality, and the social milieus of educated young adults. It travels through the same networks that spread yoga, therapy culture, and progressive lifestyle branding. It is not primarily the belief of people "left behind by modernity" — it is, to a significant degree, <em>carried by</em> modernity's most mobile and culturally connected populations.</p>
+<h3>Education and Belief</h3>
+<p>The correlation between education and astrological interest might seem puzzling. Educated people are more likely to understand that astrology lacks a proven physical mechanism. But education also produces:<br>
+- More exposure to wellness and New Age frameworks through urban social networks<br>
+- Greater comfort with psychological frameworks (astrology as personality language)<br>
+- More disposable income and time for spiritual exploration</p>
+<p>The Pew data clarifies this: overall <em>belief</em> rates are lower than Google Trends <em>engagement</em> rates would suggest. Many urban, educated astrology consumers are curious participants rather than literal believers — using the framework for self-reflection and social connection rather than as a predictive oracle.</p>
+<h3>The Age Axis</h3>
+<p>The Pew data's age gradient (44% at 18–29 vs. 17% at 65+) compounds the geographic pattern. Young people are disproportionately urban, and they're also the most likely to believe. Whether the current 18–29 cohort will maintain their astrological engagement as they age is the most consequential unanswered question for astrology's cultural future — and cannot be answered from a cross-sectional survey.</p>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<ul>
+<li>Google Trends measures search interest, not practice or belief. Curiosity, skepticism, and genuine belief all show up in search data.</li>
+<li>The Google Trends data is approximate — cached state-level figures rather than live API output.</li>
+<li>Multicollinearity between urbanization, education, and income means we can't cleanly attribute the effect to any single factor.</li>
+<li>The survey data is US-only. Astrological belief patterns differ substantially in India, Western Europe, and other markets where astrology has different cultural positioning.</li>
+</ul>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>Astrological interest in the United States is not randomly distributed. It concentrates in urban, younger, educated, higher-income populations, with women significantly overrepresented. Three demographic variables together explain 74.3% of the state-level variation in search interest.</p>
+<p>The sociological conclusion: astrology in 21st-century America is not a rural folk belief persisting at the margins of modernity. It is an urban cultural practice, most prevalent in the same populations that lead trends in wellness, identity-based consumer behavior, and digital culture. Understanding astrology's contemporary role requires understanding that social context, not just the content of astrological tradition itself.</p>
+<p>Whether the practice is worth evaluating empirically — whether its technical claims have substance — is what the other 33 projects in this book address. What <em>this</em> project establishes is: the people doing the evaluating and the believing are not who you might have assumed.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

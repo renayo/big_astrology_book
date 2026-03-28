@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 26: Compatibility and Relationship Survival · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 26: Compatibility and Relationship Survival</span></div></nav>
+<main class="article"><div class="container"><h1>Project 26: Compatibility and Relationship Survival</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Does an aggregate "astrological compatibility score" — the sum of cosine similarities across all pairwise planetary interactions between two birth charts — predict relationship survival? Do couples with higher scores divorce less and stay together longer?</p>
+<p>This is the definitive test of the compatibility scoring concept at the heart of most astrology apps and services.</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Pop astrology apps output a single compatibility percentage. Match.com-style astrological filters operate on similar logic. Millions of people use these scores to evaluate potential partners, feel reassured or concerned about existing relationships, and make real decisions.</p>
+<p>The aggregate compatibility score concept deserves a rigorous test. This project builds the most defensible version of such a score — a mathematically rigorous, agnostic sum of cosine similarities across 100 planetary pair combinations — and tests it against 2,722 couples' relationship timelines.</p>
+<p>The result is one of the book's most decisive findings.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wikidata</td>
+<td>Spouse pairs with verified birth dates; relationship start/end dates; N = 2,722 couples</td>
+</tr>
+<tr>
+<td>Swiss Ephemeris</td>
+<td>Full planetary positions for all birth dates</td>
+</tr>
+<tr>
+<td><code>lifelines</code> (Python)</td>
+<td>Kaplan-Meier survival estimation</td>
+</tr>
+<tr>
+<td>scikit-learn ElasticNet</td>
+<td>Regularized regression to identify best-fit predictors</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The Compatibility Score:</strong><br>
+Interaction(P1, P2) = cos(θ_{P1,person1} − θ_{P2,person2})</p>
+<ul>
+<li><strong>+1.0</strong> = Conjunction (maximum "harmony")</li>
+<li><strong>−1.0</strong> = Opposition (maximum "tension")</li>
+</ul>
+<p>The <strong>Total Harmonic Score</strong> sums this across all 100 planetary pair combinations, producing a single aggregate compatibility number. This is the rigorous mathematical equivalent of what astrology apps produce.</p>
+<hr>
+<h2>📈 Results</h2>
+<h3>The Core Finding: r = 0.009</h3>
+<p><strong>Aggregate compatibility score correlation with relationship duration:</strong></p>
+<blockquote>
+<p><strong>r ≈ 0.009</strong> (N = 2,722)</p>
+</blockquote>
+<p>A Pearson correlation of 0.009 is, for practical purposes, zero. The aggregate compatibility score explains less than <strong>0.01% of variance</strong> in relationship duration. This is one of the book's most decisive null results.</p>
+<h3>Kaplan-Meier Survival Analysis</h3>
+<p>Couples were split at the median Total Harmonic Score (top 50% = "High Compatibility"; bottom 50% = "Low Compatibility"):</p>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>5-Year Survival Rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High Compatibility (Top 50%)</td>
+<td><strong>88.1%</strong></td>
+</tr>
+<tr>
+<td>Low Compatibility (Bottom 50%)</td>
+<td><strong>87.9%</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The two survival curves overlap <strong>perfectly across all 50+ years</strong> of relationship duration. A log-rank test finds no significant difference. High-compatibility couples and low-compatibility couples divorce at exactly the same rate.</p>
+<h3>The "Pluto Artifact" (Experiment V4)</h3>
+<p>When outer planets were included as features, the model appeared to achieve R² = 0.08 (8% explanatory power). But this was entirely a <strong>demographic artifact</strong>:</p>
+<ul>
+<li><strong>Pluto in Libra (negative predictor)</strong> → associated with shorter marriages</li>
+<li><strong>Pluto in Aries (positive predictor)</strong> → associated with longer marriages</li>
+</ul>
+<p>Pluto in Aries describes people born in the early 19th century; Pluto in Libra describes people born roughly 1971–1984. Historical couples (early 1800s) had longer marriages on average simply because <strong>divorce was less common, legally more difficult, and socially stigmatized in earlier centuries</strong>. The model learned that generation predicts marriage duration — not because of Pluto, but because of history.</p>
+<h3>Traditional Planets Only: Near-Zero (V5)</h3>
+<p>After removing all outer planets (Uranus, Neptune, Pluto) to eliminate the demographic confound:</p>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R²</td>
+<td><strong>0.01</strong></td>
+</tr>
+<tr>
+<td>Signal remaining</td>
+<td>Nearly zero</td>
+</tr>
+</tbody>
+</table>
+<p>All personal planet coefficients (Venus-Mars, Sun-Moon, Mars-Mars pairs) are shrunk to near zero by ElasticNet regularization. No specific aspect type predicts relationship longevity.</p>
+<h3>A Genuine Nuance: Specific Pair Analysis</h3>
+<p>Though the aggregate score fails entirely, a Kolmogorov-Smirnov analysis comparing long-term (&gt;35 years) vs. short-term (&lt;7 years) marriages found borderline-significant differences in two aspect distributions:</p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Short-Term Mean Cosine</th>
+<th>Long-Term Mean Cosine</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sun-Moon</strong></td>
+<td>−0.06</td>
+<td>+0.02</td>
+<td><strong>0.027</strong></td>
+</tr>
+<tr>
+<td><strong>Mars-Mars</strong></td>
+<td>−0.05</td>
+<td>+0.05</td>
+<td><strong>0.027</strong></td>
+</tr>
+<tr>
+<td>Venus-Mars</td>
+<td>−0.05</td>
+<td>−0.00</td>
+<td>0.33 (n.s.)</td>
+</tr>
+</tbody>
+</table>
+<p>Long-lasting couples show slightly more aligned Sun-Moon and Mars-Mars aspects. The effect is small but not zero — and it points to <em>specific pairs</em> carrying information that <em>aggregate scoring</em> destroys.</p>
+<hr>
+<h2>🔍 The Soup Metaphor: Why Aggregation Fails</h2>
+<p>This project's conceptual contribution is the <strong>Soup Metaphor</strong> of astrological compatibility scoring.</p>
+<p>When you blend a cup of coffee and a glass of orange juice and a spoonful of salt into a single liquid and taste the result, you get undifferentiated mush. The coffee flavor, the citrus acidity, the salt are all present — but the blending has destroyed the differential information.</p>
+<p>Similarly: averaging 100 planetary interactions into a single number destroys the differential information. A +1.0 Venus-Venus (deep value alignment) and a −1.0 Mars-Mars (constant friction in action and desire) <em>cancel out</em> in an aggregate score — yet both may be profoundly meaningful. The aggregate score is mathematically lossy: information that might have predictive value gets homogenized away before statistics even begin.</p>
+<p>The Sun-Moon and Mars-Mars results above suggest that differential analysis of specific pairs preserves signal that aggregation destroys. Don't make soup. Test individual ingredients.</p>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<ul>
+<li>r = 0.009 with N = 2,722: 95% CI ≈ [−0.028, +0.046] — entirely consistent with zero</li>
+<li>ElasticNet R² = 0.01 with ~100 predictors: regularization correctly prevents overfitting while confirming near-zero signal</li>
+<li>Survival analysis did not implement censoring for partner death (Cox model needed)</li>
+<li>Wikidata relationship data includes entry errors and ambiguous end-dates</li>
+</ul>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>After testing aggregate compatibility scoring against N = 2,722 couples with Kaplan-Meier survival analysis, ElasticNet regression, and five experimental variants, the verdict is unambiguous:</p>
+<p><strong>Aggregate astrological compatibility scoring does not predict relationship survival.</strong> r = 0.009. High- and low-compatibility couples divorce at identical rates. Survival curves overlap perfectly.</p>
+<p>The only apparent "signal" was a demographic artifact (Pluto generation marker). When removed, explanatory power collapses from 8% to 1%.</p>
+<p><strong>The aggregate score is not just wrong — it is methodologically broken.</strong> By summing all planetary interactions into one number, it destroys the differential information that might contain genuine signal.</p>
+<p>The Sun-Moon and Mars-Mars borderline results suggest that specific pair analysis — not aggregate scoring — is where any true compatibility signal might live. The take-away for anyone building astrological compatibility tools: don't make soup. Test the ingredients individually.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

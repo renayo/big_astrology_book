@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 15: Birth Order and Astrological Factors · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 15: Birth Order and Astrological Factors</span></div></nav>
+<main class="article"><div class="container"><h1>Project 15: Birth Order and Astrological Factors</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Does birth order correlate with astrological placements? Are firstborns, middle children, and youngest children astrologically distinguishable in their Sun sign distributions or planetary aspects?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Birth order psychology is well-established: firstborns tend to be more achievement-oriented, middles more diplomatic, youngest children more creative or rebellious. If astrology captures character, and birth order shapes character, there should be some intersection — unless astrology and birth order are encoding completely independent dimensions of personality.</p>
+<p>This project uses two very different datasets to approach the same question, each with distinct strengths and real limitations.</p>
+<hr>
+<h2>📊 Two Datasets, Two Strategies</h2>
+<h3>Dataset 1: Wisconsin Longitudinal Study (WLS)</h3>
+<p><strong>N = 34,762</strong> — tracking Wisconsin high school graduates from 1957 and their siblings. Provides birth year but not birth month or day.</p>
+<p><strong>Limitation:</strong> Without full dates, only slow outer planets can be analyzed. Inner planets cannot be determined from annual data.<br>
+<strong>Advantage:</strong> Large N and verified family structure data makes this the most reliable birth-order dataset in the study.</p>
+<h3>Dataset 2: Pantheon Project (Wikidata-enriched)</h3>
+<p><strong>N = 291</strong> globally famous historical figures with verified birth dates and documented birth order (via Wikidata SPARQL query).</p>
+<p><strong>Strength:</strong> Full birth dates enable Sun sign, elemental, and aspect analysis.<br>
+<strong>Limitations:</strong> Famous people are not a representative sample; firstborns may be overrepresented; Wikidata sibling data quality is uneven for historical figures.</p>
+<hr>
+<h2>📈 Results: WLS — The Saturn Shift</h2>
+<h3>Verified Astronomical Fact</h3>
+<p>Older siblings in a family are born in earlier years. Their outer planet positions differ from younger siblings simply because of birth year.</p>
+<table>
+<thead>
+<tr>
+<th>Planet</th>
+<th>1st-Born Mean (°)</th>
+<th>Sidereal Sign</th>
+<th>5th+ Born Mean (°)</th>
+<th>Sidereal Sign</th>
+<th>Total Shift</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Saturn</strong></td>
+<td>342°</td>
+<td><strong>Pisces</strong></td>
+<td>53°</td>
+<td><strong>Taurus</strong></td>
+<td><strong>+71°</strong></td>
+</tr>
+<tr>
+<td><strong>Uranus</strong></td>
+<td>14°</td>
+<td>Aries</td>
+<td>48°</td>
+<td>Taurus</td>
+<td>+34°</td>
+</tr>
+<tr>
+<td>Neptune</td>
+<td>140°</td>
+<td>Leo</td>
+<td>158°</td>
+<td>Leo</td>
+<td>+18°</td>
+</tr>
+<tr>
+<td>Pluto</td>
+<td>93°</td>
+<td>Cancer</td>
+<td>105°</td>
+<td>Cancer</td>
+<td>+12°</td>
+</tr>
+</tbody>
+</table>
+<p>The Saturn Shift is the dominant finding: firstborns in the WLS cohort cluster around Saturn in Pisces (Sidereal); their youngest siblings have Saturn in Taurus. This is a span of ~71° — more than two full signs — reflecting the typical 10–15 year age range in large mid-century families.</p>
+<p><strong>What this means (and doesn't mean):</strong> The Saturn Shift is a verified astronomical fact, not an astrological claim. Siblings born in different years <em>literally have different Saturn signs</em>. Whether Saturn in Pisces produces different character than Saturn in Taurus is a separate question — this data confirms the former but cannot test the latter.</p>
+<hr>
+<h2>📈 Results: Pantheon — Elemental and Aspect Patterns</h2>
+<h3>Sun Sign Elemental Distribution (Sidereal)</h3>
+<table>
+<thead>
+<tr>
+<th>Birth Order</th>
+<th>N</th>
+<th>Fire %</th>
+<th>Earth %</th>
+<th>Air %</th>
+<th>Water %</th>
+<th>Dominant Element</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Firstborn</strong></td>
+<td>115</td>
+<td><strong>37.4%</strong></td>
+<td>25.2%</td>
+<td>22.6%</td>
+<td>14.8%</td>
+<td><strong>Fire</strong></td>
+</tr>
+<tr>
+<td>Middle</td>
+<td>93</td>
+<td>22.6%</td>
+<td>32.3%</td>
+<td>24.7%</td>
+<td>20.4%</td>
+<td>Earth</td>
+</tr>
+<tr>
+<td><strong>Youngest</strong></td>
+<td>62</td>
+<td>12.9%</td>
+<td><strong>41.9%</strong></td>
+<td>30.6%</td>
+<td>14.5%</td>
+<td><strong>Earth</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Firstborns show Fire dominance (37.4% vs. 25% expected).</strong> Aries and Sagittarius are the top individual signs (16.5% and 13.0%). This aligns with astrological archetypes of Fire as initiative, leadership, and assertion — consistent with psychological literature on firstborn leadership orientation.</p>
+<p><strong>Youngest children show Earth dominance (41.9%).</strong> Capricorn, Virgo lead. Earth's practicality and groundedness challenge the "spoiled youngest" stereotype.</p>
+<blockquote>
+<p><em>Statistical caveat: Cell counts are small (N=62 youngest children). These patterns are descriptive and exploratory — not corrected for multiple testing.</em></p>
+</blockquote>
+<h3>Sun-Saturn Aspects (Structure and Responsibility)</h3>
+<table>
+<thead>
+<tr>
+<th>Birth Order</th>
+<th>Hard Aspect %</th>
+<th>Soft Aspect %</th>
+<th>No Aspect %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Firstborn</td>
+<td>18.3%</td>
+<td>19.1%</td>
+<td>62.6%</td>
+</tr>
+<tr>
+<td>Middle</td>
+<td>10.8%</td>
+<td>12.9%</td>
+<td>76.3%</td>
+</tr>
+<tr>
+<td><strong>Youngest</strong></td>
+<td><strong>25.8%</strong></td>
+<td>17.7%</td>
+<td>56.5%</td>
+</tr>
+</tbody>
+</table>
+<p>The youngest children show the highest rate of hard Sun-Saturn aspects (25.8%) — nearly double the middle children (10.8%). Counterintuitive: conventional stereotypes assign Saturnian burden to the responsible firstborn. The data suggests youngest children in high-achieving families may face the heaviest structural friction.</p>
+<p>One interpretation: youngest children in families where older siblings have already distinguished themselves may face the most competitive pressure — a Saturnian burden of comparison and self-proving. Speculative without psychological data to test it.</p>
+<h3>Sun-Jupiter Aspects (Luck and Expansion)</h3>
+<table>
+<thead>
+<tr>
+<th>Birth Order</th>
+<th>Soft Jupiter Aspect %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Firstborn</td>
+<td>13.9%</td>
+</tr>
+<tr>
+<td><strong>Middle</strong></td>
+<td><strong>17.2%</strong></td>
+</tr>
+<tr>
+<td>Youngest</td>
+<td>11.3%</td>
+</tr>
+</tbody>
+</table>
+<p>Middle children show the highest rate of soft Jupiter aspects (17.2%) — loosely consistent with their diplomatic, flow-seeking reputation. Small effect, not statistically robust.</p>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<p>This project runs analyses across two datasets, two zodiac systems, three birth order categories, twelve signs, four elements, and two aspect types. The number of implicit tests exceeds 50. Several "significant" patterns are expected by chance.</p>
+<p>All exploratory findings here — firstborn Fire dominance, youngest Saturn friction — were not pre-specified. They should be treated as hypotheses generated by this study, not confirmed results.</p>
+<p>The most valuable contribution is methodological: using Wikidata SPARQL to construct a novel birth-order dataset for famous historical figures is genuinely new, enabling astrological analysis that wasn't previously possible at this scale.</p>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p><strong>What was demonstrated:</strong></p>
+<ol>
+<li>
+<p><strong>The WLS Saturn Shift is a real, verified astronomical phenomenon.</strong> Older siblings in mid-century American families have different Saturn signs than younger siblings — a direct consequence of birth year, confirmed with high precision.</p>
+</li>
+<li>
+<p><strong>In the Pantheon dataset, firstborns show elevated Fire sign prevalence</strong> (37.4% vs. ~25% expected, Sidereal), consistent with leadership archetypes.</p>
+</li>
+<li>
+<p><strong>Youngest children show elevated hard Saturn aspects</strong> (25.8%) — opposite of the "pampered youngest" stereotype.</p>
+</li>
+<li>
+<p><strong>Middle children show the highest soft Jupiter aspect rate</strong> (17.2%) — consistent with their diplomatic reputation.</p>
+</li>
+</ol>
+<p><strong>What was not demonstrated:</strong> Whether any of these patterns are causally astrological, reflect selection bias in who becomes famous by birth order, or are sampling artifacts. The Pantheon N=291 is adequate for exploration but not confirmation.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

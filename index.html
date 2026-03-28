@@ -7,29 +7,24 @@
   <meta name="description" content="48 computational astrology experiments by Renay Oshop — empirical, statistical, transparent. Positive results, null results, and everything in between.">
   <style>
     :root {
-      --bg:        #0d0f1e;
-      --bg-alt:    #111428;
-      --bg-card:   #161930;
-      --border:    rgba(255,255,255,0.08);
-      --gold:      #d4af37;
-      --gold-dim:  rgba(212,175,55,0.15);
-      --cream:     #f0e6d3;
-      --cream-dim: rgba(240,230,211,0.7);
-      --cream-mut: rgba(240,230,211,0.4);
-      --positive:  #4caf7d;
-      --null:      #e05c5c;
-      --mixed:     #e8a838;
-      --soon:      #7a8ab0;
-      --incomplete:#9b59b6;
-      --font-display: 'Georgia', serif;
-      --font-body:    system-ui, -apple-system, sans-serif;
+      --bg:          #faf8f4;
+      --bg-alt:      #f3f0ea;
+      --bg-card:     #ffffff;
+      --border:      #e0dbd0;
+      --border-dark: #c8c0b0;
+      --ink:         #1e1a14;
+      --ink-dim:     #4a4438;
+      --ink-mut:     #8a8070;
+      --gold:        #8a6d00;
+      --gold-bg:     #fdf6e0;
+      --gold-border: #e0c860;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       background: var(--bg);
-      color: var(--cream);
+      color: var(--ink);
       font-family: var(--font-body);
       font-size: 15px;
       line-height: 1.7;
@@ -58,13 +53,13 @@
       font-family: var(--font-display);
       font-size: clamp(2rem, 5vw, 3.2rem);
       font-weight: 400;
-      color: var(--cream);
+      color: var(--ink);
       margin-bottom: 1rem;
       line-height: 1.25;
     }
     .hero h1 em { color: var(--gold); font-style: italic; }
     .hero-sub {
-      color: var(--cream-dim);
+      color: var(--ink-dim);
       font-size: 1.05rem;
       max-width: 600px;
       margin: 0 auto 2rem;
@@ -75,7 +70,7 @@
       justify-content: center;
       flex-wrap: wrap;
       font-size: 0.85rem;
-      color: var(--cream-mut);
+      color: var(--ink-mut);
     }
     .hero-meta span { display: flex; align-items: center; gap: 0.4rem; }
 
@@ -98,13 +93,13 @@
       font-size: 0.72rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
-      color: var(--cream-mut);
+      color: var(--ink-mut);
       margin-right: 0.4rem;
     }
     .filter-btn {
       background: transparent;
       border: 1px solid var(--border);
-      color: var(--cream-dim);
+      color: var(--ink-dim);
       padding: 0.3rem 0.9rem;
       border-radius: 20px;
       cursor: pointer;
@@ -134,7 +129,7 @@
       font-family: var(--font-display);
       font-size: 1.8rem;
       font-weight: 400;
-      color: var(--cream);
+      color: var(--ink);
     }
     .section-title em { color: var(--gold); font-style: italic; }
 
@@ -161,7 +156,7 @@
       font-size: 0.72rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: var(--cream-mut);
+      color: var(--ink-mut);
       padding: 0.6rem 0.8rem;
       border-bottom: 1px solid var(--border);
     }
@@ -177,24 +172,24 @@
       font-size: 0.88rem;
     }
     .project-num {
-      color: var(--cream-mut);
+      color: var(--ink-mut);
       font-family: monospace;
       font-size: 0.82rem;
       width: 42px;
     }
     .project-title {
-      color: var(--cream);
+      color: var(--ink);
       font-weight: 500;
       line-height: 1.4;
     }
-    .project-title a { color: var(--cream); }
+    .project-title a { color: var(--ink); }
     .project-title a:hover { color: var(--gold); }
     .project-domain {
-      color: var(--cream-mut);
+      color: var(--ink-mut);
       font-size: 0.8rem;
     }
     .project-note {
-      color: var(--cream-dim);
+      color: var(--ink-dim);
       font-size: 0.8rem;
       line-height: 1.5;
     }
@@ -226,13 +221,13 @@
       font-weight: 400;
     }
     .theme-card p {
-      color: var(--cream-dim);
+      color: var(--ink-dim);
       font-size: 0.85rem;
       line-height: 1.7;
     }
     .theme-card ul {
       margin: 0.6rem 0 0 1rem;
-      color: var(--cream-dim);
+      color: var(--ink-dim);
       font-size: 0.83rem;
       line-height: 1.8;
     }
@@ -259,7 +254,7 @@
       margin-bottom: 0.5rem;
     }
     .reading-card p {
-      color: var(--cream-dim);
+      color: var(--ink-dim);
       font-size: 0.82rem;
       line-height: 1.6;
     }
@@ -272,7 +267,7 @@
       text-align: center;
     }
     footer p {
-      color: var(--cream-mut);
+      color: var(--ink-mut);
       font-size: 0.82rem;
     }
     footer a { color: var(--gold); }
@@ -285,7 +280,7 @@
       align-items: center;
       margin-bottom: 1.25rem;
       font-size: 0.8rem;
-      color: var(--cream-mut);
+      color: var(--ink-mut);
     }
     .legend span { display: flex; align-items: center; gap: 0.35rem; }
 

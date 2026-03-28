@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 11: Longitudinal Health and Longevity · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 11: Longitudinal Health and Longevity</span></div></nav>
+<main class="article"><div class="container"><h1>Project 11: Longitudinal Health and Longevity</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Do natal astrological factors — Sun sign, elemental emphasis, Saturn aspects — predict longevity or death timing in a large dataset of celebrity deaths? Does the birthday effect (dying near one's solar return) hold up? And do planets in traditional "malefic" positions shorten lives?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Medical astrology is one of the oldest branches of the tradition. Ptolemy wrote extensively about astrological indicators of health and lifespan. The modern claim — that certain planetary configurations "afflict" health while others protect it — has never been rigorously tested on a large, verified dataset.</p>
+<p>This project uses 936 celebrity deaths with verified birth and death dates to test whether any astrological factor predicts lifespan, death timing, or age at death.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N</td>
+<td><strong>936 verified celebrity deaths</strong></td>
+</tr>
+<tr>
+<td>Date range</td>
+<td>Deaths 1929–2024</td>
+</tr>
+<tr>
+<td>Birth data quality</td>
+<td>AstroDatabank / Wikipedia, verified birth dates</td>
+</tr>
+<tr>
+<td>Method</td>
+<td>Cosine similarity of planet position at death vs. natal position</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cosine interpretation for planetary timing:</strong><br>
+- <strong>+1.0</strong> = Planetary Return (planet at same zodiacal position as at birth)<br>
+- <strong>−1.0</strong> = Opposition (planet at opposite natal position)<br>
+- <strong>0.0</strong> = Random (planet at 90° from natal position)</p>
+<hr>
+<h2>📈 Results</h2>
+<h3>1. Planetary Timing of Death</h3>
+<table>
+<thead>
+<tr>
+<th>Planet</th>
+<th>Mean Cosine</th>
+<th>p-value</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sun</strong></td>
+<td>+0.011</td>
+<td>0.628</td>
+<td><strong>No birthday effect</strong></td>
+</tr>
+<tr>
+<td>Moon</td>
+<td>−0.049</td>
+<td>0.038*</td>
+<td>Slight tendency to die at Moon Opposition</td>
+</tr>
+<tr>
+<td>Mercury</td>
+<td>+0.046</td>
+<td>0.042*</td>
+<td>Slight tendency near Mercury Return</td>
+</tr>
+<tr>
+<td>Saturn</td>
+<td>+0.136</td>
+<td>&lt;0.001*</td>
+<td><strong>Age artifact — see below</strong></td>
+</tr>
+<tr>
+<td>Uranus</td>
+<td>+0.226</td>
+<td>&lt;0.001*</td>
+<td><strong>Age artifact — see below</strong></td>
+</tr>
+<tr>
+<td>Neptune</td>
+<td>−0.590</td>
+<td>&lt;0.001*</td>
+<td><strong>Age artifact — see below</strong></td>
+</tr>
+<tr>
+<td>Pluto</td>
+<td>−0.420</td>
+<td>&lt;0.001*</td>
+<td><strong>Age artifact — see below</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>2. ⚠️ The Critical Artifact: Age and Planetary Cycles</h3>
+<p>The most dramatic results — Saturn, Uranus, Neptune, Pluto — are <strong>not astrological findings</strong>. They are mathematical consequences of human lifespan combined with planetary periods.</p>
+<p><strong>Saturn Return at ages ~29, ~58, ~88:</strong> Most people die between ages 60–90. This overlaps heavily with the second and third Saturn returns. The "Saturn Conjunction" effect at death simply means most people die at ages when Saturn happens to be near its natal position.</p>
+<p><strong>Uranus Return at age ~84:</strong> Uranus completes one orbit in ~84 years. Its return therefore occurs at approximately the median death age in a celebrity dataset. The high positive cosine for Uranus is a tautology: people die at ~84, and at ~84, Uranus is completing its return.</p>
+<p><strong>Neptune Opposition at age ~82:</strong> Neptune takes ~165 years; its Opposition falls around age 82–83 — near the mode of celebrity deaths.</p>
+<p><strong>None of these outer-planet signals should be interpreted astrologically.</strong> They are precise artifacts of the demographic distribution of death ages combined with known planetary periods.</p>
+<h3>3. The Birthday Effect: Definitively Absent</h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Observed</th>
+<th>Expected (random)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mean days from birthday at death</td>
+<td>90.4 days</td>
+<td>91.2 days</td>
+</tr>
+<tr>
+<td>Deaths within 7 days of birthday</td>
+<td>4.0%</td>
+<td>3.8%</td>
+</tr>
+<tr>
+<td>Correlation of death DOY with birth DOY</td>
+<td>r = −0.006</td>
+<td>—</td>
+</tr>
+<tr>
+<td>p-value</td>
+<td><strong>0.865</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Deaths are uniformly distributed throughout the year relative to birthdays.</strong> The folk belief that people die near their birthdays is not supported in this dataset.</p>
+<h3>4. Sun Sign and Longevity</h3>
+<table>
+<thead>
+<tr>
+<th>Sign</th>
+<th>Mean Age at Death</th>
+<th>Deviation from Average (66 yrs)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cancer</td>
+<td>70.9</td>
+<td>+4.9 yrs</td>
+</tr>
+<tr>
+<td>Taurus</td>
+<td>68.6</td>
+<td>+2.6 yrs</td>
+</tr>
+<tr>
+<td>…</td>
+<td>…</td>
+<td>…</td>
+</tr>
+<tr>
+<td>Aquarius</td>
+<td>62.9</td>
+<td>−3.1 yrs</td>
+</tr>
+<tr>
+<td>Scorpio</td>
+<td>61.9</td>
+<td>−4.1 yrs</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Chi-square: p = 0.964.</strong> The variation between signs is entirely consistent with random sampling from the same underlying distribution.</p>
+<h3>5. Elemental Longevity</h3>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Mean Age at Death</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Earth</td>
+<td>66.5</td>
+</tr>
+<tr>
+<td>Fire</td>
+<td>66.0</td>
+</tr>
+<tr>
+<td>Water</td>
+<td>66.1</td>
+</tr>
+<tr>
+<td>Air</td>
+<td>65.4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>ANOVA p = 0.957.</strong> No significant difference.</p>
+<h3>6. Saturn Aspects and Longevity</h3>
+<p>Traditional medical astrology holds that Saturn "afflictions" (hard aspects to Sun or Moon) shorten life. The data:</p>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Mean Age at Death</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hard Saturn-Sun or Moon aspect</td>
+<td>66.3 yrs</td>
+<td>0.71</td>
+</tr>
+<tr>
+<td>No hard Saturn aspect</td>
+<td>65.8 yrs</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Not significant. The 0.5-year difference is within noise.</p>
+<h3>7. The Fast-Planet Signals</h3>
+<p>After discarding all outer-planet results as age artifacts, two fast-planet findings at p &lt; 0.05:</p>
+<ul>
+<li><strong>Moon Opposition at death</strong> (mean cosine −0.049, p = 0.038)</li>
+<li><strong>Mercury Return at death</strong> (mean cosine +0.046, p = 0.042)</li>
+</ul>
+<p>These planets move quickly enough to avoid the age confound (Moon: 27 days per cycle; Mercury: 88 days). If real, they represent genuine timing signals — small ones.</p>
+<p>However: two significant results from 11 planetary tests is exactly what would be expected by chance at α = 0.05. These findings are not Bonferroni-corrected and should be treated as hypothesis-generating only.</p>
+<hr>
+<h2>🔍 What the Numbers Mean</h2>
+<p>The clean takeaway: <strong>no natal astrological factor predicts lifespan or death timing in this dataset.</strong></p>
+<ul>
+<li>Sun sign has no effect on lifespan (p = 0.964)</li>
+<li>Elements have no effect (p = 0.957)</li>
+<li>Saturn "afflictions" don't shorten life (p = 0.71)</li>
+<li>The birthday effect doesn't exist (p = 0.865)</li>
+<li>Outer planet timing at death reflects mortality demographics, not astrology</li>
+</ul>
+<p>The two marginal fast-planet findings (Moon, Mercury at p ≈ 0.04) are interesting but unconfirmed at corrected thresholds. They need pre-registered replication on an independent death dataset.</p>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<ul>
+<li><strong>Original design (UK Biobank)</strong> was not achievable — formal data access was required and not obtained. The celebrity death analysis is a valid alternative but not the gold-standard design.</li>
+<li><strong>Celebrity selection bias:</strong> Famous people are not representative mortality samples. They may have better healthcare access, more public scrutiny of risk behaviors, and different SES characteristics.</li>
+<li><strong>Survival analysis not implemented:</strong> People still alive at data collection should be censored, not excluded.</li>
+<li>UK Biobank-style analysis (500K people, disease onset, SES controls) remains the ideal dataset for medical astrology claims.</li>
+</ul>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>Across 936 celebrity deaths, no evidence was found that natal astrological factors predict longevity or death timing:</p>
+<ul>
+<li><strong>Birthday effect:</strong> Absent</li>
+<li><strong>Sun signs:</strong> No effect (p = 0.964)</li>
+<li><strong>Elements:</strong> No effect (p = 0.957)</li>
+<li><strong>Saturn afflictions:</strong> No effect (p = 0.71)</li>
+<li><strong>Outer planet timing:</strong> Strong signals that are entirely explained by age demographics</li>
+</ul>
+<p>The most honest summary: this dataset finds no evidence for astrological effects on lifespan. The apparent signals in outer-planet timing are precisely what you'd predict from mortality demographics alone, with no astrology involved.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

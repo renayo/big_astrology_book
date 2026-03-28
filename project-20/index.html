@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 20: Astrological Rule Discovery in Celebrity Charts · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 20: Astrological Rule Discovery in Celebrity Charts</span></div></nav>
+<main class="article"><div class="container"><h1>Project 20: Astrological Rule Discovery in Celebrity Charts</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Among all possible planet-sign combinations, which appear significantly more often in the charts of high-achieving celebrities than chance predicts? Does the data support or challenge the traditional doctrine that "dignified planets = success"?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Rather than testing a specific pre-existing astrological rule, this project asks the data-driven question: <em>if we scan every planet in every sign across both zodiacs, what anomalies actually exist?</em></p>
+<p>The findings add a third data point to the <strong>Hardship Hypothesis</strong> developing across this book — the convergent finding that exceptional achievers tend to carry "difficult" astrological placements rather than the "strong" ones traditional theory predicts.</p>
+<hr>
+<h2>📊 The Data</h2>
+<ul>
+<li><strong>Dataset:</strong> 86 high-profile celebrities across six fields: Science, Arts, Politics, Sports, Literature, Philosophy</li>
+<li><strong>Same verified birth data as Project 06</strong> (Rodden Rating AA/A equivalents)</li>
+<li><strong>Planets analyzed:</strong> Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, Rahu (North Node), Ketu (South Node)</li>
+<li><strong>Total bins tested:</strong> 13 bodies × 12 signs × 2 zodiacs = <strong>312 combinations</strong></li>
+<li><strong>Expected frequency at random:</strong> 1/12 = <strong>8.3%</strong> per bin</li>
+</ul>
+<blockquote>
+<p><em>Multiple testing caveat: With 312 combinations tested at p&lt;0.05, we expect ~16 false positives by chance alone. Findings below the Bonferroni-corrected threshold of p &lt; 0.00016 should be treated as potentially robust; findings below p&lt;0.05 but above 0.00016 require replication.</em></p>
+</blockquote>
+<hr>
+<h2>📈 Results</h2>
+<h3>Tropical Zodiac: Top Personal Planet Anomalies</h3>
+<table>
+<thead>
+<tr>
+<th>Planet</th>
+<th>Sign</th>
+<th>Observed %</th>
+<th>Expected %</th>
+<th>Ratio</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mars</strong></td>
+<td><strong>Libra</strong></td>
+<td><strong>18.6%</strong></td>
+<td>8.3%</td>
+<td><strong>2.2×</strong></td>
+<td>✓ Significant</td>
+</tr>
+<tr>
+<td>Moon</td>
+<td>Sagittarius</td>
+<td>16.3%</td>
+<td>8.3%</td>
+<td>2.0×</td>
+<td>Borderline</td>
+</tr>
+<tr>
+<td>Sun</td>
+<td>Cancer</td>
+<td>14.0%</td>
+<td>8.3%</td>
+<td>1.7×</td>
+<td>Borderline</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Binomial test for Mars in Libra:</strong> P(≥16 out of 86 with p=0.0833) ≈ p &lt; 0.003. Statistically significant, approaching the Bonferroni-corrected threshold.</p>
+<h3>⚠️ Generational Artifact</h3>
+<table>
+<thead>
+<tr>
+<th>Planet</th>
+<th>Sign</th>
+<th>Observed %</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pluto</td>
+<td>Leo</td>
+<td>26.7%</td>
+<td>Baby Boomer generation (born 1939–1957) dominates the celebrity list</td>
+</tr>
+</tbody>
+</table>
+<p>Pluto was in Leo from roughly 1939–1957 — covering the birth years of the majority of this celebrity dataset. This is a demographic artifact, not an astrological signal. Any slowly-moving planet (Uranus, Neptune, Pluto) must be tested against a cohort-matched baseline.</p>
+<h3>Vedic (Sidereal) Zodiac: Top Personal Planet Anomalies</h3>
+<table>
+<thead>
+<tr>
+<th>Planet</th>
+<th>Sign</th>
+<th>Observed %</th>
+<th>Expected %</th>
+<th>Ratio</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Moon</strong></td>
+<td><strong>Scorpio</strong></td>
+<td><strong>17.4%</strong></td>
+<td>8.3%</td>
+<td><strong>2.1×</strong></td>
+<td>✓ Significant</td>
+</tr>
+<tr>
+<td>Mars</td>
+<td>Virgo</td>
+<td>17.4%</td>
+<td>8.3%</td>
+<td>2.1×</td>
+<td>Borderline</td>
+</tr>
+<tr>
+<td>Jupiter</td>
+<td>Taurus</td>
+<td>15.1%</td>
+<td>8.3%</td>
+<td>1.8×</td>
+<td>Borderline</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Binomial test for Moon in Scorpio:</strong> P(≥15 out of 86 with p=0.0833) ≈ p &lt; 0.005. Significant, though not Bonferroni-corrected.</p>
+<h3>Lunar Nodes: Null</h3>
+<p>In both zodiacs, Rahu and Ketu showed no significant clustering. The highest observed frequencies were ~11.6% — elevated but within normal sampling variation for N=86. The "karmic destiny points" of Vedic tradition show no anomalous distribution in this celebrity dataset.</p>
+<hr>
+<h2>🔍 The Hardship Hypothesis</h2>
+<p>The two strongest personal-planet signals — Mars in Libra (Tropical) and Moon in Scorpio (Vedic) — share a striking property: <strong>both are positions of debility in their respective systems.</strong></p>
+<ul>
+<li><strong>Mars in Libra (Tropical):</strong> Mars is in <em>Detriment</em> — its weakest placement, opposite its home sign Aries. Traditional astrology predicts difficulty, inhibition, frustrated drive.</li>
+<li><strong>Moon in Scorpio (Vedic):</strong> Moon is <em>Neecha</em> (debilitated) — its fall position in Jyotish. Traditional astrology predicts emotional turbulence and struggle.</li>
+</ul>
+<p>Yet both appear at roughly <strong>2× expected frequency</strong> in a cohort of exceptionally high achievers.</p>
+<p>This is the third independent convergence on the same pattern:<br>
+- <strong>Project 06:</strong> Harmonic tension (H4 Squares) is elevated in high achievers, not ease (H3 Trines)<br>
+- <strong>Project 14:</strong> Scientists have the most debilitated Tropical charts of any group (mean −3.15)<br>
+- <strong>Project 20 (this study):</strong> The two strongest celebrity placements are planets in their traditional positions of weakness</p>
+<p>Three different methodologies — harmonic analysis, dignity scoring, and frequency scanning — all point in the same direction: the charts of high achievers carry more astrological "friction" than ease. If astrological positions encode anything real about psychological drive, the encoding may run <em>against</em> traditional predictions.</p>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<ul>
+<li><strong>N=86</strong> is adequate for detecting 2× anomalies but insufficient for subtler signals. A replication with N=500+ would provide substantially more power.</li>
+<li><strong>Demographic confound:</strong> The Baby Boomer skew means any planet spending 15+ years in one sign will be artifactually elevated. Mars and Moon are less susceptible to this (Mars changes sign every ~45 days; Moon every 2.5 days in Vedic context).</li>
+<li><strong>Selection:</strong> The 86 celebrities were not randomly sampled from all high achievers — they were selected for recognizability and field diversity.</li>
+<li><strong>Correlation vs. causation:</strong> Mars in Libra correlates with celebrity in this dataset. Many thousands of people born with Mars in Libra are not globally famous.</li>
+</ul>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>An exhaustive scan of 312 planet-sign combinations across 86 celebrities identifies two statistically meaningful anomalies:</p>
+<ol>
+<li><strong>Mars in Libra (Tropical, 18.6%)</strong> — Mars in its traditional position of weakness, at 2.2× expected frequency</li>
+<li><strong>Moon in Scorpio (Vedic, 17.4%)</strong> — Moon in its traditional fall, at 2.1× expected frequency</li>
+</ol>
+<p>Both violate the "dignified planets = success" doctrine. Both align with the Hardship Hypothesis: the astrological friction of debility may be more associated with driven, high-achieving personalities than the ease of dignity.</p>
+<p>Whether this reflects something real about the psychology of driven individuals — or is an artifact of this specific 86-person sample — requires larger, more carefully designed replication.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

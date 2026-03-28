@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 25: Fixed Stars and Natal Interpretation · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 25: Fixed Stars and Natal Interpretation</span></div></nav>
+<main class="article"><div class="container"><h1>Project 25: Fixed Stars and Natal Interpretation</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Do major fixed stars — among the most ancient indicators in astrological tradition — show elevated "intensity" in the birth charts of individuals grouped by cause of fame, death, or biographical category? Do Regulus, Aldebaran, Algol, and the other Royal Stars carry the associations that tradition assigns to them?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Fixed stars are astrology's most neglected domain in statistical research. The four Royal Stars — Aldebaran, Regulus, Antares, Fomalhaut — have carried astrological weight since Babylonian times. The tradition assigns them specific character effects: Regulus brings leadership and warns against revenge; Algol brings intense, tumultuous energy; Spica brings unearned brilliance.</p>
+<p>These associations have almost never been subjected to population-level quantitative analysis. With N=936 celebrity charts, this project applies a methodologically improved approach and asks whether the symbolic traditions attached to these stars have any empirical grounding.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Celebrity Dataset</td>
+<td>~936 public figures, biographical metadata (fate categories)</td>
+</tr>
+<tr>
+<td>Fixed Star Catalog</td>
+<td>12 major fixed stars; positions from Yale Bright Star Catalog via Swiss Ephemeris</td>
+</tr>
+<tr>
+<td>Swiss Ephemeris</td>
+<td>Planetary positions for 12 bodies (Sun through Pluto + Nodes)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The 12 Fixed Stars Analyzed:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Star</th>
+<th>Approx. Position</th>
+<th>Traditional Association</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Algol</td>
+<td>26° Taurus</td>
+<td>Intense passion, dramatic fate</td>
+</tr>
+<tr>
+<td>Aldebaran</td>
+<td>9° Gemini</td>
+<td>Honor, courage, public success (Royal Star)</td>
+</tr>
+<tr>
+<td>Rigel</td>
+<td>16° Gemini</td>
+<td>Technical skill, education, wealth</td>
+</tr>
+<tr>
+<td>Capella</td>
+<td>21° Gemini</td>
+<td>Curiosity, speed, freedom</td>
+</tr>
+<tr>
+<td>Sirius</td>
+<td>14° Cancer</td>
+<td>Ambition, fame, creative power</td>
+</tr>
+<tr>
+<td>Regulus</td>
+<td>29° Leo / 0° Virgo</td>
+<td>Nobility, leadership — warns against revenge (Royal Star)</td>
+</tr>
+<tr>
+<td>Spica</td>
+<td>23° Libra</td>
+<td>Brilliance, artistic gifts, unearned success</td>
+</tr>
+<tr>
+<td>Antares</td>
+<td>9° Sagittarius</td>
+<td>Intensity, obsession, crises (Royal Star)</td>
+</tr>
+<tr>
+<td>Vega</td>
+<td>15° Capricorn</td>
+<td>Charismatic, magical influence</td>
+</tr>
+<tr>
+<td>Altair</td>
+<td>1° Aquarius</td>
+<td>Boldness, risk-taking, commercial success</td>
+</tr>
+<tr>
+<td>Fomalhaut</td>
+<td>3° Pisces</td>
+<td>Spirituality, ideals (Royal Star)</td>
+</tr>
+<tr>
+<td>Deneb</td>
+<td>5° Pisces</td>
+<td>Genius, intellectual leadership</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>🔬 Method: Cosine Intensity</h2>
+<p>Traditional fixed star analysis uses binary orb cutoffs (a conjunction within X degrees counts; outside, it doesn't). This project replaces binary orbs with <strong>cosine intensity</strong>:</p>
+<p><strong>Intensity = cos(δ)</strong> where <strong>δ = |θ_planet − θ_star|</strong></p>
+<table>
+<thead>
+<tr>
+<th>Intensity</th>
+<th>Angular Separation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.000</td>
+<td>0° (exact conjunction)</td>
+</tr>
+<tr>
+<td>~0.999</td>
+<td>Within ~2.5°</td>
+</tr>
+<tr>
+<td>~0.966</td>
+<td>Within ~15°</td>
+</tr>
+</tbody>
+</table>
+<p>A high-pass filter removes very wide separations, and remaining intensities are <strong>summed</strong> across all 12 planetary bodies. This rewards tight conjunctions exponentially more than loose ones — reflecting how traditional astrologers actually think about exactitude.</p>
+<p>Z-scores compare each category's mean intensity to the permuted null distribution (shuffled category labels, fixed birth charts).</p>
+<hr>
+<h2>📈 Key Findings</h2>
+<h3>Statistically Significant Results (|Z| &gt; 2.0)</h3>
+<h4>1. Cancer Diagnosis &amp; Altair: Z = −2.32 (p ≈ 0.024)</h4>
+<p>Individuals who died of cancer show a <strong>significantly lower</strong> mean Altair intensity than chance. Altair is traditionally associated with boldness, climbing ambition, and commercial success — its <em>absence</em> in cancer-death charts is an avoidance pattern. The direction is symbolically coherent: Altair's bold, expansive energy may map inversely to the circumstances of cancer.</p>
+<h4>2. Overdose Deaths &amp; Regulus: Z = +2.26 (p ≈ 0.030)</h4>
+<p>Individuals who died of drug overdose show a <strong>significantly higher</strong> Regulus intensity than chance. Regulus is the Royal Star most associated with both great heights and dramatic falls — "the lion's heart" that warns against revenge and excess. Its elevated presence in overdose charts is consistent with the traditional symbolism: the person who reaches the heights and then falls.</p>
+<p>This is the study's most provocative finding. Regulus and overdose deaths — the conjunction of lions and destruction — is archetypally precise.</p>
+<h4>3. Homicide Deaths &amp; Altair: Z = +2.07 (p ≈ 0.042)</h4>
+<p>Individuals who died of homicide show a <strong>higher</strong> Altair connection than expected — the inverse of the cancer pattern for the same star. Altair's boldness and risk-taking may map differently onto violent death than onto chronic disease death.</p>
+<h3>Heatmap Results</h3>
+<p>Category-level heatmaps were generated for all biographical categories across all 12 stars. Key visual patterns:</p>
+<ul>
+<li><strong>Politicians and Regulus:</strong> Moderate elevated intensity (consistent with leadership symbolism)</li>
+<li><strong>Scientists and Rigel:</strong> Slight above-average connection (consistent with technical skill)</li>
+<li><strong>Arts and Spica:</strong> Mixed — no clear elevation (challenges "artistic gifts" association)</li>
+<li><strong>Sports and Antares:</strong> No clear elevation (challenges "competitive intensity")</li>
+</ul>
+<p>Most category-star combinations show <strong>no systematic pattern</strong> — the heatmaps are largely uniform, with the three significant results standing out against a background of null findings.</p>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<p><strong>Multiple testing:</strong> With 12 stars × 12 planets × 6+ categories × 2 zodiacs, hundreds of comparisons were implicitly made. A Bonferroni correction for 100 tests requires p &lt; 0.0005 — the three results (p ≈ 0.02–0.04) do not survive this. Under FDR correction, they remain candidates for exploratory retention.</p>
+<p><strong>Precession not fully corrected:</strong> Fixed star positions shift ~1° every 72 years. For charts spanning the 19th and 20th centuries, this introduces ~1–2° systematic position offsets. The analysis uses epoch 2000.0 positions.</p>
+<p><strong>Ecliptic latitude ignored:</strong> Stars at high ecliptic latitude (Vega at ~+62°) are rarely conjunct any planet by true 3D alignment, yet the analysis uses only ecliptic longitude. This may inflate intensity scores for high-latitude stars.</p>
+<p><strong>Category sample sizes:</strong> Subcategories like "cancer" and "overdose" may contain 50–150 individuals. Power to detect category-level star effects is limited.</p>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>Analysis of 12 major fixed stars across ~936 public figures finds:</p>
+<ul>
+<li><strong>Two statistically significant patterns:</strong> elevated Regulus intensity in overdose charts (Z = +2.26) and reduced Altair intensity in cancer charts (Z = −2.32)</li>
+<li><strong>One borderline pattern:</strong> elevated Altair in homicide charts (Z = +2.07)</li>
+<li><strong>Broad null result:</strong> The majority of star-category combinations show no systematic pattern</li>
+</ul>
+<p>The significant findings are consistent with traditional astrological symbolism — Regulus's fall-from-greatness narrative mapping to overdose; Altair's bold/risky energy diverging between homicide and cancer — but require replication with corrected significance thresholds before drawing confident conclusions.</p>
+<p>The cosine intensity methodology represents a genuine improvement over binary orb analysis. Future fixed star research should adopt this framework: the distribution of tight conjunctions tells a richer story than simple counts.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

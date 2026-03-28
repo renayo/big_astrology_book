@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 13: Circular Statistics and Personality by Birth Angle · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 13: Circular Statistics and Personality by Birth Angle</span></div></nav>
+<main class="article"><div class="container"><h1>Project 13: Circular Statistics and Personality by Birth Angle</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Using proper circular statistics — which treat the zodiac as a 360° circle rather than 12 unordered categories — do performers, scientists, and writers cluster at different zodiacal positions? Does the fire-sign extraversion hypothesis hold up?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>The claim that fire signs (Aries, Leo, Sagittarius) produce extraverted, performative people while earth signs produce introverts is one of astrology's most direct and testable personality predictions. Performers are a reasonable extraversion proxy; scientists are a reasonable introversion proxy.</p>
+<p>The methodological contribution here: zodiac data is <em>circular</em>, and most zodiac research ignores this. Standard chi-square tests treat the 12 signs as unordered categories, missing patterns that straddle sign boundaries (a clustering centered on 28° Pisces / 2° Aries would look like two separate weak signals rather than one strong one). Circular statistics handle this correctly.</p>
+<p>There's also a critical baseline issue that prior studies frequently miss.</p>
+<hr>
+<h2>📊 The Seasonal Confound: A Tutorial</h2>
+<p>Births are not uniformly distributed across the zodiac in the real world. CDC birth data (2010–2020) shows:</p>
+<ul>
+<li><strong>Late summer peak:</strong> More births in August–September (Leo/Virgo zone)</li>
+<li><strong>Winter trough:</strong> Fewer births in January–February (Capricorn/Aquarius)</li>
+<li><strong>Rayleigh test on CDC data: p &lt; 0.0001</strong> — birth timing is emphatically non-uniform</li>
+</ul>
+<p>In practice: if you sampled 100 random Americans, you'd find more Virgos than Capricorns simply because more babies are born in September than January — with no astrological effect involved. <strong>Any claimed zodiac effect must exceed this non-uniform background.</strong></p>
+<p>Seasonal birth variation is biologically driven (holiday conceptions leading to September births, etc.) and creates approximately 20% variation across the year. Correcting for this baseline is not optional — it's the core methodological requirement.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>N</th>
+<th>Professional category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Performers</td>
+<td>100</td>
+<td>Actors, musicians, comedians</td>
+</tr>
+<tr>
+<td>Scientists</td>
+<td>50</td>
+<td>Physicists, mathematicians, inventors</td>
+</tr>
+<tr>
+<td>Writers</td>
+<td>61</td>
+<td>Novelists, poets, playwrights</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>211</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Baseline: CDC monthly birth distribution, 2010–2020, used to construct expected frequencies corrected for seasonal non-uniformity.</p>
+<hr>
+<h2>📈 Results</h2>
+<h3>Primary Hypothesis Tests</h3>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Result</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Performers vs. Scientists by sign</td>
+<td>No difference</td>
+<td>0.562</td>
+</tr>
+<tr>
+<td>Element distribution by profession</td>
+<td>No difference</td>
+<td>0.711</td>
+</tr>
+<tr>
+<td><strong>Fire signs = extraversion hypothesis</strong></td>
+<td><strong>Not supported</strong></td>
+<td><strong>0.683</strong></td>
+</tr>
+<tr>
+<td>Performers circular clustering (Rayleigh)</td>
+<td>Uniformly distributed</td>
+<td>0.710</td>
+</tr>
+<tr>
+<td>Scientists circular clustering (Rayleigh)</td>
+<td>Marginal — not significant</td>
+<td>0.094</td>
+</tr>
+</tbody>
+</table>
+<p><strong>All primary tests returned null results.</strong> No zodiac sign or element shows a statistically significant association with professional category. The fire-sign extraversion hypothesis — one of astrology's most direct and testable claims — is not supported.</p>
+<h3>The Marginal Scientists Result</h3>
+<p>The only near-significant finding: scientists may show slight non-uniform zodiacal distribution (p = 0.094). This does not survive α = 0.05 and would not survive Bonferroni correction for the 7+ tests performed (corrected threshold ≈ p &lt; 0.007).</p>
+<p>Additional concerns:<br>
+- Effect size (R) for circular clustering not reported — direction and magnitude unknown<br>
+- The specific signs driving the marginal result were not identified<br>
+- N=50 scientists is adequate for medium effects but not small ones</p>
+<p>This is a marginal result in the wrong direction for confirmatory analysis. It would need pre-specification, replication, and confidence intervals before any weight can be placed on it.</p>
+<h3>Statistical Power Context</h3>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>N</th>
+<th>Detectable effect size (80% power)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Performers</td>
+<td>100</td>
+<td>Cohen's w ≥ 0.28</td>
+</tr>
+<tr>
+<td>Scientists</td>
+<td>50</td>
+<td>Cohen's w ≥ 0.40</td>
+</tr>
+<tr>
+<td>Writers</td>
+<td>61</td>
+<td>Cohen's w ≥ 0.36</td>
+</tr>
+</tbody>
+</table>
+<p>The Gauquelin "Mars effect" — the most famous claimed positive finding in astrological research — reported an effect size of approximately w ≈ 0.05–0.10. <strong>This study would not have the power to detect an effect that small.</strong> Detecting zodiac effects at realistically small magnitudes requires N ≥ 500 per group.</p>
+<hr>
+<h2>⚠️ Limitations &amp; Caveats</h2>
+<ul>
+<li><strong>Celebrity selection bias:</strong> Fame requires unusual achievement, and different eras, countries, and socioeconomic contexts produce fame differently. The CDC 2010–2020 baseline may not accurately represent historical celebrities' expected birth distributions.</li>
+<li><strong>Profession as personality proxy:</strong> Not all performers are highly extraverted; not all scientists are introverted. Direct Big Five measurement is more appropriate.</li>
+<li><strong>Tropical zodiac only:</strong> Sidereal assignments would shift all signs by ~24°. Different clustering patterns might emerge — see Project 08 for that comparison.</li>
+<li><strong>No birth times:</strong> Without birth times, no ascendant, house, or exact Moon position analysis is possible. Traditional astrology places substantial emphasis on the ascendant for personality.</li>
+</ul>
+<h3>Published Literature Context</h3>
+<p>The null result here is consistent with the broader scientific literature:<br>
+- Kelly (1979): Reviewed 23 studies testing astrological predictions — no consistent evidence<br>
+- Eysenck &amp; Nias (1982): No sun-sign extraversion correlation in large samples<br>
+- Comprehensive meta-analyses (Pieron &amp; Monzie, 1989): No zodiac-personality relationship after multiple-comparison correction</p>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>Circular statistics applied to 211 verified celebrity births yield clean null results:</p>
+<ul>
+<li><strong>Fire signs and extraversion:</strong> No association (p = 0.683)</li>
+<li><strong>Zodiac sign and profession:</strong> No difference (p = 0.562)</li>
+<li><strong>Elemental distribution:</strong> No difference (p = 0.711)</li>
+<li><strong>Performer clustering:</strong> Uniformly distributed</li>
+<li><strong>Scientist clustering:</strong> Marginal (p = 0.094) — does not survive correction</li>
+</ul>
+<p>The methodological contribution: explicitly demonstrating the <strong>seasonal birth confound</strong> with CDC data, showing that zodiac frequencies are inherently non-uniform in any population sample due to biological seasonal variation. All future zodiac-personality research must correct for this baseline.</p>
+<p>To detect realistic small effect sizes in this domain requires N ≥ 500 per group with pre-registered hypotheses and corrected significance thresholds.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

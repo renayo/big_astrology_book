@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 12: Market Volatility and GARCH-X Modeling · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 12: Market Volatility and GARCH-X Modeling</span></div></nav>
+<main class="article"><div class="container"><h1>Project 12: Market Volatility and GARCH-X Modeling</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Can planetary aspects, included as exogenous variables in GARCH models, improve volatility forecasting beyond what a standard GARCH model achieves on its own? This is the most rigorous financial astrology test in the book — and it uses the industry's own standard tools.</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Project 02 found a statistically real but tiny correlation between planetary cycles and market volatility (r = 0.0226). But correlation is not prediction. The question that matters for anyone who might actually use this information is: <strong>does knowing the planetary positions improve my next forecast?</strong></p>
+<p>GARCH models are the financial industry standard for volatility prediction. They explicitly account for volatility clustering — the well-documented phenomenon where turbulent periods follow turbulent periods, and calm follows calm. GARCH-X extends this by adding external variables, directly testing whether planetary data improves predictions.</p>
+<p>If planets contribute useful information, GARCH-X should outperform baseline GARCH on out-of-sample data. If not, we'll know precisely: adding planets makes forecasts <em>worse</em>.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Yahoo Finance (VIX)</td>
+<td>CBOE Volatility Index, 1990–2024</td>
+</tr>
+<tr>
+<td>Yahoo Finance (S&amp;P 500)</td>
+<td>Daily returns</td>
+</tr>
+<tr>
+<td>Swiss Ephemeris</td>
+<td>Outer planet aspect angles — continuous cosine similarity values</td>
+</tr>
+<tr>
+<td><strong>Sample</strong></td>
+<td><strong>8,500+ trading days</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Aspects analyzed: Jupiter-Saturn, Saturn-Uranus, Saturn-Neptune, Saturn-Pluto synodic cycles.</p>
+<hr>
+<h2>📈 Results</h2>
+<h3>Phase 1: GARCH-X — Does Adding Planets Help?</h3>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>In-Sample AIC</th>
+<th>Out-of-Sample MSE (2016–2024)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Baseline GARCH(1,1)</strong></td>
+<td><strong>−120,451.54</strong></td>
+<td><strong>0.00013050</strong></td>
+</tr>
+<tr>
+<td><strong>GARCH-X + Planetary Data</strong></td>
+<td><strong>−120,449.56</strong></td>
+<td><strong>0.00013054</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Both metrics favor the baseline. AIC <em>increased</em> (worsened) by 2.0 when planetary data was added. Out-of-sample MSE also worsened slightly. By every measure, planetary variables add noise, not signal, to GARCH forecasting.</p>
+<h3>Phase 2: VIX Correlations with Planetary Aspects</h3>
+<p>Despite failing the predictive test, correlations between aspects and elevated VIX do exist:</p>
+<table>
+<thead>
+<tr>
+<th>Aspect Type</th>
+<th>Correlation (r)</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Hard aspects overall</strong></td>
+<td><strong>0.295</strong></td>
+<td>&lt; 0.0001</td>
+</tr>
+<tr>
+<td>Soft aspects overall</td>
+<td>0.089</td>
+<td>0.042</td>
+</tr>
+<tr>
+<td><strong>Saturn-Pluto</strong></td>
+<td><strong>0.312</strong></td>
+<td>&lt; 0.001</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Mean VIX by configuration:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Configuration</th>
+<th>Mean VIX</th>
+<th>N Days</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Grand Cross</strong></td>
+<td><strong>24.8</strong></td>
+<td>145</td>
+</tr>
+<tr>
+<td>T-Square</td>
+<td>21.2</td>
+<td>892</td>
+</tr>
+<tr>
+<td>Grand Trine</td>
+<td>17.8</td>
+<td>234</td>
+</tr>
+<tr>
+<td>No major pattern</td>
+<td>19.4</td>
+<td>7,229</td>
+</tr>
+</tbody>
+</table>
+<p>Hard aspects correlate with elevated VIX; soft aspects with lower VIX. The Saturn-Pluto correlation (r = 0.312) is the strongest single-pair result.</p>
+<p><strong>Notable historical coincidences:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>Date</th>
+<th>VIX</th>
+<th>Active Aspects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>COVID Crash</td>
+<td>Mar 2020</td>
+<td>82.69</td>
+<td>Saturn-Pluto conjunction</td>
+</tr>
+<tr>
+<td>2008 Financial Crisis</td>
+<td>Oct 2008</td>
+<td>80.86</td>
+<td>Saturn-Uranus opposition</td>
+</tr>
+<tr>
+<td>2011 Debt Crisis</td>
+<td>Aug 2011</td>
+<td>48.0</td>
+<td>Uranus-Pluto square building</td>
+</tr>
+<tr>
+<td>Brexit</td>
+<td>Jun 2016</td>
+<td>25.76</td>
+<td>Saturn square Neptune</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2>🔍 The Correlation-Prediction Paradox</h2>
+<p>How can planetary aspects correlate with VIX (r = 0.295, p &lt; 0.0001) yet <em>worsen</em> GARCH predictions? This apparent contradiction has a clear resolution.</p>
+<p>Hard Saturn aspects occur during roughly 20–30% of all trading days. During those same periods, economic cycles, political events, and other catalysts also increase. The planetary aspects do not <em>cause</em> the volatility — they are correlated with it because both respond to longer structural cycles (economic supercycles, geopolitical cycles) that coincidentally align with 15–30 year planetary periods.</p>
+<p><strong>In-sample correlation exploits this historical coincidence.</strong> Out-of-sample prediction fails because:<br>
+1. Planetary variables add parameters without proportional information gain<br>
+2. Future planetary cycles don't predict <em>which specific days</em> will be volatile<br>
+3. The economic cycles underlying the correlation are not locked to planetary periods</p>
+<p>The regression analysis confirms the modest scale: planetary aspects alone explain only <strong>8.7%</strong> of VIX variance (R² = 0.087). Adding economic controls raises R² to 0.342 — showing that economic variables explain vastly more.</p>
+<p><img alt="VIX vs. planetary aspect type, 1990–2024" src="images/project-12-figure-1.png"></p>
+<hr>
+<h2>⚠️ Statistical Caveats</h2>
+<ul>
+<li><strong>r = 0.295 is weak:</strong> ~8.7% of VIX variance explained. Day-of-week explains more.</li>
+<li><strong>Multiple testing:</strong> Dozens of aspect combinations tested. Bonferroni correction would substantially raise thresholds.</li>
+<li><strong>Temporal autocorrelation:</strong> Both planetary aspects and VIX exhibit strong autocorrelation. Standard p-values likely overstate significance; Newey-West standard errors should be applied.</li>
+<li><strong>Look-ahead bias:</strong> Identifying which configurations coincide with famous crises is data dredging. The test that matters is whether this information was usable <em>before</em> the crisis.</li>
+</ul>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>This project provides the book's most methodologically rigorous financial astrology test. Using GARCH models — the industry standard for volatility forecasting — planetary aspects <strong>make predictions worse</strong>, not better.</p>
+<p>The statistical correlation between hard aspects and elevated VIX (r ≈ 0.295–0.312) is real but practically useless. It reflects a loose historical coincidence of economic and planetary cycles — not a mechanistic relationship. Adding planetary data increases noise and worsens out-of-sample performance.</p>
+<p>The correlation findings, taken naively, might encourage a financial astrologer to conclude they've found something real. The GARCH out-of-sample test definitively shows they have not. This is what proper financial modeling looks like: not "does this correlate historically?" but "does knowing this improve my next prediction?"</p>
+<p><strong>For planetary aspects and market volatility, the answer is no.</strong></p>
+<blockquote>
+<p><em>This project does not constitute financial advice.</em></p>
+</blockquote></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

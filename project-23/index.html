@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 23: Birth Chart Similarity and Career Outcomes · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 23: Birth Chart Similarity and Career Outcomes</span></div></nav>
+<main class="article"><div class="container"><h1>Project 23: Birth Chart Similarity and Career Outcomes</h1>
+<blockquote>
+<p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop<br>
+<strong>Source:</strong> <a href="https://bigastrologybook.com/2/research">bigastrologybook.com/2/research</a></p>
+</blockquote>
+<hr>
+<h2>🌟 Overview — What We Asked</h2>
+<p>Do individuals in the same professional field have more similar planetary sign placements than individuals from different fields? Can chart similarity predict career category better than chance?</p>
+<hr>
+<h2>💡 Why This Matters</h2>
+<p>Most astrological career research asks: "Does sign X predict trait Y?" This project takes a different approach: rather than testing specific astrological rules, it asks whether people in the same profession tend to <em>share chart features</em> — an agnostic, data-driven question that bypasses prescriptive zodiac symbolism entirely.</p>
+<p>The methodology — cosine similarity between full one-hot-encoded planetary vectors — preserves more information than traditional sun-sign analysis. Pairwise within-group vs. between-group comparison is the correct statistical framework for clustering questions.</p>
+<hr>
+<h2>📊 The Data</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sample</strong></td>
+<td><strong>95 unique individuals</strong> across 8 career categories</td>
+</tr>
+<tr>
+<td><strong>Categories</strong></td>
+<td>Tech, Music, Science, Arts, Politics, Sports, Literature, Philosophy</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td>Merged dataset: 24 manually selected celebrities + extended celebrity database</td>
+</tr>
+<tr>
+<td><strong>Planets</strong></td>
+<td>11 bodies: Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, North Node</td>
+</tr>
+<tr>
+<td><strong>Zodiacs</strong></td>
+<td>Both Tropical and Vedic (Lahiri ayanamsha) analyzed separately</td>
+</tr>
+</tbody>
+</table>
+<p>Each person's astrological fingerprint: 11 planets × 12 one-hot-encoded sign positions = <strong>132-element binary vector</strong>.</p>
+<p><strong>Similarity Metric:</strong> Cosine similarity between all pairs of vectors. Higher values = more similar planetary sign distributions.</p>
+<hr>
+<h2>📈 Results</h2>
+<table>
+<thead>
+<tr>
+<th>Zodiac System</th>
+<th>Within-Group Mean</th>
+<th>Between-Group Mean</th>
+<th>p-value</th>
+<th>Conclusion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tropical</strong></td>
+<td>0.1015</td>
+<td>0.0920</td>
+<td>0.061</td>
+<td>Not significant (near-miss)</td>
+</tr>
+<tr>
+<td><strong>Vedic (Lahiri)</strong></td>
+<td><strong>0.1123</strong></td>
+<td><strong>0.0920</strong></td>
+<td><strong>0.000086</strong></td>
+<td><strong>SIGNIFICANT</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Tropical: Near-Miss</h3>
+<p>Same-career individuals show slightly higher Tropical chart similarity (0.1015) than cross-career pairs (0.0920), but the difference doesn't reach p &lt; 0.05 (p = 0.061). This is a near-miss that could reflect genuine weak clustering or statistical noise.</p>
+<h3>Vedic: Statistically Significant Signal</h3>
+<p>The Vedic (Sidereal) analysis shows a <strong>statistically significant difference</strong> (p &lt; 0.0001): people in the same career field have more similar planetary sign distributions than people in different fields.</p>
+<p>The effect is modest but real:<br>
+- Within-group mean cosine: <strong>0.112</strong><br>
+- Between-group mean cosine: <strong>0.092</strong><br>
+- Difference: +0.020 (approximately <strong>22% higher within-group similarity</strong>)</p>
+<p>With N=95 and thousands of pairwise comparisons, the signal is robust to sampling variation.</p>
+<p><img alt="Cosine similarity heatmap: within-career vs. cross-career pairs, Vedic zodiac" src="images/project-23-figure-1.png"></p>
+<hr>
+<h2>🔍 Interpreting the Vedic Signal — With Caveats</h2>
+<p>Several important caveats must be addressed before treating this as evidence for astrological career influence:</p>
+<p><strong>1. Generational clustering:</strong> Some career categories naturally concentrate births in certain decades (Tech pioneers in 1940–1960; modern musicians more recently). Slow-moving outer planets (Jupiter through Pluto) occupy the same signs for years. If Tech founders and Scientists cluster in similar birth decades, their outer planet signs will be similar — not because of career influence, but because of shared birth era. This is the same confound identified in Projects 10 and 26.</p>
+<p><strong>2. Selection bias:</strong> The celebrity dataset is dominated by historically prominent individuals — not a random sample of professionals. Chart features that cluster among highly successful musicians may differ from those among average musicians.</p>
+<p><strong>3. Multiple testing:</strong> Two zodiac systems × multiple career-category comparisons = several tests. The Vedic result (p &lt; 0.001) survives a Bonferroni correction for two systems, but not if subcategory analyses are included.</p>
+<p><strong>4. What "similarity" measures:</strong> Cosine similarity of one-hot-encoded signs is agnostic but imprecise. It doesn't distinguish tight conjunctions from coincidentally shared signs due to generational position.</p>
+<hr>
+<h2>🔬 What a Better Study Would Do</h2>
+<ol>
+<li><strong>Use AstroDatabank</strong> — thousands of profession-tagged charts with verified birth data</li>
+<li><strong>Control for birth decade</strong> — focus on fast-moving personal planets (Sun, Moon, Mercury, Venus, Mars) that can't be explained by generational cohort effects</li>
+<li><strong>Run permutation tests</strong> — shuffle profession labels 10,000 times to build a null distribution that respects the astronomical structure of the data</li>
+<li><strong>Replicate across zodiac systems</strong> — confirm whether the Vedic advantage persists with a larger sample</li>
+</ol>
+<hr>
+<h2>🌟 Conclusion</h2>
+<p>Pairwise cosine similarity analysis of 95 celebrity charts finds a <strong>statistically significant clustering of planetary sign patterns within career categories in the Vedic zodiac</strong> (p &lt; 0.0001), with a modest effect (~22% higher within-group similarity than between-group). The Tropical zodiac shows a near-significant trend (p = 0.061).</p>
+<p>These findings do not establish astrological causation. The most likely explanation is (a) generational birth-date clustering producing shared outer-planet positions, and/or (b) a genuine but small astrological signal requiring larger, better-controlled replication to characterize.</p>
+<p>What is established: the similarity-based methodology is sound, detects structure in the data, and points toward the generational confound as the critical variable to control in future work.</p></div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>
