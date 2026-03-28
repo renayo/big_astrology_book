@@ -46,7 +46,7 @@ Each project file in this directory (`project-01.md` through `project-34.md`) is
 
 Throughout the book, two methodological choices recur and are worth explaining upfront:
 
-**The Cosine Metric:** Rather than the traditional binary "aspect within orb" approach (is Mars within 8° of a trine to Venus?), many projects use the cosine of the angular difference between planetary pairs. This produces a continuous value from +1 (exact conjunction) to -1 (exact opposition) that preserves more information than a yes/no threshold. It has become the preferred tool across projects testing compatibility, historical events, Solar Returns, and fixed stars.
+**The Cosine Metric:** Rather than the traditional binary "aspect within orb" approach (is Mars within 8° of a trine to Venus?), many projects use the cosine of the angular difference between planetary pairs. This produces a continuous value from +1 (exact conjunction) to -1 (exact opposition) with squares giving a value of zero that preserves more information than a yes/no threshold. It has become our preferred tool across projects testing compatibility, historical events, Solar Returns, and fixed stars.
 
 **The Generational Confound:** Several projects involving slow-moving outer planets (Uranus, Neptune, Pluto) initially appear to show strong astrological signals, which upon examination turn out to reflect birth-year clustering among the samples. People born in the same era share outer planet positions by definition. This is flagged every time it occurs and results interpreted accordingly.
 
