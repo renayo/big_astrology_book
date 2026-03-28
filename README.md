@@ -1,7 +1,6 @@
 # The Big Astrology Book of Research
 
 **By Renay Oshop**
-**Published at:** [bigastrologybook.com/2/research](https://bigastrologybook.com/2/research)
 
 ---
 
