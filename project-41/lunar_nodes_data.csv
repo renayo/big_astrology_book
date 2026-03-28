@@ -1,0 +1,12 @@
+name,life_theme,north_node,node_sign,node_degree,node_theme,sun_node_aspect,themes_aligned
+Martin Luther King Jr,social_justice,58.6696905401318,1,28.669690540131803,material_security,123.7898675830719,False
+Mother Teresa,humanitarian,52.790438874088885,1,22.790438874088885,material_security,99.56270300400593,False
+Albert Einstein,intellectual,302.72492853780557,10,2.7249285378055674,humanitarian,50.83122552243236,False
+Nikola Tesla,innovation,20.107852221813662,0,20.107852221813662,self_assertion,88.22369334005876,False
+Frida Kahlo,artistic,113.4162272827159,3,23.416227282715894,nurturing,10.16405700753775,False
+Nelson Mandela,social_justice,261.83182749792695,8,21.83182749792695,truth_seeking,146.79681405165599,False
+Marie Curie,intellectual,162.36210787137824,5,12.362107871378242,service,62.27233636702948,False
+Leonardo da Vinci,artistic,277.22325829230095,9,7.2232582923009545,achievement,108.28290085670565,False
+Florence Nightingale,humanitarian,0.816361252196382,0,0.816361252196382,self_assertion,50.79964577419131,False
+Steve Jobs,innovation,273.51613680700245,9,3.5161368070024537,achievement,61.59262567393512,False
+

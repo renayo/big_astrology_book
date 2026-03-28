@@ -1,0 +1,3106 @@
+band_id,band_name,start_year,end_year,member_name,birth_date
+Q1299,Q1299,1960,1970,John Lennon,1940-10-09
+Q332399,Traveling Wilburys,1988,2024,George Harrison,1943-02-25
+Q1299,Q1299,1960,1970,Paul McCartney,1942-06-18
+Q1299,Q1299,1960,1970,Ringo Starr,1940-07-07
+Q1299,Q1299,1960,1970,George Harrison,1943-02-25
+Q154543,D12,1996,2024,Q5608,1972-10-17
+Q216856,N.W.A.,1986,1991,Dr. Dre,1965-02-18
+Q308644,G-Unit,1999,2024,50 Cent,1975-07-06
+Q1544144,Tin Machine,1988,1992,David Bowie,1947-01-08
+Q83431,Megadeth,1983,2024,Chris Broderick,1970-03-06
+Q93346,The Who,1964,2024,Pete Townshend,1945-05-19
+Q258546,In Flames,1990,2024,Chris Broderick,1970-03-06
+Q332399,Traveling Wilburys,1988,2024,Bob Dylan,1941-05-24
+Q213923,Porcupine Tree,1987,2024,Richard Barbieri,1957-11-30
+Q188464,Pixies,1986,2024,Black Francis,1965-04-06
+Q329270,Stone Temple Pilots,1989,2024,Chester Bennington,1976-03-20
+Q162247,Therion,1987,2024,Mats Levén,1964-09-11
+Q346701,Adagio,2000,2018,Mats Levén,1964-09-11
+Q7719992,The Brian May Band,1991,1998,Cozy Powell,1947-12-29
+Q7719992,The Brian May Band,1991,1998,Brian May,1947-07-19
+Q131366,Disturbed,1994,2024,David Draiman,1973-03-13
+Q223736,Velvet Revolver,2002,2024,Slash,1965-07-23
+Q153056,Destiny's Child,1990,2006,Beyoncé,1981-09-04
+Q218837,The Supremes,1958,1977,Diana Ross,1944-03-26
+Q223736,Velvet Revolver,2002,2024,Matt Sorum,1960-11-19
+Q300602,A Tribe Called Quest,1985,2024,Q-Tip,1970-04-10
+Q103550,The Velvet Underground,1965,2024,John Cale,1942-03-09
+Q192725,The Yardbirds,1963,2024,Eric Clapton,1945-03-30
+Q203736,Cream,1966,2024,Eric Clapton,1945-03-30
+Q103550,The Velvet Underground,1965,2024,Nico,1938-10-16
+Q240767,Limp Bizkit,1994,2024,Fred Durst,1970-08-20
+Q240767,Limp Bizkit,1994,2024,Wes Borland,1975-02-07
+Q83431,Megadeth,1983,2024,Jeff Young,1962-03-31
+Q83431,Megadeth,1983,2024,Chuck Behler,1965-06-12
+Q216856,N.W.A.,1986,1991,Eazy-E,1964-09-07
+Q240767,Limp Bizkit,1994,2024,Sam Rivers,1977-09-02
+Q82545,Www,1975,2024,Sid Vicious,1957-05-10
+Q83431,Megadeth,1983,2024,Gar Samuelson,1958-02-18
+Q83431,Megadeth,1983,2024,Chris Poland,1957-12-01
+Q152066,Take That,1990,2024,Robbie Williams,1974-02-13
+Q205054,The Flowers of Romance,1976,2024,Sid Vicious,1957-05-10
+Q323834,Siouxsie and the Banshees,1976,1996,Sid Vicious,1957-05-10
+Q154454,NSYNC,1995,2024,Justin Timberlake,1981-01-31
+Q179767,X Japan,1982,1997,Hide,1964-12-13
+Q261341,The Highwaymen,1985,1995,Johnny Cash,1932-02-26
+Q105076476,A.R. & Machines,1971,1976,Conny Plank,1940-05-03
+Q82545,Www,1975,2024,Glen Matlock,1956-08-27
+Q122924,Blue System,1987,2024,Dieter Bohlen,1954-02-07
+Q261058,Arabesque,1977,1984,Sandra,1962-05-18
+Q131366,Disturbed,1994,2024,John Moyer,1973-11-30
+Q131366,Disturbed,1994,2024,Mike Wengren,1971-09-03
+Q131366,Disturbed,1994,2024,Dan Donegan,1968-08-01
+Q157079,Wir sind Helden,2000,2024,Judith Holofernes,1976-11-12
+Q185226,Nogizaka46,2011,2024,Mai Shiraishi,1992-08-20
+Q213249,Vista Chino,2010,2024,Brant Bjork,1973-03-19
+Q189991,Gorillaz,1998,2024,Noodle,1990-10-31
+Q122924,Blue System,1987,2024,Rolf Köhler,1951-05-24
+Q154129,Gamma Ray,1988,2024,Ralf Scheepers,1965-02-05
+Q155123,No Angels,2001,2024,Vanessa Petruo,1979-10-23
+Q155123,No Angels,2001,2024,Jessica Wahls,1977-02-02
+Q158895,Helloween,1984,2024,Stefan Schwarzmann,1965-11-11
+Q163112,Primal Fear,1997,2024,Ralf Scheepers,1965-02-05
+Q312428,Rage,1984,2024,Manni Schmidt,1964-11-27
+Q105076476,A.R. & Machines,1971,1976,Rolf Köhler,1951-05-24
+Q151890,Kreator,1982,2024,Mille Petrozza,1966-12-18
+Q158641,Q158641,1999,2024,Sascha Paeth,1970-09-09
+Q185226,Nogizaka46,2011,2024,Minami Hoshino,1998-02-06
+Q193174,Rhapsody of Fire,1993,2024,Sascha Paeth,1970-09-09
+Q298794,A Touch of Class,1999,2024,Alex Christensen,1967-04-07
+Q158895,Helloween,1984,2024,Andi Deris,1964-08-18
+Q193174,Rhapsody of Fire,1993,2024,Alex Holzwarth,1968-10-04
+Q238195,4Xang,1996,2010,Wilfried,1950-06-24
+Q311258,Killerpilze,2002,2024,Fabian Halbig,1992-12-23
+Q1255216,Lokomotive Kreuzberg,1972,1977,Herwig Mitteregger,1953-09-06
+Q156255,Scooter,1993,2024,H.P. Baxxter,1964-03-16
+Q158641,Q158641,1999,2024,Tobias Sammet,1977-11-21
+Q158932,Edguy,1992,2024,Tobias Sammet,1977-11-21
+Q151890,Kreator,1982,2024,Frédéric Leclercq,1978-06-23
+Q105076476,A.R. & Machines,1971,1976,Frank Dostal,1945-12-16
+Q155123,No Angels,2001,2024,Sandy Mölling,1981-04-27
+Q202314,Thin Lizzy,1969,2024,Darren Wharton,1962-12-24
+Q1141454,The Dave Clark Five,1957,1970,Lenny Davidson,1944-05-30
+Q151890,Kreator,1982,2024,Tommy Vetterli,2000-01-01
+Q203736,Cream,1966,2024,Ginger Baker,1939-08-19
+Q269813,Il Divo,2004,2024,Urs Bühler,1971-07-19
+Q285966,Hawkwind,1969,2024,Ginger Baker,1939-08-19
+Q329459,Rednex,1994,2024,Annika Ljungberg,1969-03-31
+Q82545,Www,1975,2024,John Lydon,1956-01-31
+Q189965,Whitesnake,1978,2024,David Coverdale,1951-09-22
+Q282784,Corona,1993,2024,Sandra Chambers,1967-04-11
+Q283835,Carcass,1985,2024,Ken Owen,1970-04-23
+Q1107195,Coil,1982,2004,Peter Christopherson,1955-02-27
+Q19394054,Utopian Fields,1988,1991,Lars Fredriksen,1971-02-08
+Q151890,Kreator,1982,2024,Frank Gosdzik,1966-02-24
+Q156523,Sodom,1981,2024,Frank Gosdzik,1966-02-24
+Q200089,17 Hippies,1995,2024,Christopher Blenkinsop,1963-03-07
+Q105076476,A.R. & Machines,1971,1976,Carsten Bohn,1948-08-18
+Q165193,Avenged Sevenfold,1999,2024,M. Shadows,1981-07-31
+Q189635,Eagles,1971,2024,Bernie Leadon,1947-07-19
+Q269836,SHINee,2008,2024,Choi Min-ho,1991-12-09
+Q862514,Kalafina,2007,2018,Yuki Kajiura,1965-08-06
+Q47670,Black Sabbath,1968,2017,Ozzy Osbourne,1948-12-03
+Q72092,Rage Against the Machine,1991,2024,Zack de la Rocha,1970-01-12
+Q124179,Kiss,1973,2024,Peter Criss,1945-12-20
+Q134541,Black Eyed Peas,1995,2024,Taboo Nawasha,1975-07-14
+Q151012,Genesis,1967,2024,Phil Collins,1951-01-30
+Q102385,The Pussycat Dolls,2003,2024,Nicole Scherzinger,1978-06-29
+Q153616,Tangerine Dream,1967,2024,Klaus Schulze,1947-08-04
+Q192725,The Yardbirds,1963,2024,Jimmy Page,1944-01-09
+Q2331,Led Zeppelin,1968,1980,Jimmy Page,1944-01-09
+Q192983,TVXQ,2003,2024,Kim Jae-joong,1986-01-26
+Q259254,Bon Jovi,1983,2024,Jon Bon Jovi,1962-03-02
+Q269836,SHINee,2008,2024,Lee Taemin,1993-07-18
+Q739570,Nena,1982,1987,Nena,1960-03-24
+Q134727601,Bombardil,1972,1972,Mel Pritchard,1948-01-20
+Q152066,Take That,1990,2024,Jason Orange,1970-07-10
+Q152066,Take That,1990,2024,Mark Owen,1972-01-27
+Q152066,Take That,1990,2024,Howard Donald,1968-04-28
+Q154129,Gamma Ray,1988,2024,Kai Hansen,1963-01-17
+Q158895,Helloween,1984,2024,Kai Hansen,1963-01-17
+Q183048,The Beach Boys,1961,2024,Glen Campbell,1936-04-22
+Q544024,Gong,1967,1977,Pierre Moerlen,1952-10-23
+Q163989,Arch Enemy,1996,2024,Angela Gossow,1974-11-05
+Q216856,N.W.A.,1986,1991,Ice Cube,1969-06-15
+Q2748617,C.I.A.,1984,1987,Ice Cube,1969-06-15
+Q173790,Roxette,1986,2024,Marie Fredriksson,1958-05-30
+Q742626,Heaven & Hell,2006,2010,Ronnie James Dio,1942-07-10
+Q103550,The Velvet Underground,1965,2024,Lou Reed,1942-03-02
+Q2331,Led Zeppelin,1968,1980,John Paul Jones,1946-01-03
+Q83431,Megadeth,1983,2024,Dave Mustaine,1961-09-13
+Q133405,Bee Gees,1958,2024,Robin Gibb,1949-12-22
+Q321359,Abingdon Boys School,2005,2024,Takanori Nishikawa,1970-09-19
+Q332399,Traveling Wilburys,1988,2024,Roy Orbison,1936-04-23
+Q151012,Genesis,1967,2024,Peter Gabriel,1950-02-13
+Q162586,Dream Theater,1985,2024,Jordan Rudess,1956-11-04
+Q181584,SDN48,2009,2024,Sayo Hayakawa,1983-05-23
+Q220730,The Killers,2001,2024,Ronnie Vannucci,1976-02-15
+Q153056,Destiny's Child,1990,2006,Kelly Rowland,1981-02-11
+Q134541,Black Eyed Peas,1995,2024,Fergie,1975-03-27
+Q201207,Stratovarius,1984,2024,Jens Johansson,1963-11-02
+Q208767,The Stooges,1967,2024,Iggy Pop,1947-04-21
+Q251742,Cain's Offering,2009,2024,Jens Johansson,1963-11-02
+Q47670,Black Sabbath,1968,2017,Ronnie James Dio,1942-07-10
+Q134541,Black Eyed Peas,1995,2024,will.i.am,1975-03-15
+Q308644,G-Unit,1999,2024,The Game,1979-11-29
+Q134233,Jonas Brothers,2005,2013,Joe Jonas,1989-08-15
+Q192725,The Yardbirds,1963,2024,Jeff Beck,1944-06-24
+Q813658,"Beck, Bogert & Appice",1972,1974,Jeff Beck,1944-06-24
+Q126826,Aerosmith,1969,2024,Steven Tyler,1948-03-26
+Q282104,BigBang,2006,2024,Daesung,1989-04-26
+Q159329,Fugees,1990,2024,Lauryn Hill,1975-05-26
+Q204328,Kansas,1970,2024,Steve Morse,1954-07-28
+Q101505,Deep Purple,1968,2024,Ian Gillan,1945-08-19
+Q102385,The Pussycat Dolls,2003,2024,Jessica Sutta,1982-05-15
+Q131231,Slayer,1981,2019,Paul Bostaph,1964-03-06
+Q159329,Fugees,1990,2024,Wyclef Jean,1969-10-17
+Q189382,King Crimson,1968,2024,Robert Fripp,1946-05-16
+Q261341,The Highwaymen,1985,1995,Willie Nelson,1933-04-29
+Q309312,Testament,1983,2024,Paul Bostaph,1964-03-06
+Q742626,Heaven & Hell,2006,2010,Tony Iommi,1948-02-19
+Q47670,Black Sabbath,1968,2017,Tony Iommi,1948-02-19
+Q93346,The Who,1964,2024,John Entwistle,1944-10-09
+Q101505,Deep Purple,1968,2024,Roger Glover,1945-11-30
+Q134969,R.E.M.,1980,2011,Michael Stipe,1960-01-04
+Q156298,Boney M.,1975,1986,Bobby Farrell,1949-10-06
+Q189382,King Crimson,1968,2024,Tony Levin,1946-06-06
+Q192353,Jethro Tull,1967,2024,Ian Anderson,1947-08-10
+Q202741,Blondie,1974,2024,Debbie Harry,1945-07-01
+Q93346,The Who,1964,2024,Keith Moon,1946-08-23
+Q101505,Deep Purple,1968,2024,Ian Paice,1948-06-29
+Q162586,Dream Theater,1985,2024,John Petrucci,1967-07-12
+Q165386,All Saints,1993,2024,Melanie Blatt,1975-03-25
+Q205473,Girls Aloud,2002,2024,Cheryl,1983-06-30
+Q76244,Epica,2002,2024,Simone Simons,1985-01-17
+Q174291,Morning Musume,1997,2024,Koharu Kusumi,1992-07-15
+Q193697,Sugababes,1998,2024,Siobhán Donaghy,1984-06-14
+Q326063,Leaves' Eyes,2003,2024,Liv Kristine,1976-02-14
+Q189965,Whitesnake,1978,2024,Jon Lord,1941-06-09
+Q753829,Bijelo Dugme,1974,1989,Goran Bregović,1950-03-22
+Q93292,Divlje jagode,1977,2024,Zlatan Stipišić Gibonni,1968-08-13
+Q124179,Kiss,1973,2024,Gene Simmons,1949-08-25
+Q172763,Joy Division,1976,2024,Ian Curtis,1956-07-15
+Q134233,Jonas Brothers,2005,2013,Nick Jonas,1992-09-16
+Q134233,Jonas Brothers,2005,2013,Kevin Jonas,1987-11-05
+Q261341,The Highwaymen,1985,1995,Kris Kristofferson,1936-06-22
+Q936474,Mano Negra,1987,1994,Manu Chao,1961-06-21
+Q213495,Boyzone,1993,2024,Stephen Gately,1976-03-17
+Q261765,Freundeskreis,1996,2007,Max Herre,1973-04-22
+Q117257353,The Stilettos,1972,1974,Debbie Harry,1945-07-01
+Q106379,The Cardigans,1992,2024,Nina Persson,1974-09-06
+Q300343,A Camp,2001,2024,Nina Persson,1974-09-06
+Q102385,The Pussycat Dolls,2003,2024,Carmit Bachar,1974-09-04
+Q193697,Sugababes,1998,2024,Mutya Buena,1985-05-21
+Q193697,Sugababes,1998,2024,Heidi Range,1983-05-23
+Q102385,The Pussycat Dolls,2003,2024,Kimberly Wyatt,1982-02-04
+Q102385,The Pussycat Dolls,2003,2024,Ashley Roberts,1981-09-14
+Q153056,Destiny's Child,1990,2006,Michelle Williams,1979-07-23
+Q488260,Jefferson Airplane,1965,1972,Grace Slick,1939-10-30
+Q12029682,Koa,1998,2009,Zuzana Navarová,1959-06-18
+Q173790,Roxette,1986,2024,Lena Philipsson,1966-01-19
+Q174291,Morning Musume,1997,2024,Sayumi Michishige,1989-07-13
+Q192915,The Corrs,1990,2024,Sharon Corr,1970-03-24
+Q193697,Sugababes,1998,2024,Keisha Buchanan,1984-09-30
+Q476119,Wonder Girls,2007,2017,Hyuna,1992-06-06
+Q477802,"Kikki, Bettan & Lotta",2001,2004,Lotta Engberg,1963-03-05
+Q477802,"Kikki, Bettan & Lotta",2001,2004,Kikki Danielsson,1952-05-10
+Q970088,Chips,1979,1983,Kikki Danielsson,1952-05-10
+Q29350008,Triple H,2017,2018,Hyuna,1992-06-06
+Q39682,4Minute,2009,2016,Hyuna,1992-06-06
+Q103550,The Velvet Underground,1965,2024,Maureen Tucker,1944-08-26
+Q167977,Skunk Anansie,1994,2024,Skin,1967-08-03
+Q184217,The Smashing Pumpkins,1988,2024,D'arcy Wretzky,1968-05-01
+Q188464,Pixies,1986,2024,Kim Deal,1961-06-10
+Q285966,Hawkwind,1969,2024,Tim Blake,1952-02-06
+Q320499,Faith No More,1983,2024,Courtney Love,1964-07-09
+Q753829,Bijelo Dugme,1974,1989,Željko Bebek,1945-12-16
+Q142701,Pearl Jam,1990,2024,Josh Klinghoffer,1979-10-03
+Q142701,Pearl Jam,1990,2024,Eddie Vedder,1964-12-23
+Q162586,Dream Theater,1985,2024,Mike Portnoy,1967-04-20
+Q182223,Maroon 5,1994,2024,Adam Levine,1979-03-18
+Q188626,Sonic Youth,1981,2024,Kim Gordon,1953-04-28
+Q193697,Sugababes,1998,2024,Jade Ewen,1988-01-24
+Q771528,UPA Dance,2002,2006,Mónica Cruz,1977-03-16
+Q913662,The Distillers,1998,2006,Brody Dalle,1979-01-01
+Q157448,A-Teens,1998,2024,Marie Serneholt,1983-07-11
+Q184217,The Smashing Pumpkins,1988,2024,Melissa Auf der Maur,1972-03-17
+Q205473,Girls Aloud,2002,2024,Sarah Harding,1981-11-17
+Q153056,Destiny's Child,1990,2006,LeToya Luckett,1981-03-11
+Q205473,Girls Aloud,2002,2024,Kimberley Walsh,1981-11-20
+Q218837,The Supremes,1958,1977,Florence Ballard,1943-06-30
+Q477802,"Kikki, Bettan & Lotta",2001,2004,Elisabeth Andreassen,1958-03-28
+Q970088,Chips,1979,1983,Elisabeth Andreassen,1958-03-28
+Q83431,Megadeth,1983,2024,Dirk Verbeuren,1975-01-08
+Q202041,Jamiroquai,1992,2024,Jay Kay,1969-12-30
+Q218178,Ensiferum,1995,2024,Jari Mäenpää,1977-12-23
+Q257615,Soilwork,1996,2024,Dirk Verbeuren,1975-01-08
+Q142636,The Chicks,1989,2024,Natalie Maines,1974-10-14
+Q193697,Sugababes,1998,2024,Amelle Berrabah,1984-04-22
+Q201207,Stratovarius,1984,2024,Timo Kotipelto,1969-03-15
+Q251742,Cain's Offering,2009,2024,Timo Kotipelto,1969-03-15
+Q323834,Siouxsie and the Banshees,1976,1996,Siouxsie Sioux,1957-05-27
+Q860153,Bikini Kill,1990,1997,Kathleen Hanna,1968-11-12
+Q171718,Children of Bodom,1993,2019,Alexi Laiho,1979-04-08
+Q174817,Soundgarden,1984,2017,Chris Cornell,1964-07-20
+Q223736,Velvet Revolver,2002,2024,Duff McKagan,1964-02-05
+Q261341,The Highwaymen,1985,1995,Waylon Jennings,1937-06-15
+Q7719992,The Brian May Band,1991,1998,Jamie Moses,1955-08-30
+Q83468,Judas Priest,1969,2024,Rob Halford,1951-08-25
+Q214990,New Order,1980,2024,Gillian Gilbert,1961-01-27
+Q251590,Magazin,1979,2024,Andrea Šušnjara,1987-02-26
+Q5901555,Honey Is Cool,1994,2000,Karin Dreijer,1975-04-07
+Q124179,Kiss,1973,2024,Paul Stanley,1952-01-20
+Q133405,Bee Gees,1958,2024,Barry Gibb,1946-09-01
+Q133405,Bee Gees,1958,2024,Maurice Gibb,1949-12-22
+Q134541,Black Eyed Peas,1995,2024,apl.de.ap,1974-11-28
+Q162586,Dream Theater,1985,2024,James LaBrie,1963-05-05
+Q254138,Slipknot,1994,2024,Corey Taylor,1973-12-08
+Q254138,Slipknot,1994,2024,Joey Jordison,1975-04-26
+Q259254,Bon Jovi,1983,2024,Richie Sambora,1959-07-11
+Q165386,All Saints,1993,2024,Shaznay Lewis,1975-10-14
+Q189991,Gorillaz,1998,2024,Damon Albarn,1968-03-23
+Q190155,Van Halen,1972,2020,Eddie Van Halen,1955-01-26
+Q214418,The Bangles,1981,2024,Susanna Hoffs,1959-01-17
+Q214418,The Bangles,1981,2024,Vicki Peterson,1958-01-11
+Q214418,The Bangles,1981,2024,Debbi Peterson,1961-08-22
+Q125603,The Clash,1976,2024,Joe Strummer,1952-08-21
+Q174291,Morning Musume,1997,2024,Haruna Iikubo,1994-11-07
+Q192915,The Corrs,1990,2024,Andrea Corr,1974-05-17
+Q300519,A Perfect Circle,1999,2024,Paz Lenchantin,1973-12-12
+Q307165,Globe,1995,2024,Keiko,1972-08-18
+Q134727601,Bombardil,1972,1972,Woolly Wolstenholme,1947-04-15
+Q151012,Genesis,1967,2024,Ray Wilson,1968-09-08
+Q276463,The Psychedelic Furs,1977,2024,Tim Butler,1958-12-07
+Q1049681,PMMP,2002,2013,Mira Luoti,1978-02-28
+Q93346,The Who,1964,2024,Kenney Jones,1948-09-16
+Q162586,Dream Theater,1985,2024,John Myung,1967-01-24
+Q309312,Testament,1983,2024,Chris Kontos,1968-06-25
+Q319458,Q319458,1991,2024,Chris Kontos,1968-06-25
+Q488260,Jefferson Airplane,1965,1972,Paul Kantner,1941-03-17
+Q72092,Rage Against the Machine,2001,2024,Tom Morello,1964-05-30
+Q83431,Megadeth,1983,2024,Marty Friedman,1962-12-08
+Q131231,Slayer,1981,2019,Kerry King,1964-06-03
+Q131231,Slayer,1981,2019,Jeff Hanneman,1964-01-31
+Q202314,Thin Lizzy,1969,2024,Phil Lynott,1949-08-20
+Q308644,G-Unit,1999,2024,Lloyd Banks,1982-04-30
+Q771528,UPA Dance,2002,2006,Beatriz Luengo,1982-12-23
+Q2880109,Pic-Nic,1967,1969,Jeanette,1951-10-10
+Q93346,The Who,1964,2024,Roger Daltrey,1944-03-01
+Q101505,Deep Purple,1968,2024,Don Airey,1948-06-21
+Q158895,Helloween,1984,2024,Michael Kiske,1968-01-24
+Q179767,X Japan,1982,1997,Yoshiki,1965-11-20
+Q180880,Pantera,1981,2024,Dimebag Darrell,1966-08-20
+Q184217,The Smashing Pumpkins,1988,2024,Billy Corgan,1967-03-17
+Q184827,Tool,1990,2024,Maynard James Keenan,1964-04-17
+Q213495,Boyzone,1993,2024,Ronan Keating,1977-03-03
+Q213923,Porcupine Tree,1987,2024,Colin Edwin,1970-07-02
+Q259254,Bon Jovi,1983,2024,Tico Torres,1953-10-07
+Q307165,Globe,1995,2024,Yoshiki,1965-11-20
+Q308644,G-Unit,1999,2024,Young Buck,1981-03-15
+Q332399,Traveling Wilburys,1988,2024,Tom Petty,1950-10-20
+Q742626,Heaven & Hell,2006,2010,Geezer Butler,1949-07-17
+Q47670,Black Sabbath,1968,2017,Geezer Butler,1949-07-17
+Q80304,Korn,1993,2024,Reginald Arvizu,1969-11-02
+Q124179,Kiss,1973,2024,Tommy Thayer,1960-11-07
+Q126826,Aerosmith,1969,2024,Joe Perry,1950-09-10
+Q173790,Roxette,1986,2024,Per Gessle,1959-01-12
+Q183048,The Beach Boys,1961,2024,Brian Wilson,1942-06-20
+Q201568,The Buggles,1977,2024,Trevor Horn,1949-07-15
+Q212464,New Kids on the Block,1984,2024,Donnie Wahlberg,1969-08-17
+Q212533,Grateful Dead,1965,2024,Jerry Garcia,1942-08-01
+Q764073,Gyllene Tider,1977,1985,Per Gessle,1959-01-12
+Q131231,Slayer,1981,2019,Dave Lombardo,1965-02-16
+Q151012,Genesis,1967,2024,Bill Bruford,1949-05-17
+Q184386,Yes,1968,2024,Steve Howe,1947-04-08
+Q184386,Yes,1968,2024,Bill Bruford,1949-05-17
+Q189382,King Crimson,1968,2024,Bill Bruford,1949-05-17
+Q309312,Testament,1983,2024,Dave Lombardo,1965-02-16
+Q483407,Ramones,1974,1996,Joey Ramone,1951-05-19
+Q1147061,Mr. Bungle,1985,2004,Dave Lombardo,1965-02-16
+Q2296418,The Gods,1965,1970,Mick Taylor,1949-01-17
+Q5687897,Soluna,1975,1977,Gustavo Santaolalla,1951-08-19
+Q83468,Judas Priest,1969,2024,Glenn Tipton,1947-10-25
+Q124179,Kiss,1973,2024,Eric Carr,1950-07-12
+Q126826,Aerosmith,1969,2024,Tom Hamilton,1951-12-31
+Q157041,The Offspring,1984,2024,Dexter Holland,1965-12-29
+Q189635,Eagles,1971,2024,Don Henley,1947-07-22
+Q258546,In Flames,1990,2024,Jesper Strömblad,1972-11-28
+Q258546,In Flames,1990,2024,Anders Fridén,1973-03-25
+Q274593,HammerFall,1993,2024,Jesper Strömblad,1972-11-28
+Q320499,Faith No More,1983,2024,Mike Patton,1968-01-27
+Q483407,Ramones,1974,1996,Johnny Ramone,1948-10-08
+Q1147061,Mr. Bungle,1985,2004,Mike Patton,1968-01-27
+Q259254,Bon Jovi,1983,2024,David Bryan,1962-02-07
+Q285966,Hawkwind,1969,2024,Lemmy,1945-12-24
+Q19697,Motörhead,1975,2015,Lemmy,1945-12-24
+Q19697,Motörhead,1975,2015,Mikkey Dee,1963-10-31
+Q162247,Therion,1987,2024,Sarah Jezebel Deva,1977-02-25
+Q213388,Aqua,1989,2024,Lene Nystrøm,1973-10-02
+Q251590,Magazin,1979,2024,Danijela Martinović,1971-07-15
+Q80304,Korn,1993,2024,Jonathan Davis,1971-01-18
+Q134541,Black Eyed Peas,1995,2024,Kim Hill,1972-01-14
+Q131231,Slayer,1981,2019,Tom Araya,1961-06-06
+Q151241,Westlife,1998,2024,Brian McFadden,1980-04-12
+Q184386,Yes,1968,2024,Rick Wakeman,1949-05-18
+Q221494,Quiet Riot,1973,2024,Randy Rhoads,1956-12-06
+Q101592,Reamonn,1999,2024,Rea Garvey,1973-05-03
+Q142701,Pearl Jam,1990,2024,Matt Cameron,1962-11-28
+Q174817,Soundgarden,1984,2017,Matt Cameron,1962-11-28
+Q207472,Toto,1977,2024,Steve Lukather,1957-10-21
+Q254138,Slipknot,1994,2024,Sid Wilson,1977-01-20
+Q1496070,Lilli Berlin,1980,1983,Harald Grosskopf,1949-10-23
+Q273171,"Emerson, Lake & Palmer",1970,2010,Keith Emerson,1944-11-02
+Q124179,Kiss,1973,2024,Ace Frehley,1951-04-27
+Q156305,a-ha,1982,2024,Morten Harket,1959-09-14
+Q151012,Genesis,1967,2024,Mike Rutherford,1950-10-02
+Q151012,Genesis,1967,2024,Tony Banks,1950-03-27
+Q151241,Westlife,1998,2024,Nicky Byrne,1978-10-09
+Q162586,Dream Theater,1985,2024,Mike Mangini,1963-04-18
+Q182890,Def Leppard,1977,2024,Rick Allen,1963-11-01
+Q203871,Rush,1968,2024,Geddy Lee,1953-07-29
+Q212533,Grateful Dead,1965,2024,Tom Constanten,1944-03-19
+Q285190,Molly Hatchet,1975,2024,Danny Joe Brown,1951-08-24
+Q739570,Nena,1982,1987,Carlo Karges,1951-07-31
+Q80304,Korn,1993,2024,"James ""Munky"" Shaffer",1970-06-06
+Q124179,Kiss,1973,2024,Eric Singer,1958-05-12
+Q180880,Pantera,1981,2024,Phil Anselmo,1968-06-30
+Q184386,Yes,1968,2024,Jon Anderson,1944-10-25
+Q190155,Van Halen,1972,2020,David Lee Roth,1954-10-10
+Q203736,Cream,1966,2024,Jack Bruce,1943-05-14
+Q203871,Rush,1968,2024,Neil Peart,1952-09-12
+Q254138,Slipknot,1994,2024,Jim Root,1971-10-02
+Q254138,Slipknot,1994,2024,Shawn Crahan,1969-09-24
+Q254138,Slipknot,1994,2024,Paul Gray,1972-04-08
+Q332399,Traveling Wilburys,1988,2024,Jeff Lynne,1947-12-30
+Q7719992,The Brian May Band,1991,1998,Eric Singer,1958-05-12
+Q4562,O-Zone,1999,2005,Dan Balan,1979-02-06
+Q47670,Black Sabbath,1968,2017,Bill Ward,1948-05-05
+Q152066,Take That,1990,2024,Gary Barlow,1971-01-20
+Q167977,Skunk Anansie,1994,2024,Mark Richardson,1970-05-28
+Q192463,Creedence Clearwater Revival,1968,2024,John Fogerty,1945-05-28
+Q285966,Hawkwind,1969,2024,Robert Heaton,1961-07-06
+Q627470,The Turtles,1965,1970,Mark Volman,1947-04-19
+Q151012,Genesis,1967,2024,Steve Hackett,1950-02-12
+Q170599,Arctic Monkeys,2002,2024,Alex Turner,1986-01-06
+Q178095,The Police,1977,1986,Stewart Copeland,1952-07-16
+Q178095,The Police,1977,1986,Andy Summers,1942-12-31
+Q191660,Sonata Arctica,1996,2024,Tony Kakko,1975-05-16
+Q211583,The Strokes,1998,2024,Alex Turner,1986-01-06
+Q254138,Slipknot,1994,2024,Mick Thomson,1973-11-03
+Q83431,Megadeth,1983,2024,David Ellefson,1964-11-12
+Q213495,Boyzone,1993,2024,Shane Lynch,1976-07-03
+Q588820,Cocteau Twins,1979,1997,Elizabeth Fraser,1963-08-29
+Q184386,Yes,1968,2024,Chris Squire,1948-03-04
+Q208417,Immortal,1990,2024,Olve Eikemo,1973-06-27
+Q218866,L'Arc-en-Ciel,1991,2024,Hyde,1969-01-29
+Q218866,L'Arc-en-Ciel,1991,2024,Tetsuya,1969-10-03
+Q308644,G-Unit,1999,2024,Tony Yayo,1978-03-31
+Q153056,Destiny's Child,1990,2006,Farrah Franklin,1981-05-03
+Q291339,Battlelore,1999,2024,Kaisa Jouhki,1980-07-07
+Q291339,Battlelore,1999,2024,Patrik Mennander,1976-01-08
+Q254138,Slipknot,1994,2024,Chris Fehn,1973-02-24
+Q285966,Hawkwind,1969,2024,Michael Moorcock,1939-12-18
+Q739570,Nena,1982,1987,Uwe Fahrenkrog-Petersen,1960-03-10
+Q1761377,Los Compadres,1942,1993,Compay Segundo,1907-11-18
+Q178642,Soulfly,1997,2024,Max Cavalera,1969-08-04
+Q218866,L'Arc-en-Ciel,1991,2024,yukihiro,1968-11-24
+Q220730,The Killers,2001,2024,Brandon Flowers,1981-06-21
+Q306260,Supercell,2007,2024,Huke,1981-04-20
+Q80304,Korn,1993,2024,Brian Welch,1970-06-19
+Q240767,Limp Bizkit,1994,2024,Brian Welch,1970-06-19
+Q489801,INXS,1977,2012,Michael Hutchence,1960-01-22
+Q18690087,Pekka ja Susi,1986,1999,Anssi Kela,1972-07-29
+Q179767,X Japan,1982,1997,Toshi,1965-10-10
+Q258546,In Flames,1990,2024,Peter Iwers,1975-05-15
+Q274593,HammerFall,1993,2024,Joacim Cans,1970-02-19
+Q742626,Heaven & Hell,2006,2010,Vinny Appice,1957-09-13
+Q813658,"Beck, Bogert & Appice",1972,1974,Carmine Appice,1946-12-15
+Q1032544,Hail of Bullets,2006,2017,Ed Warby,1968-03-07
+Q1147061,Mr. Bungle,1985,2004,Scott Ian,1963-12-31
+Q80304,Korn,1993,2024,David Silveria,1972-09-21
+Q82545,Www,1975,2024,Steve Jones,1955-09-03
+Q134969,R.E.M.,1980,2011,Peter Buck,1956-12-06
+Q150750,KAT-TUN,2001,2025,Jin Akanishi,1984-07-04
+Q162586,Dream Theater,1985,2024,Kevin Moore,1967-05-26
+Q185144,Europe,1978,2024,Joey Tempest,1963-08-19
+Q201568,The Buggles,1977,2024,Geoff Downes,1952-08-25
+Q483407,Ramones,1974,1996,Dee Dee Ramone,1951-09-18
+Q1339877,Hindu Love Gods,1984,1990,Peter Buck,1956-12-06
+Q158462,Lynyrd Skynyrd,1964,2024,Ronnie Van Zant,1948-01-15
+Q178549,Counting Crows,1991,2024,Adam Duritz,1964-08-01
+Q203871,Rush,1968,2024,Alex Lifeson,1953-08-27
+Q216856,N.W.A.,1986,1991,MC Ren,1969-06-14
+Q273171,"Emerson, Lake & Palmer",1970,2010,Carl Palmer,1950-03-20
+Q329270,Stone Temple Pilots,1989,2024,Scott Weiland,1967-10-27
+Q912340,Grazhdanskaya Oborona,1984,2008,Yegor Letov,1964-09-10
+Q1339877,Hindu Love Gods,1984,1990,Mike Mills,1958-12-17
+Q1339877,Hindu Love Gods,1984,1990,Bill Berry,1958-07-31
+Q82545,Www,1975,2024,Paul Cook,1956-07-20
+Q134969,R.E.M.,1980,2011,Mike Mills,1958-12-17
+Q134969,R.E.M.,1980,2011,Bill Berry,1958-07-31
+Q154543,D12,1996,2024,Bizarre,1976-06-04
+Q189382,King Crimson,1968,2024,Adrian Belew,1949-12-23
+Q223736,Velvet Revolver,2002,2024,Scott Weiland,1967-10-27
+Q83431,Megadeth,1983,2024,Al Pitrelli,1962-09-26
+Q83468,Judas Priest,1969,2024,John Hinch,1947-06-19
+Q157041,The Offspring,1984,2024,Todd Morse,2000-01-01
+Q158895,Helloween,1984,2024,Michael Weikath,1962-08-07
+Q163989,Arch Enemy,1996,2024,Michael Amott,1970-07-28
+Q184217,The Smashing Pumpkins,1988,2024,Jimmy Chamberlin,1964-06-10
+Q211526,The Byrds,1964,2024,David Crosby,1941-08-14
+Q218178,Ensiferum,1995,2024,Petri Lindroos,1980-01-10
+Q264029,Emperor,1991,2024,Jan Axel Blomberg,1969-08-02
+Q283835,Carcass,1985,2024,Michael Amott,1970-07-28
+Q83431,Megadeth,1983,2024,Shawn Drover,1966-05-05
+Q181684,Against Me!,1997,2024,Atom Willard,1973-08-15
+Q183048,The Beach Boys,1961,2024,Ricky Fataar,1952-05-09
+Q184827,Tool,1990,2024,Adam Jones,1965-01-15
+Q188626,Sonic Youth,1981,2024,Lee Ranaldo,1956-02-03
+Q207472,Toto,1977,2024,Jeff Porcaro,1954-04-01
+Q211583,The Strokes,1998,2024,Julian Casablancas,1978-08-23
+Q214039,Beastie Boys,1981,2012,Ad-Rock,1966-10-31
+Q274593,HammerFall,1993,2024,Oscar Dronjak,1972-01-20
+Q159329,Fugees,1990,2024,Pras,1972-10-19
+Q180880,Pantera,1981,2024,Vinnie Paul,1964-03-11
+Q201207,Stratovarius,1984,2024,Timo Tolkki,1966-03-03
+Q258546,In Flames,1990,2024,Björn Gelotte,1975-08-27
+Q83468,Judas Priest,1969,2024,Simon Phillips,1957-02-06
+Q137758,Wishbone Ash,1969,2024,John Wetton,1949-06-12
+Q142701,Pearl Jam,1990,2024,Jeff Ament,1963-03-10
+Q142701,Pearl Jam,1990,2024,Stone Gossard,1966-07-20
+Q182890,Def Leppard,1977,2024,Vivian Campbell,1962-08-25
+Q188713,The Kinks,1964,1996,Dave Davies,1947-02-03
+Q207306,Godsmack,1995,2024,Sully Erna,1968-02-07
+Q207472,Toto,1977,2024,Simon Phillips,1957-02-06
+Q212168,The Shadows,1958,2024,Hank Marvin,1941-10-28
+Q272239,Twisted Sister,1972,2024,Dee Snider,1955-03-15
+Q483407,Ramones,1974,1996,Tommy Ramone,1949-01-29
+Q1053623,Mother Love Bone,1988,1990,Jeff Ament,1963-03-10
+Q1053623,Mother Love Bone,1988,1990,Stone Gossard,1966-07-20
+Q4562,O-Zone,1999,2005,Arsenie Todiraș,1983-07-22
+Q19697,Motörhead,1975,2015,Phil Campbell,1961-05-07
+Q156049,Manowar,1980,2024,Eric Adams,1952-07-12
+Q213923,Porcupine Tree,1987,2024,Steven Wilson,1967-11-03
+Q319458,Q319458,1991,2024,Robb Flynn,1967-07-19
+Q322196,Cypress Hill,1986,2024,B-Real,1970-06-02
+Q165193,Avenged Sevenfold,1999,2024,Synyster Gates,1981-07-07
+Q209956,Weezer,1992,2024,Rivers Cuomo,1970-06-13
+Q214039,Beastie Boys,1981,2012,Adam Yauch,1964-08-05
+Q259254,Bon Jovi,1983,2024,Hugh McDonald,1950-12-28
+Q273171,"Emerson, Lake & Palmer",1970,2010,Greg Lake,1947-11-10
+Q650555,Kino,1981,1990,Georgy Guryanov,1961-02-27
+Q2296418,The Gods,1965,1970,Greg Lake,1947-11-10
+Q105076476,A.R. & Machines,1971,1976,Achim Reichel,1944-01-28
+Q76244,Epica,2002,2024,Mark Jansen,1978-12-15
+Q136591,ZZ Top,1969,2024,Billy Gibbons,1949-12-16
+Q182890,Def Leppard,1977,2024,Steve Clark,1960-04-23
+Q157026,Dark Tranquillity,1989,2024,Mikael Stanne,1974-05-20
+Q274593,HammerFall,1993,2024,Mikael Stanne,1974-05-20
+Q286596,The Upsetters,1968,2024,Boris Gardiner,1943-01-10
+Q83468,Judas Priest,1969,2024,"Tim ""Ripper"" Owens",1967-09-13
+Q208211,Dead Kennedys,1978,1986,Jello Biafra,1958-06-17
+Q295202,AMM,1965,2022,Keith Rowe,1940-03-16
+Q12054196,Shut Up,1968,1982,Jiří Korn,1949-05-17
+Q213923,Porcupine Tree,1987,2024,Gavin Harrison,1963-05-28
+Q1138250,SMAP,1988,2016,Takuya Kimura,1972-11-13
+Q674314,Fallout,1979,1982,Peter Steele,1962-01-04
+Q162586,Dream Theater,1985,2024,Derek Sherinian,1966-08-25
+Q205001,Talking Heads,1975,2024,David Byrne,1952-05-14
+Q208767,The Stooges,1967,2024,Ron Asheton,1948-07-17
+Q212464,New Kids on the Block,1984,2024,Jordan Knight,1970-05-17
+Q292061,AFI,1991,2024,Jade Puget,1973-11-28
+Q1652399,Kilburn and the High Roads,1970,1975,Ian Dury,1942-05-12
+Q83468,Judas Priest,1969,2024,Ian Hill,1952-01-20
+Q83468,Judas Priest,1969,2024,K. K. Downing,1951-10-27
+Q150750,KAT-TUN,2001,2025,Kazuya Kamenashi,1986-02-23
+Q163604,Moi dix Mois,2002,2024,Mana,1969-03-19
+Q189635,Eagles,1971,2024,Joe Walsh,1947-11-20
+Q193174,Rhapsody of Fire,1993,2024,Luca Turilli,1972-03-05
+Q277230,98 Degrees,1996,2024,Nick Lachey,1973-11-09
+Q83468,Judas Priest,1969,2024,Scott Travis,1961-09-06
+Q171718,Children of Bodom,1993,2019,Jaska Raatikainen,1979-07-18
+Q1339877,Hindu Love Gods,1984,1990,Warren Zevon,1947-01-24
+Q125603,The Clash,1976,2024,Mick Jones,1955-06-26
+Q126826,Aerosmith,1969,2024,Ray Tabano,1946-12-23
+Q176457,Supertramp,1969,2024,Roger Hodgson,1950-03-21
+Q142701,Pearl Jam,1990,2024,Mike McCready,1966-04-05
+Q171718,Children of Bodom,1993,2019,Janne Wirman,1979-04-26
+Q240767,Limp Bizkit,1994,2024,John Otto,1977-03-22
+Q240767,Limp Bizkit,1994,2024,DJ Lethal,1972-12-18
+Q1053623,Mother Love Bone,1988,1990,Andrew Wood,1966-01-08
+Q156049,Manowar,1980,2024,David Shankle,1967-03-07
+Q188713,The Kinks,1964,1996,Ray Davies,1944-06-21
+Q156872,Slade,1966,2024,Noddy Holder,1946-06-15
+Q240892,Arena,1995,2024,Mick Pointer,1956-07-22
+Q264029,Emperor,1991,2024,Ihsahn,1975-01-01
+Q264029,Emperor,1991,2024,Mortiis,1975-07-25
+Q72092,Rage Against the Machine,1991,2024,Brad Wilk,1968-09-05
+Q2331,Led Zeppelin,1968,1980,Robert Plant,1948-08-20
+Q75788,Eluveitie,2002,2024,Chrigel Glanzmann,1975-01-01
+Q192861,Venom,1979,2024,Anthony Lant,1950-01-01
+Q259878,Strange Sensation,2001,2024,Robert Plant,1948-08-20
+Q285966,Hawkwind,1969,2024,Robert Calvert,1945-03-09
+Q172763,Joy Division,1976,2024,Peter Hook,1956-02-13
+Q181457,SNH48,2012,2024,Sae Miyazawa,1990-08-13
+Q181519,SKE48,2008,2024,Sae Miyazawa,1990-08-13
+Q191660,Sonata Arctica,1996,2024,Jani Liimatainen,1980-09-09
+Q214990,New Order,1980,2024,Peter Hook,1956-02-13
+Q247949,Bush,1992,2024,Gavin Rossdale,1965-10-30
+Q251742,Cain's Offering,2009,2024,Jani Liimatainen,1980-09-09
+Q292061,AFI,1991,2024,Davey Havok,1975-11-20
+Q1050662,Chocolove from AKB48,2007,2008,Sae Miyazawa,1990-08-13
+Q156298,Boney M.,1975,1986,Maizie Williams,1951-03-25
+Q158462,Lynyrd Skynyrd,1964,2024,Gary Rossington,1951-12-04
+Q171718,Children of Bodom,1993,2019,Roope Latvala,1970-06-25
+Q156255,Scooter,1993,2024,Rick J. Jordan,1968-01-01
+Q170599,Arctic Monkeys,2002,2024,Matt Helders,1986-05-07
+Q173180,Franz Ferdinand,2002,2024,Alex Kapranos,1972-03-20
+Q264029,Emperor,1991,2024,Samoth,1974-01-01
+Q125603,The Clash,1976,2024,Paul Simonon,1955-12-15
+Q72092,Rage Against the Machine,1991,2024,Tim Commerford,1968-02-26
+Q182223,Maroon 5,1994,2024,Jesse Carmichael,1979-04-02
+Q156298,Boney M.,1975,1986,Liz Mitchell,1952-07-12
+Q183048,The Beach Boys,1961,2024,Al Jardine,1942-09-03
+Q183048,The Beach Boys,1961,2024,Mike Love,1941-03-15
+Q154543,D12,1996,2024,Mr. Porter,1978-12-07
+Q155123,No Angels,2001,2024,Nadja Benaissa,1982-04-26
+Q170354,Juli,1999,2024,Eva Briegel,1978-12-03
+Q174817,Soundgarden,1984,2017,Kim Thayil,1960-09-04
+Q180880,Pantera,1981,2024,Rex Brown,1964-07-27
+Q284740,Miss A,2010,2024,Bae Suzy,1994-10-10
+Q1366214,Candies,1973,1978,Yoshiko Tanaka,1956-04-08
+Q183048,The Beach Boys,1961,2024,Blondie Chaplin,1951-07-07
+Q209182,Public Enemy,1986,2024,Flavor Flav,1959-03-16
+Q181519,SKE48,2008,2024,Jurina Matsui,1997-03-08
+Q320685,Abhorrence,1989,2024,Tomi Koivusaari,1973-04-11
+Q282104,BigBang,2006,2024,Seungri,1990-12-12
+Q153056,Destiny's Child,1990,2006,LaTavia Roberson,1981-11-01
+Q309312,Testament,1983,2024,Chuck Billy,1962-06-23
+Q184827,Tool,1990,2024,Danny Carey,1961-05-10
+Q2880109,Pic-Nic,1967,1969,Jordi Sabatés,1948-10-23
+Q211526,The Byrds,1964,2024,Roger McGuinn,1942-07-13
+Q307652,jtL,2001,2024,Tony An,1978-06-07
+Q771528,UPA Dance,2002,2006,Dafne Fernández,1985-03-31
+Q184217,The Smashing Pumpkins,1988,2024,James Iha,1968-03-26
+Q211965,The Moody Blues,1964,2024,Denny Laine,1944-10-29
+Q300519,A Perfect Circle,1999,2024,James Iha,1968-03-26
+Q125983911,Quả Dưa Hấu,1998,2000,Bằng Kiều,1973-07-13
+Q151012,Genesis,1967,2024,Anthony Phillips,1951-12-23
+Q155123,No Angels,2001,2024,Lucy Diakovska,1976-04-02
+Q156305,a-ha,1982,2024,Magne Furuholmen,1962-11-01
+Q181341,Godspeed You! Black Emperor,1994,2024,Efrim Menuck,1970-08-04
+Q183048,The Beach Boys,1961,2024,Dennis Wilson,1944-12-04
+Q192353,Jethro Tull,1967,2024,Martin Barre,1946-11-17
+Q125603,The Clash,1976,2024,Terry Chimes,1956-07-05
+Q81509,Minor Threat,1980,1983,Ian MacKaye,1962-04-16
+Q158895,Helloween,1984,2024,Markus Grosskopf,1965-09-21
+Q276584,R5,2009,2024,Ross Lynch,1995-12-29
+Q277865,Fugazi,1987,2024,Ian MacKaye,1962-04-16
+Q771528,UPA Dance,2002,2006,Silvia Marty,1980-07-10
+Q207472,Toto,1977,2024,David Paich,1954-06-25
+Q57975996,Cowgirls,2001,2002,Sanne Salomonsen,1955-12-30
+Q174817,Soundgarden,1984,2017,Hiro Yamamoto,1961-04-13
+Q257615,Soilwork,1996,2024,Daniel Antonsson,1974-12-16
+Q483407,Ramones,1974,1996,Marky Ramone,1952-07-15
+Q10448862,The Cherry Bombz,1985,1986,Terry Chimes,1956-07-05
+Q158462,Lynyrd Skynyrd,1964,2024,Allen Collins,1952-07-19
+Q159351,Run-DMC,1981,2024,Jam Master Jay,1965-01-21
+Q274593,HammerFall,1993,2024,Niklas Sundin,1974-08-13
+Q80304,Korn,1993,2024,Ray Luzier,1970-06-14
+Q156305,a-ha,1982,2024,Paul Waaktaar-Savoy,1964-09-06
+Q172763,Joy Division,1976,2024,Bernard Sumner,1956-01-04
+Q205001,Talking Heads,1975,2024,Tina Weymouth,1950-11-22
+Q211526,The Byrds,1964,2024,Gram Parsons,1946-11-05
+Q214990,New Order,1980,2024,Bernard Sumner,1956-01-04
+Q221494,Quiet Riot,1973,2024,Rudy Sarzo,1950-11-18
+Q216856,N.W.A.,1986,1991,DJ Yella,1961-12-11
+Q247658,Stardust,1998,2024,Thomas Bangalter,1975-01-03
+Q269813,Il Divo,2004,2024,Carlos Marín,1968-10-13
+Q156298,Boney M.,1975,1986,Marcia Barrett,1948-10-14
+Q19697,Motörhead,1975,2015,Würzel,1949-10-23
+Q156049,Manowar,1980,2024,Joey DeMaio,1954-03-06
+Q190155,Van Halen,1972,2020,Sammy Hagar,1947-10-13
+Q207472,Toto,1977,2024,Bobby Kimball,1947-03-29
+Q217025,Manic Street Preachers,1986,2024,Richey Edwards,1967-12-22
+Q572821,Big Black,1981,1987,Steve Albini,1962-07-22
+Q279105,Volbeat,2001,2024,Franz Gottschalk,1976-01-01
+Q2296418,The Gods,1965,1970,Ken Hensley,1945-08-24
+Q7719992,The Brian May Band,1991,1998,Neil Murray,1950-08-27
+Q121552820,The Heads,1994,1996,Tina Weymouth,1950-11-22
+Q240403,Eiffel 65,1997,2006,Gabry Ponte,1973-04-20
+Q83431,Megadeth,1983,2024,Jimmy DeGrasso,1963-03-16
+Q320499,Faith No More,1983,2024,Mike Bordin,1962-11-27
+Q189635,Eagles,1971,2024,Glenn Frey,1948-11-06
+Q211526,The Byrds,1964,2024,Gene Clark,1941-11-17
+Q154454,NSYNC,1995,2024,Lance Bass,1979-05-04
+Q182223,Maroon 5,1994,2024,James Valentine,1978-10-05
+Q212533,Grateful Dead,1965,2024,Donna Jean Godchaux,1947-08-22
+Q214418,The Bangles,1981,2024,Michael Steele,1955-06-02
+Q309312,Testament,1983,2024,Alex Skolnick,1968-09-29
+Q7545956,Smokey & Miho,2001,2003,Miho Hatori,1970-04-05
+Q192983,TVXQ,2003,2024,Park Yoo-chun,1986-06-04
+Q292061,AFI,1991,2024,Adam Carson,1975-02-05
+Q3793010,Il Volo,1974,1975,Vince Tempera,1946-09-18
+Q124459,Kara,2007,2016,Nicole Jung,1991-10-07
+Q124459,Kara,2007,2016,Goo Hara,1991-01-03
+Q124459,Kara,2007,2016,Park Gyu-ri,1988-05-21
+Q124459,Kara,2007,2016,Kang Ji-young,1994-01-18
+Q124459,Kara,2007,2016,Han Seung-yeon,1988-07-24
+Q171885,2NE1,2009,2017,Park Bom,1984-03-24
+Q269836,SHINee,2008,2024,Onew,1989-12-14
+Q284740,Miss A,2010,2024,Min,1991-06-21
+Q284740,Miss A,2010,2024,Meng Jia,1989-02-03
+Q448458,Wise Guys,1995,2017,Andrea Figallo,1972-02-11
+Q476119,Wonder Girls,2007,2017,Hyelim,1992-09-01
+Q488260,Jefferson Airplane,1965,1972,Spencer Dryden,1938-04-07
+Q171885,2NE1,2009,2017,Sandara Park,1984-11-12
+Q192983,TVXQ,2003,2024,Yunho,1986-02-06
+Q222760,2PM,2008,2024,Hwang Chansung,1990-02-11
+Q223048,SISTAR,2010,2017,Hyolyn,1990-12-11
+Q282104,BigBang,2006,2024,T.O.P,1987-11-04
+Q282104,BigBang,2006,2024,G-Dragon,1988-08-18
+Q307652,jtL,2001,2024,Jang Woo-hyuk,1978-05-08
+Q103550,The Velvet Underground,1965,2024,Sterling Morrison,1942-08-28
+Q156049,Manowar,1980,2024,Ross the Boss,1954-01-03
+Q153926,Alphaville,1982,2024,Marian Gold,1954-05-26
+Q180582,Bauhaus,1978,2024,Peter Murphy,1957-07-11
+Q183048,The Beach Boys,1961,2024,Carl Wilson,1946-12-21
+Q188626,Sonic Youth,1981,2024,Thurston Moore,1958-07-25
+Q488260,Jefferson Airplane,1965,1972,Marty Balin,1942-01-30
+Q171885,2NE1,2009,2017,CL,1991-02-26
+Q171885,2NE1,2009,2017,Minzy,1994-01-18
+Q178095,The Police,1977,1986,Sting,1951-10-02
+Q192983,TVXQ,2003,2024,Kim Junsu,1986-12-15
+Q192983,TVXQ,2003,2024,Changmin,1988-02-18
+Q222760,2PM,2008,2024,Nichkhun,1988-06-24
+Q222760,2PM,2008,2024,Ok Taec-yeon,1988-12-27
+Q222760,2PM,2008,2024,Jun. K,1988-01-15
+Q269836,SHINee,2008,2024,Key,1991-09-23
+Q269836,SHINee,2008,2024,Kim Jong-hyun,1990-04-08
+Q282104,BigBang,2006,2024,Taeyang,1988-05-18
+Q307652,jtL,2001,2024,Lee Jae-won,1980-04-05
+Q476119,Wonder Girls,2007,2017,Sohee,1992-06-27
+Q476119,Wonder Girls,2007,2017,Park Ye-eun,1989-05-26
+Q476119,Wonder Girls,2007,2017,Sunye,1989-08-12
+Q2331,Led Zeppelin,1968,1980,John Bonham,1948-05-31
+Q39682,4Minute,2009,2016,Kwon So-hyun,1994-08-30
+Q108666,Uriah Heep,1969,2024,David Byron,1947-01-29
+Q157448,A-Teens,1998,2024,Sara Lumholdt,1984-10-25
+Q163989,Arch Enemy,1996,2024,Christopher Amott,1977-11-23
+Q7719992,The Brian May Band,1991,1998,Spike Edney,1951-12-11
+Q476119,Wonder Girls,2007,2017,Yubin,1988-10-04
+Q483234,B.A.P,2012,2019,Bang Yong-guk,1990-03-31
+Q181144,Orange Caramel,2010,2024,Nana,1991-09-14
+Q279105,Volbeat,2001,2024,Anders Kjølholm,1971-03-04
+Q39682,4Minute,2009,2016,Jeon Ji-yoon,1990-10-15
+Q39682,4Minute,2009,2016,Heo Ga-yoon,1990-05-18
+Q153616,Tangerine Dream,1967,2024,Edgar Froese,1944-06-06
+Q185144,Europe,1978,2024,John Norum,1964-02-23
+Q189991,Gorillaz,1998,2024,Jamie Hewlett,1968-04-03
+Q162247,Therion,1987,2024,Dan Swanö,1973-03-10
+Q184827,Tool,1990,2024,Justin Chancellor,1971-11-19
+Q277551,Panic! at the Disco,2005,2024,Spencer Smith,1987-09-02
+Q181144,Orange Caramel,2010,2024,Park Soo-ah,1992-07-31
+Q222760,2PM,2008,2024,Jang Wooyoung,1989-04-30
+Q222760,2PM,2008,2024,Lee Jun-ho,1990-01-25
+Q650555,Kino,1981,1990,Viktor Tsoi,1962-06-21
+Q6460281,LUV,2002,2003,Oh Yeon-seo,1987-06-22
+Q6460281,LUV,2002,2003,Jeon Hye-bin,1983-09-27
+Q39682,4Minute,2009,2016,Nam Ji-hyun,1990-01-09
+Q190155,Van Halen,1972,2020,Michael Anthony,1954-06-20
+Q292061,AFI,1991,2024,Hunter Burgan,1976-05-14
+Q1430380,Nomeansno,1979,2016,Tom Holliston,1960-04-21
+Q57975996,Cowgirls,2001,2002,Lis Sørensen,1955-05-28
+Q191660,Sonata Arctica,1996,2024,Elias Viljanen,1975-07-08
+Q182890,Def Leppard,1977,2024,Phil Collen,1957-12-08
+Q211583,The Strokes,1998,2024,Fabrizio Moretti,1980-06-02
+Q212533,Grateful Dead,1965,2024,Mickey Hart,1943-09-11
+Q706764,Popol Vuh,1969,2001,Florian Fricke,1944-02-23
+Q12411741,Shlishiyat Gesher Hayarkon,1964,1966,Arik Einstein,1939-01-03
+Q137758,Wishbone Ash,1969,2024,Andy Powell,1950-02-19
+Q158462,Lynyrd Skynyrd,1964,2024,Billy Powell,1952-06-03
+Q219874,Village People,1977,2024,Randy Jones,1952-09-13
+Q247658,Stardust,1998,2024,Alan Braxe,1973-08-06
+Q309312,Testament,1983,2024,Gene Hoglan,1967-08-31
+Q288105,Pankow,1981,2024,André Herzberg,1955-12-28
+Q154129,Gamma Ray,1988,2024,Dirk Schlächter,1965-02-15
+Q201207,Stratovarius,1984,2024,Lauri Porra,1977-12-13
+Q320499,Faith No More,1983,2024,Billy Gould,1963-04-24
+Q322265,Status Quo,1962,2024,Andy Bown,1946-03-27
+Q108666,Uriah Heep,1969,2024,Mick Box,1947-06-09
+Q1032544,Hail of Bullets,2006,2017,Martin van Drunen,1966-01-01
+Q125603,The Clash,1976,2024,Topper Headon,1954-05-30
+Q172763,Joy Division,1976,2024,Stephen Morris,1957-10-28
+Q182890,Def Leppard,1977,2024,Joe Elliott,1959-08-01
+Q188626,Sonic Youth,1981,2024,Steve Shelley,1962-06-23
+Q214990,New Order,1980,2024,Stephen Morris,1957-10-28
+Q483810,The Cranberries,1989,2003,Dolores O'Riordan,1971-09-06
+Q183048,The Beach Boys,1961,2024,Bruce Johnston,1942-06-27
+Q188626,Sonic Youth,1981,2024,Jim O'Rourke,1969-01-18
+Q192463,Creedence Clearwater Revival,1968,2024,Doug Clifford,1945-04-24
+Q258546,In Flames,1990,2024,Glenn Ljungström,1974-09-07
+Q265222,NOFX,1983,2024,Fat Mike,1967-01-16
+Q158462,Lynyrd Skynyrd,1964,2024,Johnny Van Zant,1960-02-27
+Q202314,Thin Lizzy,1969,2024,Scott Gorham,1951-03-17
+Q213388,Aqua,1989,2024,Søren Rasted,1969-06-13
+Q1147061,Mr. Bungle,1985,2004,Trevor Dunn,1968-01-30
+Q192463,Creedence Clearwater Revival,1968,2024,Tom Fogerty,1941-11-09
+Q154454,NSYNC,1995,2024,JC Chasez,1976-08-08
+Q219944,Deus,1991,2024,Tom Barman,1972-01-01
+Q158462,Lynyrd Skynyrd,1964,2024,Kenny Aronoff,1953-03-07
+Q289405,The Vines,1999,2024,Craig Nicholls,1977-08-31
+Q154543,D12,1996,2024,Kuniva,1976-12-10
+Q201207,Stratovarius,1984,2024,Jörg Michael,1963-03-27
+Q214486,Procol Harum,1967,2024,Gary Brooker,1945-05-29
+Q309312,Testament,1983,2024,Eric Peterson,1964-05-14
+Q312428,Rage,1984,2024,Jörg Michael,1963-03-27
+Q483407,Ramones,1974,1996,C. J. Ramone,1965-10-08
+Q136591,ZZ Top,1969,2024,Dusty Hill,1949-05-19
+Q163989,Arch Enemy,1996,2024,Jeff Loomis,1971-09-14
+Q192353,Jethro Tull,1967,2024,Jeffrey Hammond,1946-07-30
+Q207472,Toto,1977,2024,Steve Porcaro,1957-09-02
+Q274593,HammerFall,1993,2024,Glenn Ljungström,1974-09-07
+Q308816,Creed,1994,2024,Mark Tremonti,1974-04-18
+Q83468,Judas Priest,1969,2024,Dave Holland,1948-04-05
+Q179767,X Japan,1982,1997,Pata,1965-11-04
+Q179767,X Japan,1982,1997,Taiji,1966-07-12
+Q176457,Supertramp,1969,2024,Rick Davies,1944-07-22
+Q322265,Status Quo,1962,2024,Francis Rossi,1949-05-29
+Q157497,Bloodhound Gang,1988,2024,Jimmy Pop,1972-08-27
+Q753829,Bijelo Dugme,1974,1989,Laza Ristovski,1956-01-23
+Q208767,The Stooges,1967,2024,Dave Alexander,1947-06-03
+Q96141419,Kilhets,1978,1980,František Skála,1956-02-07
+Q188464,Pixies,1986,2024,Joey Santiago,1965-06-10
+Q12054196,Shut Up,1968,1982,Zdeněk Merta,1951-04-25
+Q264029,Emperor,1991,2024,Bård Faust,1974-04-21
+Q269091,Tears for Fears,1981,2024,Roland Orzabal,1961-08-22
+Q312428,Rage,1984,2024,Peavy Wagner,1964-12-22
+Q212464,New Kids on the Block,1984,2024,Jonathan Knight,1968-11-29
+Q265222,NOFX,1983,2024,Erik Sandin,1966-07-29
+Q319458,Q319458,1991,2024,Phil Demmel,1967-04-01
+Q134727601,Bombardil,1972,1972,Eric Stewart,1945-01-20
+Q19697,Motörhead,1975,2015,Brian Robertson,1956-02-12
+Q142636,The Chicks,1989,2024,Emily Robison,1972-08-16
+Q204328,Kansas,1970,2024,Steve Walsh,1951-06-15
+Q300602,A Tribe Called Quest,1985,2024,Ali Shaheed Muhammad,1970-08-11
+Q309312,Testament,1983,2024,Steve Souza,1964-03-24
+Q3704502,Decibel,1977,1998,Enrico Ruggeri,1957-06-05
+Q111337,Korpiklaani,1993,2024,Jonne Järvelä,1974-06-03
+Q18689998,Mistakes,1980,1982,Pave Maijanen,1950-09-03
+Q151241,Westlife,1998,2024,Kian Egan,1980-04-29
+Q211583,The Strokes,1998,2024,"Albert Hammond, Jr.",1980-04-09
+Q308816,Creed,1994,2024,Scott Stapp,1973-08-08
+Q214039,Beastie Boys,1981,2012,Rick Rubin,1963-03-10
+Q181144,Orange Caramel,2010,2024,Raina,1989-05-07
+Q204328,Kansas,1970,2024,Robby Steinhardt,1950-05-25
+Q83431,Megadeth,1983,2024,Kiko Loureiro,1972-06-16
+Q157026,Dark Tranquillity,1989,2024,Johan Reinholdz,1980-06-30
+Q158895,Helloween,1984,2024,Ingo Schwichtenberg,1965-05-18
+Q192861,Venom,1979,2024,Tony Dolan,1964-01-21
+Q202314,Thin Lizzy,1969,2024,Brian Downey,1951-01-27
+Q211965,The Moody Blues,1964,2024,John Lodge,1943-07-20
+Q285966,Hawkwind,1969,2024,Huw Lloyd-Langton,1951-02-06
+Q1107195,Coil,1982,2004,Thighpaulsandra,1958-06-19
+Q156255,Scooter,1993,2024,Michael Simon,1972-08-29
+Q483810,The Cranberries,1989,2003,Fergal Patrick Lawler,1971-03-04
+Q158462,Lynyrd Skynyrd,1964,2024,Cassie Gaines,1948-01-09
+Q174291,Morning Musume,1997,2024,Masaki Sato,1999-05-07
+Q488260,Jefferson Airplane,1965,1972,Signe Toly Anderson,1941-09-15
+Q189635,Eagles,1971,2024,Don Felder,1947-09-21
+Q202741,Blondie,1974,2024,Clem Burke,1954-11-24
+Q214039,Beastie Boys,1981,2012,Mix Master Mike,1970-04-04
+Q283835,Carcass,1985,2024,Jeffrey Walker,1969-03-25
+Q123025,Level 42,1980,2024,Mark King,1958-10-20
+Q212168,The Shadows,1958,2024,Tony Meehan,1943-03-02
+Q483407,Ramones,1974,1996,Richie Ramone,1957-08-11
+Q488260,Jefferson Airplane,1965,1972,Jorma Kaukonen,1940-12-23
+Q204328,Kansas,1970,2024,John Elefante,1958-03-18
+Q290924,Terrorgruppe,1993,2024,Archi Alert,1965-01-01
+Q190155,Van Halen,1972,2020,Gary Cherone,1961-07-26
+Q312428,Rage,1984,2024,Victor Smolski,1969-02-01
+Q204328,Kansas,1970,2024,Phil Ehart,1950-02-04
+Q476119,Wonder Girls,2007,2017,Sunmi,1992-05-02
+Q1138185,L7,1985,2001,Donita Sparks,1963-04-08
+Q162247,Therion,1987,2024,Lars Rosenberg,1971-02-02
+Q165193,Avenged Sevenfold,1999,2024,Zacky Vengeance,1981-12-11
+Q212481,Shaman,2000,2024,Andre Matos,1971-09-14
+Q154129,Gamma Ray,1988,2024,Uli Kusch,1967-03-11
+Q158895,Helloween,1984,2024,Uli Kusch,1967-03-11
+Q204328,Kansas,1970,2024,Dave Hope,1949-10-07
+Q1235814,Dolly Dots,1979,1988,Angela Groothuizen,1959-09-28
+Q18986556,Avsenik Brothers Ensemble,1953,1990,Slavko Avsenik,1929-11-26
+Q212455,Boøwy,1981,1988,Tomoyasu Hotei,1962-02-01
+Q123025,Level 42,1980,2024,Mike Lindup,1959-03-17
+Q178642,Soulfly,1997,2024,Tony Campos,1973-03-08
+Q283835,Carcass,1985,2024,Bill Steer,1969-12-03
+Q328333,Asesino,2002,2024,Tony Campos,1973-03-08
+Q913662,The Distillers,1998,2006,Ryan Sinn,1979-04-23
+Q1309275,The Rascals,2007,2009,Miles Kane,1986-03-17
+Q136591,ZZ Top,1969,2024,Frank Beard,1949-06-11
+Q137758,Wishbone Ash,1969,2024,Ted Turner,1950-08-02
+Q158462,Lynyrd Skynyrd,1964,2024,Greg T. Walker,1950-01-01
+Q192353,Jethro Tull,1967,2024,Clive Bunker,1946-12-12
+Q156255,Scooter,1993,2024,Axel Coon,1975-03-23
+Q156255,Scooter,1993,2024,Ferris,1971-09-29
+Q158462,Lynyrd Skynyrd,1964,2024,Hughie Thomasson,1952-08-13
+Q189965,Whitesnake,1978,2024,Bernie Marsden,1951-05-07
+Q156523,Sodom,1981,2024,Tom Angelripper,1963-02-19
+Q185144,Europe,1978,2024,Ian Haugland,1964-08-13
+Q212168,The Shadows,1958,2024,Jet Harris,1939-07-06
+Q214486,Procol Harum,1967,2024,Robin Trower,1945-03-09
+Q286596,The Upsetters,1968,2024,Aston Barrett,1946-11-22
+Q108666,Uriah Heep,1969,2024,Lee Kerslake,1947-04-16
+Q185144,Europe,1978,2024,John Levén,1963-10-25
+Q192353,Jethro Tull,1967,2024,John Evan,1948-03-28
+Q2296418,The Gods,1965,1970,Lee Kerslake,1947-04-16
+Q2296418,The Gods,1965,1970,John Glascock,1951-05-02
+Q853266,Beyond,1983,2005,Wong Ka-Kui,1962-06-10
+Q188407,Snow Patrol,1994,2024,Gary Lightbody,1976-06-15
+Q193174,Rhapsody of Fire,1993,2024,Fabio Lione,1973-10-09
+Q213495,Boyzone,1993,2024,Michael Graham,1972-08-15
+Q279634,a1,1998,2024,Ben Adams,1981-11-22
+Q3516391,Taxi Girl,1978,1986,Mirwais,1960-10-23
+Q192861,Venom,1979,2024,Conrad Lant,1963-01-15
+Q329270,Stone Temple Pilots,1989,2024,Eric Kretz,1966-06-07
+Q329270,Stone Temple Pilots,1989,2024,Dean DeLeo,1961-08-23
+Q189965,Whitesnake,1978,2024,Micky Moody,1950-08-30
+Q307165,Globe,1995,2024,Tetsuya Komuro,1958-11-27
+Q153616,Tangerine Dream,1967,2024,Ulrich Schnauss,1977-01-01
+Q285966,Hawkwind,1969,2024,Arthur Brown,1942-06-24
+Q7759377,The Ramong Sound,1965,1966,Arthur Brown,1942-06-24
+Q312428,Rage,1984,2024,Mike Terrana,1960-01-21
+Q19697,Motörhead,1975,2015,Phil Taylor,1954-09-21
+Q173180,Franz Ferdinand,2002,2024,Nick McCarthy,1974-12-13
+Q309312,Testament,1983,2024,Steve DiGiorgio,1967-11-07
+Q156255,Scooter,1993,2024,Jens Thele,1967-12-20
+Q178095,The Police,1977,1986,Henry Padovani,1952-10-13
+Q159351,Run-DMC,1981,2024,Joseph Simmons,1964-11-14
+Q202741,Blondie,1974,2024,Gary Lachman,1955-12-24
+Q151012,Genesis,1967,2024,Daryl Stuermer,1952-11-27
+Q160103,Travis,1990,2024,Fran Healy,1973-07-23
+Q185144,Europe,1978,2024,Mic Michaeli,1962-11-11
+Q188464,Pixies,1986,2024,David Lovering,1961-12-06
+Q212464,New Kids on the Block,1984,2024,Joey McIntyre,1972-12-31
+Q214990,New Order,1980,2024,Phil Cunningham,1974-12-07
+Q268612,Riverside,2001,2024,Piotr Kozieradzki,1970-05-23
+Q182223,Maroon 5,1994,2024,Ryan Dusick,1977-09-19
+Q221494,Quiet Riot,1973,2024,Frankie Banali,1951-11-14
+Q612672,Téléphone,1976,1986,Jean-Louis Aubert,1955-04-12
+Q209182,Public Enemy,1986,2024,Chuck D,1960-08-01
+Q321762,Napalm Death,1981,2024,Barney Greenway,1969-07-13
+Q223736,Velvet Revolver,2002,2024,Dave Kushner,1966-11-16
+Q322265,Status Quo,1962,2024,Matt Letley,1961-03-29
+Q158641,Q158641,1999,2024,Michael Rodenberg,1970-04-09
+Q165193,Avenged Sevenfold,1999,2024,Brooks Wackerman,1977-02-15
+Q211526,The Byrds,1964,2024,Chris Hillman,1944-12-04
+Q146027,One Direction,2010,2024,Niall Horan,1993-09-13
+Q192863,Amon Amarth,1992,2024,Martin Lopez,1978-05-20
+Q306260,Supercell,2007,2024,redjuice,1976-01-01
+Q718273,Cute,2005,2017,Mai Hagiwara,1996-02-07
+Q1888034,The Delgados,1994,2005,Emma Pollock,1971-08-01
+Q21010689,Trio Bennato,1958,2017,Edoardo Bennato,1946-07-23
+Q126826,Aerosmith,1969,2024,Joey Kramer,1950-06-21
+Q277551,Panic! at the Disco,2005,2024,Ryan Ross,1986-08-30
+Q1156338,V6,1995,2021,Yoshihiko Inohara,1976-05-17
+Q1156338,V6,1995,2021,Ken Miyake,1979-07-02
+Q1156338,V6,1995,2021,Gō Morita,1979-02-20
+Q1322032,Tokio,1990,2025,Tatsuya Yamaguchi,1972-01-10
+Q151241,Westlife,1998,2024,Shane Filan,1979-07-01
+Q213495,Boyzone,1993,2024,Keith Duffy,1974-10-01
+Q268612,Riverside,2001,2024,Mariusz Duda,1975-09-25
+Q1245982,Rapülők,1992,1994,Gábor Berkes,1961-12-31
+Q108666,Uriah Heep,1969,2024,Bernie Shaw,1957-06-15
+Q153926,Alphaville,1982,2024,Bernhard Lloyd,1960-06-02
+Q1255216,Lokomotive Kreuzberg,1972,1977,Bernhard Potschka,1952-03-01
+Q1155446,Dream,2000,2017,Sayaka Yamamoto,1987-09-19
+Q1155446,Dream,2000,2017,Kana Tachibana,1985-10-20
+Q3331241,E-girls,2011,2020,Sayaka Yamamoto,1987-09-19
+Q181519,SKE48,2008,2024,Suzuran Yamauchi,1994-12-08
+Q181584,SDN48,2009,2024,Haruka Umeda,1988-03-15
+Q73597,Frankie Goes to Hollywood,1980,2024,Brian Nash,1963-05-20
+Q81509,Minor Threat,1980,1983,Brian Baker,1965-02-25
+Q295202,AMM,1965,2022,Lou Gare,1939-06-16
+Q308816,Creed,1994,2024,Brian Marshall,1973-04-24
+Q156255,Scooter,1993,2024,Jay Frog,1976-05-07
+Q162247,Therion,1987,2024,Christofer Johnsson,1972-08-10
+Q162586,Dream Theater,1985,2024,Charlie Dominici,1951-06-16
+Q162586,Dream Theater,1985,2024,Chris Collins,1967-08-10
+Q181519,SKE48,2008,2024,Kanon Kimoto,1997-08-11
+Q202741,Blondie,1974,2024,Chris Stein,1950-01-05
+Q212533,Grateful Dead,1965,2024,Bill Kreutzmann,1946-05-07
+Q117257353,The Stilettos,1972,1974,Chris Stein,1950-01-05
+Q171718,Children of Bodom,1993,2019,Alexander Kuoppala,1974-04-11
+Q212533,Grateful Dead,1965,2024,Bob Weir,1947-10-16
+Q181584,SDN48,2009,2024,Yukari Satō,1988-11-22
+Q181584,SDN48,2009,2024,Kayo Noro,1983-10-28
+Q181519,SKE48,2008,2024,Yui Matsushita,1988-07-25
+Q181519,SKE48,2008,2024,Machiko Tezuka,1986-02-25
+Q181584,SDN48,2009,2024,Machiko Tezuka,1986-02-25
+Q185226,Nogizaka46,2011,2024,Yukina Kashiwa,1994-08-12
+Q1555803,Alex Oriental Experience,1973,2009,Rosko Gee,1947-07-02
+Q56402353,Iz*One,2018,2021,Sakura Miyawaki,1998-03-19
+Q204328,Kansas,1970,2024,Tom Brislin,1968-10-06
+Q257615,Soilwork,1996,2024,Björn Strid,1978-09-10
+Q1452115,Freaks Association Bremen,1993,1997,Ferris MC,1973-10-02
+Q329270,Stone Temple Pilots,1989,2024,Robert DeLeo,1966-02-02
+Q126826,Aerosmith,1969,2024,Rick Dufay,1952-02-19
+Q192463,Creedence Clearwater Revival,1968,2024,Stu Cook,1945-04-25
+Q192725,The Yardbirds,1963,2024,Keith Relf,1943-03-22
+Q212533,Grateful Dead,1965,2024,Bruce Hornsby,1954-11-23
+Q213249,Vista Chino,2010,2024,John Garcia,1970-09-04
+Q207472,Toto,1977,2024,Mike Porcaro,1955-05-29
+Q489801,INXS,1977,2012,Tim Farriss,1957-08-16
+Q213476,Tristania,1997,2024,Morten Veland,1977-12-04
+Q279105,Volbeat,2001,2024,Rob Caggiano,1976-11-07
+Q212533,Grateful Dead,1965,2024,Brent Mydland,1952-10-21
+Q771528,UPA Dance,2002,2006,Pablo Puyol,1975-12-26
+Q5980384,Los Sin Nombre,1994,1996,Haritz Garde,1976-01-23
+Q5980384,Los Sin Nombre,1994,1996,Pablo Benegas,1976-06-21
+Q222517,Blackstreet,1991,2024,Teddy Riley,1967-10-08
+Q181584,SDN48,2009,2024,Kazue Akita,1985-02-23
+Q862514,Kalafina,2007,2018,Keiko Kubota,1985-12-05
+Q189635,Eagles,1971,2024,Timothy B. Schmit,1947-10-30
+Q201207,Stratovarius,1984,2024,Tuomo Lassila,1965-01-01
+Q328333,Asesino,2002,2024,Dino Cazares,1966-09-02
+Q158462,Lynyrd Skynyrd,1964,2024,Steve Gaines,1949-09-14
+Q277865,Fugazi,1987,2024,Joe Lally,1963-12-03
+Q279105,Volbeat,2001,2024,Thomas Bredahl,1980-11-02
+Q192725,The Yardbirds,1963,2024,Jim McCarty,1943-07-25
+Q269091,Tears for Fears,1981,2024,Curt Smith,1961-06-24
+Q162247,Therion,1987,2024,Thomas Vikström,1969-01-21
+Q192915,The Corrs,1990,2024,Jim Corr,1964-07-31
+Q207472,Toto,1977,2024,Joseph Williams,1960-09-01
+Q158462,Lynyrd Skynyrd,1964,2024,Johnny Colt,1968-05-01
+Q165714,Live,1988,2024,Chad Gracey,1971-07-23
+Q211583,The Strokes,1998,2024,Nick Valensi,1981-01-16
+Q322196,Cypress Hill,1986,2024,DJ Muggs,1968-01-28
+Q192861,Venom,1979,2024,Jeffrey Dunn,1961-04-22
+Q212455,Boøwy,1981,1988,Kyōsuke Himuro,1960-10-07
+Q189991,Gorillaz,1998,2024,Russel Hobbs,1975-06-03
+Q183048,The Beach Boys,1961,2024,David Marks,1944-08-22
+Q174817,Soundgarden,1984,2017,Ben Shepherd,1968-09-20
+Q207306,Godsmack,1995,2024,Robbie Merrill,1963-06-13
+Q322265,Status Quo,1962,2024,Rick Parfitt,1948-10-12
+Q5901555,Honey Is Cool,1994,2000,Håkan Hellström,1974-04-02
+Q207472,Toto,1977,2024,Dennis Frederiksen,1951-05-15
+Q207472,Toto,1977,2024,David Hungate,1948-08-05
+Q208417,Immortal,1990,2024,Reidar Horghagen,1971-05-07
+Q278406,High on Fire,1998,2024,Joe Preston,1969-01-01
+Q322265,Status Quo,1962,2024,Pete Kircher,1945-01-21
+Q131231,Slayer,1981,2019,Gary Holt,1964-05-04
+Q163989,Arch Enemy,1996,2024,Fredrik Åkesson,1972-07-18
+Q209956,Weezer,1992,2024,Scott Shriner,1965-07-11
+Q211965,The Moody Blues,1964,2024,Justin Hayward,1946-10-14
+Q488260,Jefferson Airplane,1965,1972,Jack Casady,1944-04-13
+Q212168,The Shadows,1958,2024,Bruce Welch,1941-11-02
+Q912340,Grazhdanskaya Oborona,1984,2008,Yanka Dyagileva,1966-09-04
+Q151634,Ace of Base,1990,2024,Jonas Berggren,1967-03-21
+Q179767,X Japan,1982,1997,Sugizo,1969-07-08
+Q184217,The Smashing Pumpkins,1988,2024,Nicole Fiorentino,1979-04-07
+Q321762,Napalm Death,1981,2024,Shane Embury,1967-11-27
+Q321762,Napalm Death,1981,2024,Mitch Harris,1969-10-31
+Q19697,Motörhead,1975,2015,Eddie Clarke,1950-10-05
+Q126826,Aerosmith,1969,2024,Jimmy Crespo,1954-07-05
+Q213249,Vista Chino,2010,2024,Nick Oliveri,1971-10-21
+Q322265,Status Quo,1962,2024,Alan Lancaster,1949-02-07
+Q219944,Deus,1991,2024,Rudy Trouvé,1967-01-28
+Q176457,Supertramp,1969,2024,Bob Siebenberg,1949-10-31
+Q176457,Supertramp,1969,2024,Richard Palmer-James,1947-06-11
+Q158895,Helloween,1984,2024,Daniel Löble,1973-02-22
+Q205473,Girls Aloud,2002,2024,Nadine Coyle,1985-06-15
+Q251742,Cain's Offering,2009,2024,Jukka Koskinen,1981-07-16
+Q1123885,The Ark,1991,2011,Lars Ljungberg,1977-03-06
+Q158462,Lynyrd Skynyrd,1964,2024,Ed King,1949-09-14
+Q162247,Therion,1987,2024,Johan Niemann,1977-06-26
+Q229489,3JS,2002,2024,Jan Dulles,1975-01-15
+Q157327,Silverchair,1992,2024,Daniel Johns,1979-04-22
+Q320499,Faith No More,1983,2024,Roddy Bottum,1963-07-01
+Q1245982,Rapülők,1992,1994,Péter Geszti,1964-05-09
+Q306260,Supercell,2007,2024,Shirow Miwa,1978-11-09
+Q2756643,RC Succession,1968,1991,Kiyoshiro Imawano,1951-04-02
+Q5980384,Los Sin Nombre,1994,1996,Xabi San Martín,1977-05-20
+Q83431,Megadeth,1983,2024,Greg Handevidt,1965-02-26
+Q181519,SKE48,2008,2024,Akari Suda,1991-10-31
+Q181519,SKE48,2008,2024,Masana Ōya,1990-11-06
+Q181519,SKE48,2008,2024,Anna Ishida,1996-05-27
+Q181519,SKE48,2008,2024,Nana Yamada,1992-04-03
+Q181674,NMB48,2010,2024,Nana Yamada,1992-04-03
+Q181674,NMB48,2010,2024,Sayaka Yamamoto,1993-07-14
+Q223768,McFly,2004,2024,Dougie Poynter,1987-11-30
+Q223768,McFly,2004,2024,Tom Fletcher,1985-07-17
+Q223768,McFly,2004,2024,Danny Jones,1986-03-12
+Q223768,McFly,2004,2024,Harry Judd,1985-12-23
+Q277551,Panic! at the Disco,2005,2024,Brendon Urie,1987-04-12
+Q286596,The Upsetters,1968,2024,Carlton Barrett,1950-12-17
+Q307319,W-inds,2001,2024,Ryohei Chiba,1984-11-18
+Q1049681,PMMP,2002,2013,Paula Vesala,1981-12-10
+Q1155446,Dream,2000,2017,Yu Hasebe,1986-01-17
+Q83431,Megadeth,1983,2024,Glen Drover,1969-05-25
+Q126826,Aerosmith,1969,2024,Brad Whitford,1952-02-23
+Q165193,Avenged Sevenfold,1999,2024,The Rev,1981-02-09
+Q306260,Supercell,2007,2024,yanaginagi,1987-05-31
+Q1123885,The Ark,1991,2011,Martin Axén,1973-04-01
+Q1138250,SMAP,1988,2016,Tsuyoshi Kusanagi,1974-07-09
+Q1322032,Tokio,1990,2025,Masahiro Matsuoka,1977-01-11
+Q1322032,Tokio,1990,2025,Taichi Kokubun,1974-09-02
+Q127888,Nautilus Pompilius,1982,1997,Ilya Kormiltsev,1959-09-26
+Q83431,Megadeth,1983,2024,Nick Menza,1964-07-23
+Q83468,Judas Priest,1969,2024,Richie Faulkner,1980-01-01
+Q150750,KAT-TUN,2001,2025,Junnosuke Taguchi,1985-11-29
+Q151012,Genesis,1967,2024,Chester Thompson,1948-12-11
+Q184294,9nine,2005,2024,Umika Kawashima,1994-03-03
+Q191660,Sonata Arctica,1996,2024,Marko Paasikoski,1978-06-10
+Q191660,Sonata Arctica,1996,2024,Tommy Portimo,1981-09-05
+Q205473,Girls Aloud,2002,2024,Nicola Roberts,1985-10-05
+Q650555,Kino,1981,1990,Yuri Kasparyan,1963-06-24
+Q1322032,Tokio,1990,2025,Shigeru Joshima,1970-11-17
+Q11635233,Akai Tori,1969,1974,Toshiyuki Watanabe,1955-02-03
+Q181584,SDN48,2009,2024,Kazumi Urano,1985-10-23
+Q181584,SDN48,2009,2024,Megumi Ohori,1983-08-25
+Q191660,Sonata Arctica,1996,2024,Henrik Klingenberg,1978-10-21
+Q285966,Hawkwind,1969,2024,Dave Brock,1941-08-20
+Q285966,Hawkwind,1969,2024,Simon House,1948-08-29
+Q191660,Sonata Arctica,1996,2024,Mikko Härkin,1979-05-25
+Q251742,Cain's Offering,2009,2024,Mikko Härkin,1979-05-25
+Q771528,UPA Dance,2002,2006,Miguel Ángel Muñoz,1983-07-04
+Q1156338,V6,1995,2021,Junichi Okada,1980-11-18
+Q221358,Shadowfax,1972,1995,Chuck Greenberg,1950-03-25
+Q1050662,Chocolove from AKB48,2007,2008,Sayaka Akimoto,1988-07-26
+Q5980384,Los Sin Nombre,1994,1996,Álvaro Fuentes,1975-09-17
+Q240767,Limp Bizkit,1994,2024,Mike Smith,1973-10-11
+Q240767,Limp Bizkit,1994,2024,Terry Balsamo,1972-10-08
+Q247658,Stardust,1998,2024,Benjamin Diamond,1972-03-11
+Q1123885,The Ark,1991,2011,Ola Salo,1977-02-19
+Q193174,Rhapsody of Fire,1993,2024,Dominique Leurquin,1965-02-02
+Q201207,Stratovarius,1984,2024,Antti Ikonen,1963-01-01
+Q201207,Stratovarius,1984,2024,Jyrki Lentonen,1965-01-01
+Q201207,Stratovarius,1984,2024,Staffan Stråhlman,1901-01-01
+Q201207,Stratovarius,1984,2024,John Vihervä,1965-12-28
+Q150750,KAT-TUN,2001,2025,Kōki Tanaka,1985-11-05
+Q181457,SNH48,2012,2024,Mariya Suzuki,1991-04-29
+Q181519,SKE48,2008,2024,Mina Ōba,1992-04-03
+Q181519,SKE48,2008,2024,Akane Takayanagi,1991-11-29
+Q254138,Slipknot,1994,2024,Donnie Steele,1967-12-31
+Q295202,AMM,1965,2022,Cornelius Cardew,1936-05-07
+Q307319,W-inds,2001,2024,Ryuichi Ogata,1985-12-17
+Q10448862,The Cherry Bombz,1985,1986,Nasty Suicide,1963-02-27
+Q212464,New Kids on the Block,1984,2024,Danny Wood,1969-05-14
+Q83431,Megadeth,1983,2024,James LoMenzo,1959-01-13
+Q718273,Cute,2005,2017,Maimi Yajima,1992-02-07
+Q1156338,V6,1995,2021,Masayuki Sakamoto,1971-07-24
+Q2714254,Ribbon,1989,1995,Hiromi Nagasaku,1970-10-14
+Q11645860,Yaen,1998,2001,Takaaki Ishibashi,1961-10-22
+Q174291,Morning Musume,1997,2024,Riho Sayashi,1998-05-28
+Q174291,Morning Musume,1997,2024,Mizuki Fukumura,1996-10-30
+Q174291,Morning Musume,1997,2024,Kanon Suzuki,1998-08-05
+Q174291,Morning Musume,1997,2024,Erina Ikuta,1997-07-07
+Q182223,Maroon 5,1994,2024,Mickey Madden,1979-05-13
+Q182223,Maroon 5,1994,2024,Matt Flynn,1970-05-23
+Q201207,Stratovarius,1984,2024,Matias Kupiainen,1983-05-11
+Q174291,Morning Musume,1997,2024,Sakura Oda,1999-03-12
+Q211583,The Strokes,1998,2024,Nikolai Fraiture,1978-11-13
+Q264029,Emperor,1991,2024,Trym Torson,1974-01-11
+Q718273,Cute,2005,2017,Kanna Arihara,1993-06-15
+Q718273,Cute,2005,2017,Erika Umeda,1991-05-24
+Q1156338,V6,1995,2021,Hiroshi Nagano,1972-10-09
+Q150750,KAT-TUN,2001,2025,Yūichi Nakamaru,1983-09-04
+Q181519,SKE48,2008,2024,Rena Matsui,1991-07-27
+Q185226,Nogizaka46,2011,2024,Rena Matsui,1991-07-27
+Q1155446,Dream,2000,2017,Mai Matsumuro,1983-06-10
+Q83431,Megadeth,1983,2024,James MacDonough,1970-04-03
+Q182890,Def Leppard,1977,2024,Rick Savage,1960-12-02
+Q221358,Shadowfax,1972,1995,Armen Chakmakian,1966-02-11
+Q279634,a1,1998,2024,Mark Read,1978-11-07
+Q718273,Cute,2005,2017,Airi Suzuki,1994-04-12
+Q669430,Onyanko Club,1985,1987,Shizuka Kudō,1970-04-14
+Q1138250,SMAP,1988,2016,Gorō Inagaki,1973-12-08
+Q1771646,Alaska y los Pegamoides,1979,1982,Alaska,1963-06-13
+Q218178,Ensiferum,1995,2024,Markus Toivonen,1979-11-15
+Q319458,Q319458,1991,2024,Dave McClain,1965-10-24
+Q1141454,The Dave Clark Five,1957,1970,Dave Clark,1939-12-15
+Q122924,Blue System,1987,2024,Luis Rodríguez,1948-01-01
+Q214039,Beastie Boys,1981,2012,Doctor Dré,1963-12-05
+Q193174,Rhapsody of Fire,1993,2024,Oliver Holzwarth,1967-10-19
+Q322265,Status Quo,1962,2024,Roy Lynes,1943-10-25
+Q1050662,Chocolove from AKB48,2007,2008,Rina Nakanishi,1988-06-26
+Q11307978,Sugar Babe,1973,1976,Tatsurō Yamashita,1953-02-04
+Q200089,17 Hippies,1995,2024,Daniel Cordes,1964-01-01
+Q153926,Alphaville,1982,2024,Robbie France,1959-12-05
+Q159351,Run-DMC,1981,2024,Darryl McDaniels,1964-05-31
+Q167977,Skunk Anansie,1994,2024,Robbie France,1959-12-05
+Q238583,Slime,1979,1994,Dirk Jora,2000-01-01
+Q1138250,SMAP,1988,2016,Masahiro Nakai,1972-08-18
+Q19962144,C.I.A.,1998,1998,Dirk Jora,2000-01-01
+Q448458,Wise Guys,1995,2017,Edzard Hüneke,1971-02-23
+Q288105,Pankow,1981,2024,Kulle Dziuk,2000-01-01
+Q1242174,Pooh,1966,2016,Riccardo Fogli,1947-10-21
+Q93292,Divlje jagode,1977,2024,Tifa,1960-10-17
+Q295202,AMM,1965,2022,Eddie Prévost,1942-06-22
+Q753829,Bijelo Dugme,1974,1989,Tifa,1960-10-17
+Q238195,4Xang,1996,2010,Eik Breit,1954-08-14
+Q718273,Cute,2005,2017,Chisato Okai,1994-06-21
+Q182890,Def Leppard,1977,2024,Pete Willis,1960-02-16
+Q322196,Cypress Hill,1986,2024,Sen Dog,1965-11-20
+Q995796,Bröselmaschine,1968,1973,Peter Bursch,1949-04-14
+Q93292,Divlje jagode,1977,2024,Alen Islamović,1957-08-17
+Q163604,Moi dix Mois,2002,2024,Shaura,1981-10-04
+Q200089,17 Hippies,1995,2024,Paul Brody,1961-01-01
+Q753829,Bijelo Dugme,1974,1989,Goran Ivandić,1955-12-10
+Q753829,Bijelo Dugme,1974,1989,Alen Islamović,1957-08-17
+Q1466075,The Tennessee Three,1960,1980,Marshall Grant,1928-05-05
+Q105076476,A.R. & Machines,1971,1976,Hans Hartmann,1942-03-03
+Q265222,NOFX,1983,2024,El Hefe,1965-08-08
+Q307319,W-inds,2001,2024,Keita Tachibana,1985-12-16
+Q200089,17 Hippies,1995,2024,Elmar Gutmann,1952-01-01
+Q718273,Cute,2005,2017,Saki Nakajima,1994-02-05
+Q251590,Magazin,1979,2024,Jelena Rozga,1977-08-23
+Q18986556,Avsenik Brothers Ensemble,1953,1990,Q1285912,1944-09-17
+Q154543,D12,1996,2024,Swifty McVay,1976-03-16
+Q165691,Love Affair,1966,2024,Morgan Fisher,1950-01-01
+Q207472,Toto,1977,2024,Greg Phillinganes,1956-05-12
+Q213388,Aqua,1989,2024,René Dif,1967-10-17
+Q300602,A Tribe Called Quest,1985,2024,Phife Dawg,1970-11-20
+Q107172463,Mustangové,1964,2020,Ivan Mládek,1942-02-07
+Q73597,Frankie Goes to Hollywood,1980,2024,Holly Johnson,1960-02-09
+Q212533,Grateful Dead,1965,2024,Phil Lesh,1940-03-15
+Q265222,NOFX,1983,2024,Eric Melvin,1966-07-09
+Q323834,Siouxsie and the Banshees,1976,1996,Steven Severin,1955-09-25
+Q488260,Jefferson Airplane,1965,1972,Papa John Creach,1917-05-28
+Q1107195,Coil,1982,2004,John Balance,1962-02-16
+Q184827,Tool,1990,2024,Paul D'Amour,1967-05-12
+Q300519,A Perfect Circle,1999,2024,Tim Alexander,1965-04-10
+Q274593,HammerFall,1993,2024,Fredrik Larsson,1974-08-14
+Q1322032,Tokio,1990,2025,Tomoya Nagase,1978-11-07
+Q1434852,Héroes del Silencio,1984,1996,Enrique Bunbury,1967-08-11
+Q320499,Faith No More,1983,2024,Jim Martin,1961-07-21
+Q322265,Status Quo,1962,2024,John Coghlan,1946-09-19
+Q157497,Bloodhound Gang,1988,2024,Jared Hasselhoff,1971-08-05
+Q142636,The Chicks,1989,2024,Martie Maguire,1969-10-12
+Q718273,Cute,2005,2017,Megumi Murakami,1992-06-06
+Q300343,A Camp,2001,2024,Nathan Larson,1970-09-12
+Q19697,Motörhead,1975,2015,Larry Wallis,1949-05-19
+Q125603,The Clash,1976,2024,Keith Levene,1957-07-18
+Q127679,Kashmir,1991,2024,Henrik Lindstrand,1974-06-08
+Q174291,Morning Musume,1997,2024,Ayumi Ishida,1997-01-07
+Q174291,Morning Musume,1997,2024,Haruka Kudo,1999-10-27
+Q213388,Aqua,1989,2024,Claus Norreen,1970-06-05
+Q288105,Pankow,1981,2024,Jens Jensen,1964-01-01
+Q11998026,Road,1983,1986,Eivind Aarset,1961-03-23
+Q158462,Lynyrd Skynyrd,1964,2024,Michael Cartellone,1962-06-07
+Q181519,SKE48,2008,2024,Sumire Satō,1993-11-20
+Q262385,Hot Club de Norvège,1979,2024,Jon Larsen,1959-01-07
+Q271513,The Fray,2002,2024,Isaac Slade,1981-05-26
+Q279105,Volbeat,2001,2024,Michael Poulsen,1975-04-01
+Q205054,The Flowers of Romance,1976,2024,Keith Levene,1957-07-18
+Q208211,Dead Kennedys,1978,1986,Klaus Flouride,1949-05-30
+Q1466075,The Tennessee Three,1960,1980,Luther Perkins,1928-01-08
+Q188626,Sonic Youth,1981,2024,Richard Edson,1954-01-01
+Q287690,The Hives,1989,2024,Niklas Almqvist,1977-01-26
+Q1138250,SMAP,1988,2016,Shingo Katori,1977-01-31
+Q771528,UPA Dance,2002,2006,Raúl Peña,1977-03-21
+Q1107195,Coil,1982,2004,Stephen Thrower,1963-12-09
+Q157448,A-Teens,1998,2024,Dhani Lennevald,1984-07-24
+Q189635,Eagles,1971,2024,Randy Meisner,1946-03-08
+Q207306,Godsmack,1995,2024,Shannon Larkin,1967-04-24
+Q212533,Grateful Dead,1965,2024,Keith Godchaux,1948-07-19
+Q214039,Beastie Boys,1981,2012,"Eric ""Bobo"" Correa",1968-08-27
+Q322196,Cypress Hill,1986,2024,"Eric ""Bobo"" Correa",1968-08-27
+Q123025,Level 42,1980,2024,Gary Husband,1960-06-14
+Q221358,Shadowfax,1972,1995,G. E. Stinson,1949-08-01
+Q322265,Status Quo,1962,2024,John Edwards,1953-05-09
+Q202041,Jamiroquai,1992,2024,Stuart Zender,1974-03-18
+Q319753,City,1972,2024,Georgi Gogov,1948-07-12
+Q207472,Toto,1977,2024,Jean-Michel Byron,1957-10-13
+Q211965,The Moody Blues,1964,2024,Ray Thomas,1941-12-29
+Q219874,Village People,1977,2024,Felipé Rose,1954-01-12
+Q158895,Helloween,1984,2024,Roland Grapow,1959-08-30
+Q288105,Pankow,1981,2024,Frank Hille,1949-01-01
+Q150750,KAT-TUN,2001,2025,Tatsuya Ueda,1983-10-04
+Q221494,Quiet Riot,1973,2024,Johnny Kelly,1968-03-09
+Q1452115,Freaks Association Bremen,1993,1997,FlowinImmO,1975-09-23
+Q200089,17 Hippies,1995,2024,Kiki Sauer,1965-03-01
+Q319753,City,1972,2024,Fritz Puppel,1944-11-02
+Q218866,L'Arc-en-Ciel,1991,2024,Ken,1968-11-28
+Q285966,Hawkwind,1969,2024,Harvey Bainbridge,1949-09-24
+Q288105,Pankow,1981,2024,Hans-Jürgen Reznicek,1953-11-29
+Q179767,X Japan,1982,1997,Heath,1968-01-22
+Q285966,Hawkwind,1969,2024,Simon King,1950-08-12
+Q285966,Hawkwind,1969,2024,Steve Swindells,1952-11-21
+Q285966,Hawkwind,1969,2024,Paul Rudolph,1947-06-14
+Q285966,Hawkwind,1969,2024,Ade Shaw,1947-01-02
+Q285966,Hawkwind,1969,2024,Alan Davey,1963-09-11
+Q208211,Dead Kennedys,1978,1986,Carlos Cadona,1958-01-01
+Q1555803,Alex Oriental Experience,1973,2009,Horst Stachelhaus,1950-10-15
+Q572821,Big Black,1981,1987,Santiago Durango,1957-01-01
+Q572821,Big Black,1981,1987,Jeff Pezzati,1960-02-06
+Q192915,The Corrs,1990,2024,Caroline Corr,1973-03-17
+Q163989,Arch Enemy,1996,2024,Daniel Erlandsson,1976-05-22
+Q254138,Slipknot,1994,2024,Craig Jones,1972-02-11
+Q627470,The Turtles,1965,1970,Howard Kaylan,1947-06-22
+Q254138,Slipknot,1994,2024,Anders Colsefni,1972-04-15
+Q1555803,Alex Oriental Experience,1973,2009,Alex Wiska,1950-11-12
+Q1555803,Alex Oriental Experience,1973,2009,Ufo Walter,1961-01-19
+Q101592,Reamonn,1999,2024,Philipp Rauenbusch,1973-05-07
+Q10448862,The Cherry Bombz,1985,1986,Andy McCoy,1962-10-11
+Q200089,17 Hippies,1995,2024,Lutz Ulbrich,1952-11-30
+Q276463,The Psychedelic Furs,1977,2024,Mars Williams,1955-05-28
+Q288105,Pankow,1981,2024,Ingo York,1961-01-01
+Q319753,City,1972,2024,Toni Krahl,1949-10-03
+Q217025,Manic Street Preachers,1986,2024,James Dean Bradfield,1969-02-21
+Q154454,NSYNC,1995,2024,Joey Fatone,1977-01-28
+Q288105,Pankow,1981,2024,Jürgen Ehle,1956-07-19
+Q1496070,Lilli Berlin,1980,1983,Jürgen Barz,1944-10-14
+Q83468,Judas Priest,1969,2024,Alan Moore,1950-01-01
+Q184217,The Smashing Pumpkins,1988,2024,Mike Byrne,1990-02-06
+Q11304867,sadistics,1976,1978,Yukihiro Takahashi,1952-06-06
+Q881647,Echt,1994,2002,Kim Frank,1982-05-24
+Q108661024,Trailerpark,2009,2019,Alligatoah,1989-09-28
+Q182622,US5,2005,2024,Jay Khan,1982-03-31
+Q320499,Faith No More,1983,2024,Jon Hudson,1968-04-13
+Q970088,Chips,1979,1983,Lasse Holm,1943-12-09
+Q158462,Lynyrd Skynyrd,1964,2024,Larry Junstrom,1949-06-22
+Q163989,Arch Enemy,1996,2024,Sharlee D'Angelo,1973-04-27
+Q171718,Children of Bodom,1993,2019,Henkka Seppälä,1980-06-07
+Q271513,The Fray,2002,2024,Ben Wysocki,1984-11-26
+Q1555803,Alex Oriental Experience,1973,2009,Kurt Billker,1954-01-01
+Q258546,In Flames,1990,2024,Daniel Svensson,1977-11-20
+Q158895,Helloween,1984,2024,Sascha Gerstner,1977-04-02
+Q178549,Counting Crows,1991,2024,Matt Malley,1963-07-04
+Q218178,Ensiferum,1995,2024,Sami Hinkka,1978-04-27
+Q127888,Nautilus Pompilius,1982,1997,Vyacheslav Butusov,1961-10-15
+Q1235814,Dolly Dots,1979,1988,Angéla Kramers,1960-10-17
+Q995796,Bröselmaschine,1968,1973,Manni von Bohr,1950-11-05
+Q1255216,Lokomotive Kreuzberg,1972,1977,Manfred Praeker,1951-09-25
+Q1555803,Alex Oriental Experience,1973,2009,Manni von Bohr,1950-11-05
+Q105076476,A.R. & Machines,1971,1976,Manfred Rürup,1951-06-12
+Q101592,Reamonn,1999,2024,Mike Gommeringer,1973-09-26
+Q212533,Grateful Dead,1965,2024,Vince Welnick,1951-02-21
+Q214486,Procol Harum,1967,2024,Mick Grabham,1948-01-22
+Q813658,"Beck, Bogert & Appice",1972,1974,Tim Bogert,1944-08-27
+Q1141454,The Dave Clark Five,1957,1970,Mike Smith,1943-12-06
+Q133405,Bee Gees,1958,2024,Vince Melouney,1945-08-18
+Q213476,Tristania,1997,2024,Vibeke Stene,1978-08-17
+Q751775,Sunrise Avenue,2002,2022,Samu Haber,1976-04-02
+Q188407,Snow Patrol,1994,2024,Johnny McDaid,1976-07-24
+Q290924,Terrorgruppe,1993,2024,Johnny Bottrop,1966-06-03
+Q295202,AMM,1965,2022,John Tilbury,1936-02-01
+Q151241,Westlife,1998,2024,Mark Feehily,1980-05-28
+Q165193,Avenged Sevenfold,1999,2024,Johnny Christ,1984-11-18
+Q269813,Il Divo,2004,2024,Sébastien Izambard,1973-03-07
+Q913662,The Distillers,1998,2006,Tony Bevilacqua,1976-07-23
+Q211965,The Moody Blues,1964,2024,Clint Warwick,1940-06-25
+Q309312,Testament,1983,2024,Greg Christian,1966-04-29
+Q329459,Rednex,1994,2024,Mia Lofgren,1976-08-03
+Q73597,Frankie Goes to Hollywood,1980,2024,Mark O'Toole,1964-01-06
+Q151890,Kreator,1982,2024,Sami Yli-Sirniö,1972-04-10
+Q111337,Korpiklaani,1993,2024,Kalle Savijärvi,1978-01-01
+Q258546,In Flames,1990,2024,Niclas Engelin,1972-12-27
+Q331790,Interpol,1997,2024,Paul Banks,1978-05-03
+Q238195,4Xang,1996,2010,Nino Holm,1950-12-22
+Q277551,Panic! at the Disco,2005,2024,Jon Walker,1985-09-17
+Q590725,Laskoviy Mai,1986,1992,Yuri Shatunov,1973-09-06
+Q706764,Popol Vuh,1969,2001,Daniel Fichelscher,1953-03-07
+Q165714,Live,1988,2024,Ed Kowalczyk,1971-07-16
+Q170599,Arctic Monkeys,2002,2024,Nick O'Malley,1985-07-05
+Q190155,Van Halen,1972,2020,Alex Van Halen,1953-05-08
+Q160103,Travis,1990,2024,Andy Dunlop,1972-03-16
+Q202314,Thin Lizzy,1969,2024,Damon Johnson,1964-07-13
+Q73597,Frankie Goes to Hollywood,1980,2024,Paul Rutherford,1959-12-08
+Q323834,Siouxsie and the Banshees,1976,1996,Budgie,1957-08-21
+Q5687897,Soluna,1975,1977,Alejandro Lerner,1957-06-08
+Q203871,Rush,1968,2024,John Rutsey,1952-07-23
+Q268007,Maximum the Hormone,1998,2024,Nao Kawakita,1975-12-16
+Q268007,Maximum the Hormone,1998,2024,Daisuke Tsuda,1977-09-13
+Q2063678,Tiktak,1999,2007,Petra,1985-07-11
+Q1141454,The Dave Clark Five,1957,1970,Rick Huxley,1940-08-05
+Q76244,Epica,2002,2024,Ariën van Weesenbeek,1980-05-17
+Q165714,Live,1988,2024,Chad Taylor,1970-11-24
+Q188713,The Kinks,1964,1996,Mick Avory,1944-02-15
+Q209182,Public Enemy,1986,2024,Professor Griff,1960-08-01
+Q1141454,The Dave Clark Five,1957,1970,Denis Payton,1943-08-11
+Q170599,Arctic Monkeys,2002,2024,Jamie Cook,1985-07-08
+Q73597,Frankie Goes to Hollywood,1980,2024,Peter Gill,1964-03-08
+Q12407085,HaTarnegolim,1960,1963,Yehoram Gaon,1939-12-28
+Q12411741,Shlishiyat Gesher Hayarkon,1964,1966,Yehoram Gaon,1939-12-28
+Q331790,Interpol,1997,2024,Daniel Kessler,1974-09-25
+Q264029,Emperor,1991,2024,Tchort,1974-06-07
+Q190155,Van Halen,1972,2020,Wolfgang Van Halen,1991-03-16
+Q261765,Freundeskreis,1996,2007,Philippe Alexander Kayser,1959-12-21
+Q218178,Ensiferum,1995,2024,Janne Parviainen,1973-01-01
+Q268007,Maximum the Hormone,1998,2024,Ryō Kawakita,1978-12-13
+Q288105,Pankow,1981,2024,Rainer Kirchmann,1952-06-03
+Q1961659,The Cats,1965,1985,Piet Veerman,1943-03-01
+Q126852,America,1970,2024,Gerry Beckley,1952-09-12
+Q751775,Sunrise Avenue,2002,2022,Riku Rajamaa,1975-11-04
+Q158462,Lynyrd Skynyrd,1964,2024,Ean Evans,1960-09-16
+Q216856,N.W.A.,1986,1991,Arabian Prince,1965-06-17
+Q217025,Manic Street Preachers,1986,2024,Sean Moore,1968-07-30
+Q4562,O-Zone,1999,2005,Radu Sîrbu,1978-12-14
+Q165714,Live,1988,2024,Patrick Dahlheimer,1971-05-30
+Q158895,Helloween,1984,2024,Mark Cross,1965-08-02
+Q19697,Motörhead,1975,2015,Pete Gill,1951-06-09
+Q165386,All Saints,1993,2024,Nicole Appleton,1974-12-07
+Q212533,Grateful Dead,1965,2024,"Ron ""Pigpen"" McKernan",1945-09-08
+Q286596,The Upsetters,1968,2024,Sly Dunbar,1952-05-10
+Q287690,The Hives,1989,2024,Pelle Almqvist,1978-05-29
+Q739570,Nena,1982,1987,Rolf Brendel,1957-06-13
+Q163604,Moi dix Mois,2002,2024,Seth,1972-08-09
+Q577151,Gorki,1989,2014,Bert Huysentruyt,1980-01-01
+Q188626,Sonic Youth,1981,2024,Mark Ibold,1962-10-17
+Q83431,Megadeth,1983,2024,Chris Adler,1972-11-23
+Q83431,Megadeth,1983,2024,Teemu Mäntysaari,1987-01-07
+Q289405,The Vines,1999,2024,Ryan Griffiths,1978-02-14
+Q73597,Frankie Goes to Hollywood,1980,2024,Ryan Molloy,1976-11-21
+Q126852,America,1970,2024,Dan Peek,1950-11-01
+Q208417,Immortal,1990,2024,Harald Nævdal,1970-07-06
+Q218837,The Supremes,1958,1977,Jean Terrell,1944-11-26
+Q240403,Eiffel 65,1997,2006,Maurizio Lobina,1973-10-30
+Q218837,The Supremes,1958,1977,Mary Wilson,1944-03-06
+Q322265,Status Quo,1962,2024,Jeff Rich,1953-06-08
+Q192308,Kaiser Chiefs,2000,2024,Ricky Wilson,1978-01-17
+Q219874,Village People,1977,2024,Victor Willis,1951-07-01
+Q2296418,The Gods,1965,1970,Brian Glascock,1948-07-17
+Q323834,Siouxsie and the Banshees,1976,1996,Marco Pirroni,1959-04-27
+Q192725,The Yardbirds,1963,2024,Chris Dreja,1945-11-11
+Q326063,Leaves' Eyes,2003,2024,Alexander Krull,1970-07-31
+Q300519,A Perfect Circle,1999,2024,Billy Howerdel,1970-05-18
+Q76244,Epica,2002,2024,Rob van der Loo,1979-06-25
+Q163989,Arch Enemy,1996,2024,Johan Liiva,1970-11-18
+Q208211,Dead Kennedys,1978,1986,D.H. Peligro,1959-07-09
+Q220730,The Killers,2001,2024,Dave Keuning,1976-03-28
+Q2296418,The Gods,1965,1970,Paul Newton,1945-02-21
+Q151634,Ace of Base,1990,2024,Jenny Berggren,1972-05-19
+Q165386,All Saints,1993,2024,Natalie Appleton,1973-05-14
+Q202041,Jamiroquai,1992,2024,Paul Turner,1968-03-11
+Q926397,Tracktor Bowling,1996,2017,Lusine Gevorkyan,1983-02-21
+Q952468,Sentenced,1989,2005,Sami Lopakka,1975-01-17
+Q105076476,A.R. & Machines,1971,1976,Thomas Kukuck,1948-11-20
+Q157041,The Offspring,1984,2024,Greg K,1965-01-20
+Q192725,The Yardbirds,1963,2024,Paul Samwell-Smith,1943-05-08
+Q203871,Rush,1968,2024,Jeff Jones,1953-09-20
+Q207306,Godsmack,1995,2024,Tony Rombola,1964-11-24
+Q209956,Weezer,1992,2024,Brian Bell,1968-12-09
+Q157041,The Offspring,1984,2024,Ron Welty,1971-02-01
+Q185144,Europe,1978,2024,Kee Marcello,1960-02-20
+Q193174,Rhapsody of Fire,1993,2024,Alex Staropoli,1970-01-09
+Q209956,Weezer,1992,2024,Mikey Welsh,1971-04-20
+Q209956,Weezer,1992,2024,Jason Cropper,1971-06-27
+Q1466075,The Tennessee Three,1960,1980,W. S. Holland,1935-04-22
+Q83468,Judas Priest,1969,2024,Al Atkins,1947-10-14
+Q157041,The Offspring,1984,2024,Noodles,1963-02-04
+Q192863,Amon Amarth,1992,2024,Ted Lundström,1974-04-16
+Q201207,Stratovarius,1984,2024,Jari Kainulainen,1970-04-29
+Q208767,The Stooges,1967,2024,Scott Asheton,1949-08-16
+Q274593,HammerFall,1993,2024,Magnus Rosén,1963-06-10
+Q288105,Pankow,1981,2024,Stefan Dohanetz,2000-01-01
+Q309312,Testament,1983,2024,Nick Barker,1973-04-25
+Q326063,Leaves' Eyes,2003,2024,Nick Barker,1973-04-25
+Q952468,Sentenced,1989,2005,Ville Laihiala,1973-06-13
+Q11954928,Q11954928,1968,1974,Alfredo Conde Cid,1945-01-05
+Q184294,9nine,2005,2024,Kanae Yoshii,1993-04-08
+Q158462,Lynyrd Skynyrd,1964,2024,Rickey Medlocke,1950-02-17
+Q217025,Manic Street Preachers,1986,2024,Nicky Wire,1969-01-20
+Q18689998,Mistakes,1980,1982,Muddy Manninen,1957-11-14
+Q1235814,Dolly Dots,1979,1988,Patty Zomer,1961-11-28
+Q76244,Epica,2002,2024,Isaac Delahaye,1982-01-09
+Q254138,Slipknot,1994,2024,Josh Brainard,1974-08-06
+Q218837,The Supremes,1958,1977,Scherrie Payne,1944-11-04
+Q1761377,Los Compadres,1942,1993,Lorenzo Hierrezuelo,1907-09-05
+Q184294,9nine,2005,2024,Sayaka Nishiwaki,1992-09-30
+Q184294,9nine,2005,2024,Uki Satake,1992-03-08
+Q202314,Thin Lizzy,1969,2024,Marco Mendoza,1963-05-03
+Q240892,Arena,1995,2024,Clive Nolan,1961-06-30
+Q308816,Creed,1994,2024,Scott Phillips,1973-02-22
+Q153616,Tangerine Dream,1967,2024,Thorsten Quaeschning,1977-02-23
+Q156298,Boney M.,1975,1986,Reggie Tsiboe,1950-09-07
+Q157327,Silverchair,1992,2024,Ben Gillies,1979-10-24
+Q180880,Pantera,1981,2024,Terry Glaze,1964-11-29
+Q188626,Sonic Youth,1981,2024,Bob Bert,1955-01-01
+Q192308,Kaiser Chiefs,2000,2024,Nick Hodgson,1977-10-20
+Q193174,Rhapsody of Fire,1993,2024,Alessandro Lotta,1975-03-01
+Q219874,Village People,1977,2024,Glenn Hughes,1950-07-18
+Q285966,Hawkwind,1969,2024,Andy Anderson,1951-01-30
+Q952468,Sentenced,1989,2005,Miika Tenkula,1974-03-06
+Q1235814,Dolly Dots,1979,1988,Anita Heilker,1960-10-04
+Q18986556,Avsenik Brothers Ensemble,1953,1990,Vilko Ovsenik,1928-11-09
+Q110459844,Q110459844,1978,1981,Vitold Rek,1955-10-18
+Q110459844,Q110459844,1978,1981,Vladislav Sendecki,1955-01-01
+Q185144,Europe,1978,2024,Tony Reno,1963-02-10
+Q240403,Eiffel 65,1997,2006,Jeffrey Jey,1970-01-05
+Q254371,Papa Roach,1993,2024,David Buckner,1976-01-01
+Q274593,HammerFall,1993,2024,Stefan Elmgren,1974-05-07
+Q189991,Gorillaz,1998,2024,Murdoc Niccals,1966-06-06
+Q131366,Disturbed,1994,2024,Steve Kmak,1970-09-05
+Q151890,Kreator,1982,2024,Jürgen Reil,1966-06-29
+Q156872,Slade,1966,2024,Dave Hill,1946-04-04
+Q156872,Slade,1966,2024,Jim Lea,1949-06-14
+Q158932,Edguy,1992,2024,Jens Ludwig,1977-08-30
+Q211965,The Moody Blues,1964,2024,Graeme Edge,1941-03-30
+Q272239,Twisted Sister,1972,2024,Mark Mendoza,1955-07-13
+Q272239,Twisted Sister,1972,2024,Eddie Ojeda,1955-08-05
+Q285966,Hawkwind,1969,2024,Nik Turner,1940-08-28
+Q995796,Bröselmaschine,1968,1973,Willi Kissmer,1951-01-01
+Q4790205,Arian,1998,2015,Mohammad-Reza Golzar,1977-03-21
+Q189991,Gorillaz,1998,2024,2-D,1978-03-23
+Q229489,3JS,2002,2024,Jaap de Witte,1954-06-02
+Q17222947,EMALF,2013,2015,Yūsuke Izaki,1984-05-17
+Q156872,Slade,1966,2024,Don Powell,1946-09-10
+Q157327,Silverchair,1992,2024,Chris Joannou,1979-11-10
+Q165193,Avenged Sevenfold,1999,2024,Arin Ilejay,1988-02-17
+Q205001,Talking Heads,1975,2024,Jerry Harrison,1949-02-21
+Q254371,Papa Roach,1993,2024,Tony Palermo,1969-11-22
+Q277865,Fugazi,1987,2024,Guy Picciotto,1965-09-17
+Q674314,Fallout,1979,1982,Josh Silver,1962-11-14
+Q797648,Babes in Toyland,1987,2020,Kat Bjelland,1963-12-09
+Q121552820,The Heads,1994,1996,Jerry Harrison,1949-02-21
+Q151634,Ace of Base,1990,2024,Ulf Ekberg,1970-12-06
+Q229489,3JS,2002,2024,Jaap Kwakman,1977-05-20
+Q254371,Papa Roach,1993,2024,Tobin Esperance,1979-11-14
+Q321762,Napalm Death,1981,2024,Danny Herrera,1970-01-01
+Q1544144,Tin Machine,1988,1992,Reeves Gabrels,1956-06-04
+Q193174,Rhapsody of Fire,1993,2024,Patrice Guers,1969-09-05
+Q214039,Beastie Boys,1981,2012,Mike D,1965-11-20
+Q483810,The Cranberries,1989,2003,Noel Hogan,1971-12-25
+Q192863,Amon Amarth,1992,2024,Johan Hegg,1973-04-29
+Q254371,Papa Roach,1993,2024,Jerry Horton,1975-03-10
+Q173180,Franz Ferdinand,2002,2024,Paul Thomson,1976-09-15
+Q76244,Epica,2002,2024,Coen Janssen,1981-04-02
+Q176457,Supertramp,1969,2024,John Helliwell,1945-02-15
+Q205001,Talking Heads,1975,2024,Chris Frantz,1951-05-08
+Q320499,Faith No More,1983,2024,Trey Spruance,1969-08-14
+Q1147061,Mr. Bungle,1985,2004,Trey Spruance,1969-08-14
+Q3808212,Jet,1967,1975,Piero Cassano,1948-09-13
+Q121552820,The Heads,1994,1996,Chris Frantz,1951-05-08
+Q154129,Gamma Ray,1988,2024,Henjo Richter,1963-11-24
+Q320499,Faith No More,1983,2024,Chuck Mosley,1959-12-26
+Q2880109,Pic-Nic,1967,1969,Toti Soler,1949-06-07
+Q146027,One Direction,2010,2024,Liam Payne,1993-08-29
+Q184217,The Smashing Pumpkins,1988,2024,Jeff Schroeder,1974-02-04
+Q151890,Kreator,1982,2024,Christian Giesler,1970-07-04
+Q262317,Tinariwen,1979,2024,Alhousseini ag Abdoulahi,1968-01-01
+Q137758,Wishbone Ash,1969,2024,Martin Turner,1947-10-01
+Q188626,Sonic Youth,1981,2024,Anne DeMarinis,1953-01-01
+Q202041,Jamiroquai,1992,2024,Sola Akingbola,1965-08-02
+Q204328,Kansas,1970,2024,Billy Greer,1952-01-26
+Q268007,Maximum the Hormone,1998,2024,Futoshi Uehara,1980-04-15
+Q274593,HammerFall,1993,2024,Anders Johansson,1962-05-25
+Q311258,Killerpilze,2002,2024,Andreas Schlagenhaft,1988-09-09
+Q154129,Gamma Ray,1988,2024,Dan Zimmermann,1966-10-30
+Q209956,Weezer,1992,2024,Matt Sharp,1969-09-22
+Q209956,Weezer,1992,2024,Patrick Wilson,1969-02-01
+Q272239,Twisted Sister,1972,2024,Jay Jay French,1952-07-20
+Q274593,HammerFall,1993,2024,Pontus Norgren,1968-04-22
+Q577151,Gorki,1989,2014,Erik Van Biesen,1962-05-04
+Q72478,BB Brunes,2006,2024,Adrien Gallo,1989-07-02
+Q123025,Level 42,1980,2024,Alan Murphy,1953-01-01
+Q669430,Onyanko Club,1985,1987,Akie Yoshizawa,1968-10-20
+Q669430,Onyanko Club,1985,1987,Akiko Ikuina,1968-04-28
+Q747098,Pow woW,1990,1997,Ahmed Mouici,1963-07-09
+Q747098,Pow woW,1990,1997,Alain Chennevière,1959-02-19
+Q151634,Ace of Base,1990,2024,Linn Berggren,1970-10-31
+Q488260,Jefferson Airplane,1965,1972,Bob Harvey,1934-11-17
+Q1961659,The Cats,1965,1985,Arnold Mühren,1944-01-28
+Q11353285,Ippu-Do,1979,1984,Akira Mitake,1956-11-11
+Q188407,Snow Patrol,1994,2024,Paul Wilson,1978-10-20
+Q219944,Deus,1991,2024,Klaas Janzoons,1974-04-01
+Q192861,Venom,1979,2024,Tony Bray,1960-09-17
+Q278901,Shturtsite,1967,2024,Kiril Marichkov,1944-10-30
+Q577151,Gorki,1989,2014,Luc De Vos,1962-07-12
+Q2714254,Ribbon,1989,1995,Arimi Matsuno,1973-02-13
+Q2889382,Les Wriggles,1995,2009,Antoine Réjasse,1972-06-24
+Q282714,Honor Society,2006,2024,Alexander Noyes,1986-05-21
+Q160103,Travis,1990,2024,Dougie Payne,1972-11-14
+Q43146025,Clap,1984,1988,Fernando Samalea,1963-11-24
+Q72478,BB Brunes,2006,2024,Bérald Crambes,1987-05-05
+Q208211,Dead Kennedys,1978,1986,Brandon Cruz,1962-05-28
+Q254138,Slipknot,1994,2024,Brandon Darner,1977-02-01
+Q277865,Fugazi,1987,2024,Brendan Canty,1966-03-09
+Q1155446,Dream,2000,2017,Aya Takamoto,1987-07-16
+Q3136643,Patricio Rey y sus Redonditos de Ricota,1976,2001,Tito Fargo,1958-01-01
+Q1235814,Dolly Dots,1979,1988,Ria Brieffies,1957-02-23
+Q612672,Téléphone,1976,1986,Corine Marienneau,1952-03-07
+Q4027671,Fourteen Octaves,1974,1975,Yoni Rechter,1951-11-18
+Q159497,Destruction,1982,2024,Marcel Schirmer,1966-12-22
+Q208211,Dead Kennedys,1978,1986,East Bay Ray,1958-11-17
+Q286596,The Upsetters,1968,2024,"Earl ""Chinna"" Smith",1955-08-06
+Q188713,The Kinks,1964,1996,Pete Quaife,1943-12-31
+Q346701,Adagio,2000,2018,Christian Palin,1978-02-01
+Q2889382,Les Wriggles,1995,2009,Christophe Gendreau,1971-12-01
+Q178661,The Dandy Warhols,1994,2024,Courtney Taylor-Taylor,1967-07-20
+Q180582,Bauhaus,1978,2024,Daniel Ash,1957-07-31
+Q936474,Mano Negra,1987,1994,Daniel Jamet,1960-01-01
+Q3516391,Taxi Girl,1978,1986,Daniel Darc,1959-05-20
+Q254138,Slipknot,1994,2024,Eloy Casagrande,1991-01-29
+Q771528,UPA Dance,2002,2006,Edu del Prado,1977-08-17
+Q771528,UPA Dance,2002,2006,Elisabeth Jordán,1983-08-26
+Q219874,Village People,1977,2024,David Hodo,1947-07-07
+Q269813,Il Divo,2004,2024,David Miller,1973-04-14
+Q572821,Big Black,1981,1987,Dave Riley,1960-07-30
+Q295202,AMM,1965,2022,Christopher Hobbs,1950-09-09
+Q300602,A Tribe Called Quest,1985,2024,Jarobi White,1971-07-01
+Q1155446,Dream,2000,2017,Erie Abe,1987-09-03
+Q21010689,Trio Bennato,1958,2017,Eugenio Bennato,1947-03-16
+Q126852,America,1970,2024,Dewey Bunnell,1952-01-19
+Q669430,Onyanko Club,1985,1987,Eri Nitta,1968-03-17
+Q669430,Onyanko Club,1985,1987,Marina Watanabe,1970-11-18
+Q153926,Alphaville,1982,2024,Frank Mertens,1961-10-26
+Q346701,Adagio,2000,2018,Franck Hermanny,1974-04-19
+Q2889382,Les Wriggles,1995,2009,Franck Zerbib,1973-02-01
+Q307165,Globe,1995,2024,Marc Panther,1970-02-27
+Q286596,The Upsetters,1968,2024,Glen Adams,1945-11-27
+Q176457,Supertramp,1969,2024,Dougie Thomson,1951-03-24
+Q1235814,Dolly Dots,1979,1988,Esther Oosterbeek,1959-09-02
+Q188407,Snow Patrol,1994,2024,Jonny Quinn,1972-02-26
+Q1761377,Los Compadres,1942,1993,Rey Caney,1926-12-30
+Q72478,BB Brunes,2006,2024,Félix Hemmen,1989-11-17
+Q269091,Tears for Fears,1981,2024,Ian Stanley,1957-02-28
+Q269091,Tears for Fears,1981,2024,Manny Elias,1953-01-01
+Q2889382,Les Wriggles,1995,2009,Frédéric Volovitch,1974-05-14
+Q158932,Edguy,1992,2024,Tobias Exxel,1973-02-27
+Q188626,Sonic Youth,1981,2024,Jim Sclavunos,2000-01-01
+Q1019489,Bérurier Noir,1978,1990,Helno,1963-12-25
+Q17222947,EMALF,2013,2015,Hisato Izaki,1984-05-17
+Q83468,Judas Priest,1969,2024,Les Binks,1951-08-08
+Q176457,Supertramp,1969,2024,Jesse Siebenberg,1977-02-02
+Q311258,Killerpilze,2002,2024,Johannes Halbig,1989-07-30
+Q488260,Jefferson Airplane,1965,1972,Joey Covington,1945-06-27
+Q488260,Jefferson Airplane,1965,1972,John Barbata,1945-04-01
+Q627470,The Turtles,1965,1970,Jim Pons,1943-03-14
+Q627470,The Turtles,1965,1970,John Barbata,1945-04-01
+Q669430,Onyanko Club,1985,1987,Sayuri Kokushō,1966-12-22
+Q202041,Jamiroquai,1992,2024,Matt Johnson,1969-02-03
+Q1019489,Bérurier Noir,1978,1990,Masto,1960-01-01
+Q1053623,Mother Love Bone,1988,1990,Greg Gilmore,1962-01-03
+Q258546,In Flames,1990,2024,Johan Larsson,1974-12-08
+Q274593,HammerFall,1993,2024,Johan Larsson,1974-12-08
+Q277551,Panic! at the Disco,2005,2024,Brent Wilson,1987-08-20
+Q298794,A Touch of Class,1999,2024,Livio Salvi,1977-01-25
+Q612672,Téléphone,1976,1986,Louis Bertignac,1954-02-23
+Q1410117,Harmonium,1972,1979,Louis Valois,1950-01-01
+Q158462,Lynyrd Skynyrd,1964,2024,Mark Matejka,1967-01-02
+Q176457,Supertramp,1969,2024,Mark Hart,1953-07-02
+Q669430,Onyanko Club,1985,1987,Mamiko Takai,1966-12-28
+Q170354,Juli,1999,2024,Jonas Pfetzing,1981-04-02
+Q298794,A Touch of Class,1999,2024,Joseph Murray,1974-07-05
+Q936474,Mano Negra,1987,1994,Joseph Dahan,1953-01-01
+Q751775,Sunrise Avenue,2002,2022,Sami Osala,1980-03-10
+Q130490,Il était une fois,1972,2024,Joëlle Mogensen,1953-02-03
+Q262317,Tinariwen,1979,2024,Ibrahim ag Alhabib,1960-01-01
+Q1544144,Tin Machine,1988,1992,Hunt Sales,1954-03-02
+Q1781599,Imperiet,1983,1988,Joakim Thåström,1957-03-20
+Q72478,BB Brunes,2006,2024,Karim Réveillé,1987-12-14
+Q262317,Tinariwen,1979,2024,Kedhou ag Ossad,1953-01-01
+Q346701,Adagio,2000,2018,Kevin Codfert,1981-07-04
+Q669430,Onyanko Club,1985,1987,Kayo Agatsuma,1968-07-25
+Q669430,Onyanko Club,1985,1987,Kazuko Utsumi,1967-02-16
+Q257712,Nekromantix,1989,2024,Kim Nekroman,1953-01-01
+Q154454,NSYNC,1995,2024,Chris Kirkpatrick,1971-10-17
+Q158462,Lynyrd Skynyrd,1964,2024,Bob Burns,1950-11-24
+Q181584,SDN48,2009,2024,Megumi Imayoshi,1987-08-13
+Q192308,Kaiser Chiefs,2000,2024,Andrew White,1974-08-28
+Q204328,Kansas,1970,2024,Rich Williams,1950-02-01
+Q218178,Ensiferum,1995,2024,Meiju Enho,1981-01-01
+Q331790,Interpol,1997,2024,Sam Fogarino,1968-08-09
+Q627470,The Turtles,1965,1970,Chip Douglas,1942-08-27
+Q1053623,Mother Love Bone,1988,1990,Bruce Fairweather,1960-12-12
+Q122924,Blue System,1987,2024,Michael Scholz,1949-01-26
+Q272239,Twisted Sister,1972,2024,A. J. Pero,1959-10-14
+Q311258,Killerpilze,2002,2024,Maximilian Schlichter,1988-07-03
+Q19697,Motörhead,1975,2015,Lucas Fox,1901-01-01
+Q181584,SDN48,2009,2024,Miray,1983-07-05
+Q218866,L'Arc-en-Ciel,1991,2024,Sakura,1969-11-20
+Q169361,Zebda,1985,2024,Magyd Cherfi,1962-11-04
+Q184294,9nine,2005,2024,Madoka Shimogaki,1991-12-15
+Q669430,Onyanko Club,1985,1987,Makiko Saitō,1970-09-19
+Q1138185,L7,1985,2001,Suzi Gardner,1960-08-01
+Q158462,Lynyrd Skynyrd,1964,2024,Artimus Pyle,1948-07-15
+Q269450,Suffocation,1989,2024,Kevin Talley,1979-05-21
+Q48830966,Newyjou,1975,2000,Marek Eben,1957-12-18
+Q1410117,Harmonium,1972,1979,Michel Normandeau,1949-01-01
+Q747098,Pow woW,1990,1997,Pascal Periz,1961-01-12
+Q1019489,Bérurier Noir,1978,1990,Laurent Katrakazos,1964-03-01
+Q3516391,Taxi Girl,1978,1986,Laurent Sinclair,1961-04-05
+Q48938270,UNI.T,2018,2018,Yang Ji-won,1988-04-05
+Q192861,Venom,1979,2024,Mike Hickey,1953-01-01
+Q287690,The Hives,1989,2024,Christian Grahn,1978-06-12
+Q287690,The Hives,1989,2024,Vigilante Carlstroem,1978-10-30
+Q287690,The Hives,1989,2024,Mattias Bernwall,1978-03-18
+Q669430,Onyanko Club,1985,1987,Minayo Watanabe,1969-09-28
+Q5286854,Dobrovoljno Pevačko Društvo,1994,1995,Nebojša Krstić,1957-07-09
+Q936474,Mano Negra,1987,1994,Philippe Teboul,1964-04-27
+Q936474,Mano Negra,1987,1994,Pierre Gauthé,1953-01-01
+Q1410117,Harmonium,1972,1979,Pierre Daigneault,1953-01-01
+Q3516391,Taxi Girl,1978,1986,Pierre Wolfsohn,1960-12-07
+Q153926,Alphaville,1982,2024,Ricky Echolette,1960-08-06
+Q218837,The Supremes,1958,1977,Betty McGlown,1941-06-30
+Q258546,In Flames,1990,2024,Anders Iwers,1972-10-06
+Q612672,Téléphone,1976,1986,Richard Kolinka,1953-07-07
+Q1155446,Dream,2000,2017,Risa Ai,1987-09-10
+Q142636,The Chicks,1989,2024,Laura Lynch,1958-11-18
+Q669430,Onyanko Club,1985,1987,Satomi Fukunaga,1967-01-26
+Q936474,Mano Negra,1987,1994,Santi,1961-01-01
+Q1155446,Dream,2000,2017,Shizuka Nishida,1988-03-06
+Q1410117,Harmonium,1972,1979,Q3479306,1952-03-04
+Q1410117,Harmonium,1972,1979,Serge Locat,1950-12-01
+Q218837,The Supremes,1958,1977,Lynda Laurence,1949-02-20
+Q218837,The Supremes,1958,1977,Cindy Birdsong,1939-12-15
+Q279634,a1,1998,2024,Paul Marazzi,1975-01-24
+Q158462,Lynyrd Skynyrd,1964,2024,Peter Keys,1965-05-30
+Q158462,Lynyrd Skynyrd,1964,2024,Owen Hale,1948-07-15
+Q669430,Onyanko Club,1985,1987,Sanae Jōnouchi,1968-05-17
+Q251590,Magazin,1979,2024,Ljiljana Nikolovska,1964-08-24
+Q292061,AFI,1991,2024,Geoff Kresge,2000-01-01
+Q1434852,Héroes del Silencio,1984,1996,Joaquín Cardiel,1965-06-02
+Q1434852,Héroes del Silencio,1984,1996,Juan Valdivia,1965-12-03
+Q173180,Franz Ferdinand,2002,2024,Robert Hardy,1980-08-16
+Q182622,US5,2005,2024,Christopher Richard Stringini,1986-11-11
+Q251590,Magazin,1979,2024,Tonči Huljić,1961-10-29
+Q2889382,Les Wriggles,1995,2009,Stéphane Gourdon,1973-02-01
+Q12054196,Shut Up,1968,1982,František Ringo Čech,1943-07-09
+Q284740,Miss A,2010,2024,Wang Feifei,1987-04-27
+Q753829,Bijelo Dugme,1974,1989,Vlado Pravdić,1949-12-06
+Q163112,Primal Fear,1997,2024,Andre Hilgers,1974-08-30
+Q214039,Beastie Boys,1981,2012,Money Mark,1960-02-10
+Q214039,Beastie Boys,1981,2012,Alfredo Ortiz,1970-01-01
+Q214039,Beastie Boys,1981,2012,Amery Smith,1964-08-03
+Q221494,Quiet Riot,1973,2024,Alex Grossi,1976-11-22
+Q312428,Rage,1984,2024,Andre Hilgers,1974-08-30
+Q913662,The Distillers,1998,2006,Andy Granelli,1979-01-01
+Q3793010,Il Volo,1974,1975,Alberto Radius,1942-06-01
+Q3808212,Jet,1967,1975,Aldo Stellita,1947-08-02
+Q202314,Thin Lizzy,1969,2024,Ricky Warwick,1966-07-11
+Q204328,Kansas,1970,2024,David Ragsdale,1958-04-03
+Q669430,Onyanko Club,1985,1987,Sonoko Kawai,1965-06-20
+Q952468,Sentenced,1989,2005,Vesa Ranta,1973-07-20
+Q12054196,Shut Up,1968,1982,Jiří Helekal,1947-02-13
+Q936474,Mano Negra,1987,1994,Thomas Darnal,1963-11-18
+Q1366214,Candies,1973,1978,د/خالد محمد الحسن,1955-01-13
+Q2756643,RC Succession,1968,1991,Reichi Nakaido,1950-10-09
+Q157448,A-Teens,1998,2024,Amit Sebastian Paul,1983-10-29
+Q169316,Plain White T's,1997,2024,Tom Higgenson,1979-02-22
+Q298794,A Touch of Class,1999,2024,Tracey Packham,1977-07-30
+Q489801,INXS,1977,2012,Kirk Pengilly,1958-07-04
+Q860153,Bikini Kill,1990,1997,Tobi Vail,1969-07-20
+Q1366214,Candies,1973,1978,Miki Fujimura,1956-01-15
+Q1544144,Tin Machine,1988,1992,Tony Sales,1951-09-26
+Q160103,Travis,1990,2024,Neil Primrose,1972-02-20
+Q346701,Adagio,2000,2018,Stéphan Forté,1978-11-16
+Q285966,Hawkwind,1969,2024,Bridget Wishart,1962-02-25
+Q302155,Bleeding Through,1999,2024,Brandan Schieppati,1980-08-03
+Q3793010,Il Volo,1974,1975,Bob Callero,1950-05-04
+Q669430,Onyanko Club,1985,1987,Yukiko Iwai,1968-05-26
+Q747098,Pow woW,1990,1997,Yvo Abadi,1960-05-05
+Q346701,Adagio,2000,2018,Éric Lebailly,1972-10-11
+Q146027,One Direction,2010,2024,Louis Tomlinson,1991-12-24
+Q146027,One Direction,2010,2024,Zayn Malik,1993-01-12
+Q146027,One Direction,2010,2024,Harry Styles,1994-02-01
+Q213923,Porcupine Tree,1987,2024,Chris Maitland,1964-05-13
+Q247949,Bush,1992,2024,Chris Traynor,1973-06-22
+Q483234,B.A.P,2012,2019,Zelo,1996-10-15
+Q3808212,Jet,1967,1975,Carlo Marrale,1952-03-15
+Q214039,Beastie Boys,1981,2012,DJ Hurricane,1965-01-12
+Q302155,Bleeding Through,1999,2024,Derek Youngsma,1980-11-21
+Q158932,Edguy,1992,2024,Dirk Sauer,1977-09-01
+Q1242174,Pooh,1966,2016,Dodi Battaglia,1951-06-01
+Q320685,Abhorrence,1989,2024,Jussi Ahlroth,1973-01-01
+Q948776,New Dada,1965,1967,Gilberto Ziglioli,1948-01-01
+Q1242174,Pooh,1966,2016,Gilberto Faggioli,1945-01-01
+Q3793010,Il Volo,1974,1975,Gianni Dall'Aglio,1945-10-01
+Q21010689,Trio Bennato,1958,2017,Giorgio Zito,1949-10-04
+Q192863,Amon Amarth,1992,2024,Fredrik Andersson,1975-01-01
+Q263632,Platero y Tú,1989,2024,Fito Cabrales,1966-10-06
+Q269450,Suffocation,1989,2024,Frank Mullen,1970-01-01
+Q751775,Sunrise Avenue,2002,2022,Raul Ruutu,1975-08-28
+Q2606599,La Polla Records,1979,2003,Evaristo Páramos Pérez,1960-06-13
+Q3704502,Decibel,1977,1998,Fulvio Muzio,1956-03-17
+Q3793010,Il Volo,1974,1975,Gabriele Lorenzi,1942-07-03
+Q75788,Eluveitie,2002,2024,Kay Brem,1982-01-08
+Q81509,Minor Threat,1980,1983,Jeff Nelson,1962-01-01
+Q176457,Supertramp,1969,2024,Keith Baker,1948-04-19
+Q214039,Beastie Boys,1981,2012,Kate Schellenbach,1966-01-05
+Q221494,Quiet Riot,1973,2024,Jizzy Pearl,1958-03-17
+Q279105,Volbeat,2001,2024,Jon Larsen,1970-07-13
+Q282784,Corona,1993,2024,Jenny B,1972-07-20
+Q291339,Battlelore,1999,2024,Jussi Rautio,1978-01-17
+Q291339,Battlelore,1999,2024,Jyri Vahvanen,1978-07-07
+Q483234,B.A.P,2012,2019,Moon Jong-up,1995-02-06
+Q1123885,The Ark,1991,2011,Jepson,1974-07-24
+Q189965,Whitesnake,1978,2024,Michele Luppi,1974-04-07
+Q483810,The Cranberries,1989,2003,Mike Hogan,1973-04-29
+Q948776,New Dada,1965,1967,Maurizio Arcieri,1945-04-30
+Q1242174,Pooh,1966,2016,Mauro Bertoli,1945-09-08
+Q202041,Jamiroquai,1992,2024,Nick Fyffe,1972-10-14
+Q853266,Beyond,1983,2005,Paul Wong,1964-03-31
+Q1771646,Alaska y los Pegamoides,1979,1982,Nacho Canut,1957-06-05
+Q202041,Jamiroquai,1992,2024,Toby Smith,1970-10-29
+Q291339,Battlelore,1999,2024,Timo Honkanen,1979-12-14
+Q291339,Battlelore,1999,2024,Tomi Mykkänen,1974-09-18
+Q81509,Minor Threat,1980,1983,Lyle Preslar,1901-01-01
+Q163112,Primal Fear,1997,2024,Magnus Karlsson,1973-11-26
+Q163989,Arch Enemy,1996,2024,Martin Bengtsson,1974-03-06
+Q167977,Skunk Anansie,1994,2024,Martin Kent,1967-03-30
+Q278406,High on Fire,1998,2024,Matt Pike,1972-06-03
+Q291339,Battlelore,1999,2024,Maria Honkanen,1982-01-08
+Q302155,Bleeding Through,1999,2024,Marta Peterson,1984-12-31
+Q1242174,Pooh,1966,2016,Mario Goretti,1945-01-01
+Q3793010,Il Volo,1974,1975,Mario Lavezzi,1945-06-07
+Q291339,Battlelore,1999,2024,Henri Vahvanen,1983-06-29
+Q166120,Black Rebel Motorcycle Club,1998,2024,Peter Hayes,1976-02-11
+Q167977,Skunk Anansie,1994,2024,Richard Lewis,1960-09-01
+Q240892,Arena,1995,2024,Damian Wilson,1969-10-11
+Q276584,R5,2009,2024,Riker Lynch,1991-11-08
+Q1242174,Pooh,1966,2016,Red Canzian,1951-11-30
+Q240767,Limp Bizkit,1994,2024,Sammy Siegler,1973-03-21
+Q240767,Limp Bizkit,1994,2024,Scott Borland,1979-02-14
+Q588820,Cocteau Twins,1979,1997,Robin Guthrie,1962-01-04
+Q1242174,Pooh,1966,2016,Roby Facchinetti,1944-05-01
+Q81509,Minor Threat,1980,1983,Steve Hansgen,1964-05-06
+Q1123885,The Ark,1991,2011,Sylvester Schlegel,1976-03-22
+Q1242174,Pooh,1966,2016,Stefano D'Orazio,1948-09-12
+Q308644,G-Unit,1999,2024,Kidd Kidd,1983-11-26
+Q20743716,Bill Bradley Band,1976,1982,Nadieh,1958-09-07
+Q325359,Laibach,1980,2024,Eva Breznikar,1978-01-01
+Q1049681,PMMP,2002,2013,Juho Vehmanen,1981-03-31
+Q1049681,PMMP,2002,2013,Mikko Virta,1982-03-22
+Q74645,Sektor Gaza,1987,2024,Vadim Glukhov,1965-08-25
+Q325359,Laibach,1980,2024,Janez Gabrič,1979-01-01
+Q926397,Tracktor Bowling,1996,2017,Vitaly Demidenko,1978-07-26
+Q127888,Nautilus Pompilius,1982,1997,Alekseï Moguilevski,1961-02-07
+Q163112,Primal Fear,1997,2024,Mat Sinner,1964-10-16
+Q325359,Laibach,1980,2024,Ivan Novak,1958-01-01
+Q74645,Sektor Gaza,1987,2024,Yuri Klinskikh,1964-07-27
+Q91565042,Nautilus,1983,1988,Sergey Kavagoe,1953-06-25
+Q127888,Nautilus Pompilius,1982,1997,Q4232490,1962-07-20
+Q162247,Therion,1987,2024,Sami Karppinen,1971-08-02
+Q74645,Sektor Gaza,1987,2024,Igor Zhirnov,1964-09-21
+Q257615,Soilwork,1996,2024,Peter Wichers,1979-02-08
+Q751775,Sunrise Avenue,2002,2022,Osmo Ikonen,1980-04-18
+Q912340,Grazhdanskaya Oborona,1984,2008,Igor Zhevtun,1967-03-03
+Q590725,Laskoviy Mai,1986,1992,Sergey Kuznetsov,1964-01-06
+Q127888,Nautilus Pompilius,1982,1997,Nikolaï Pétrov,1960-10-24
+Q127888,Nautilus Pompilius,1982,1997,Albert Potapkin,1968-01-23
+Q181584,SDN48,2009,2024,Serina,1985-05-19
+Q191660,Sonata Arctica,1996,2024,Janne Kivilahti,1901-01-01
+Q590725,Laskoviy Mai,1986,1992,Andrei Razin,1963-09-15
+Q952468,Sentenced,1989,2005,Taneli Jarva,1975-01-04
+Q91565042,Nautilus,1983,1988,Kirill Pokrovsky,1965-03-25
+Q325359,Laibach,1980,2024,Mina Špiler,1981-01-01
+Q325359,Laibach,1980,2024,Luka Jamnik,1982-01-01
+Q912340,Grazhdanskaya Oborona,1984,2008,Natalia Chumakova,1969-07-14
+Q218178,Ensiferum,1995,2024,Emmi Silvennoinen,1988-04-09
+Q590725,Laskoviy Mai,1986,1992,Sergey Serkov,1974-01-03
+Q650555,Kino,1981,1990,Aleksei Rybin,1960-12-21
+Q912340,Grazhdanskaya Oborona,1984,2008,Konstantin Ryabinov,1964-10-20
+Q325359,Laibach,1980,2024,Milan Fras,1960-08-05
+Q590725,Laskoviy Mai,1986,1992,Yuri Barabash,1974-04-14
+Q154129,Gamma Ray,1988,2024,Uwe Wessel,1960-08-31
+Q205054,The Flowers of Romance,1976,2024,Viv Albertine,1954-12-01
+Q1242174,Pooh,1966,2016,Valerio Negrini,1946-05-04
+Q12407085,HaTarnegolim,1960,1963,Shaike Levi,1939-12-13
+Q218178,Ensiferum,1995,2024,Netta Skog,1990-10-02
+Q1430380,Nomeansno,1979,2016,Rob Wright,1954-03-11
+Q952468,Sentenced,1989,2005,Sami Kukkohovi,1974-07-26
+Q61404178,Avicenna,1980,1990,Sergey Manukyan,1955-03-15
+Q175514,King's X,1980,2024,Doug Pinnick,1950-09-03
+Q650555,Kino,1981,1990,Alexander Titov,1957-07-18
+Q650555,Kino,1981,1990,Igor Tikhomirov,1961-04-17
+Q279634,a1,1998,2024,Christian Ingebrigtsen,1977-01-25
+Q157497,Bloodhound Gang,1988,2024,Adam Perry,1969-12-29
+Q181341,Godspeed You! Black Emperor,1994,2024,Aidan Girt,1976-07-18
+Q257712,Nekromantix,1989,2024,Andy DeMize,1983-03-11
+Q489801,INXS,1977,2012,Andrew Farriss,1959-03-27
+Q1781599,Imperiet,1983,1988,Anders Sjöholm,1957-06-15
+Q5901555,Honey Is Cool,1994,2000,Anders Göthberg,1975-10-09
+Q151634,Ace of Base,1990,2024,Clara Hagman,1991-07-09
+Q218837,The Supremes,1958,1977,Susaye Greene,1949-09-13
+Q970088,Chips,1979,1983,Britta Johansson,1958-02-13
+Q1089523,Chumbawamba,1982,2012,Boff Whalley,1961-08-06
+Q106379,The Cardigans,1992,2024,Bengt Lagerberg,1973-07-05
+Q218837,The Supremes,1958,1977,Barbara Martin,1943-06-16
+Q175514,King's X,1980,2024,Ty Tabor,1961-09-17
+Q264029,Emperor,1991,2024,Alver,1973-06-06
+Q271513,The Fray,2002,2024,Joe King,1980-05-25
+Q271513,The Fray,2002,2024,Dave Welsh,1984-08-15
+Q12740798,Sideral,1964,1969,Adrian Ivanițchi,1947-09-15
+Q127679,Kashmir,1991,2024,Asger Techau,1974-08-16
+Q219874,Village People,1977,2024,Alex Briley,1947-04-12
+Q2296418,The Gods,1965,1970,Alan Shacklock,1950-06-20
+Q7759377,The Ramong Sound,1965,1966,Alan Warner,1947-04-21
+Q115170349,Until the End,2000,2005,Alan Landsman,1979-12-10
+Q1430380,Nomeansno,1979,2016,Andy Kerr,1931-06-29
+Q276463,The Psychedelic Furs,1977,2024,Amanda Kramer,1901-01-01
+Q326063,Leaves' Eyes,2003,2024,Alla Fedynitch,1979-06-18
+Q1089523,Chumbawamba,1982,2012,Alice Nutter,1962-07-10
+Q1888034,The Delgados,1994,2005,Alun Woodward,1971-12-11
+Q4790205,Arian,1998,2015,Ali Pahlavan,1975-05-01
+Q1781599,Imperiet,1983,1988,Christian Falk,1962-04-25
+Q19394054,Utopian Fields,1988,1991,Bård Tufte Johansen,1969-06-19
+Q56299304,Love Generation,2010,2012,Martina Braun Wolgast,1987-06-05
+Q178661,The Dandy Warhols,1994,2024,Brent DeBoer,1967-01-01
+Q10448862,The Cherry Bombz,1985,1986,Anita Chellamah,1959-01-01
+Q3877123,Auryn,2009,2016,Blas Canto,1991-10-26
+Q178549,Counting Crows,1991,2024,Dan Vickrey,1966-07-26
+Q1089523,Chumbawamba,1982,2012,Danbert Nobacon,1962-01-16
+Q4915946,Bird of Ill Omen,1996,1998,Damien Moyal,1976-09-25
+Q111753074,Bridgeburne R,1999,2000,Damien Moyal,1976-09-25
+Q201568,The Buggles,1977,2024,Bruce Woolley,1953-11-11
+Q285190,Molly Hatchet,1975,2024,Bruce Crump,1957-07-17
+Q56299304,Love Generation,2010,2012,Cornelia Jakobs,1992-03-09
+Q134969,R.E.M.,1980,2011,Bertis Downs IV,1956-07-13
+Q544024,Gong,1967,1977,Benoît Moerlen,1956-02-06
+Q176457,Supertramp,1969,2024,Carl Verheyen,1954-04-03
+Q204328,Kansas,1970,2024,Kerry Livgren,1949-09-18
+Q1771646,Alaska y los Pegamoides,1979,1982,Carlos Berlanga,1959-08-11
+Q182622,US5,2005,2024,Christoph Watrin,1988-08-07
+Q860153,Bikini Kill,1990,1997,Kathi Wilcox,1969-11-19
+Q56299304,Love Generation,2010,2012,Melanie Taylor,1991-06-17
+Q176457,Supertramp,1969,2024,Cliff Hugo,1951-04-23
+Q7759377,The Ramong Sound,1965,1966,Clem Curtis,1940-11-28
+Q263632,Platero y Tú,1989,2024,Iñaki Antón,1964-08-03
+Q154129,Gamma Ray,1988,2024,Michael Ehré,1971-08-01
+Q178549,Counting Crows,1991,2024,Charlie Gillingham,1960-01-26
+Q221358,Shadowfax,1972,1995,Charlie Bisharat,1963-03-15
+Q678092,Edward H. Dafis,1973,1980,Charli Britton,1952-12-12
+Q19963428,Injaroc,1976,1977,Charli Britton,1952-12-12
+Q115170349,Until the End,2000,2005,Richard Walbert,1979-01-16
+Q209182,Public Enemy,1986,2024,DJ Lord,1962-09-27
+Q483234,B.A.P,2012,2019,Jung Dae-hyun,1993-06-28
+Q116936,The dB's,1978,2024,Chris Stamey,1954-12-06
+Q165714,Live,1988,2024,Chris Shinn,1974-08-01
+Q176430,The Presidents of the United States of America,1993,2024,Chris Ballew,1965-05-28
+Q1327973,The Mighty Mighty Bosstones,1983,2022,Chris Rhodes,1949-01-01
+Q43146025,Clap,1984,1988,Christian Basso,1966-09-27
+Q157497,Bloodhound Gang,1988,2024,Daniel P. Carter,1974-11-16
+Q171718,Children of Bodom,1993,2019,Daniel Freyberg,1982-02-04
+Q176430,The Presidents of the United States of America,1993,2024,Dave Dederer,1964-10-05
+Q222517,Blackstreet,1991,2024,Dave Hollister,1971-08-17
+Q285190,Molly Hatchet,1975,2024,Dave Hlubek,1951-08-28
+Q1032544,Hail of Bullets,2006,2017,Dave Ingram,1969-01-25
+Q1107195,Coil,1982,2004,Danny Hyde,1962-01-01
+Q178549,Counting Crows,1991,2024,David Immerglück,1961-05-03
+Q180582,Bauhaus,1978,2024,David J,1957-04-24
+Q221358,Shadowfax,1972,1995,David C. Lewis,1953-01-03
+Q289405,The Vines,1999,2024,David Olliffe,1975-11-03
+Q240767,Limp Bizkit,1994,2024,Rob Waters,1901-01-01
+Q1327973,The Mighty Mighty Bosstones,1983,2022,Dicky Barrett,1964-06-22
+Q1757318,The Rascals,1965,1972,Dino Danelli,1944-07-23
+Q277230,98 Degrees,1996,2024,Drew Lachey,1976-08-08
+Q285190,Molly Hatchet,1975,2024,Duane Roland,1953-12-03
+Q627470,The Turtles,1965,1970,Don Murray,1945-11-08
+Q1107195,Coil,1982,2004,Drew McDowall,1961-01-28
+Q181584,SDN48,2009,2024,Saemi Shinahama,1989-07-20
+Q181584,SDN48,2009,2024,Nachu,1984-12-23
+Q181584,SDN48,2009,2024,Juri Kaida,1988-05-19
+Q181584,SDN48,2009,2024,Misa Ōkouchi,1984-01-11
+Q181584,SDN48,2009,2024,Natsuko,1989-08-18
+Q181584,SDN48,2009,2024,Yuka Ninomiya,1989-09-11
+Q181584,SDN48,2009,2024,Chisaki Hatakeyama,1988-11-04
+Q181584,SDN48,2009,2024,Marina Tsuda,1987-06-06
+Q181584,SDN48,2009,2024,Sayaka Kondō,1984-04-01
+Q181584,SDN48,2009,2024,Konan,1985-03-04
+Q181584,SDN48,2009,2024,Mami Katō,1987-09-07
+Q181584,SDN48,2009,2024,Akiko,1989-08-18
+Q181584,SDN48,2009,2024,Yūki Aikawa,1984-09-23
+Q181584,SDN48,2009,2024,Chen Qu,1986-11-06
+Q181674,NMB48,2010,2024,Mako Umehara,1999-01-11
+Q185226,Nogizaka46,2011,2024,Misa Etō,1993-01-04
+Q223048,SISTAR,2010,2017,Soyou,1992-02-12
+Q223048,SISTAR,2010,2017,Yoon Bo-ra,1989-12-30
+Q277230,98 Degrees,1996,2024,Jeff Timmons,1973-04-30
+Q862514,Kalafina,2007,2018,Hikaru Masai,1987-07-02
+Q862514,Kalafina,2007,2018,Wakana Ōtaki,1984-12-11
+Q1138250,SMAP,1988,2016,Katsuyuki Mori,1974-02-19
+Q11645860,Yaen,1998,2001,Noritake Kinashi,1962-03-09
+Q153616,Tangerine Dream,1967,2024,Hoshiko Yamane,1981-04-04
+Q285966,Hawkwind,1969,2024,Dead Fred,1948-01-01
+Q285966,Hawkwind,1969,2024,Del Dettmar,1947-04-20
+Q320499,Faith No More,1983,2024,Dean Menta,1966-07-23
+Q1138185,L7,1985,2001,Demetra Plakas,1960-11-09
+Q181584,SDN48,2009,2024,Reiko Nishikunihara,1977-11-24
+Q184294,9nine,2005,2024,Hirona Murata,1996-12-29
+Q1757318,The Rascals,1965,1972,Eddie Brigati,1945-10-22
+Q328333,Asesino,2002,2024,Emilio Márquez,1974-01-01
+Q19963428,Injaroc,1976,1977,Endaf Emlyn,1944-07-31
+Q181584,SDN48,2009,2024,Haruka Kohara,1988-04-12
+Q158641,Q158641,1999,2024,Felix Bohnke,1974-09-02
+Q158932,Edguy,1992,2024,Felix Bohnke,1974-09-02
+Q185226,Nogizaka46,2011,2024,Erika Ikuta,1997-01-22
+Q1757318,The Rascals,1965,1972,Felix Cavaliere,1942-11-29
+Q489801,INXS,1977,2012,Garry Gary Beers,1957-06-22
+Q1138185,L7,1985,2001,Gail Greenwood,1960-03-10
+Q1757318,The Rascals,1965,1972,Gene Cornish,1944-05-14
+Q202041,Jamiroquai,1992,2024,Derrick McKenzie,1964-01-01
+Q764073,Gyllene Tider,1977,1985,Anders Herrlin,1961-09-17
+Q751775,Sunrise Avenue,2002,2022,Jukka Backlund,1982-12-30
+Q764073,Gyllene Tider,1977,1985,Micke ”Syd” Andersson,1961-03-12
+Q1123885,The Ark,1991,2011,Jens Andersson,1970-09-27
+Q1781599,Imperiet,1983,1988,Fred Asp,2000-01-01
+Q751775,Sunrise Avenue,2002,2022,Janne Kärkkäinen,1976-11-27
+Q2063678,Tiktak,1999,2007,Noora Puhakka,1985-11-11
+Q11880250,MAC,1981,1982,Pepe Laaksonen,1961-01-20
+Q176457,Supertramp,1969,2024,Frank Farrell,1947-03-31
+Q1049681,PMMP,2002,2013,Heikki Kytölä,1981-10-14
+Q162247,Therion,1987,2024,Fredrik Isaksson,1971-01-01
+Q764073,Gyllene Tider,1977,1985,Janne Carlsson,1959-01-01
+Q11998026,Road,1983,1986,Jørun Bøgeberg,1958-01-01
+Q1888098,Ultima Thule,1983,2012,Niklas Adolfsson,1966-02-20
+Q185226,Nogizaka46,2011,2024,Rina Ikoma,1995-12-29
+Q1888098,Ultima Thule,1983,2012,Thomas Krohn,1965-07-08
+Q5687897,Soluna,1975,1977,Horacio Gianello,1952-01-01
+Q289405,The Vines,1999,2024,Hamish Rosser,1974-05-16
+Q544024,Gong,1967,1977,Hansford Rowe,1954-03-08
+Q12407085,HaTarnegolim,1960,1963,Hanan Goldblatt,1941-10-10
+Q346701,Adagio,2000,2018,Gus Monsanto,1974-11-05
+Q739570,Nena,1982,1987,Jürgen Dehmel,1958-08-12
+Q1781599,Imperiet,1983,1988,Gunnar Ljungstedt,1952-01-01
+Q181684,Against Me!,1997,2024,Laura Jane Grace,1980-11-08
+Q300343,A Camp,2001,2024,Niclas Frisk,1969-02-14
+Q764073,Gyllene Tider,1977,1985,Göran Fritzon,1962-04-21
+Q5984819,Luna Verde,1994,1996,Carolina Sabino,1977-07-31
+Q287690,The Hives,1989,2024,Johan Gustavsson,1975-10-01
+Q1888098,Ultima Thule,1983,2012,Bruno Hansen,1966-01-01
+Q1888098,Ultima Thule,1983,2012,Ulf Hansen,1964-09-07
+Q4790205,Arian,1998,2015,Payam Salehi,1975-03-12
+Q166883,Ikimono-gakari,1999,2024,Kiyoe Yoshioka,1984-02-29
+Q212481,Shaman,2000,2024,Hugo Mariutti,1975-12-18
+Q1652399,Kilburn and the High Roads,1970,1975,Humphrey Ocean,1951-06-22
+Q5901555,Honey Is Cool,1994,2000,Paul Källman,1974-08-23
+Q5984819,Luna Verde,1994,1996,Jorge Cárdenas,1970-11-27
+Q163989,Arch Enemy,1996,2024,Nick Cordle,1985-01-01
+Q3136643,Patricio Rey y sus Redonditos de Ricota,1976,2001,Indio Solari,1949-01-17
+Q247949,Bush,1992,2024,Robin Goodridge,1966-09-10
+Q1781599,Imperiet,1983,1988,Per Hägglund,1957-01-01
+Q106379,The Cardigans,1992,2024,Lars-Olof Johansson,1973-02-23
+Q181684,Against Me!,1997,2024,Inge Johansson,1977-05-10
+Q3136643,Patricio Rey y sus Redonditos de Ricota,1976,2001,Gonzalo Palacios,1963-01-01
+Q5901555,Honey Is Cool,1994,2000,John Jern,1973-03-07
+Q172763,Joy Division,1976,2024,Steve Brotherdale,1958-01-01
+Q181584,SDN48,2009,2024,Seara Kōjō,1988-01-10
+Q274593,HammerFall,1993,2024,Patrik Räfling,1974-07-22
+Q329459,Rednex,1994,2024,Anders Sandberg,1968-05-03
+Q913662,The Distillers,1998,2006,Rose Mazzola,1982-09-05
+Q1123885,The Ark,1991,2011,Martin Rosengardten,1976-02-28
+Q489801,INXS,1977,2012,J.D. Fortune,1973-09-01
+Q106379,The Cardigans,1992,2024,Magnus Sveningsson,1972-04-04
+Q106379,The Cardigans,1992,2024,Peter Svensson,1974-10-18
+Q73597,Frankie Goes to Hollywood,1980,2024,Jed O'Toole,1960-01-01
+Q181684,Against Me!,1997,2024,Jay Weinberg,1990-09-08
+Q202041,Jamiroquai,1992,2024,Wallis Buchanan,1965-11-29
+Q180582,Bauhaus,1978,2024,Kevin Haskins,1960-07-19
+Q181684,Against Me!,1997,2024,Kevin Mahon,1982-11-14
+Q285966,Hawkwind,1969,2024,Keith Hale,1950-11-06
+Q286596,The Upsetters,1968,2024,Keith Sterling,1952-01-01
+Q163989,Arch Enemy,1996,2024,Peter Wildoer,1974-09-05
+Q489801,INXS,1977,2012,Jon Farriss,1961-08-10
+Q489801,INXS,1977,2012,Jon Stevens,1962-10-13
+Q627470,The Turtles,1965,1970,John Seiter,1944-08-17
+Q7761298,The Rocking Horse Winner,1999,2003,Jolie Lindholm,1976-10-01
+Q175514,King's X,1980,2024,Jerry Gaskill,1957-12-27
+Q278406,High on Fire,1998,2024,Jeff Matz,1977-01-01
+Q3136643,Patricio Rey y sus Redonditos de Ricota,1976,2001,Semilla Bucciarelli,1959-07-03
+Q257615,Soilwork,1996,2024,Henry Ranta,1977-10-21
+Q627470,The Turtles,1965,1970,Joel Larson,1947-04-29
+Q1327973,The Mighty Mighty Bosstones,1983,2022,Joe Gittleman,1968-04-06
+Q1327973,The Mighty Mighty Bosstones,1983,2022,Joe Sirois,1972-01-25
+Q1888098,Ultima Thule,1983,2012,Jan Thörnblom,1964-04-02
+Q2606599,La Polla Records,1979,2003,Manolo García Cruz,1957-01-01
+Q5901555,Honey Is Cool,1994,2000,Fredrik Wennerlund,1973-01-11
+Q176430,The Presidents of the United States of America,1993,2024,Jason Finn,1967-10-27
+Q1138185,L7,1985,2001,Janis Tanaka,1963-01-09
+Q111337,Korpiklaani,1993,2024,Juho Kauppinen,1986-08-04
+Q259878,Strange Sensation,2001,2024,Justin Adams,1961-07-22
+Q254138,Slipknot,1994,2024,Jay Weinberg,1990-09-08
+Q209182,Public Enemy,1986,2024,Khari Wynn,1981-11-23
+Q323187,Above & Beyond,2000,2024,Jono Grant,1979-11-16
+Q127679,Kashmir,1991,2024,Kasper Eistrup,1973-01-24
+Q18689914,Kari Peitsamo & Hirttämättömät,1998,1999,Kari Peitsamo,1957-08-26
+Q162247,Therion,1987,2024,Kristian Niemann,1971-10-26
+Q213476,Tristania,1997,2024,Kjetil Nordhus,1975-05-31
+Q223048,SISTAR,2010,2017,Kim Da-som,1993-05-06
+Q2296418,The Gods,1965,1970,Alex Napier,1947-10-18
+Q5286854,Dobrovoljno Pevačko Društvo,1994,1995,Kiki Lesendrić,1961-01-02
+Q259878,Strange Sensation,2001,2024,Liam Tyson,1969-09-07
+Q320499,Faith No More,1983,2024,Paula Frazer,1963-04-24
+Q212481,Shaman,2000,2024,Luís Mariutti,1971-03-22
+Q753829,Bijelo Dugme,1974,1989,Milić Vukašinović,1950-03-09
+Q496732,Papaya,2000,2004,Go Na-eun,1982-01-15
+Q797648,Babes in Toyland,1987,2020,Lori Barbero,1961-11-27
+Q214039,Beastie Boys,1981,2012,John Berry,1963-08-29
+Q753829,Bijelo Dugme,1974,1989,Zoran Redžić,1948-01-29
+Q7719992,The Brian May Band,1991,1998,Michael Casswell,1963-06-18
+Q12407085,HaTarnegolim,1960,1963,Gavri Banai,1939-07-09
+Q129050,The Shangri-Las,1963,2024,Mary Weiss,1948-12-28
+Q188407,Snow Patrol,1994,2024,Mark McClelland,1976-03-30
+Q222517,Blackstreet,1991,2024,Mark Middleton,1969-01-01
+Q123025,Level 42,1980,2024,Phil Gould,1957-02-28
+Q259254,Bon Jovi,1983,2024,Phil X,1966-03-10
+Q123320,The Avett Brothers,2000,2024,Mike Marsh,1974-08-13
+Q181519,SKE48,2008,2024,Nao Furuhata,1996-09-15
+Q93292,Divlje jagode,1977,2024,Nasko Budimlić,1960-01-01
+Q123025,Level 42,1980,2024,Nathan King,1970-08-29
+Q188407,Snow Patrol,1994,2024,Nathan Connolly,1981-01-06
+Q6685382,Reva l'sheva,1994,2006,Nitsan-Khen Raz'el,1975-06-05
+Q12407085,HaTarnegolim,1960,1963,Aliza Rosen,1939-12-03
+Q4027671,Fourteen Octaves,1974,1975,Zohar Levi,1943-01-01
+Q4027671,Fourteen Octaves,1974,1975,Avner Kenner,1952-01-01
+Q6685382,Reva l'sheva,1994,2006,David Avramson,1960-01-01
+Q12411741,Shlishiyat Gesher Hayarkon,1964,1966,Benny Amdursky,1931-08-12
+Q178549,Counting Crows,1991,2024,Millard Powers,1965-12-24
+Q205054,The Flowers of Romance,1976,2024,Palmolive,1954-01-03
+Q323187,Above & Beyond,2000,2024,Paavo Siljamäki,1977-04-25
+Q1888034,The Delgados,1994,2005,Paul Savage,1971-01-01
+Q166120,Black Rebel Motorcycle Club,1998,2024,Nick Jago,1977-07-19
+Q12407085,HaTarnegolim,1960,1963,Lior Yeini,1936-09-02
+Q116936,The dB's,1978,2024,Peter Holsapple,1956-02-19
+Q162247,Therion,1987,2024,Peter Hansson,1987-01-01
+Q282784,Corona,1993,2024,Olga Souza,1968-07-16
+Q1107195,Coil,1982,2004,Ossian Brown,1969-04-03
+Q123025,Level 42,1980,2024,Boon Gould,1955-03-04
+Q142674,Kat,1979,2024,Roman Kostrzewski,1960-02-15
+Q101505,Deep Purple,1968,2024,Simon McBride,1979-04-09
+Q202041,Jamiroquai,1992,2024,Simon Katz,1971-05-16
+Q588820,Cocteau Twins,1979,1997,Simon Raymonde,1962-04-03
+Q323187,Above & Beyond,2000,2024,Tony McGuinness,1969-04-23
+Q7202100,Plastics,1976,1981,Toshio Nakanishi,1956-01-13
+Q212481,Shaman,2000,2024,Ricardo Confessori,1969-01-25
+Q276463,The Psychedelic Furs,1977,2024,Rich Good,1974-06-17
+Q276463,The Psychedelic Furs,1977,2024,Richard Butler,1956-06-05
+Q159497,Destruction,1982,2024,Randy Black,1963-11-17
+Q163112,Primal Fear,1997,2024,Randy Black,1963-11-17
+Q498385,Nine Muses,2010,2019,Ryu Se-ra,1987-10-03
+Q166120,Black Rebel Motorcycle Club,1998,2024,Robert Levon Been,1978-08-22
+Q7719992,The Brian May Band,1991,1998,Shelley Preston,1964-05-14
+Q11998026,Road,1983,1986,Sid Ringsby,1961-02-16
+Q93292,Divlje jagode,1977,2024,Zele Lipovača,1955-08-31
+Q123320,The Avett Brothers,2000,2024,Scott Avett,1976-06-19
+Q165691,Love Affair,1966,2024,Steve Ellis,1950-04-07
+Q178549,Counting Crows,1991,2024,Steve Bowman,1967-01-14
+Q300853,Tv·2,1981,2024,Steffen Brandt,1953-06-14
+Q123320,The Avett Brothers,2000,2024,Seth Avett,1980-07-30
+Q326063,Leaves' Eyes,2003,2024,Seven Antonopoulos,1974-05-25
+Q181341,Godspeed You! Black Emperor,1994,2024,Sophie Trudeau,2000-01-01
+Q5286854,Dobrovoljno Pevačko Društvo,1994,1995,Srđan Šaper,1958-10-09
+Q188407,Snow Patrol,1994,2024,Tom Simpson,1972-01-07
+Q181341,Godspeed You! Black Emperor,1994,2024,Thierry Amar,1953-01-01
+Q261467,702,1994,2024,Tiffany Villarreal,1901-01-01
+Q285966,Hawkwind,1969,2024,Thomas Crimble,1947-06-18
+Q1327973,The Mighty Mighty Bosstones,1983,2022,Tim Burton,1964-01-01
+Q269450,Suffocation,1989,2024,Terrance Hobbs,1970-04-06
+Q904967,Diana Express,1974,1984,Vasil Naydenov,1950-09-03
+Q5984819,Luna Verde,1994,1996,Valentina Rendón,1975-08-14
+Q163989,Arch Enemy,1996,2024,Alissa White-Gluz,1985-07-31
+Q178642,Soulfly,1997,2024,Zyon Cavalera,1993-01-19
+Q178661,The Dandy Warhols,1994,2024,Zia McCabe,1975-06-02
+Q483234,B.A.P,2012,2019,Yoo Young-jae,1994-01-24
+Q1771646,Alaska y los Pegamoides,1979,1982,Ana Curra,1958-12-29
+Q18690087,Pekka ja Susi,1986,1999,Zarkus Poussa,1975-07-12
+Q122924,Blue System,1987,2024,Detlef Wiedeke,1950-07-05
+Q182622,US5,2005,2024,Christopher Gallegos,1983-09-19
+Q56337941,Red Aim,1995,2006,Attila Dorn,1970-10-27
+Q56337941,Red Aim,1995,2006,Charles Greywolf,1975-09-05
+Q136331900,Q136331900,1962,2017,Barbara Świątek-Żelazna,1937-04-24
+Q82545,Www,1975,2024,Frank Carter,1984-04-27
+Q157079,Wir sind Helden,2000,2024,Pola Roy,1975-10-18
+Q277551,Panic! at the Disco,2005,2024,Dallon Weekes,1981-05-04
+Q56337941,Red Aim,1995,2006,Falk Maria Schlegel,1975-09-29
+Q110459844,Q110459844,1978,1981,Henryk Miśkiewicz,1951-06-02
+Q181584,SDN48,2009,2024,Hana Tojima,1988-07-11
+Q181584,SDN48,2009,2024,Hitomi Komatani,1988-12-16
+Q181684,Against Me!,1997,2024,Warren Oakes,1981-01-23
+Q115170349,Until the End,2000,2005,Wes Keely,1978-10-07
+Q1434852,Héroes del Silencio,1984,1996,Pedro Andreu,1966-04-15
+Q1056450,Hikaru Genji,1987,1995,Akira Akasaka,1973-05-08
+Q1771646,Alaska y los Pegamoides,1979,1982,Eduardo Benavente,1962-10-30
+Q853266,Beyond,1983,2005,Wong Ka Keung,1964-11-13
+Q853266,Beyond,1983,2005,Yip Sai Wing,1963-08-19
+Q12407085,HaTarnegolim,1960,1963,Yisrael Poliakov,1941-07-07
+Q166883,Ikimono-gakari,1999,2024,Yoshiki Mizuno,1982-12-17
+Q2606599,La Polla Records,1979,2003,Fernando Murua Quintana,1962-06-01
+Q3132146,Sakura Gakuin,2010,2021,Ayami Mutō,1996-04-29
+Q7545956,Smokey & Miho,2001,2003,Joey Waronker,1969-05-20
+Q263632,Platero y Tú,1989,2024,Juantxu Olano,1963-01-19
+Q669430,Onyanko Club,1985,1987,Mika Okuda,1968-02-28
+Q618194,Fairies,2011,2020,Momoka Itō,1997-12-15
+Q853266,Beyond,1983,2005,Lau Chi Yuen,1969-03-08
+Q10847150,Fantasy 4,2005,2008,Stacy Chou,1984-06-26
+Q11954928,Q11954928,1968,1974,Suso Vaamonde,1950-12-20
+Q11954928,Q11954928,1968,1974,Xaime Barreiro Gil,1951-08-18
+Q14508897,Orquestra Mallo,1930,2013,Pucho Boedo,1929-01-04
+Q136331900,Q136331900,1962,2017,Adam Kaczynski,1933-10-13
+Q142674,Kat,1979,2024,Tomasz Jaguś,1963-01-01
+Q136331900,Q136331900,1962,2017,Stanisław Radwan,1939-03-10
+Q110459844,Q110459844,1978,1981,Zbigniew Jaremko,1946-05-27
+Q321359,Abingdon Boys School,2005,2024,Sunao,1969-04-28
+Q3132146,Sakura Gakuin,2010,2021,Ayaka Miyoshi,1996-06-18
+Q3331241,E-girls,2011,2020,Kaede,1996-01-11
+Q5455118,Fishmans,1987,1999,HAKASE-SUN,1967-03-22
+Q11235859,NOTHING PERSONAL,1983,1984,Jill,1960-01-25
+Q181674,NMB48,2010,2024,Kanna Shinohara,1997-09-22
+Q142674,Kat,1979,2024,Valdi Moder,2000-01-01
+Q11954928,Q11954928,1968,1974,Benedicto Garcia Villar,1947-05-07
+Q11954928,Q11954928,1968,1974,Miro Casabella,1946-08-30
+Q1138185,L7,1985,2001,Jennifer Finch,1966-08-05
+Q48830966,Newyjou,1975,2000,Šárka Rezková,1969-03-16
+Q178549,Counting Crows,1991,2024,David Bryson,1961-11-05
+Q11998026,Road,1983,1986,Willy Bendiksen,1957-05-27
+Q157041,The Offspring,1984,2024,James Lilja,1966-01-01
+Q182890,Def Leppard,1977,2024,Tony Kenning,1960-01-01
+Q125983911,Quả Dưa Hấu,1998,2000,Tuấn Hưng,1978-10-05
+Q125983911,Quả Dưa Hấu,1998,2000,Tường Văn,1979-01-01
+Q2756643,RC Succession,1968,1991,Hirofumi Kasuga,1954-01-25
+Q263632,Platero y Tú,1989,2024,Jesús García Castilla,1967-12-04
+Q489225,Rainbow,2009,2016,Go Woo-ri,1988-02-22
+Q6460281,LUV,2002,2003,Jo Eun-byul,1982-06-23
+Q11192834,C-C-B,1982,1989,Kōji Ryū,1962-11-08
+Q5523722,Garo,1970,1976,Mamoru Horiuchi,1949-02-02
+Q11645860,Yaen,1998,2001,Takashi Ōhara,1974-03-05
+Q184294,9nine,2005,2024,Moe Miura,1992-12-16
+Q669430,Onyanko Club,1985,1987,Fumiyo Mita,1967-01-06
+Q669430,Onyanko Club,1985,1987,Sanae Nakajima,1970-10-27
+Q669430,Onyanko Club,1985,1987,Miharu Nakajima,1967-10-01
+Q3132146,Sakura Gakuin,2010,2021,Suzuka Nakamoto,1997-12-20
+Q11193192,CHA-CHA,1988,1992,Nobutoshi Nakamura,1970-02-09
+Q201207,Stratovarius,1984,2024,Rolf Pilve,1987-10-23
+Q184294,9nine,2005,2024,Mai Yoshida,1990-10-30
+Q669430,Onyanko Club,1985,1987,Mamiko Tomoda,1968-01-08
+Q669430,Onyanko Club,1985,1987,Yumiko Yoshida,1971-01-03
+Q669430,Onyanko Club,1985,1987,Mitsuko Yoshimi,1971-12-25
+Q669430,Onyanko Club,1985,1987,Kayoko Yoshino,1967-04-03
+Q669430,Onyanko Club,1985,1987,Mika Nagoya,1966-04-13
+Q2756643,RC Succession,1968,1991,Rei Atsumi,1957-05-18
+Q11353285,Ippu-Do,1979,1984,Masami Tsuchiya,1952-08-22
+Q17222947,EMALF,2013,2015,Yū Kitamura,1985-08-09
+Q185226,Nogizaka46,2011,2024,Sayuri Inoue,1994-12-14
+Q185226,Nogizaka46,2011,2024,Marika Itō,1996-02-20
+Q428104,Les Rallizes Dénudés,1967,1996,Makoto Kubota,1949-01-01
+Q669430,Onyanko Club,1985,1987,Tamaki Gomioka,1970-01-19
+Q669430,Onyanko Club,1985,1987,Mayumi Satō,1967-09-25
+Q1056450,Hikaru Genji,1987,1995,Atsuhiro Satō,1973-08-30
+Q1056450,Hikaru Genji,1987,1995,Hiroyuki Satō,1970-11-02
+Q1056450,Hikaru Genji,1987,1995,Kōji Uchiumi,1968-01-11
+Q2714254,Ribbon,1989,1995,Aiko Satō,1973-10-22
+Q3331241,E-girls,2011,2020,Harumi Satō,1995-06-08
+Q5455118,Fishmans,1987,1999,Satō Shinji,1966-02-16
+Q7202100,Plastics,1976,1981,Masahide Sakuma,1952-02-29
+Q10847122,Flower,2010,2019,Harumi Satō,1995-06-08
+Q11304867,sadistics,1976,1978,Yū Imai,1949-03-31
+Q11307978,Sugar Babe,1973,1976,Ginji Itō,1950-12-24
+Q181519,SKE48,2008,2024,Kaori Matsumura,1990-01-17
+Q185226,Nogizaka46,2011,2024,Sayuri Matsumura,1992-08-27
+Q212455,Boøwy,1981,1988,Tsunematsu Matsui,1960-09-08
+Q669430,Onyanko Club,1985,1987,Miyuki Sugiura,1971-10-14
+Q669430,Onyanko Club,1985,1987,Aki Matsumoto,1969-11-23
+Q3132146,Sakura Gakuin,2010,2021,Airi Matsui,1996-12-26
+Q11235859,NOTHING PERSONAL,1983,1984,Takeshi Honda,1961-12-31
+Q11307978,Sugar Babe,1973,1976,Kunio Muramatsu,1952-03-17
+Q11635233,Akai Tori,1969,1974,Shuichi Murakami,1951-01-01
+Q3132146,Sakura Gakuin,2010,2021,Marina Horiuchi,1998-04-29
+Q3331241,E-girls,2011,2020,Nozomi Bandō,1997-09-04
+Q10847122,Flower,2010,2019,Nozomi Bandō,1997-09-04
+Q669430,Onyanko Club,1985,1987,Mami Yumioka,1970-09-15
+Q11304867,sadistics,1976,1978,Tsugutoshi Gotō,1952-02-05
+Q185226,Nogizaka46,2011,2024,Iroha Okuda,2005-08-20
+Q669430,Onyanko Club,1985,1987,Kaori Ōnuki,1970-05-17
+Q669430,Onyanko Club,1985,1987,Toshie Moriya,1970-06-11
+Q669430,Onyanko Club,1985,1987,Kumiko Miyano,1971-12-13
+Q669430,Onyanko Club,1985,1987,Harumi Tomikawa,1968-09-26
+Q669430,Onyanko Club,1985,1987,Yōko Teramoto,1969-12-21
+Q1056450,Hikaru Genji,1987,1995,Mikio Ōsawa,1969-04-20
+Q5523722,Garo,1970,1976,Masumi Ōno,1949-10-23
+Q11307978,Sugar Babe,1973,1976,Taeko Ōnuki,1953-11-28
+Q11635233,Akai Tori,1969,1974,Kenji Ōmura,1949-05-05
+Q184294,9nine,2005,2024,Rubi Katō,1990-07-24
+Q11193192,CHA-CHA,1988,1992,Kunikazu Katsumata,1965-03-12
+Q11248817,The Good-Bye,1983,1990,Hachirō Kaga,1958-02-28
+Q321359,Abingdon Boys School,2005,2024,Hiroshi Shibasaki,1939-01-01
+Q669430,Onyanko Club,1985,1987,Kaori Hayashi,1969-02-08
+Q669430,Onyanko Club,1985,1987,Michiko Enokida,1967-05-04
+Q2756643,RC Succession,1968,1991,Yoshiya Shibata,1954-09-17
+Q124004869,IMPACTors,2020,2023,Taiga Tsubaki,1998-02-10
+Q185226,Nogizaka46,2011,2024,Mai Fukagawa,1991-03-29
+Q11192834,C-C-B,1982,1989,Hideki Watanabe,1960-02-01
+Q11235859,NOTHING PERSONAL,1983,1984,Mitsugu Watanabe,1963-03-20
+Q166883,Ikimono-gakari,1999,2024,Hotaka Yamashita,1982-08-27
+Q184294,9nine,2005,2024,Midori Yamaoka,1990-11-25
+Q669430,Onyanko Club,1985,1987,Susan Kumiko Yamamoto,1966-06-26
+Q669430,Onyanko Club,1985,1987,Yuriko Yamamori,1970-11-30
+Q1056450,Hikaru Genji,1987,1995,Jun'ichi Yamamoto,1972-02-28
+Q1322032,Tokio,1990,2025,Hiromu Kojima,1976-10-24
+Q2756643,RC Succession,1968,1991,Ginji Ogawa,1956-09-24
+Q2756643,RC Succession,1968,1991,Kazuo Kobayashi,1951-12-05
+Q3331241,E-girls,2011,2020,Nonoka Yamaguchi,1998-03-08
+Q11635233,Akai Tori,1969,1974,Junko Yamamoto,1949-12-30
+Q184294,9nine,2005,2024,Miwako Wagatsuma,1991-02-11
+Q185226,Nogizaka46,2011,2024,Yūri Saitō,1993-07-20
+Q2756643,RC Succession,1968,1991,Kōzō Niida,1953-03-25
+Q5523722,Garo,1970,1976,Tomiaki Hidaka,1950-02-22
+Q11248817,The Good-Bye,1983,1990,Yasuhisa Soga,1963-01-07
+Q11272873,Dempagumi.inc,2008,2025,Kozue Aikawa,1991-10-25
+Q185226,Nogizaka46,2011,2024,Rena Ichiki,1996-01-22
+Q321359,Abingdon Boys School,2005,2024,Toshiyuki Kishi,1969-10-17
+Q669430,Onyanko Club,1985,1987,Takako Okamoto,1971-03-16
+Q669430,Onyanko Club,1985,1987,Tomoko Fukawa,1968-08-30
+Q7202100,Plastics,1976,1981,Takemi Shima,1946-01-01
+Q185226,Nogizaka46,2011,2024,Nanami Hashimoto,1993-02-20
+Q669430,Onyanko Club,1985,1987,Mutsumi Yokota,1967-09-26
+Q669430,Onyanko Club,1985,1987,Aki Kihara,1969-03-30
+Q669430,Onyanko Club,1985,1987,Ruriko Nagata,1967-06-23
+Q142674,Kat,1979,2024,Ireneusz Loth,1964-03-01
+Q185226,Nogizaka46,2011,2024,Manatsu Akimoto,1993-08-20
+Q669430,Onyanko Club,1985,1987,Mako Shiraishi,1969-06-12
+Q669430,Onyanko Club,1985,1987,Yūko Yajima,1968-12-15
+Q2756643,RC Succession,1968,1991,Kenchi Haren,1951-09-19
+Q11192834,C-C-B,1982,1989,Tomoharu Taguchi,1960-10-27
+Q184294,9nine,2005,2024,Marie Ashida,1990-12-23
+Q185226,Nogizaka46,2011,2024,Ami Nōjō,1994-10-18
+Q185226,Nogizaka46,2011,2024,Yumi Wakatsuki,1994-06-27
+Q428104,Les Rallizes Dénudés,1967,1996,Moriaki Wakabayashi,1947-02-26
+Q669430,Onyanko Club,1985,1987,Rika Tatsumi,1965-11-14
+Q5455118,Fishmans,1987,1999,Kin'ichi Motegi,1967-12-15
+Q7202100,Plastics,1976,1981,Hajime Tachibana,1951-10-28
+Q11192834,C-C-B,1982,1989,Hideyuki Yonekawa,1964-03-03
+Q11353285,Ippu-Do,1979,1984,Shōji Fujii,1954-04-07
+Q142674,Kat,1979,2024,Jacek Regulski,1965-03-12
+Q142674,Kat,1979,2024,Jakub Weigel,1971-05-22
+Q1245982,Rapülők,1992,1994,Gábor Szentmihályi,1964-03-07
+Q11954928,Q11954928,1968,1974,Guillermo Rojo,1947-03-29
+Q669430,Onyanko Club,1985,1987,Wakako Suzuki,1969-01-26
+Q3132146,Sakura Gakuin,2010,2021,Yunano Notsu,1999-12-14
+Q11192834,C-C-B,1982,1989,Makoto Sekiguchi,1959-05-02
+Q11248817,The Good-Bye,1983,1990,Yoshio Nomura,1964-10-26
+Q11307978,Sugar Babe,1973,1976,Akihiko Noguchi,1953-03-06
+Q17222947,EMALF,2013,2015,Seigo Noguchi,1984-10-19
+Q17222947,EMALF,2013,2015,Kyōhei Kaneko,1987-06-30
+Q185226,Nogizaka46,2011,2024,Nanase Nishino,1994-05-25
+Q669430,Onyanko Club,1985,1987,Noriko Kaise,1970-03-05
+Q669430,Onyanko Club,1985,1987,Yoshie Akasaka,1966-07-20
+Q1056450,Hikaru Genji,1987,1995,Kazumi Morohoshi,1970-08-12
+Q11235859,NOTHING PERSONAL,1983,1984,Tsutomu Fujita,1962-06-26
+Q11248817,The Good-Bye,1983,1990,Kōichi Etō,1963-06-08
+Q185226,Nogizaka46,2011,2024,Kazumi Takayama,1994-02-08
+Q185226,Nogizaka46,2011,2024,Asuka Saitō,1998-08-10
+Q212455,Boøwy,1981,1988,Makoto Takahashi,1954-01-06
+Q669430,Onyanko Club,1985,1987,Naoko Takada,1970-08-29
+Q669430,Onyanko Club,1985,1987,Maki Takabatake,1968-04-21
+Q3132146,Sakura Gakuin,2010,2021,Mirena Kurosawa,2001-05-22
+Q11304867,sadistics,1976,1978,Masayoshi Takanaka,1953-03-27
+Q285966,Hawkwind,1969,2024,Alan Powell,1949-01-01
+Q2063678,Tiktak,1999,2007,Emilia Suhonen,1985-12-15
+Q159497,Destruction,1982,2024,Mike Sifringer,1965-05-11
+Q268612,Riverside,2001,2024,Michał Łapaj,1982-03-08
+Q12054196,Shut Up,1968,1982,Viktor Sodoma,1945-07-05
+Q18690087,Pekka ja Susi,1986,1999,Ville Kela,1975-01-01
+Q142674,Kat,1979,2024,Piotr Luczyk,1964-07-11
+Q268612,Riverside,2001,2024,Piotr Grudziński,1975-03-15
+Q142674,Kat,1979,2024,Krzysztof Oset,1961-08-16
+Q159497,Destruction,1982,2024,Marc Reign,1970-10-16
+Q56337941,Red Aim,1995,2006,Matthew Greywolf,1977-10-07
+Q96141419,Kilhets,1978,1980,Daniel Fikejz,1954-06-21
+Q394112,Agit-prop,1970,2018,Kiti Neuvonen,1950-10-27
+Q11880250,MAC,1981,1982,Jari-Pekka Laaksonen,1962-08-25
+Q11880250,MAC,1981,1982,Jarkko Eve,1963-07-06
+Q2306388,Al Tall,1975,2012,Manolo Miralles,1952-02-23
+Q2306388,Al Tall,1975,2012,Vicent Torrent,1945-01-01
+Q189437,Zen Café,1992,2024,Pete Parkkonen,1964-11-04
+Q201207,Stratovarius,1984,2024,Mika Ervaskari,1901-01-01
+Q11880250,MAC,1981,1982,Pertti Neumann,1959-10-11
+Q262385,Hot Club de Norvège,1979,2024,Finn Hauge,1950-02-25
+Q262385,Hot Club de Norvège,1979,2024,Svein Aarbostad,1958-12-18
+Q11963057,Can Can,1983,1987,Øyvind Hansen,1964-03-31
+Q12029682,Koa,1998,2009,Iván Gutiérrez,1967-05-17
+Q17138354,Projektil,1979,2002,Ivan Sekyra,1952-10-01
+Q19394054,Utopian Fields,1988,1991,Wetle Holtan,1970-11-08
+Q283152,Berrogüetto,1996,2024,Anxo Pintos,1968-03-03
+Q283152,Berrogüetto,1996,2024,Guillerme Fernández,1969-02-06
+Q283152,Berrogüetto,1996,2024,Isaac Palacín,1967-06-19
+Q283152,Berrogüetto,1996,2024,Quim Farinha,1966-07-25
+Q283152,Berrogüetto,1996,2024,Xabier Díaz,1969-08-22
+Q797648,Babes in Toyland,1987,2020,Maureen Herman,1966-07-25
+Q11954928,Q11954928,1968,1974,Bibiano,1950-12-21
+Q11954928,Q11954928,1968,1974,Vicente Araguas,1950-09-24
+Q11954928,Q11954928,1968,1974,Xavier del Valle,1940-09-20
+Q11954928,Q11954928,1968,1974,Xerardo Moscoso,1945-02-24
+Q61404178,Avicenna,1980,1990,Toomas Rull,1965-01-11
+Q61404178,Avicenna,1980,1990,Villu Veski,1962-01-19
+Q48830966,Newyjou,1975,2000,Jiří Hošek,1955-08-20
+Q11963057,Can Can,1983,1987,Lasse Hafreager,1953-11-18
+Q181684,Against Me!,1997,2024,Franz Nicolay,1977-08-27
+Q12029682,Koa,1998,2009,Mário Bihári,1977-12-28
+Q12054196,Shut Up,1968,1982,Milan Schelinger,1952-02-18
+Q12054196,Shut Up,1968,1982,Stanislav Kubeš,1952-03-04
+Q17138354,Projektil,1979,2002,Milan Schelinger,1952-02-18
+Q17138354,Projektil,1979,2002,Pavel Roth,1955-09-07
+Q48830966,Newyjou,1975,2000,Milena Soukupová,1951-01-01
+Q96141419,Kilhets,1978,1980,Mikoláš Chadima,1952-09-09
+Q181684,Against Me!,1997,2024,George Rebelo,1901-01-01
+Q300853,Tv·2,1981,2024,Georg Olesen,1955-08-14
+Q300853,Tv·2,1981,2024,Hans Erik Lerchenfeld,1951-04-18
+Q12300493,Ache,1968,1977,Finn Olafsson,1953-02-16
+Q278901,Shturtsite,1967,2024,Valdi Totev,1951-08-04
+Q278901,Shturtsite,1967,2024,Petar Gyuzelev,1945-12-10
+Q904967,Diana Express,1974,1984,Georgi Stanchev,1951-06-01
+Q904967,Diana Express,1974,1984,Mitko Shterev,1946-01-28
+Q31192274,Bo Bo Bo,1992,2009,Boris Godjunov,1941-05-22
+Q31192274,Bo Bo Bo,1992,2009,Borislav Grancharov,1943-05-21
+Q31192274,Bo Bo Bo,1992,2009,Boyan Ivanov,1943-09-04
+Q12162711,Bayko Sisters,1953,2001,Danyila Baiko,1929-08-20
+Q12162711,Bayko Sisters,1953,2001,Nina Baiko,1933-08-25
+Q12162711,Bayko Sisters,1953,2001,Maria Baiko,1931-03-02
+Q83431,Megadeth,1983,2024,Lee Rauch,1964-09-10
+Q200000,Dúné,2001,2024,Mattias Kolstrup,1988-09-11
+Q181674,NMB48,2010,2024,Rena Kawakami,1995-09-16
+Q307368,Teen Top,2010,2024,C.A.P.,1992-11-04
+Q300853,Tv·2,1981,2024,Sven Gaul,1953-04-11
+Q12300493,Ache,1968,1977,Per Wium,1954-02-26
+Q12300493,Ache,1968,1977,Peter Mellin,1947-01-01
+Q57975996,Cowgirls,2001,2002,Tamra Rosanes,1951-10-24
+Q192863,Amon Amarth,1992,2024,Johan Söderberg,1972-01-01
+Q192863,Amon Amarth,1992,2024,Olavi Mikkonen,1973-08-25
+Q12698670,NadaMurni,1987,1990,Ismen Nadim bin Isam,1969-04-28
+Q181584,SDN48,2009,2024,Hiromi Mitsui,1983-01-01
+Q181584,SDN48,2009,2024,Kana Itō,1984-01-01
+Q307368,Teen Top,2010,2024,Ahn Daniel,1994-08-16
+Q307368,Teen Top,2010,2024,Ricky,1995-02-27
+Q307368,Teen Top,2010,2024,Chunji,1993-10-05
+Q307482,100%,2012,2024,Seo Min-woo,1985-02-08
+Q489225,Rainbow,2009,2016,Kim Jae-kyung,1988-12-24
+Q489225,Rainbow,2009,2016,Kim Ji-sook,1990-07-18
+Q133723,Geisha,2003,2024,Ahmad Rasyid Azwar,1985-12-26
+Q133723,Geisha,2003,2024,Ashari Aulia,1986-04-29
+Q483234,B.A.P,2012,2019,Kim Him-chan,1990-04-19
+Q1089523,Chumbawamba,1982,2012,Lou Watts,1962-06-04
+Q12411741,Shlishiyat Gesher Hayarkon,1964,1966,Israel Gurion,1935-11-02
+Q12698670,NadaMurni,1987,1990,Munif Ahmad,1974-02-16
+Q12740798,Sideral,1964,1969,Liviu Tudan,1947-11-29
+Q134280380,Catena,1968,1977,Anca Graterol,1952-01-01
+Q133723,Geisha,2003,2024,Roby Satria,1986-05-13
+Q93292,Divlje jagode,1977,2024,Sanin Karić,1958-07-11
+Q753829,Bijelo Dugme,1974,1989,Ljubiša Racić,1954-01-20
+Q753829,Bijelo Dugme,1974,1989,Sanin Karić,1958-07-11
+Q93292,Divlje jagode,1977,2024,Dragan Jankelić,1955-12-29
+Q753829,Bijelo Dugme,1974,1989,Dragan Jankelić,1955-12-29
+Q678092,Edward H. Dafis,1973,1980,Dewi 'Pws' Morris,1948-04-21
+Q19963428,Injaroc,1976,1977,Geraint Griffiths,1949-01-01
+Q137410966,Q137410966,1959,1988,Ivanka Kraševec,1941-10-23
+Q261467,702,1994,2024,Kameelah Williams,1978-03-08
+Q200000,Dúné,2001,2024,Ole Bjørn Sørensen,1988-10-16
+Q200000,Dúné,2001,2024,Piotrek Wasilewski,1987-08-29
+Q1961659,The Cats,1965,1985,Cees Veerman,1943-10-06
+Q3132146,Sakura Gakuin,2010,2021,Moa Kikuchi,1999-07-04
+Q3132146,Sakura Gakuin,2010,2021,Yui Mizuno,1999-06-20
+Q211965,The Moody Blues,1964,2024,Rod Clark,1942-11-23
+Q91565042,Nautilus,1983,1988,Evgeny Margulis,1955-12-25
+Q48938270,UNI.T,2018,2018,NC.A,1996-10-07
+Q12029682,Koa,1998,2009,František Raba,1964-06-27
+Q12029682,Koa,1998,2009,Omar Khaouaj,1977-07-04
+Q12029682,Koa,1998,2009,Camilo Caller,1975-05-16
+Q6765260,Midori,2003,2010,Mariko Gotō,1982-02-22
+Q747098,Pow woW,1990,1997,Bertrand Pierre,1961-12-31
+Q256590,Biermösl Blosn,1976,2012,Hans Well,1953-05-01
+Q256590,Biermösl Blosn,1976,2012,Christoph Well,1959-12-03
+Q881647,Echt,1994,2002,Florian Sump,1981-06-26
+Q1652399,Kilburn and the High Roads,1970,1975,Davey Payne,1944-08-11
+Q270055,7 Year Bitch,1990,2024,Roisin Dunne,1965-09-18
+Q229489,3JS,2002,2024,Jan de Witte,1988-01-01
+Q276584,R5,2009,2024,Rydel Funk (Lynch),1993-08-09
+Q156255,Scooter,1993,2024,Phil Speiser,1990-10-12
+Q181457,SNH48,2012,2024,Li YuQi,1993-02-26
+Q181457,SNH48,2012,2024,Chen GuanHui,1993-08-28
+Q256590,Biermösl Blosn,1976,2012,Michael Well,1958-10-10
+Q489801,INXS,1977,2012,Ciaran Gribbin,1976-01-01
+Q126101297,West Nederlands Symfonie Orkest,1948,1967,Frits Koeberg,1876-07-15
+Q48938270,UNI.T,2018,2018,Yoonjo,1992-12-14
+Q10847150,Fantasy 4,2005,2008,Fanny Liu,1983-03-23
+Q108661024,Trailerpark,2009,2019,Sudden,1988-12-20
+Q285966,Hawkwind,1969,2024,Niall Hone,1970-06-24
+Q270055,7 Year Bitch,1990,2024,Elizabeth Davis,1965-12-18
+Q270055,7 Year Bitch,1990,2024,Selene Vigil-Wilk,1965-07-16
+Q181674,NMB48,2010,2024,Yūka Kodakari,1997-08-05
+Q307368,Teen Top,2010,2024,Byung-heon,1993-11-23
+Q307368,Teen Top,2010,2024,Changjo,1995-11-16
+Q498385,Nine Muses,2010,2019,Gyeongree,1990-07-05
+Q498385,Nine Muses,2010,2019,Bini,1985-11-13
+Q6874910,BeBe Mignon,2010,2011,Hae Geum,1989-05-17
+Q48938270,UNI.T,2018,2018,Woohee,1991-11-21
+Q1961659,The Cats,1965,1985,Jaap Schilder,1943-01-09
+Q177364,The Tremeloes,1958,2024,Alan Blakley,1942-04-01
+Q270055,7 Year Bitch,1990,2024,Stefanie Sargent,1968-06-01
+Q270055,7 Year Bitch,1990,2024,Lisa Fay Beatty,1964-10-15
+Q285966,Hawkwind,1969,2024,Mr Dibs,1964-08-04
+Q329270,Stone Temple Pilots,1989,2024,Jeff Gutt,1976-05-02
+Q214990,New Order,1980,2024,Tom Chapman,1972-05-15
+Q277230,98 Degrees,1996,2024,Justin Jeffre,1973-02-25
+Q278406,High on Fire,1998,2024,Des Kensel,1973-07-09
+Q115170349,Until the End,2000,2005,John Wylie,1974-07-08
+Q115170349,Until the End,2000,2005,Christopher Hornbrook,1981-04-29
+Q258546,In Flames,1990,2024,Tanner Wayne,1988-05-18
+Q185226,Nogizaka46,2011,2024,Nene Itō,1995-12-12
+Q156872,Slade,1966,2024,Mal McNulty,1951-12-01
+Q181457,SNH48,2012,2024,Chen Si,1991-09-14
+Q181457,SNH48,2012,2024,Dai Meng,1993-02-08
+Q270055,7 Year Bitch,1990,2024,Valerie Agnew,1969-01-11
+Q394112,Agit-prop,1970,2018,Pekka Aarnio,1947-01-05
+Q158419,Little Mix,2011,2024,Perrie Edwards,1993-07-10
+Q12407085,HaTarnegolim,1960,1963,Devora Dotan,1940-01-01
+Q177732,Il Volo,2010,2024,Gianluca Ginoble,1995-02-11
+Q307482,100%,2012,2024,Lee Sang-hoon,1993-12-23
+Q307482,100%,2012,2024,Jang Hyuk-jin,1993-12-20
+Q489225,Rainbow,2009,2016,Oh Seung-ah,1988-09-13
+Q11963057,Can Can,1983,1987,Bent Bredesen,1952-08-01
+Q251742,Cain's Offering,2009,2024,Jani Hurula,1981-06-02
+Q320685,Abhorrence,1989,2024,Jukka Kolehmainen,1972-01-01
+Q3877123,Auryn,2009,2016,David Lafuente,1988-01-01
+Q43146025,Clap,1984,1988,Diego Frenkel,1965-08-19
+Q157079,Wir sind Helden,2000,2024,Mark Tavassol,1974-02-18
+Q125983911,Quả Dưa Hấu,1998,2000,Ho Hoai Anh,1980-01-01
+Q1019489,Bérurier Noir,1978,1990,François Guillemot,1963-08-16
+Q764073,Gyllene Tider,1977,1985,Mats Persson,1959-02-26
+Q191660,Sonata Arctica,1996,2024,Pasi Kauppinen,1978-08-19
+Q276584,R5,2009,2024,Ellington Ratliff,1993-04-14
+Q948776,New Dada,1965,1967,Franco Jadanza,1946-06-29
+Q19962144,C.I.A.,1998,1998,Marco Gödde,1967-06-22
+Q3132146,Sakura Gakuin,2010,2021,Raura Iida,1998-04-09
+Q590725,Laskoviy Mai,1986,1992,Vladimir Shurochkin,1966-04-12
+Q926397,Tracktor Bowling,1996,2017,Denis Khromyh,1978-11-13
+Q3877123,Auryn,2009,2016,Álvaro Gango,1989-10-02
+Q189437,Zen Café,1992,2024,Kari Nylander,1971-01-01
+Q189437,Zen Café,1992,2024,Samuli Putro,1970-08-21
+Q394112,Agit-prop,1970,2018,Sinikka Sokka,1948-08-27
+Q18689914,Kari Peitsamo & Hirttämättömät,1998,1999,Arto Rautajoki,1961-07-30
+Q18689998,Mistakes,1980,1982,Jan Noponen,1958-01-01
+Q276584,R5,2009,2024,Rocky Lynch,1994-11-01
+Q185226,Nogizaka46,2011,2024,Reika Sakurai,1994-05-16
+Q3132146,Sakura Gakuin,2010,2021,Hana Taguchi,2000-03-04
+Q185226,Nogizaka46,2011,2024,Kana Nakada,1994-08-06
+Q181457,SNH48,2012,2024,Zhao Jiamin,1998-07-22
+Q3132146,Sakura Gakuin,2010,2021,Nene Sugisaki,1998-05-08
+Q11193192,CHA-CHA,1988,1992,Takumi Nishio,1967-06-17
+Q185226,Nogizaka46,2011,2024,Seira Miyazawa,1993-10-29
+Q1961659,The Cats,1965,1985,Piet Keizer,1952-04-18
+Q10847122,Flower,2010,2019,Reina Washio,1994-01-20
+Q11272873,Dempagumi.inc,2008,2025,Moga Mogami,1989-02-25
+Q93292,Divlje jagode,1977,2024,Žanil Tataj - Žak,1967-05-02
+Q124459,Kara,2007,2016,Heo Young-ji,1994-08-30
+Q6765260,Midori,2003,2010,Hajimetal,1983-04-26
+Q181519,SKE48,2008,2024,Ryoha Kitagawa,1998-10-09
+Q181519,SKE48,2008,2024,Marika Tani,1996-01-05
+Q3136643,Patricio Rey y sus Redonditos de Ricota,1976,2001,Gabriel Jolivet,1958-02-28
+Q105076476,A.R. & Machines,1971,1976,Reinhard Tarrach,1944-09-21
+Q133723,Geisha,2003,2024,Rahmad Ramadhan,1987-05-15
+Q181457,SNH48,2012,2024,Xu Chen Chen,1990-06-20
+Q181457,SNH48,2012,2024,Zhang Yuge,1996-05-11
+Q61404178,Avicenna,1980,1990,Ain Varts,1959-10-13
+Q6535331,Kiss Me Five,2010,2013,Phakakanya Charoenyot,1995-03-30
+Q6535331,Kiss Me Five,2010,2013,Maylada Susri,1996-06-04
+Q19963428,Injaroc,1976,1977,Caryl Parry Jones,1958-04-16
+Q496732,Papaya,2000,2004,Jo Eun-Sae,1980-04-30
+Q254138,Slipknot,1994,2024,Alessandro Venturella,1984-04-12
+Q56402353,Iz*One,2018,2021,Nako Yabuki,2001-06-18
+Q3132146,Sakura Gakuin,2010,2021,Rinon Isono,2000-11-13
+Q181457,SNH48,2012,2024,Qiu Xinyi,1997-01-11
+Q177732,Il Volo,2010,2024,Ignazio Boschetto,1994-10-04
+Q170354,Juli,1999,2024,Andreas Herde,1982-10-01
+Q170354,Juli,1999,2024,Marcel Römer,1982-02-26
+Q170354,Juli,1999,2024,Simon Triebel,1982-04-28
+Q18986556,Avsenik Brothers Ensemble,1953,1990,Ema Prodnik,1941-03-27
+Q18986556,Avsenik Brothers Ensemble,1953,1990,Franc Koren,1913-10-01
+Q18986556,Avsenik Brothers Ensemble,1953,1990,Franc Košir,1931-10-01
+Q1032544,Hail of Bullets,2006,2017,Paul Baayens,http://www.wikidata.org/.well-known/genid/70e9867e42efc5c41bd4286e8ff4b83c
+Q137410966,Q137410966,1959,1988,Q18644636,1943-08-15
+Q174291,Morning Musume,1997,2024,Haruna Ogata,1999-02-15
+Q181519,SKE48,2008,2024,Rion Azuma,1996-11-13
+Q618194,Fairies,2011,2020,Sora Nomoto,1997-11-09
+Q618194,Fairies,2011,2020,Miki Shimomura,1998-10-22
+Q6685382,Reva l'sheva,1994,2006,Lazer Lloyd,1966-05-07
+Q174291,Morning Musume,1997,2024,Maria Makino,2001-02-02
+Q174291,Morning Musume,1997,2024,Miki Nonaka,1999-10-07
+Q174291,Morning Musume,1997,2024,Akane Haga,2002-03-07
+Q18608315,MBAND,2014,2020,Nikita Kiosse,1998-04-13
+Q18608315,MBAND,2014,2020,Vladislav Ramm,1995-09-17
+Q618194,Fairies,2011,2020,Yotsuha Kominato,1996-05-29
+Q618194,Fairies,2011,2020,Mahiro Hayashida,1998-05-07
+Q618194,Fairies,2011,2020,Miria Fujita,1998-06-15
+Q3132146,Sakura Gakuin,2010,2021,Hinata Satō,1998-12-23
+Q130490,Il était une fois,1972,2024,Serge Koolenn,1947-04-15
+Q181457,SNH48,2012,2024,Li Yitong,1995-12-23
+Q498385,Nine Muses,2010,2019,Moon Hyun-ah,1987-01-19
+Q185226,Nogizaka46,2011,2024,Himeka Nakamoto,1996-04-13
+Q498385,Nine Muses,2010,2019,Lee Keum-jo,1992-12-17
+Q498385,Nine Muses,2010,2019,Jo Sojin,1991-10-11
+Q158419,Little Mix,2011,2024,Jade Thirlwall,1992-12-26
+Q158419,Little Mix,2011,2024,Leigh Anne Pinnock,1991-10-04
+Q116936,The dB's,1978,2024,Will Rigby,1956-03-17
+Q238583,Slime,1979,1994,Michael Mayer,2000-01-01
+Q1089523,Chumbawamba,1982,2012,Dunstan Bruce,1960-12-31
+Q19962144,C.I.A.,1998,1998,Michael Mayer,2000-01-01
+Q181457,SNH48,2012,2024,Kong Xiaoyin,1992-04-11
+Q3132146,Sakura Gakuin,2010,2021,Saki Ōga,2000-04-11
+Q3132146,Sakura Gakuin,2010,2021,Saki Shirai,2000-09-28
+Q3132146,Sakura Gakuin,2010,2021,Aiko Yamaide,2002-12-01
+Q322265,Status Quo,1962,2024,Leon Cave,1978-09-24
+Q126101297,West Nederlands Symfonie Orkest,1948,1967,Sam Swaap,1888-10-15
+Q181519,SKE48,2008,2024,Sarina Sōda,1993-01-18
+Q181519,SKE48,2008,2024,Makiko Saitō,1994-06-28
+Q185226,Nogizaka46,2011,2024,Karin Itō,1993-05-26
+Q11272873,Dempagumi.inc,2008,2025,Aozora Sorano,1996-10-16
+Q19360323,Magnolia Factory,2015,2020,Rei Inoue,2001-07-17
+Q177732,Il Volo,2010,2024,Piero Barone,1993-06-24
+Q173180,Franz Ferdinand,2002,2024,Miaoux Miaoux,1985-06-20
+Q20743716,Bill Bradley Band,1976,1982,Hannie Buenen,1953-03-31
+Q20743716,Bill Bradley Band,1976,1982,Kees Buenen,1950-10-14
+Q11272873,Dempagumi.inc,2008,2025,Eimi Naruse,1988-02-16
+Q174291,Morning Musume,1997,2024,Chisaki Morito,2000-02-19
+Q283152,Berrogüetto,1996,2024,Quico Comesaña,1962-07-16
+Q283152,Berrogüetto,1996,2024,Santiago Cribeiro,1965-09-18
+Q12407085,HaTarnegolim,1960,1963,Tuval Peter,1939-11-26
+Q12698670,NadaMurni,1987,1990,Mohd Faizal bin Osman,1973-10-12
+Q11272873,Dempagumi.inc,2008,2025,Ayane Fujisaki,1995-12-07
+Q3877123,Auryn,2009,2016,Dani Fernández,1991-12-11
+Q181457,SNH48,2012,2024,Zhao Yue,1995-04-29
+Q181457,SNH48,2012,2024,Ju Jingyi,1994-06-18
+Q20858387,April,2015,2022,Jeon So Min,1996-08-22
+Q20858387,April,2015,2022,Kim Chae-won,1997-11-08
+Q1089523,Chumbawamba,1982,2012,Jude Abbott,1962-02-04
+Q108661024,Trailerpark,2009,2019,Timi Hendrix,2000-01-01
+Q285190,Molly Hatchet,1975,2024,Jimmy Farrar,1950-12-08
+Q7545956,Smokey & Miho,2001,2003,Smokey Hormel,1959-01-01
+Q178549,Counting Crows,1991,2024,Jim Bogios,1976-08-10
+Q181457,SNH48,2012,2024,Xu Jiaqi,1995-08-27
+Q181457,SNH48,2012,2024,Sun Rui,1995-07-29
+Q181457,SNH48,2012,2024,Fei Qinyuan,2001-03-20
+Q181457,SNH48,2012,2024,Hong Peiyun,2001-01-07
+Q326063,Leaves' Eyes,2003,2024,Q22107840,1970-04-08
+Q20038345,Earth Star Dream,2014,2017,Yuki Nakashima,1997-09-12
+Q19360323,Magnolia Factory,2015,2020,Rio Fujii,1999-03-04
+Q20038345,Earth Star Dream,2014,2017,Kanon Takao,2002-09-10
+Q181457,SNH48,2012,2024,Jiang YuXi,1999-02-18
+Q10847150,Fantasy 4,2005,2008,Tiffany,1985-03-05
+Q6874910,BeBe Mignon,2010,2011,Ben,1991-07-30
+Q23688122,I.O.I,2016,2017,Jeon Somi,2001-03-09
+Q23688122,I.O.I,2016,2017,Kim Se-jeong,1996-08-28
+Q24694634,Gugudan,2016,2020,Kim Se-jeong,1996-08-28
+Q55736655,Gugudan SeMiNa,2018,2020,Kim Se-jeong,1996-08-28
+Q181519,SKE48,2008,2024,Haruka Kumazaki,1997-08-10
+Q108666,Uriah Heep,1969,2024,Davey Rimmer,1965-12-06
+Q18689914,Kari Peitsamo & Hirttämättömät,1998,1999,Brono Starr,1963-01-01
+Q105076476,A.R. & Machines,1971,1976,Claus-Robert Kruse,1948-01-01
+Q3132146,Sakura Gakuin,2010,2021,Mariri Sugimoto,2000-08-04
+Q3704502,Decibel,1977,1998,Silvio Capeccia,1957-06-30
+Q326063,Leaves' Eyes,2003,2024,Elina Siirala,1983-10-27
+Q181457,SNH48,2012,2024,Huang Tingting,1992-09-08
+Q17138354,Projektil,1979,2002,Karel Jenčík,1952-04-07
+Q238583,Slime,1979,1994,Alex Schwers,2000-01-01
+Q279105,Volbeat,2001,2024,Kaspar Boye Larsen,1975-03-10
+Q282714,Honor Society,2006,2024,Michael Bruno,1979-08-11
+Q1452115,Freaks Association Bremen,1993,1997,DJ Pee,1950-01-01
+Q181457,SNH48,2012,2024,Zeng Yanfen,1991-01-30
+Q17222947,EMALF,2013,2015,Yōsuke Okamura,1989-02-16
+Q23688122,I.O.I,2016,2017,Kang Mi-na,1999-12-04
+Q24694634,Gugudan,2016,2020,Kang Mi-na,1999-12-04
+Q55736655,Gugudan SeMiNa,2018,2020,Kang Mi-na,1999-12-04
+Q181457,SNH48,2012,2024,Tang Anqi,1992-09-07
+Q185226,Nogizaka46,2011,2024,Seira Nagashima,1994-05-19
+Q6685382,Reva l'sheva,1994,2006,Yehudah Katz,1951-05-10
+Q10847150,Fantasy 4,2005,2008,Amy,1983-05-01
+Q23688122,I.O.I,2016,2017,Lim Na-young,1995-12-18
+Q23688122,I.O.I,2016,2017,Zhou Jieqiong,1998-12-16
+Q26265886,Pristin,2016,2019,Lim Na-young,1995-12-18
+Q26265886,Pristin,2016,2019,Zhou Jieqiong,1998-12-16
+Q54033722,Pristin V,2018,2019,Lim Na-young,1995-12-18
+Q54033722,Pristin V,2018,2019,Zhou Jieqiong,1998-12-16
+Q185226,Nogizaka46,2011,2024,Hina Higuchi,1998-01-31
+Q185226,Nogizaka46,2011,2024,Miona Hori,1996-10-15
+Q181519,SKE48,2008,2024,Natsuki Kamata,1996-08-29
+Q11272873,Dempagumi.inc,2008,2025,Rin Kaname,1996-09-21
+Q20858387,April,2015,2022,Yoon Chae-kyung,1996-07-07
+Q48938270,UNI.T,2018,2018,Lee Su-ji,1998-03-20
+Q23688122,I.O.I,2016,2017,Jung Chae-yeon,1997-12-01
+Q185226,Nogizaka46,2011,2024,Mai Shin'uchi,1992-01-22
+Q133723,Geisha,2003,2024,Regina Poetiray,1998-12-28
+Q182032,JKT48,2011,2024,Feni Fitriyanti,1999-01-16
+Q212481,Shaman,2000,2024,Junior Carelli,1988-01-31
+Q283152,Berrogüetto,1996,2024,Guadi Galego,1974-01-01
+Q158419,Little Mix,2011,2024,Jesy Nelson,1991-06-14
+Q185226,Nogizaka46,2011,2024,Hinako Kitano,1996-07-17
+Q20858387,April,2015,2022,Lee Jin-sol,2001-12-04
+Q107172463,Mustangové,1964,2020,George Fallada,1933-08-01
+Q23688122,I.O.I,2016,2017,Chungha,1996-02-09
+Q23688122,I.O.I,2016,2017,Kim So-hye,1999-07-19
+Q23688122,I.O.I,2016,2017,Kim Do-yeon,1999-12-04
+Q23688122,I.O.I,2016,2017,Choi Yoo-jung,1999-11-12
+Q23688122,I.O.I,2016,2017,Yoo Yeon-jung,1999-08-03
+Q181684,Against Me!,1997,2024,James Bowman,1980-05-14
+Q99286194,Q99286194,1972,1980,Jan Žižka,1954-09-25
+Q181519,SKE48,2008,2024,Yuzuki Hidaka,1998-04-01
+Q20858387,April,2015,2022,Lee Na-eun,1999-05-05
+Q20858387,April,2015,2022,Yang Ye-na,2000-05-22
+Q19360323,Magnolia Factory,2015,2020,Ayaka Hirose,1999-08-04
+Q19360323,Magnolia Factory,2015,2020,Minami Nomura,2000-02-10
+Q19360323,Magnolia Factory,2015,2020,Rena Ogawa,2000-03-27
+Q19360323,Magnolia Factory,2015,2020,Ayano Hamaura,2000-04-26
+Q19360323,Magnolia Factory,2015,2020,Natsumi Taguchi,2000-07-21
+Q19360323,Magnolia Factory,2015,2020,Sakurako Wada,2001-03-08
+Q24694634,Gugudan,2016,2020,Jung Mi-mi,1993-01-01
+Q24694634,Gugudan,2016,2020,Han Hae-bin,1995-08-16
+Q24694634,Gugudan,2016,2020,Shin Bo-ra,1993-04-30
+Q24694634,Gugudan,2016,2020,Liu Xiening,1996-10-23
+Q24694634,Gugudan,2016,2020,Jang So-jin,1996-11-21
+Q24694634,Gugudan,2016,2020,Jo Aram,2000-08-05
+Q258546,In Flames,1990,2024,Joe Rickard,1981-07-01
+Q193174,Rhapsody of Fire,1993,2024,Giacomo Voli,1985-11-03
+Q11272873,Dempagumi.inc,2008,2025,Nagi Nemoto,1999-03-15
+Q20858387,April,2015,2022,Lee Hyun-joo,1998-02-05
+Q48938270,UNI.T,2018,2018,Lee Hyun-joo,1998-02-05
+Q259254,Bon Jovi,1983,2024,Everett Bradley,1963-03-16
+Q6987156,Negativa,1994,2010,Luc Lemay,1971-01-01
+Q181457,SNH48,2012,2024,Lin Siyi,1994-04-05
+Q181519,SKE48,2008,2024,Rara Gotō,2000-07-23
+Q20858387,April,2015,2022,Rachel,2000-08-28
+Q174291,Morning Musume,1997,2024,Kaede Kaga,1999-11-30
+Q174291,Morning Musume,1997,2024,Reina Yokoyama,2001-02-22
+Q181341,Godspeed You! Black Emperor,1994,2024,Karl Lemieux,1980-01-01
+Q189991,Gorillaz,1998,2024,Remi Kabaka Jr,1970-04-01
+Q181457,SNH48,2012,2024,Zhang Dansan,1997-04-28
+Q904967,Diana Express,1974,1984,Iliya Angelov,1955-09-23
+Q18608315,MBAND,2014,2020,Anatoliy Tsoy,1989-07-28
+Q18608315,MBAND,2014,2020,Artyom Pindura,1990-02-13
+Q26265886,Pristin,2016,2019,Shannon Bae,1999-05-25
+Q26265886,Pristin,2016,2019,Jung Eun-woo,1998-07-01
+Q26265886,Pristin,2016,2019,Kim Minkyeung,1997-07-29
+Q26265886,Pristin,2016,2019,Kang Kyung-won,1997-11-05
+Q26265886,Pristin,2016,2019,Kang Yae-bin,1998-10-19
+Q26265886,Pristin,2016,2019,Xiyeon,2000-11-14
+Q54033722,Pristin V,2018,2019,Jung Eun-woo,1998-07-01
+Q54033722,Pristin V,2018,2019,Kim Minkyeung,1997-07-29
+Q54033722,Pristin V,2018,2019,Kang Yae-bin,1998-10-19
+Q72188524,HINAPIA,2019,2020,Jung Eun-woo,1998-07-01
+Q72188524,HINAPIA,2019,2020,Kim Minkyeung,1997-07-29
+Q72188524,HINAPIA,2019,2020,Kang Kyung-won,1997-11-05
+Q72188524,HINAPIA,2019,2020,Kang Yae-bin,1998-10-19
+Q16545607,Criminal Jokers,2006,2014,Francesco Motta,1986-10-10
+Q107172463,Mustangové,1964,2020,Petr Třebický,1941-12-15
+Q181457,SNH48,2012,2024,Feng Xinduo,1992-01-24
+Q185226,Nogizaka46,2011,2024,Seira Hatanaka,1995-12-05
+Q157079,Wir sind Helden,2000,2024,Jean-Michel Tourette,1975-07-10
+Q590725,Laskoviy Mai,1986,1992,Q28665352,1953-05-27
+Q24694634,Gugudan,2016,2020,Kim Na-young,1995-11-23
+Q55736655,Gugudan SeMiNa,2018,2020,Kim Na-young,1995-11-23
+Q154129,Gamma Ray,1988,2024,Thomas Nack,1969-06-06
+Q322265,Status Quo,1962,2024,Richie Malone,1986-03-18
+Q20038345,Earth Star Dream,2014,2017,Maria Tanijiri,1994-12-08
+Q257615,Soilwork,1996,2024,Bastian Thusgaard,1992-01-01
+Q26265886,Pristin,2016,2019,Kyla,2001-12-26
+Q130490,Il était une fois,1972,2024,Lionel Gaillardin,1950-01-01
+Q181457,SNH48,2012,2024,Sun Zhenni,2000-05-05
+Q448458,Wise Guys,1995,2017,Daniel Dickopf,1970-10-27
+Q181457,SNH48,2012,2024,Shao Xuecong,1996-08-28
+Q706764,Popol Vuh,1969,2001,Conny Veit,1949-06-05
+Q48938270,UNI.T,2018,2018,Yebin,1997-07-13
+Q181584,SDN48,2009,2024,Aimi Ōyama,1989-07-28
+Q185226,Nogizaka46,2011,2024,Miria Watanabe,1999-11-01
+Q185226,Nogizaka46,2011,2024,Ranze Terada,1998-09-23
+Q6765260,Midori,2003,2010,Mikito Tsurugi,1979-05-07
+Q20038345,Earth Star Dream,2014,2017,Saori Murakita,1992-09-08
+Q20038345,Earth Star Dream,2014,2017,Arisa Aihara,1995-11-29
+Q20038345,Earth Star Dream,2014,2017,Hikaru Kotama,1999-07-04
+Q20038345,Earth Star Dream,2014,2017,Eri Sogabe,1995-08-29
+Q181457,SNH48,2012,2024,Lu Ting,1992-12-18
+Q181457,SNH48,2012,2024,Mo Han,1992-01-07
+Q181457,SNH48,2012,2024,Wu Zhehan,1995-08-26
+Q181457,SNH48,2012,2024,Wan Lina,1997-10-02
+Q181457,SNH48,2012,2024,Yi Jiaai,1995-06-07
+Q181457,SNH48,2012,2024,Gong Shiqi,1998-05-05
+Q181457,SNH48,2012,2024,Zhang Yi,1994-06-22
+Q181457,SNH48,2012,2024,Xu-Yang Yuzhuo,1995-09-25
+Q56299304,Love Generation,2010,2012,Mikaela,2000-01-01
+Q137758,Wishbone Ash,1969,2024,Mark Abrahams,2000-01-01
+Q181457,SNH48,2012,2024,Xie Leilei,1998-12-01
+Q320685,Abhorrence,1989,2024,Waltteri Väyrynen,1994-01-01
+Q181584,SDN48,2009,2024,Yui Takahashi,1984-03-07
+Q185226,Nogizaka46,2011,2024,Yūki Yoda,2000-05-05
+Q185226,Nogizaka46,2011,2024,Shiori Kubo,2001-07-14
+Q3132146,Sakura Gakuin,2010,2021,Miku Tanaka,2006-06-18
+Q3132146,Sakura Gakuin,2010,2021,Momoko Okazaki,2003-03-03
+Q1155446,Dream,2000,2017,Dream Ami,1988-05-11
+Q3331241,E-girls,2011,2020,Dream Ami,1988-05-11
+Q18335527,I'S Wing,2012,2017,Arisa Yoshioka,1998-11-24
+Q18335527,I'S Wing,2012,2017,Miyu Matsushita,1999-05-04
+Q18335527,I'S Wing,2012,2017,Miku Yuasa,1998-10-01
+Q18335527,I'S Wing,2012,2017,Airi Yamamoto,2002-08-01
+Q181341,Godspeed You! Black Emperor,1994,2024,David Bryant,1970-01-01
+Q181457,SNH48,2012,2024,Duan Yixuan,1995-08-19
+Q105076476,A.R. & Machines,1971,1976,Okko Bekker,1947-07-30
+Q18986556,Avsenik Brothers Ensemble,1953,1990,Albin Rudan,1933-07-26
+Q3132146,Sakura Gakuin,2010,2021,Megumi Okada,2002-04-04
+Q3132146,Sakura Gakuin,2010,2021,Sara Kurashima,2002-02-24
+Q29350008,Triple H,2017,2018,Dawn,1994-06-01
+Q261058,Arabesque,1977,1984,Heike Rimbeau,1959-04-17
+Q496732,Papaya,2000,2004,Go Eun-chae,1980-08-28
+Q29350008,Triple H,2017,2018,Hui,1993-08-28
+Q48938270,UNI.T,2018,2018,Hong Eui-jin,1996-10-08
+Q181457,SNH48,2012,2024,Chen Lin,1998-07-23
+Q3132146,Sakura Gakuin,2010,2021,Maaya Asō,2003-11-04
+Q3132146,Sakura Gakuin,2010,2021,Momoe Mori,2004-12-08
+Q3132146,Sakura Gakuin,2010,2021,Yuzumi Shintani,2003-07-20
+Q3132146,Sakura Gakuin,2010,2021,Kano Fujihira,2004-08-28
+Q258546,In Flames,1990,2024,Bryce Paul,1990-02-15
+Q165691,Love Affair,1966,2024,Rex Brayley,1948-01-03
+Q165691,Love Affair,1966,2024,Maurice Bacon,1952-01-26
+Q165691,Love Affair,1966,2024,Mick Jackson,1950-01-27
+Q165691,Love Affair,1966,2024,Lynton Guest,1951-11-28
+Q185226,Nogizaka46,2011,2024,Hina Kawago,1998-03-22
+Q14508897,Orquestra Mallo,1930,2013,Arturo Goncerlián,1900-01-01
+Q181457,SNH48,2012,2024,Jiang Yun,1992-03-27
+Q181457,SNH48,2012,2024,Lv Yi,1997-06-27
+Q181457,SNH48,2012,2024,He Xiaoyu,1992-10-31
+Q2306388,Al Tall,1975,2012,Enric Banyuls,1954-01-01
+Q173180,Franz Ferdinand,2002,2024,Dino Bardot,1971-05-08
+Q181457,SNH48,2012,2024,Jiang Shan,1995-10-06
+Q181457,SNH48,2012,2024,Wang Xiaojia,1993-05-31
+Q181457,SNH48,2012,2024,Yang Bingyi,2000-07-26
+Q181457,SNH48,2012,2024,Jiang Shuting,2002-06-18
+Q181457,SNH48,2012,2024,Yang Huiting,1998-04-08
+Q14508897,Orquestra Mallo,1930,2013,Pucho Portela,2000-01-01
+Q181457,SNH48,2012,2024,Yuan Yuzhen,1998-01-10
+Q14508897,Orquestra Mallo,1930,2013,Klaus Martínez Veiga,1986-01-01
+Q181457,SNH48,2012,2024,Yu Jiayi,1998-10-29
+Q185226,Nogizaka46,2011,2024,Mahiro Kawamura,1995-07-23
+Q185226,Nogizaka46,2011,2024,Chiharu Saitō,1997-02-17
+Q55731710,Apple.B,2017,2018,Son Yu-ji,1998-11-25
+Q185226,Nogizaka46,2011,2024,Ayane Suzuki,1999-03-05
+Q26265886,Pristin,2016,2019,Yehana,1999-02-22
+Q181457,SNH48,2012,2024,Feng Xiaofei,1995-10-17
+Q181457,SNH48,2012,2024,Qian Beiting,1995-05-07
+Q181457,SNH48,2012,2024,Wen Jingjie,1997-03-15
+Q181457,SNH48,2012,2024,Xu Zixuan,1998-03-30
+Q181457,SNH48,2012,2024,Zhao Ye,1995-08-28
+Q181457,SNH48,2012,2024,Chen Jiaying,1993-07-12
+Q181457,SNH48,2012,2024,Jin Yingyue,1996-05-27
+Q181457,SNH48,2012,2024,Liu Juzi,1994-12-12
+Q181457,SNH48,2012,2024,Ma Fan,1996-03-20
+Q181457,SNH48,2012,2024,Xu Yi,1995-10-07
+Q181457,SNH48,2012,2024,Guo QianYun,1997-04-04
+Q181457,SNH48,2012,2024,Hao Wanqing,1993-11-01
+Q181457,SNH48,2012,2024,Liu Peixin,1996-01-11
+Q181457,SNH48,2012,2024,Shen Mengyao,1998-08-14
+Q181457,SNH48,2012,2024,Xu Han,1993-01-15
+Q181457,SNH48,2012,2024,Xie Ni,2000-02-12
+Q181457,SNH48,2012,2024,Xiong Qinxian,1999-08-07
+Q181457,SNH48,2012,2024,Xu Yiren,1996-02-20
+Q181457,SNH48,2012,2024,Yuan Yiqi,2000-03-19
+Q181457,SNH48,2012,2024,Zhang Xin,1995-10-19
+Q181457,SNH48,2012,2024,Li Zhao,1997-05-23
+Q181457,SNH48,2012,2024,Qi Jing,1998-07-19
+Q181457,SNH48,2012,2024,Song Xinran,1997-07-08
+Q181457,SNH48,2012,2024,Sun Xinwen,1994-11-04
+Q181457,SNH48,2012,2024,Wang Jialing,1999-07-13
+Q181457,SNH48,2012,2024,Wang Shu,1997-05-08
+Q181457,SNH48,2012,2024,Xie Tianyi,1998-06-24
+Q181457,SNH48,2012,2024,Yang Yunyu,1995-09-15
+Q181457,SNH48,2012,2024,Chen Yunling,1997-12-13
+Q181457,SNH48,2012,2024,Li Jiaen,2000-06-17
+Q181457,SNH48,2012,2024,Liu Zengyan,1996-08-31
+Q181457,SNH48,2012,2024,Pan Yingqi,1998-09-27
+Q181457,SNH48,2012,2024,Song Yushan,1999-06-14
+Q181457,SNH48,2012,2024,Tao Boer,1998-06-20
+Q181457,SNH48,2012,2024,Xu Shiqi,1998-12-10
+Q181457,SNH48,2012,2024,Zeng Xiaowen,1998-03-25
+Q11954928,Q11954928,1968,1974,Tino Álvarez,1947-10-27
+Q48938270,UNI.T,2018,2018,Jinyea,1994-06-09
+Q181457,SNH48,2012,2024,Hu Xiaohui,1998-09-16
+Q181584,SDN48,2009,2024,Yumi Fujikoso,1989-07-01
+Q185226,Nogizaka46,2011,2024,Rena Yamazaki,1997-05-21
+Q185226,Nogizaka46,2011,2024,Momoko Ōzono,1999-09-13
+Q285190,Molly Hatchet,1975,2024,Steve Holland,1954-01-01
+Q285190,Molly Hatchet,1975,2024,Banner Thomas,1956-09-06
+Q18986556,Avsenik Brothers Ensemble,1953,1990,Joži Kališnik,1948-04-04
+Q56402353,Iz*One,2018,2021,Chaeyeon,2000-01-11
+Q56402353,Iz*One,2018,2021,Jang Won-young,2004-08-31
+Q56402353,Iz*One,2018,2021,Hitomi Honda,2001-10-06
+Q56402353,Iz*One,2018,2021,Kwon Eun-bi,1995-09-27
+Q56402353,Iz*One,2018,2021,Kang Hye-won,1999-07-05
+Q11998026,Road,1983,1986,Børge Pedersen,1963-05-20
+Q3132146,Sakura Gakuin,2010,2021,Tsugumi Aritomo,2004-09-07
+Q185226,Nogizaka46,2011,2024,Junna Itō,1998-11-30
+Q185226,Nogizaka46,2011,2024,Minami Umezawa,1999-01-06
+Q261058,Arabesque,1977,1984,Mary Ann Nagel,1955-01-01
+Q156523,Sodom,1981,2024,Stefan Hüskens,1976-08-14
+Q107172463,Mustangové,1964,2020,Zdeněk Skarlandt,1939-06-23
+Q136331900,Q136331900,1962,2017,Marek Mietelski,1933-02-27
+Q181457,SNH48,2012,2024,Liu Qianqian,1994-11-28
+Q56402353,Iz*One,2018,2021,Choi Ye-na,1999-09-29
+Q56402353,Iz*One,2018,2021,An Yu-jin,2003-09-01
+Q157026,Dark Tranquillity,1989,2024,Martin Brändström,1975-04-16
+Q6987156,Negativa,1994,2010,Steeve Hurdle,1971-01-01
+Q12054196,Shut Up,1968,1982,Miloš Nop,1946-06-15
+Q181457,SNH48,2012,2024,Yuan Danni,1994-08-07
+Q181457,SNH48,2012,2024,Chen Wenyan,1994-01-27
+Q181457,SNH48,2012,2024,Jiang Zhenyi,2001-02-08
+Q181457,SNH48,2012,2024,Zhang Yuxin,1994-03-01
+Q93292,Divlje jagode,1977,2024,Dejan Orešković,1970-03-24
+Q185226,Nogizaka46,2011,2024,Mizuki Yamashita,1999-07-26
+Q181457,SNH48,2012,2024,Lin Nan,1994-06-23
+Q181457,SNH48,2012,2024,Qi Yuzhu,1999-06-19
+Q181457,SNH48,2012,2024,Wang Yi,2001-06-06
+Q181457,SNH48,2012,2024,Zhang Jiayu,2001-06-15
+Q181457,SNH48,2012,2024,Chen Pan,1998-11-04
+Q181457,SNH48,2012,2024,Li Meiqi,2000-05-29
+Q181457,SNH48,2012,2024,Li Xingyu,2000-02-06
+Q181457,SNH48,2012,2024,Li Yuqian,1997-05-28
+Q181457,SNH48,2012,2024,Wang Xiyuan,1998-05-16
+Q181457,SNH48,2012,2024,Wang Xinyantiantian,2001-09-13
+Q181457,SNH48,2012,2024,Yang Lingyi,1996-04-15
+Q181457,SNH48,2012,2024,Yang Meiqi,1999-08-12
+Q181457,SNH48,2012,2024,Zhang Minqi,2000-12-17
+Q181457,SNH48,2012,2024,Zhou Shiyu,1998-04-11
+Q181457,SNH48,2012,2024,Zhang Xi,1996-08-27
+Q181457,SNH48,2012,2024,Zhu Xiaodan,2000-05-21
+Q181457,SNH48,2012,2024,Zhang Xinyue,1996-04-04
+Q674314,Fallout,1979,1982,Louie Beato,1963-07-17
+Q181457,SNH48,2012,2024,Huang Enru,1997-05-05
+Q181457,SNH48,2012,2024,Chen Meijun,1994-01-15
+Q181457,SNH48,2012,2024,Liu Shuxian,1994-04-16
+Q181457,SNH48,2012,2024,Ma Yuling,1999-10-06
+Q185226,Nogizaka46,2011,2024,Riria Itō,2002-10-08
+Q185226,Nogizaka46,2011,2024,Renka Iwamoto,2004-02-02
+Q185226,Nogizaka46,2011,2024,Tamami Sakaguchi,2001-11-10
+Q185226,Nogizaka46,2011,2024,Hazuki Mukai,1999-08-23
+Q185226,Nogizaka46,2011,2024,Sakura Endō,2001-10-03
+Q185226,Nogizaka46,2011,2024,Haruka Kaki,2001-08-08
+Q185226,Nogizaka46,2011,2024,Ayano-Christie Yoshida,1995-09-06
+Q185226,Nogizaka46,2011,2024,Sayaka Kakehashi,2002-11-20
+Q185226,Nogizaka46,2011,2024,Rei Seimiya,2003-08-01
+Q185226,Nogizaka46,2011,2024,Saya Kanagawa,2001-10-31
+Q185226,Nogizaka46,2011,2024,Mayu Tamura,1999-01-12
+Q185226,Nogizaka46,2011,2024,Yuri Kitagawa,2001-08-08
+Q185226,Nogizaka46,2011,2024,Ayame Tsutsui,2004-06-08
+Q185226,Nogizaka46,2011,2024,Yuna Shibata,2003-03-03
+Q185226,Nogizaka46,2011,2024,Seira Hayakawa,2000-08-24
+Q185226,Nogizaka46,2011,2024,Mio Yakubo,2002-08-14
+Q56402353,Iz*One,2018,2021,Kim Min-ju,2001-02-05
+Q56402353,Iz*One,2018,2021,Kim Chaewon,2000-08-01
+Q6987156,Negativa,1994,2010,Steve Macdonald,1971-01-01
+Q56402353,Iz*One,2018,2021,Jo Yu-ri,2001-10-22
+Q185226,Nogizaka46,2011,2024,Reno Nakamura,2001-09-27
+Q185226,Nogizaka46,2011,2024,Kotoko Sasaki,1998-08-28
+Q394112,Agit-prop,1970,2018,Martti Launis,1946-05-22
+Q185226,Nogizaka46,2011,2024,Nanami Nishikawa,1993-07-03
+Q90174361,Minx,2014,2016,JiU,1994-05-17
+Q90174361,Minx,2014,2016,SuA,1994-08-10
+Q90174361,Minx,2014,2016,Siyeon,1995-10-01
+Q90174361,Minx,2014,2016,Yoohyeon,1997-01-07
+Q90174361,Minx,2014,2016,Dami,1997-03-07
+Q881647,Echt,1994,2002,Gunnar Astrup,1982-05-20
+Q12054196,Shut Up,1968,1982,Svatopluk Čech,1947-06-20
+Q181584,SDN48,2009,2024,Mana Itō,1985-01-01
+Q185226,Nogizaka46,2011,2024,Maaya Wada,1998-04-23
+Q192861,Venom,1979,2024,Danny Needham,1976-11-18
+Q61404178,Avicenna,1980,1990,Sven Kullerkupp,1961-11-15
+Q159497,Destruction,1982,2024,Wawrzyniec Dramowicz,1975-03-05
+Q182032,JKT48,2011,2024,Gita Sekar Andarini,2001-06-30
+Q174291,Morning Musume,1997,2024,Mei Yamazaki,2005-06-28
+Q174291,Morning Musume,1997,2024,Homare Okamura,2005-05-09
+Q174291,Morning Musume,1997,2024,Rio Kitagawa,2004-03-16
+Q279105,Volbeat,2001,2024,Teddy Vang,1972-11-19
+Q3132146,Sakura Gakuin,2010,2021,Soyoka Yoshida,2004-06-14
+Q3132146,Sakura Gakuin,2010,2021,Marin Hidaka,2003-12-01
+Q182032,JKT48,2011,2024,Mutiara Azzahra Umandana,2004-07-12
+Q153926,Alphaville,1982,2024,Elisabeth Markstein,1977-01-01
+Q3132146,Sakura Gakuin,2010,2021,Sana Shiratori,2005-06-20
+Q3132146,Sakura Gakuin,2010,2021,Kokona Nonaka,2006-01-28
+Q185226,Nogizaka46,2011,2024,Iori Sagara,1997-01-01
+Q55731710,Apple.B,2017,2018,Seo Min-kyung,1998-05-03
+Q75788,Eluveitie,2002,2024,Fabienne Erni,1993-03-11
+Q72188524,HINAPIA,2019,2020,Kim Bada,2002-05-28
+Q16545607,Criminal Jokers,2006,2014,Francesco Pellegrini,1984-08-27
+Q55731710,Apple.B,2017,2018,Park Yu-rim,1998-04-13
+Q55731710,Apple.B,2017,2018,Yoon Ha-eun,1999-03-12
+Q55731710,Apple.B,2017,2018,Park Hyun-min,2001-10-14
+Q3132146,Sakura Gakuin,2010,2021,Miko Todaka,2006-08-14
+Q182032,JKT48,2011,2024,Angelina Christy,2005-12-05
+Q182032,JKT48,2011,2024,Freya Jayawardana,2006-02-13
+Q182032,JKT48,2011,2024,Helisma Mauludzunia Putri Kurnia,2000-06-15
+Q257615,Soilwork,1996,2024,David Andersson,1975-02-25
+Q251590,Magazin,1979,2024,Lorena Bućan,2003-01-01
+Q16545607,Criminal Jokers,2006,2014,Simone Bettin,1987-01-01
+Q200089,17 Hippies,1995,2024,Ulrike Lau,2000-01-01
+Q124791,Farafina,1978,2024,Souleymane Sanou,1956-01-01
+Q124791,Farafina,1978,2024,Fatoumata Dembele,1972-01-01
+Q124791,Farafina,1978,2024,Moussa Sanou,1978-01-01
+Q124791,Farafina,1978,2024,Seydoux Dembele,1971-01-01
+Q124791,Farafina,1978,2024,Boakary Dembele,1975-01-01
+Q182032,JKT48,2011,2024,Febriola Sinambela,2005-02-26
+Q182032,JKT48,2011,2024,Fiony Alveria Tantri,2002-02-04
+Q182032,JKT48,2011,2024,Cornelia Vanisa,2002-07-26
+Q111337,Korpiklaani,1993,2024,Tuomas Rounakari,1977-01-01
+Q48830966,Newyjou,1975,2000,Vavřinec Skýpala,1959-04-28
+Q185226,Nogizaka46,2011,2024,Kaede Satō,1998-03-23
+Q185226,Nogizaka46,2011,2024,Yumiko Iwase,1990-06-12
+Q12054196,Shut Up,1968,1982,Jiří Kaleš,1944-04-08
+Q261058,Arabesque,1977,1984,Michaela Rose,1958-12-19
+Q257712,Nekromantix,1989,2024,Emil Øelund,1983-02-05
+Q99286194,Q99286194,1972,1980,Ladislav Malina,1953-08-12
+Q99286194,Q99286194,1972,1980,Zdena Adamová,1952-01-10
+Q182032,JKT48,2011,2024,Marsha Lenathea,2006-01-09
+Q319753,City,1972,2024,Klaus Selmke,1950-04-21
+Q105076476,A.R. & Machines,1971,1976,Helmuth Franke,1943-01-17
+Q134541,Black Eyed Peas,1995,2024,J. Rey Soul,1997-11-12
+Q129050,The Shangri-Las,1963,2024,Mary Ann Ganser,1948-02-04
+Q1412330,Minisex,1978,1990,Hannes Seidl,1955-04-10
+Q881647,Echt,1994,2002,Kai Fischer,1980-08-22
+Q99286194,Q99286194,1972,1980,Petr Klapka,1955-07-24
+Q137410966,Q137410966,1959,1988,Ive Dovžan,1940-01-01
+Q177364,The Tremeloes,1958,2024,Dave Munden,1943-12-02
+Q181457,SNH48,2012,2024,Li Hui,1996-11-08
+Q181457,SNH48,2012,2024,Liu Liqian,2000-07-13
+Q1412330,Minisex,1978,1990,Rudi Nemeczek,1955-12-23
+Q1412330,Minisex,1978,1990,Rudi Oschelda,1955-12-05
+Q1412330,Minisex,1978,1990,Tommy Böröcz,1956-08-07
+Q105076476,A.R. & Machines,1971,1976,Jochen Petersen,1944-01-01
+Q105076476,A.R. & Machines,1971,1976,Frank Wulff,1952-06-28
+Q105076476,A.R. & Machines,1971,1976,Olaf Casalich,1947-10-03
+Q105076476,A.R. & Machines,1971,1976,Hans Lampe,1952-01-01
+Q278143,A.C.T,1994,2024,Jerry Sahlin,1975-01-01
+Q278143,A.C.T,1994,2024,Ola Andersson,1977-01-01
+Q278143,A.C.T,1994,2024,Jens Appelgren,1977-01-01
+Q278143,A.C.T,1994,2024,Simon Niklasson,1975-01-01
+Q278143,A.C.T,1994,2024,Peter Asp,1977-01-01
+Q278143,A.C.T,1994,2024,Herman Saming,1976-01-01
+Q278143,A.C.T,1994,2024,Thomas Lejon,1973-04-29
+Q185226,Nogizaka46,2011,2024,Haruka Kuromi,2004-01-19
+Q185226,Nogizaka46,2011,2024,Rika Satō,2001-08-09
+Q185226,Nogizaka46,2011,2024,Runa Hayashi,2003-10-02
+Q185226,Nogizaka46,2011,2024,Miyu Matsuo,2004-01-03
+Q185226,Nogizaka46,2011,2024,Nao Yumiki,1999-02-03
+Q181457,SNH48,2012,2024,Bian Chuxian,1998-03-23
+Q181457,SNH48,2012,2024,Chen Yuzi,1998-06-29
+Q181457,SNH48,2012,2024,Feng Yuting,1998-09-17
+Q181457,SNH48,2012,2024,Lu Yehui,1998-07-14
+Q181457,SNH48,2012,2024,Ning Ke,2000-05-02
+Q251590,Magazin,1979,2024,Majda Jazbec,1951-01-01
+Q181457,SNH48,2012,2024,Liu Chenxue,2000-06-19
+Q107172463,Mustangové,1964,2020,František Prošek,1941-01-01
+Q6535331,Kiss Me Five,2010,2013,Chicha Amatayakul,1993-01-01
+Q11954928,Q11954928,1968,1974,Margariña Valderrama,1943-01-01
+Q129050,The Shangri-Las,1963,2024,Marge Ganser,1948-02-04
+Q678092,Edward H. Dafis,1973,1980,Hefin Elis,1950-06-04
+Q11272873,Dempagumi.inc,2008,2025,Hina Takasaki,2006-11-24
+Q124004869,IMPACTors,2020,2023,Arata Sato,2000-09-01
+Q1496070,Lilli Berlin,1980,1983,Manfred Opitz,1954-07-31
+Q178549,Counting Crows,1991,2024,Ben Mize,1971-02-02
+Q12300493,Ache,1968,1977,Torsten Olafsson,1950-01-28
+Q428104,Les Rallizes Dénudés,1967,1996,Takashi Mizutani,1948-01-01
+Q182032,JKT48,2011,2024,King David pop1,2006-07-26
+Q182032,JKT48,2011,2024,Greesella Adhalia,2006-01-10
+Q182032,JKT48,2011,2024,Lulu Salsabila,2002-10-23
+Q173180,Franz Ferdinand,2002,2024,Audrey Tait,1987-01-01
+Q185226,Nogizaka46,2011,2024,Nagi Inoue,2005-02-17
+Q185226,Nogizaka46,2011,2024,Miku Ichinose,2003-05-24
+Q185226,Nogizaka46,2011,2024,Satsuki Sugawara,2005-10-31
+Q185226,Nogizaka46,2011,2024,Aya Ogawa,2007-06-27
+Q185226,Nogizaka46,2011,2024,Nao Tomisato,2006-09-18
+Q185226,Nogizaka46,2011,2024,Mao Ioki,2005-07-29
+Q185226,Nogizaka46,2011,2024,Aruno Nakanishi,2003-03-17
+Q124004869,IMPACTors,2020,2023,Shunsuke Motoi,1996-10-17
+Q124004869,IMPACTors,2020,2023,Takuya Kageyama,1997-06-11
+Q111337,Korpiklaani,1993,2024,Jarkko Aaltonen,1973-01-01
+Q177364,The Tremeloes,1958,2024,Len Hawkes,1946-01-01
+Q202041,Jamiroquai,1992,2024,Simon Bartholomew,1965-01-01
+Q185226,Nogizaka46,2011,2024,Teresa Ikeda,2002-05-12
+Q182032,JKT48,2011,2024,Indah Cahya Nabilla,2001-03-20
+Q182032,JKT48,2011,2024,Jessica Chandra,2005-09-23
+Q185226,Nogizaka46,2011,2024,Sakura Kawasaki,2003-04-17
+Q111753074,Bridgeburne R,1999,2000,Kaleb Stewart,1975-06-09
+Q3132146,Sakura Gakuin,2010,2021,Sakia Kimura,2009-02-20
+Q4915946,Bird of Ill Omen,1996,1998,Thomas Rankine,1978-05-03
+Q4915946,Bird of Ill Omen,1996,1998,Joseph Simmons,1978-06-18
+Q4915946,Bird of Ill Omen,1996,1998,Peter Bartsocas,1980-09-10
+Q7761298,The Rocking Horse Winner,1999,2003,Jeronimo Gomez,1976-08-19
+Q7761298,The Rocking Horse Winner,1999,2003,Henry Olmino,1974-11-12
+Q7761298,The Rocking Horse Winner,1999,2003,Matthew Crum,1978-03-01
+Q115170349,Until the End,2000,2005,Jason Dooley,1971-04-09
+Q174291,Morning Musume,1997,2024,Rio Sakurai,2005-11-11
+Q290924,Terrorgruppe,1993,2024,Zip Schlitzer,1962-01-01
+Q218178,Ensiferum,1995,2024,Pekka Montin,1983-01-01
+Q169316,Plain White T's,1997,2024,Tim Lopez,1980-12-30
+Q169316,Plain White T's,1997,2024,De'Mar Hamilton,1984-04-15
+Q169316,Plain White T's,1997,2024,Mike Retondo,1981-05-14
+Q169316,Plain White T's,1997,2024,Dave Tirio,1979-10-28
+Q254138,Slipknot,1994,2024,Michael Pfaff,1980-05-17
+Q282714,Honor Society,2006,2024,Jason Rosen,1978-09-06
+Q282714,Honor Society,2006,2024,Andrew Lee Schmidt,1979-11-23
+Q111337,Korpiklaani,1993,2024,Matti Johansson,1973-01-01
+Q12740798,Sideral,1964,1969,Mircea Drăgan,1945-05-20
+Q3132146,Sakura Gakuin,2010,2021,Neo Sato,2006-12-01
+Q3132146,Sakura Gakuin,2010,2021,Miki Yagi,2006-12-11
+Q174291,Morning Musume,1997,2024,Haruka Inoue,2006-05-06
+Q174291,Morning Musume,1997,2024,Ako Yumigeta,2008-07-08
+Q181684,Against Me!,1997,2024,Andrew Seward,1977-12-14
+Q124004869,IMPACTors,2020,2023,Minato Matsui,2000-09-02
+Q6381595,Blind Fool Love,2007,2012,Tommaso Ottomano,1990-08-06
+Q6381595,Blind Fool Love,2007,2012,Marco Ronconi,1991-01-01
+Q6381595,Blind Fool Love,2007,2012,Piero Cini,1988-01-01
+Q61404178,Avicenna,1980,1990,Taavo Remmel,1964-08-26
+Q182622,US5,2005,2024,Vincent Tomas,1992-08-27
+Q182622,US5,2005,2024,Mikel Johnson,1987-07-18
+Q117257353,The Stilettos,1972,1974,Elda Gentile,1947-11-07
+Q182032,JKT48,2011,2024,Raisha Syifa,2007-11-11
+Q182032,JKT48,2011,2024,Amanda Sukma,2004-12-17
+Q182032,JKT48,2011,2024,Gabriela Abigail,2006-08-07
+Q124004869,IMPACTors,2020,2023,Taiga Suzuki,1998-06-29
+Q240767,Limp Bizkit,1994,2024,Brandon Pertzborn,1994-01-01
+Q182032,JKT48,2011,2024,Aurellia,2002-10-29
+Q124004869,IMPACTors,2020,2023,Yuki Yokohara,1996-09-13
+Q75788,Eluveitie,2002,2024,Jonas Wolf,2006-07-21
+Q261467,702,1994,2024,Irish Grinstead,1980-06-02
+Q261467,702,1994,2024,LeMisha Grinstead,1978-06-10
+Q261467,702,1994,2024,Orish Grinstead,1980-06-02
+Q167977,Skunk Anansie,1994,2024,Erika Footman,1982-01-01
+Q182032,JKT48,2011,2024,Gendis Mayrannisa,2010-06-23
+Q182032,JKT48,2011,2024,Alya Amanda,2006-08-26
+Q182032,JKT48,2011,2024,Chelsea Davina,2009-12-23
+Q182032,JKT48,2011,2024,Cathleen Nixie,2009-05-28
+Q261765,Freundeskreis,1996,2007,DJ Friction,1970-05-22
+Q182032,JKT48,2011,2024,Michelle Alexandra,2009-04-22
+Q83468,Judas Priest,1969,2024,Chris Campbell,1947-09-24
+Q129050,The Shangri-Las,1963,2024,Betty Weiss,1946-11-27
+Q157041,The Offspring,1984,2024,Jonah Nimoy,1992-01-01
+Q111753074,Bridgeburne R,1999,2000,William Clower,1971-06-11
+Q184217,The Smashing Pumpkins,1988,2024,Kiki Wong,1989-04-15
+Q125983911,Quả Dưa Hấu,1998,2000,Minh Quân,1980-07-18
+Q126101297,West Nederlands Symfonie Orkest,1948,1967,Adrienne de Smet,1915-09-05
+Q130490,Il était une fois,1972,2024,Richard Dewitte,1946-06-13
+Q182032,JKT48,2011,2024,Grace Octaviani,2007-10-18
+Q182032,JKT48,2011,2024,Jesslyn Elly,2001-09-13
+Q182032,JKT48,2011,2024,Desy Natalia,2005-12-16
+Q182032,JKT48,2011,2024,Anindya Ramadhani,2005-10-18
+Q182032,JKT48,2011,2024,Celline Thefani,2007-04-09
+Q182032,JKT48,2011,2024,Cynthia Yaputera,2003-11-22
+Q182032,JKT48,2011,2024,Dena Natalia,2005-12-16
+Q153926,Alphaville,1982,2024,Carsten Brocker,1977-08-08
+Q153926,Alphaville,1982,2024,Martin Lister,1962-01-01
+Q153926,Alphaville,1982,2024,Alexandra Merl,1984-01-01
+Q185226,Nogizaka46,2011,2024,Moeka Yada,2008-01-27
+Q185226,Nogizaka46,2011,2024,Mitsuki Setoguchi,2005-07-16
+Q185226,Nogizaka46,2011,2024,Hina Kawabata,2011-01-14
+Q185226,Nogizaka46,2011,2024,Akari Kaibe,2007-02-14
+Q185226,Nogizaka46,2011,2024,Rio Nagashima,2007-05-25
+Q185226,Nogizaka46,2011,2024,Urumi Morihira,2008-10-05
+Q185226,Nogizaka46,2011,2024,Kokone Atago,2005-09-17
+Q185226,Nogizaka46,2011,2024,Hinano Ōkoshi,2004-12-01
+Q185226,Nogizaka46,2011,2024,Yūna Suzuki,2006-05-18
+Q185226,Nogizaka46,2011,2024,Reina Ozu,2007-04-17
+Q185226,Nogizaka46,2011,2024,Mirine Masuda,2009-11-01
+Q182032,JKT48,2011,2024,Aurhel Alana,2006-09-14
+Q182032,JKT48,2011,2024,Fritzy Rosmerian,2008-07-28
+Q134280380,Catena,1968,1977,Păunița Ionescu,1951-09-21
+Q169361,Zebda,1985,2024,Q133843472,1968-11-30
+Q169361,Zebda,1985,2024,Q133843540,1967-11-20
+Q627470,The Turtles,1965,1970,Jim Tucker,1946-10-17
+Q134280380,Catena,1968,1977,Lidia Creangă,1951-01-01
+Q134280380,Catena,1968,1977,Ortansa Păun,1953-01-01
+Q627470,The Turtles,1965,1970,Al Nichol,1946-03-31
+Q6874910,BeBe Mignon,2010,2011,Gaeul,1992-02-17
+Q93292,Divlje jagode,1977,2024,Q135398910,1952-05-30
+
