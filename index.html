@@ -3,327 +3,589 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Big Astrology Book of Research — Project Index</title>
-  <meta name="description" content="48 computational astrology experiments by Renay Oshop — empirical, statistical, transparent. Positive results, null results, and everything in between.">
+  <title>The Big Astrology Book of Research — 48 Experiments</title>
+  <meta name="description" content="48 computational astrology experiments by Renay Oshop — empirical, statistical, transparent. Testing astrological hypotheses against real data.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
+    /* ── Reset & tokens ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     :root {
-      --bg:          #faf8f4;
-      --bg-alt:      #f3f0ea;
-      --bg-card:     #ffffff;
-      --border:      #e0dbd0;
-      --border-dark: #c8c0b0;
-      --ink:         #1e1a14;
-      --ink-dim:     #4a4438;
-      --ink-mut:     #8a8070;
-      --gold:        #8a6d00;
-      --gold-bg:     #fdf6e0;
-      --gold-border: #e0c860;
+      --space:   #070a18;
+      --ink:     #0e1124;
+      --panel:   rgba(10,14,32,0.82);
+      --panel-s: rgba(12,17,40,0.92);
+      --border:  rgba(255,255,255,0.10);
+      --border2: rgba(255,255,255,0.06);
+      --gold:    #c9a84c;
+      --gold-dim:rgba(201,168,76,0.18);
+      --gold-bd: rgba(201,168,76,0.35);
+      --cream:   #f0e8d6;
+      --cream-d: rgba(240,232,214,0.72);
+      --cream-m: rgba(240,232,214,0.42);
+      --pos:     #5ec48a;  --pos-bg: rgba(94,196,138,0.12);  --pos-bd: rgba(94,196,138,0.28);
+      --nul:     #e87070;  --nul-bg: rgba(232,112,112,0.12); --nul-bd: rgba(232,112,112,0.28);
+      --mix:     #e8b84a;  --mix-bg: rgba(232,184,74,0.12);  --mix-bd: rgba(232,184,74,0.28);
+      --inc:     #a07ed4;  --inc-bg: rgba(160,126,212,0.12); --inc-bd: rgba(160,126,212,0.28);
+      --soon-c:  #7a9cc8;  --soon-bg:rgba(122,156,200,0.12); --soon-bd:rgba(122,156,200,0.28);
+      --font-d:  'Cormorant Garamond', Georgia, serif;
+      --font-b:  'Inter', system-ui, sans-serif;
+      --font-m:  'SFMono-Regular', Consolas, monospace;
     }
 
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
 
     body {
-      background: var(--bg);
-      color: var(--ink);
-      font-family: var(--font-body);
+      background: var(--space);
+      color: var(--cream);
+      font-family: var(--font-b);
       font-size: 15px;
       line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
     }
 
-    a { color: var(--gold); text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a { color: var(--gold); text-decoration: none; transition: color .15s; }
+    a:hover { color: #dfc070; text-decoration: none; }
 
-    .container { max-width: 1100px; margin: 0 auto; padding: 0 1.5rem; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 1.75rem; }
 
     /* ── Hero ── */
     .hero {
-      background: linear-gradient(160deg, #0d0f1e 0%, #161930 50%, #0d0f1e 100%);
-      border-bottom: 1px solid var(--border);
-      padding: 5rem 0 4rem;
-      text-align: center;
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
     }
-    .hero-label {
-      font-size: 0.72rem;
-      letter-spacing: 0.2em;
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: url('zwcl-00241652.jpg') center center / cover no-repeat;
+      filter: saturate(1.15) brightness(0.7);
+      transform: scale(1.03);
+      z-index: 0;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to bottom,
+          rgba(7,10,24,0.45) 0%,
+          rgba(7,10,24,0.20) 35%,
+          rgba(7,10,24,0.50) 70%,
+          rgba(7,10,24,0.90) 100%),
+        radial-gradient(ellipse 70% 55% at 50% 40%, rgba(40,55,130,0.35) 0%, transparent 70%);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 8rem 0 6rem;
+      text-align: center;
+      width: 100%;
+    }
+    .hero-eyebrow {
+      font-family: var(--font-b);
+      font-size: 0.68rem;
+      letter-spacing: 0.26em;
       text-transform: uppercase;
       color: var(--gold);
-      margin-bottom: 1.2rem;
+      margin-bottom: 1.4rem;
+      opacity: 0.9;
     }
-    .hero h1 {
-      font-family: var(--font-display);
-      font-size: clamp(2rem, 5vw, 3.2rem);
-      font-weight: 400;
-      color: var(--ink);
-      margin-bottom: 1rem;
-      line-height: 1.25;
+    .hero-title {
+      font-family: var(--font-d);
+      font-size: clamp(2.4rem, 6vw, 5rem);
+      font-weight: 300;
+      color: var(--cream);
+      line-height: 1.12;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 2px 40px rgba(0,0,0,0.6);
     }
-    .hero h1 em { color: var(--gold); font-style: italic; }
+    .hero-title em {
+      font-style: italic;
+      color: var(--gold);
+    }
+    .hero-title .of { font-weight: 300; opacity: 0.8; }
     .hero-sub {
-      color: var(--ink-dim);
       font-size: 1.05rem;
-      max-width: 600px;
-      margin: 0 auto 2rem;
+      color: var(--cream-d);
+      max-width: 560px;
+      margin: 1.5rem auto 3rem;
+      line-height: 1.8;
+      font-weight: 300;
+      text-shadow: 0 1px 12px rgba(0,0,0,0.5);
     }
-    .hero-meta {
+    .hero-stats {
       display: flex;
-      gap: 2rem;
+      gap: 3rem;
       justify-content: center;
       flex-wrap: wrap;
-      font-size: 0.85rem;
-      color: var(--ink-mut);
+      margin-bottom: 3.5rem;
     }
-    .hero-meta span { display: flex; align-items: center; gap: 0.4rem; }
+    .hero-stat { text-align: center; }
+    .hero-stat-num {
+      font-family: var(--font-d);
+      font-size: 3rem;
+      font-weight: 300;
+      color: var(--gold);
+      display: block;
+      line-height: 1;
+      text-shadow: 0 0 30px rgba(201,168,76,0.5);
+    }
+    .hero-stat-label {
+      font-size: 0.68rem;
+      color: var(--cream-m);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-top: 0.3rem;
+    }
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--gold-dim);
+      border: 1px solid var(--gold-bd);
+      color: var(--gold);
+      padding: 0.7rem 1.8rem;
+      border-radius: 2px;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-family: var(--font-b);
+      font-weight: 500;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .hero-cta:hover {
+      background: rgba(201,168,76,0.28);
+      color: #dfc070;
+    }
+    .hero-scroll {
+      position: absolute;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--cream-m);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .hero-scroll::after {
+      content: '';
+      width: 1px;
+      height: 40px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+      display: block;
+      animation: scrollPulse 2s ease-in-out infinite;
+    }
+    @keyframes scrollPulse { 0%,100%{opacity:.4;transform:scaleY(0.7)} 50%{opacity:1;transform:scaleY(1)} }
 
-    /* ── Filters ── */
-    .filter-section {
-      background: var(--bg-alt);
+    /* ── Nav ── */
+    .site-nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 1.1rem 0;
+      transition: background .3s, backdrop-filter .3s;
+    }
+    .site-nav.scrolled {
+      background: rgba(7,10,24,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border2);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      font-family: var(--font-d);
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--cream);
+      letter-spacing: 0.03em;
+    }
+    .nav-logo em { color: var(--gold); font-style: italic; }
+    .nav-links {
+      display: flex;
+      gap: 1.75rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-size: 0.78rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--cream-d);
+      font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ── Section shared ── */
+    .section { padding: 5rem 0; }
+    .section-eyebrow {
+      font-size: 0.68rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.6rem;
+      opacity: 0.9;
+    }
+    .section-title {
+      font-family: var(--font-d);
+      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+      font-weight: 300;
+      color: var(--cream);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .section-title em { font-style: italic; color: var(--gold); }
+    .gold-rule {
+      width: 60px;
+      height: 1px;
+      background: var(--gold);
+      margin: 1.2rem 0 2rem;
+      opacity: 0.5;
+    }
+
+    /* ── Filter bar ── */
+    .filter-bar {
+      background: var(--panel-s);
+      border-top: 1px solid var(--border);
       border-bottom: 1px solid var(--border);
-      padding: 1.2rem 0;
+      padding: 1rem 0;
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 50;
+      backdrop-filter: blur(16px);
     }
     .filter-inner {
       display: flex;
       align-items: center;
-      gap: 0.6rem;
+      gap: 0.5rem;
       flex-wrap: wrap;
     }
     .filter-label {
-      font-size: 0.72rem;
-      letter-spacing: 0.12em;
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
-      color: var(--ink-mut);
-      margin-right: 0.4rem;
+      color: var(--cream-m);
+      margin-right: 0.35rem;
     }
     .filter-btn {
       background: transparent;
       border: 1px solid var(--border);
-      color: var(--ink-dim);
-      padding: 0.3rem 0.9rem;
-      border-radius: 20px;
+      color: var(--cream-d);
+      padding: 0.28rem 0.9rem;
+      border-radius: 1px;
       cursor: pointer;
-      font-size: 0.8rem;
-      transition: all 0.15s;
+      font-size: 0.75rem;
+      font-family: var(--font-b);
+      letter-spacing: 0.04em;
+      transition: all .15s;
     }
-    .filter-btn:hover, .filter-btn.active {
-      border-color: var(--gold);
-      color: var(--gold);
-      background: var(--gold-dim);
-    }
+    .filter-btn:hover { border-color: var(--gold-bd); color: var(--gold); background: var(--gold-dim); }
+    .filter-btn.active { border-color: var(--gold); color: var(--gold); background: var(--gold-dim); font-weight: 600; }
 
     /* ── Table section ── */
-    .table-section { padding: 3rem 0; }
-
-    .section-header {
-      margin-bottom: 1.5rem;
+    .table-section {
+      padding: 4rem 0 3rem;
+      background: linear-gradient(to bottom, rgba(7,10,24,0) 0%, rgba(10,14,32,0.5) 100%);
     }
-    .section-label {
-      font-size: 0.72rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 0.5rem;
-    }
-    .section-title {
-      font-family: var(--font-display);
-      font-size: 1.8rem;
-      font-weight: 400;
-      color: var(--ink);
-    }
-    .section-title em { color: var(--gold); font-style: italic; }
-
-    /* ── Badge ── */
-    .badge {
-      display: inline-block;
-      padding: 0.18rem 0.6rem;
-      border-radius: 4px;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      white-space: nowrap;
-    }
-    .badge-positive  { background: rgba(76,175,125,0.15); color: #4caf7d; border: 1px solid rgba(76,175,125,0.3); }
-    .badge-null      { background: rgba(224,92,92,0.15);  color: #e05c5c; border: 1px solid rgba(224,92,92,0.3); }
-    .badge-mixed     { background: rgba(232,168,56,0.15); color: #e8a838; border: 1px solid rgba(232,168,56,0.3); }
-    .badge-soon      { background: rgba(122,138,176,0.15);color: #7a8ab0; border: 1px solid rgba(122,138,176,0.3); }
-    .badge-incomplete{ background: rgba(155,89,182,0.15); color: #b07cd4; border: 1px solid rgba(155,89,182,0.3); }
-
-    /* ── Project table ── */
-    .project-table { width: 100%; border-collapse: collapse; }
-    .project-table th {
-      text-align: left;
-      font-size: 0.72rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--ink-mut);
-      padding: 0.6rem 0.8rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .project-row {
-      border-bottom: 1px solid var(--border);
-      transition: background 0.12s;
-    }
-    .project-row:hover { background: var(--bg-card); }
-    .project-row.hidden { display: none; }
-    .project-row td {
-      padding: 0.75rem 0.8rem;
-      vertical-align: top;
-      font-size: 0.88rem;
-    }
-    .project-num {
-      color: var(--ink-mut);
-      font-family: monospace;
-      font-size: 0.82rem;
-      width: 42px;
-    }
-    .project-title {
-      color: var(--ink);
-      font-weight: 500;
-      line-height: 1.4;
-    }
-    .project-title a { color: var(--ink); }
-    .project-title a:hover { color: var(--gold); }
-    .project-domain {
-      color: var(--ink-mut);
-      font-size: 0.8rem;
-    }
-    .project-note {
-      color: var(--ink-dim);
-      font-size: 0.8rem;
-      line-height: 1.5;
-    }
-
-    /* ── Themes section ── */
-    .themes-section {
-      background: var(--bg-alt);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-      padding: 4rem 0;
-    }
-    .themes-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-      margin-top: 2rem;
-    }
-    .theme-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.5rem;
-    }
-    .theme-card h3 {
-      font-family: var(--font-display);
-      font-size: 1rem;
-      color: var(--gold);
-      margin-bottom: 0.7rem;
-      font-weight: 400;
-    }
-    .theme-card p {
-      color: var(--ink-dim);
-      font-size: 0.85rem;
-      line-height: 1.7;
-    }
-    .theme-card ul {
-      margin: 0.6rem 0 0 1rem;
-      color: var(--ink-dim);
-      font-size: 0.83rem;
-      line-height: 1.8;
-    }
-
-    /* ── Reading paths ── */
-    .reading-section { padding: 4rem 0; }
-    .reading-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-    .reading-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 1.25rem;
-    }
-    .reading-card h4 {
-      color: var(--gold);
-      font-size: 0.82rem;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      margin-bottom: 0.5rem;
-    }
-    .reading-card p {
-      color: var(--ink-dim);
-      font-size: 0.82rem;
-      line-height: 1.6;
-    }
-
-    /* ── Footer ── */
-    footer {
-      background: var(--bg-alt);
-      border-top: 1px solid var(--border);
-      padding: 2.5rem 0;
-      text-align: center;
-    }
-    footer p {
-      color: var(--ink-mut);
-      font-size: 0.82rem;
-    }
-    footer a { color: var(--gold); }
 
     /* ── Legend ── */
     .legend {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.75rem;
+      gap: 0.6rem 1.5rem;
       align-items: center;
-      margin-bottom: 1.25rem;
-      font-size: 0.8rem;
-      color: var(--ink-mut);
+      margin-bottom: 1.75rem;
+      font-size: 0.75rem;
+      color: var(--cream-m);
     }
-    .legend span { display: flex; align-items: center; gap: 0.35rem; }
 
-    @media (max-width: 700px) {
+    /* ── Badges ── */
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.6rem;
+      border-radius: 1px;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border: 1px solid;
+      white-space: nowrap;
+    }
+    .badge-positive   { background: var(--pos-bg);  color: var(--pos);  border-color: var(--pos-bd); }
+    .badge-null       { background: var(--nul-bg);  color: var(--nul);  border-color: var(--nul-bd); }
+    .badge-mixed      { background: var(--mix-bg);  color: var(--mix);  border-color: var(--mix-bd); }
+    .badge-incomplete { background: var(--inc-bg);  color: var(--inc);  border-color: var(--inc-bd); }
+    .badge-soon       { background: var(--soon-bg); color: var(--soon-c);border-color: var(--soon-bd); }
+
+    /* ── Table ── */
+    .project-table { width: 100%; border-collapse: collapse; }
+    .project-table thead tr {
+      border-bottom: 1px solid var(--gold-bd);
+    }
+    .project-table th {
+      text-align: left;
+      font-size: 0.62rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--cream-m);
+      padding: 0.75rem 0.9rem;
+      font-weight: 500;
+      font-family: var(--font-b);
+    }
+    .project-row {
+      border-bottom: 1px solid var(--border2);
+      transition: background .12s;
+    }
+    .project-row:hover { background: rgba(201,168,76,0.05); }
+    .project-row.hidden { display: none; }
+    .project-row td { padding: 0.8rem 0.9rem; vertical-align: top; }
+
+    .project-num {
+      font-family: var(--font-m);
+      font-size: 0.75rem;
+      color: var(--cream-m);
+      width: 36px;
+      opacity: 0.6;
+    }
+    .project-title {
+      font-size: 0.9rem;
+      font-weight: 400;
+      line-height: 1.45;
+      color: var(--cream);
+    }
+    .project-title a { color: var(--cream); }
+    .project-title a:hover { color: var(--gold); }
+    .project-domain {
+      color: var(--cream-m);
+      font-size: 0.75rem;
+    }
+    .project-note {
+      color: var(--cream-d);
+      font-size: 0.78rem;
+      line-height: 1.5;
+    }
+
+    /* ── Themes ── */
+    .themes-section {
+      padding: 5rem 0;
+      background: rgba(10,14,32,0.6);
+      border-top: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .themes-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url('zwcl-00241652.jpg') center 70% / cover no-repeat;
+      opacity: 0.06;
+      filter: saturate(0.5);
+    }
+    .themes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 1.25rem;
+      margin-top: 2.5rem;
+      position: relative;
+    }
+    .theme-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 1.75rem;
+      transition: border-color .2s, background .2s;
+    }
+    .theme-card:hover {
+      border-color: var(--gold-bd);
+      background: rgba(10,14,32,0.95);
+    }
+    .theme-card h3 {
+      font-family: var(--font-d);
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: var(--cream);
+      margin-bottom: 0.85rem;
+      line-height: 1.3;
+    }
+    .theme-card p { color: var(--cream-d); font-size: 0.85rem; line-height: 1.75; }
+    .theme-card ul {
+      margin: 0.65rem 0 0 1rem;
+      color: var(--cream-d);
+      font-size: 0.82rem;
+      line-height: 1.9;
+    }
+
+    /* ── Reading paths ── */
+    .reading-section { padding: 5rem 0; }
+    .reading-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1px;
+      margin-top: 2.5rem;
+      border: 1px solid var(--border);
+    }
+    .reading-card {
+      background: var(--panel);
+      padding: 1.75rem 1.5rem;
+      transition: background .15s;
+    }
+    .reading-card:hover { background: rgba(201,168,76,0.06); }
+    .reading-card h4 {
+      font-family: var(--font-d);
+      color: var(--gold);
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: italic;
+      margin-bottom: 0.6rem;
+    }
+    .reading-card p { color: var(--cream-d); font-size: 0.82rem; line-height: 1.65; }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--ink);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    footer::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url('zwcl-00241652.jpg') center bottom / cover no-repeat;
+      opacity: 0.04;
+    }
+    .footer-inner {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .footer-brand {
+      font-family: var(--font-d);
+      font-size: 1.4rem;
+      color: var(--cream-d);
+      font-weight: 300;
+    }
+    .footer-brand em { color: var(--gold); font-style: italic; }
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 0.78rem;
+      color: var(--cream-m);
+    }
+    .footer-copy {
+      width: 100%;
+      text-align: center;
+      margin-top: 1.5rem;
+      font-size: 0.75rem;
+      color: var(--cream-m);
+      letter-spacing: 0.04em;
+      position: relative;
+    }
+
+    /* ── Divider ── */
+    .celestial {
+      text-align: center;
+      color: var(--gold);
+      opacity: 0.3;
+      letter-spacing: 0.5em;
+      font-size: 0.7rem;
+      margin: 2rem 0;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 720px) {
       .project-table th:nth-child(3),
-      .project-table td:nth-child(3) { display: none; }
+      .project-table td:nth-child(3),
       .project-table th:nth-child(5),
       .project-table td:nth-child(5) { display: none; }
+      .hero-stats { gap: 1.5rem; }
+      .hero-stat-num { font-size: 2.2rem; }
+      .nav-links { display: none; }
     }
   </style>
 </head>
 <body>
 
-<!-- Hero -->
-<header class="hero">
+<!-- Fixed Nav -->
+<nav class="site-nav" id="main-nav">
   <div class="container">
-    <div class="hero-label">Computational Astrology</div>
-    <h1>The Big Astrology Book<br>of <em>Research</em></h1>
-    <p class="hero-sub">
-      48 experiments testing astrological hypotheses against empirical data —
-      with full transparency on methodology, effect sizes, and outcomes.
-      Including null results.
-    </p>
-    <div class="hero-meta">
-      <span>✍️ By Renay Oshop</span>
-      <span>🔬 48 Experiments</span>
-      <span>📊 Computational &amp; Statistical</span>
-      <span>🌐 <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></span>
+    <div class="nav-inner">
+      <div class="nav-logo">Big <em>Astrology</em> Book</div>
+      <ul class="nav-links">
+        <li><a href="#experiments">Experiments</a></li>
+        <li><a href="#themes">Themes</a></li>
+        <li><a href="#reading">Reading Paths</a></li>
+        <li><a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></li>
+      </ul>
     </div>
   </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="container">
+      <div class="hero-eyebrow">Renay Oshop · Computational Astrology Research</div>
+      <h1 class="hero-title">
+        The Big <span class="of">Astrology</span><br>Book <em>of Research</em>
+      </h1>
+      <p class="hero-sub">
+        48 experiments testing astrological hypotheses against empirical data.
+        Full transparency on methodology, effect sizes, and outcomes —
+        including every null result.
+      </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-num">48</span>
+          <span class="hero-stat-label">Experiments</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">34</span>
+          <span class="hero-stat-label">Completed</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">156M+</span>
+          <span class="hero-stat-label">Data points</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-num">28yr</span>
+          <span class="hero-stat-label">Jyotisha study</span>
+        </div>
+      </div>
+      <a href="#experiments" class="hero-cta">View all experiments ↓</a>
+    </div>
+  </div>
+  <div class="hero-scroll">Scroll</div>
 </header>
 
-<!-- Filters -->
-<div class="filter-section">
+<!-- Filter bar -->
+<div class="filter-bar" id="experiments">
   <div class="container">
     <div class="filter-inner">
       <span class="filter-label">Filter:</span>
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="positive">✅ Positive</button>
-      <button class="filter-btn" data-filter="null">❌ Null</button>
-      <button class="filter-btn" data-filter="mixed">⚖️ Mixed</button>
-      <button class="filter-btn" data-filter="incomplete">🔬 Incomplete</button>
-      <button class="filter-btn" data-filter="soon">⏳ In Progress</button>
+      <button class="filter-btn active" data-filter="all">All 48</button>
+      <button class="filter-btn" data-filter="positive">✦ Positive</button>
+      <button class="filter-btn" data-filter="null">✦ Null</button>
+      <button class="filter-btn" data-filter="mixed">✦ Mixed</button>
+      <button class="filter-btn" data-filter="incomplete">✦ Incomplete</button>
+      <button class="filter-btn" data-filter="soon">✦ In Progress</button>
     </div>
   </div>
 </div>
@@ -331,20 +593,19 @@
 <!-- Table -->
 <section class="table-section">
   <div class="container">
-    <div class="section-header">
-      <div class="section-label">All Projects</div>
-      <h2 class="section-title">The <em>48 experiments</em></h2>
-    </div>
+    <div class="section-eyebrow">All Projects</div>
+    <h2 class="section-title">The <em>48 experiments</em></h2>
+    <div class="gold-rule"></div>
 
     <div class="legend">
-      <span><span class="badge badge-positive">Positive</span> Statistically significant result supporting hypothesis</span>
-      <span><span class="badge badge-null">Null</span> No significant effect found</span>
-      <span><span class="badge badge-mixed">Mixed</span> Partial or complex findings</span>
-      <span><span class="badge badge-incomplete">Incomplete</span> Data or methodology gap</span>
+      <span><span class="badge badge-positive">Positive</span> Significant result</span>
+      <span><span class="badge badge-null">Null</span> No effect found</span>
+      <span><span class="badge badge-mixed">Mixed</span> Partial / complex</span>
+      <span><span class="badge badge-incomplete">Incomplete</span> Data gap</span>
       <span><span class="badge badge-soon">In Progress</span> Coming soon</span>
     </div>
 
-    <table class="project-table" id="project-table">
+    <table class="project-table">
       <thead>
         <tr>
           <th>#</th>
@@ -355,278 +616,69 @@
         </tr>
       </thead>
       <tbody>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">01</td>
-          <td class="project-title"><a href="project-01/README.md">Ultra-Wealthy Birth Patterns</a></td>
-          <td class="project-domain">Natal / Wealthy Cohort</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">N=20 vs 152M births; underpowered; Aries +147%, Amavasya +350%</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">02</td>
-          <td class="project-title"><a href="project-02/README.md">Planetary Cycles &amp; Market Volatility</a></td>
-          <td class="project-domain">Financial</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">18,869 trading days; r=0.0226; real but not predictive</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">03</td>
-          <td class="project-title"><a href="project-03/README.md">Lunar Effects on Biological Events</a></td>
-          <td class="project-domain">Health / Births</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">156M births, 45 years; Full Moon Effect definitively refuted</td>
-        </tr>
-        <tr class="project-row" data-outcome="positive">
-          <td class="project-num">04</td>
-          <td class="project-title"><a href="project-04/README.md">Who Believes in Astrology, and Where?</a></td>
-          <td class="project-domain">Demographics</td>
-          <td><span class="badge badge-positive">Positive</span></td>
-          <td class="project-note">N=4,729 Pew + 50 states; urbanization r=0.719; R²=0.743</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">05</td>
-          <td class="project-title"><a href="project-05/README.md">Mercury Retrograde — Real or Bias?</a></td>
-          <td class="project-domain">Calendar / Cognition</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">24 years; Bayesian; calendar confounds explain all variation</td>
-        </tr>
-        <tr class="project-row" data-outcome="positive">
-          <td class="project-num">06</td>
-          <td class="project-title"><a href="project-06/README.md">Harmonic Analysis of Planetary Aspects</a></td>
-          <td class="project-domain">Natal / Achievement</td>
-          <td><span class="badge badge-positive">Positive</span></td>
-          <td class="project-note">N=86 celebrities; H4/H7 elevated; H5 lower in artists</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">07</td>
-          <td class="project-title"><a href="project-07/README.md">Machine Learning &amp; Planetary Cycles</a></td>
-          <td class="project-domain">ML / Personality</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">N=19,632 Big Five + N=82; cyclic age null; profession 29.3% vs 16.7%</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">08</td>
-          <td class="project-title"><a href="project-08/README.md">Tropical vs. Sidereal Zodiac</a></td>
-          <td class="project-domain">Zodiac Systems</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">N=86 celebrities; Sun Sign worse than random in all systems</td>
-        </tr>
-        <tr class="project-row" data-outcome="incomplete">
-          <td class="project-num">09</td>
-          <td class="project-title"><a href="project-09/README.md">Solar Activity &amp; Quality of Time</a></td>
-          <td class="project-domain">Solar / Mood</td>
-          <td><span class="badge badge-incomplete">Incomplete</span></td>
-          <td class="project-note">Methodology paper; mood dataset needed to proceed</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">10</td>
-          <td class="project-title"><a href="project-10/README.md">Synastry &amp; Relationship Longevity</a></td>
-          <td class="project-domain">Relationships</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">N=2,722 couples; outer planets = mortality artifact; Mars-Mars p=0.0006</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">11</td>
-          <td class="project-title"><a href="project-11/README.md">Longitudinal Health &amp; Longevity</a></td>
-          <td class="project-domain">Health</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">N=936 celebrity deaths; Sun sign p=0.964; Saturn affliction p=0.71</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">12</td>
-          <td class="project-title"><a href="project-12/README.md">Market Volatility &amp; GARCH-X</a></td>
-          <td class="project-domain">Financial</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">VIX 1990–2024; planets worsen GARCH forecasts</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">13</td>
-          <td class="project-title"><a href="project-13/README.md">Circular Statistics &amp; Personality</a></td>
-          <td class="project-domain">Natal / Personality</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">N=211 celebrities; no zodiac clustering by profession</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">14</td>
-          <td class="project-title"><a href="project-14/README.md">Essential Dignities: Tropical vs. Sidereal</a></td>
-          <td class="project-domain">Traditional</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">N=52 celebrities; scientists: debilitated Tropical, dignified Sidereal</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">15</td>
-          <td class="project-title"><a href="project-15/README.md">Birth Order &amp; Astrological Factors</a></td>
-          <td class="project-domain">Natal / Birth Order</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">WLS N=34,762 + Pantheon N=291; Saturn shift astronomical; firstborn Fire elevated</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">16</td>
-          <td class="project-title"><a href="project-16/README.md">Creativity, Genius &amp; Astrology</a></td>
-          <td class="project-domain">Natal / Creativity</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">N=758 creatives; Neptune lower in geniuses; powered null</td>
-        </tr>
-        <tr class="project-row" data-outcome="positive">
-          <td class="project-num">17</td>
-          <td class="project-title"><a href="project-17/README.md">Planetary Alignment &amp; Historical Events</a></td>
-          <td class="project-domain">Mundane</td>
-          <td><span class="badge badge-positive">Positive</span></td>
-          <td class="project-note">N=498 events 1666–2023; +148% cosine sum, p&lt;0.0001</td>
-        </tr>
-        <tr class="project-row" data-outcome="positive">
-          <td class="project-num">18</td>
-          <td class="project-title"><a href="project-18/README.md">Solar House System (Surya Lagna)</a></td>
-          <td class="project-domain">Traditional</td>
-          <td><span class="badge badge-positive">Positive</span></td>
-          <td class="project-note">N=86 celebrities; 31.8% vs 25%, Bayes Factor=23.5</td>
-        </tr>
-        <tr class="project-row" data-outcome="incomplete">
-          <td class="project-num">19</td>
-          <td class="project-title"><a href="project-19/README.md">Mundane Astrology — Specific Aspects</a></td>
-          <td class="project-domain">Mundane</td>
-          <td><span class="badge badge-incomplete">Incomplete</span></td>
-          <td class="project-note">500+ events 1700–2025; base rate problem documented</td>
-        </tr>
-        <tr class="project-row" data-outcome="positive">
-          <td class="project-num">20</td>
-          <td class="project-title"><a href="project-20/README.md">Astrological Rule Discovery</a></td>
-          <td class="project-domain">Natal / Pattern Search</td>
-          <td><span class="badge badge-positive">Positive</span></td>
-          <td class="project-note">N=86 celebrities; Mars Libra 18.6%, Moon Scorpio 17.4%</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">21</td>
-          <td class="project-title"><a href="project-21/README.md">Eclipse Cycles &amp; Seattle 911 Calls</a></td>
-          <td class="project-domain">Mundane / Behavioral</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">1.4M 911 calls 2013–2026; no elevation on eclipse days</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">22</td>
-          <td class="project-title"><a href="project-22/README.md">Astro-Weather Forecasting</a></td>
-          <td class="project-domain">Weather</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">NOAA GHCN 124 years global; Water sign/rain = seasonal artifact</td>
-        </tr>
-        <tr class="project-row" data-outcome="positive">
-          <td class="project-num">23</td>
-          <td class="project-title"><a href="project-23/README.md">Chart Similarity &amp; Career Outcomes</a></td>
-          <td class="project-domain">Natal / Clustering</td>
-          <td><span class="badge badge-positive">Positive</span></td>
-          <td class="project-note">N=95 public figures; Vedic within-career clustering p&lt;0.001</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">24</td>
-          <td class="project-title"><a href="project-24/README.md">Electional Astrology &amp; IPO Returns</a></td>
-          <td class="project-domain">Financial</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">~10,000 IPOs; all three rules: &lt;0.2% return difference</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">25</td>
-          <td class="project-title"><a href="project-25/README.md">Fixed Stars &amp; Natal Interpretation</a></td>
-          <td class="project-domain">Traditional</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">N=936 celebrities, 12 stars; Regulus/overdose Z=+2.26 suggestive</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">26</td>
-          <td class="project-title"><a href="project-26/README.md">Compatibility &amp; Relationship Survival</a></td>
-          <td class="project-domain">Relationships</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">N=2,722 couples; r=0.009; survival curves overlap perfectly</td>
-        </tr>
-        <tr class="project-row" data-outcome="incomplete">
-          <td class="project-num">27</td>
-          <td class="project-title"><a href="project-27/README.md">Horary Astrology — Moon as Oracle</a></td>
-          <td class="project-domain">Traditional</td>
-          <td><span class="badge badge-incomplete">Incomplete</span></td>
-          <td class="project-note">N=10 Lilly + IPO proxy; Via Combusta −5.8% suggestive</td>
-        </tr>
-        <tr class="project-row" data-outcome="positive">
-          <td class="project-num">28</td>
-          <td class="project-title"><a href="project-28/README.md">Solar Houses &amp; Life Domains</a></td>
-          <td class="project-domain">Traditional</td>
-          <td><span class="badge badge-positive">Positive</span></td>
-          <td class="project-note">N=33 celebrities; politicians 1st house +166%</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">29</td>
-          <td class="project-title"><a href="project-29/README.md">Asteroids &amp; Psychological Archetypes</a></td>
-          <td class="project-domain">Natal / Asteroids</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">N=936 celebrities; Pallas/Vesta solar conjunctions elevated</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">30</td>
-          <td class="project-title"><a href="project-30/README.md">Chinese Zodiac &amp; Personality</a></td>
-          <td class="project-domain">Cross-Cultural</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">N=19,632 Big Five; p&lt;0.001 but η²≈0.002; generation confound</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">31</td>
-          <td class="project-title"><a href="project-31/README.md">Planetary Patterns &amp; Disease Outbreaks</a></td>
-          <td class="project-domain">Mundane / Health</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">WHO outbreaks 1900–2025; Saturn-Uranus p=0.0021; none survive Bonferroni</td>
-        </tr>
-        <tr class="project-row" data-outcome="null">
-          <td class="project-num">32</td>
-          <td class="project-title"><a href="project-32/README.md">Historical Prediction Accuracy</a></td>
-          <td class="project-domain">Practitioner Track Record</td>
-          <td><span class="badge badge-null">Null</span></td>
-          <td class="project-note">N=39 predictions 1555–2022; 56.4% accuracy, p=0.26</td>
-        </tr>
-        <tr class="project-row" data-outcome="positive">
-          <td class="project-num">33</td>
-          <td class="project-title"><a href="project-33/README.md">Planetary Dignities — Extended</a></td>
-          <td class="project-domain">Traditional</td>
-          <td><span class="badge badge-positive">Positive</span></td>
-          <td class="project-note">N=758 creatives; Writers: weak Mars p=0.011; Filmmakers: strong Sun p=0.027</td>
-        </tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">34</td>
-          <td class="project-title"><a href="project-34/README.md">Solar Return Predictions — Cosine Method</a></td>
-          <td class="project-domain">Predictive</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">N=451 events, 104 figures; Moon-Lilith at Death p=0.009</td>
-        </tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">35</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">36</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">37</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">38</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">39</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">40</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">41</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">42</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">43</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">44</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">45</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">46</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="soon"><td class="project-num">47</td><td class="project-title">Project in progress</td><td class="project-domain">—</td><td><span class="badge badge-soon">In Progress</span></td><td class="project-note">—</td></tr>
-        <tr class="project-row" data-outcome="mixed">
-          <td class="project-num">48</td>
-          <td class="project-title"><a href="project-48/README.md">Genetic Algorithm Feature Selection — Planetary &amp; Financial Data</a></td>
-          <td class="project-domain">Financial / Computational</td>
-          <td><span class="badge badge-mixed">Mixed</span></td>
-          <td class="project-note">6 sub-experiments; VIX R²=+0.058; IPO +14% vs naive; daily returns null</td>
-        </tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">01</td><td class="project-title"><a href="project-01/index.html">Ultra-Wealthy Birth Patterns</a></td><td class="project-domain">Natal / Wealthy Cohort</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">N=20 vs 152M births; Aries +147%, Amavasya +350%</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">02</td><td class="project-title"><a href="project-02/index.html">Planetary Cycles &amp; Market Volatility</a></td><td class="project-domain">Financial</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">18,869 trading days; r=0.0226; real but not predictive</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">03</td><td class="project-title"><a href="project-03/index.html">Lunar Effects on Biological Events</a></td><td class="project-domain">Health / Births</td><td><span class="badge badge-null">Null</span></td><td class="project-note">156M births, 45 years; Full Moon Effect definitively refuted</td></tr>
+        <tr class="project-row" data-outcome="positive"><td class="project-num">04</td><td class="project-title"><a href="project-04/index.html">Who Believes in Astrology?</a></td><td class="project-domain">Demographics</td><td><span class="badge badge-positive">Positive</span></td><td class="project-note">Urbanization r=0.719; R²=0.743</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">05</td><td class="project-title"><a href="project-05/index.html">Mercury Retrograde — Real or Bias?</a></td><td class="project-domain">Calendar / Cognition</td><td><span class="badge badge-null">Null</span></td><td class="project-note">24 years; calendar confounds explain all variation</td></tr>
+        <tr class="project-row" data-outcome="positive"><td class="project-num">06</td><td class="project-title"><a href="project-06/index.html">Harmonic Analysis of Planetary Aspects</a></td><td class="project-domain">Natal / Achievement</td><td><span class="badge badge-positive">Positive</span></td><td class="project-note">N=86 celebrities; H4/H7 elevated; H5 lower in artists</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">07</td><td class="project-title"><a href="project-07/index.html">Machine Learning &amp; Planetary Cycles</a></td><td class="project-domain">ML / Personality</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">Profession 29.3% vs 16.7% baseline; cyclic age null</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">08</td><td class="project-title"><a href="project-08/index.html">Tropical vs. Sidereal Zodiac</a></td><td class="project-domain">Zodiac Systems</td><td><span class="badge badge-null">Null</span></td><td class="project-note">N=86; Sun Sign worse than random in all systems</td></tr>
+        <tr class="project-row" data-outcome="incomplete"><td class="project-num">09</td><td class="project-title"><a href="project-09/index.html">Solar Activity &amp; Quality of Time</a></td><td class="project-domain">Solar / Mood</td><td><span class="badge badge-incomplete">Incomplete</span></td><td class="project-note">Methodology paper; mood dataset needed</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">10</td><td class="project-title"><a href="project-10/index.html">Synastry &amp; Relationship Longevity</a></td><td class="project-domain">Relationships</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">N=2,722 couples; Mars-Mars p=0.0006 genuine signal</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">11</td><td class="project-title"><a href="project-11/index.html">Longitudinal Health &amp; Longevity</a></td><td class="project-domain">Health</td><td><span class="badge badge-null">Null</span></td><td class="project-note">N=936 deaths; Sun sign p=0.964</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">12</td><td class="project-title"><a href="project-12/index.html">Market Volatility &amp; GARCH-X</a></td><td class="project-domain">Financial</td><td><span class="badge badge-null">Null</span></td><td class="project-note">VIX 1990–2024; planets worsen GARCH forecasts</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">13</td><td class="project-title"><a href="project-13/index.html">Circular Statistics &amp; Personality</a></td><td class="project-domain">Natal / Personality</td><td><span class="badge badge-null">Null</span></td><td class="project-note">N=211; no zodiac clustering by profession</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">14</td><td class="project-title"><a href="project-14/index.html">Essential Dignities: Tropical vs. Sidereal</a></td><td class="project-domain">Traditional</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">Scientists: debilitated Tropical, dignified Sidereal</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">15</td><td class="project-title"><a href="project-15/index.html">Birth Order &amp; Astrological Factors</a></td><td class="project-domain">Natal / Birth Order</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">WLS N=34,762 + Pantheon; firstborn Fire elevated</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">16</td><td class="project-title"><a href="project-16/index.html">Creativity, Genius &amp; Astrology</a></td><td class="project-domain">Natal / Creativity</td><td><span class="badge badge-null">Null</span></td><td class="project-note">N=758 creatives; powered null</td></tr>
+        <tr class="project-row" data-outcome="positive"><td class="project-num">17</td><td class="project-title"><a href="project-17/index.html">Planetary Alignment &amp; Historical Events</a></td><td class="project-domain">Mundane</td><td><span class="badge badge-positive">Positive</span></td><td class="project-note">N=498 events; +148% cosine sum, p&lt;0.0001 ★</td></tr>
+        <tr class="project-row" data-outcome="positive"><td class="project-num">18</td><td class="project-title"><a href="project-18/index.html">Solar House System (Surya Lagna)</a></td><td class="project-domain">Traditional</td><td><span class="badge badge-positive">Positive</span></td><td class="project-note">31.8% vs 25% baseline; Bayes Factor=23.5</td></tr>
+        <tr class="project-row" data-outcome="incomplete"><td class="project-num">19</td><td class="project-title"><a href="project-19/index.html">Mundane Astrology — Specific Aspects</a></td><td class="project-domain">Mundane</td><td><span class="badge badge-incomplete">Incomplete</span></td><td class="project-note">Bootstrap complete: 8 claims null; war_start p=0.028</td></tr>
+        <tr class="project-row" data-outcome="positive"><td class="project-num">20</td><td class="project-title"><a href="project-20/index.html">Astrological Rule Discovery</a></td><td class="project-domain">Natal / Pattern Search</td><td><span class="badge badge-positive">Positive</span></td><td class="project-note">Mars Libra 18.6%, Moon Scorpio 17.4%</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">21</td><td class="project-title"><a href="project-21/index.html">Eclipse Cycles &amp; Seattle 911 Calls</a></td><td class="project-domain">Mundane / Behavioral</td><td><span class="badge badge-null">Null</span></td><td class="project-note">1.4M calls; no elevation on eclipse days</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">22</td><td class="project-title"><a href="project-22/index.html">Astro-Weather Forecasting</a></td><td class="project-domain">Weather</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">NOAA 124 years; Water sign/rain = seasonal artifact</td></tr>
+        <tr class="project-row" data-outcome="positive"><td class="project-num">23</td><td class="project-title"><a href="project-23/index.html">Chart Similarity &amp; Career Outcomes</a></td><td class="project-domain">Natal / Clustering</td><td><span class="badge badge-positive">Positive</span></td><td class="project-note">Vedic within-career clustering p&lt;0.001</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">24</td><td class="project-title"><a href="project-24/index.html">Electional Astrology &amp; IPO Returns</a></td><td class="project-domain">Financial</td><td><span class="badge badge-null">Null</span></td><td class="project-note">~10,000 IPOs; all three rules: &lt;0.2% difference</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">25</td><td class="project-title"><a href="project-25/index.html">Fixed Stars &amp; Natal Interpretation</a></td><td class="project-domain">Traditional</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">N=936, 12 stars; Regulus/overdose Z=+2.26</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">26</td><td class="project-title"><a href="project-26/index.html">Compatibility &amp; Relationship Survival</a></td><td class="project-domain">Relationships</td><td><span class="badge badge-null">Null</span></td><td class="project-note">N=2,722 couples; r=0.009; survival curves overlap</td></tr>
+        <tr class="project-row" data-outcome="incomplete"><td class="project-num">27</td><td class="project-title"><a href="project-27/index.html">Horary Astrology — Moon as Oracle</a></td><td class="project-domain">Traditional</td><td><span class="badge badge-incomplete">Incomplete</span></td><td class="project-note">Via Combusta −5.8% suggestive; dataset needed</td></tr>
+        <tr class="project-row" data-outcome="positive"><td class="project-num">28</td><td class="project-title"><a href="project-28/index.html">Solar Houses &amp; Life Domains</a></td><td class="project-domain">Traditional</td><td><span class="badge badge-positive">Positive</span></td><td class="project-note">Politicians 1st Solar House +166%</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">29</td><td class="project-title"><a href="project-29/index.html">Asteroids &amp; Psychological Archetypes</a></td><td class="project-domain">Natal / Asteroids</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">N=936; Pallas/Vesta solar conjunctions elevated</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">30</td><td class="project-title"><a href="project-30/index.html">Chinese Zodiac &amp; Personality</a></td><td class="project-domain">Cross-Cultural</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">N=19,632; p&lt;0.001 but η²≈0.002; generation confound</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">31</td><td class="project-title"><a href="project-31/index.html">Planetary Patterns &amp; Disease Outbreaks</a></td><td class="project-domain">Mundane / Health</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">Saturn-Uranus p=0.0021; none survive Bonferroni</td></tr>
+        <tr class="project-row" data-outcome="null"><td class="project-num">32</td><td class="project-title"><a href="project-32/index.html">Historical Prediction Accuracy</a></td><td class="project-domain">Practitioner Track Record</td><td><span class="badge badge-null">Null</span></td><td class="project-note">N=39 predictions; 56.4% accuracy, p=0.26</td></tr>
+        <tr class="project-row" data-outcome="positive"><td class="project-num">33</td><td class="project-title"><a href="project-33/index.html">Planetary Dignities — Extended</a></td><td class="project-domain">Traditional</td><td><span class="badge badge-positive">Positive</span></td><td class="project-note">Writers: weak Mars p=0.011; Filmmakers: strong Sun p=0.027</td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">34</td><td class="project-title"><a href="project-34/index.html">Solar Return Predictions — Cosine Method</a></td><td class="project-domain">Predictive</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">N=451 events; Moon-Lilith at Death p=0.009</td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">35</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">36</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">37</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">38</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">39</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">40</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">41</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">42</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">43</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">44</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">45</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">46</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="soon"><td class="project-num">47</td><td class="project-title" colspan="3">Project in progress</td><td><span class="badge badge-soon">In Progress</span></td></tr>
+        <tr class="project-row" data-outcome="mixed"><td class="project-num">48</td><td class="project-title"><a href="project-48/index.html">Genetic Algorithm Feature Selection — Planetary &amp; Financial Data</a></td><td class="project-domain">Financial / Computational</td><td><span class="badge badge-mixed">Mixed</span></td><td class="project-note">VIX R²=+0.058; IPO +14% vs naive; 6 sub-experiments</td></tr>
       </tbody>
     </table>
   </div>
 </section>
 
-<!-- Cross-Project Themes -->
-<section class="themes-section">
+<!-- Themes -->
+<section class="themes-section" id="themes">
   <div class="container">
-    <div class="section-label">Patterns Across the Research</div>
+    <div class="section-eyebrow">Patterns Across the Research</div>
     <h2 class="section-title">Cross-project <em>themes</em></h2>
+    <div class="gold-rule"></div>
     <div class="themes-grid">
       <div class="theme-card">
         <h3>⚔️ The Hardship Hypothesis</h3>
-        <p>Five separate projects converge on one counterintuitive finding: exceptional achievers tend to have <em>difficult</em> charts, not easy ones.</p>
+        <p>Five projects converge: exceptional achievers tend to have <em>difficult</em> charts, not easy ones. Tension in the birth chart may correlate with drive.</p>
         <ul>
           <li>Project 06: Harmonic tension elevated in high achievers</li>
           <li>Project 14: Scientists have debilitated Tropical charts</li>
@@ -644,46 +696,47 @@
         </ul>
       </div>
       <div class="theme-card">
-        <h3>🌐 Clustering Beats Signs</h3>
-        <p>Project 17 tested 498 historical events and found mean planetary clustering is +148% higher on event days (p&lt;0.0001). This aggregate measure — not which sign Saturn is in — produces the strongest signal in the book.</p>
+        <h3>🌌 Clustering Beats Signs</h3>
+        <p>Project 17: mean planetary clustering is <strong>+148% higher</strong> on historical event days vs random days (p&lt;0.0001). Diffuse geometry outperforms every named aspect.</p>
       </div>
       <div class="theme-card">
         <h3>🗺️ Demographics &gt; Astrology</h3>
-        <p>Project 04 found that urbanization, education, and income explain <strong>74.3%</strong> of variation in astrological search interest — higher than astrology achieves for any outcome in this book.</p>
+        <p>Project 04: urbanization, education, and income explain <strong>74.3%</strong> of variation in astrological belief — higher than astrology achieves for any outcome in this book.</p>
       </div>
       <div class="theme-card">
         <h3>☯️ Two Zodiacs, Two Questions</h3>
-        <p>Evidence across Projects 08, 14, 23, and 33 suggests the two zodiac systems may capture different things: Tropical encodes seasonal rhythms; Sidereal encodes constellational reference.</p>
+        <p>Projects 08, 14, 23, 33 suggest Tropical encodes seasonal rhythms while Sidereal shows stronger clustering in some contexts. Neither is simply "correct."</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Reading Paths -->
-<section class="reading-section">
+<section class="reading-section section" id="reading">
   <div class="container">
-    <div class="section-label">Where to Start</div>
+    <div class="section-eyebrow">Where to Start</div>
     <h2 class="section-title">Suggested <em>reading paths</em></h2>
+    <div class="gold-rule"></div>
     <div class="reading-grid">
       <div class="reading-card">
-        <h4>🔬 For Skeptics</h4>
+        <h4>For Skeptics</h4>
         <p>Projects 03, 05, 26, 32 — the strongest null results at largest scale.</p>
       </div>
       <div class="reading-card">
-        <h4>📊 For Researchers</h4>
-        <p>Projects 17, 06, 10, 23 — the most methodologically interesting positive findings.</p>
+        <h4>For Researchers</h4>
+        <p>Projects 17, 06, 10, 23 — methodologically interesting positive findings.</p>
       </div>
       <div class="reading-card">
-        <h4>☽ For Traditional Astrologers</h4>
-        <p>Projects 14, 20, 25, 33, 34 — direct tests of traditional techniques.</p>
+        <h4>For Traditional Astrologers</h4>
+        <p>Projects 14, 20, 25, 33, 34 — direct tests of classical techniques.</p>
       </div>
       <div class="reading-card">
-        <h4>🌍 For Cultural Observers</h4>
+        <h4>For Cultural Observers</h4>
         <p>Projects 04, 30 — who believes, why, and what the demographics reveal.</p>
       </div>
       <div class="reading-card">
-        <h4>💻 For Data Scientists</h4>
-        <p>Projects 07, 48 — machine learning and genetic algorithms applied to astrological hypotheses.</p>
+        <h4>For Data Scientists</h4>
+        <p>Projects 07, 48 — machine learning and genetic algorithms in astrological research.</p>
       </div>
     </div>
   </div>
@@ -692,24 +745,33 @@
 <!-- Footer -->
 <footer>
   <div class="container">
-    <p>© 2026 Renay Oshop · <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a> · <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></p>
-    <p>Code source: https://github.com/renayo/big_astrology_book/</p> 
+    <div class="footer-inner">
+      <div class="footer-brand">Big <em>Astrology</em> Book of Research</div>
+      <div class="footer-links">
+        <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a>
+        <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a>
+      </div>
+    </div>
+    <div class="celestial">✦ ✧ ✦ ✧ ✦</div>
+    <div class="footer-copy">© 2026 Renay Oshop · All rights reserved</div>
   </div>
 </footer>
 
 <script>
-  // Filter logic
+  // Nav scroll effect
+  const nav = document.getElementById('main-nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+  }, { passive: true });
+
+  // Filter
   document.querySelectorAll('.filter-btn').forEach(btn => {
     btn.addEventListener('click', function() {
       document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
       this.classList.add('active');
-      const filter = this.dataset.filter;
+      const f = this.dataset.filter;
       document.querySelectorAll('.project-row').forEach(row => {
-        if (filter === 'all' || row.dataset.outcome === filter) {
-          row.classList.remove('hidden');
-        } else {
-          row.classList.add('hidden');
-        }
+        row.classList.toggle('hidden', f !== 'all' && row.dataset.outcome !== f);
       });
     });
   });
