@@ -169,7 +169,180 @@ footer a{color:#d4b84a}
 <p>The most important result of this project is not a chi-square statistic — it's the base rate calculation.</p>
 <p><strong>Outer planet major aspects cover ~48% of any historical century.</strong> Any mundane astrology study that does not correct for this background rate is measuring only that remarkable things happen during unremarkable astronomical conditions.</p>
 <p>Once the base rate is properly accounted for, the question becomes: do wars, revolutions, and epidemics happen <em>more</em> during specific aspects than the already-elevated 48% background predicts? That test requires the complete event list, correct null hypothesis specification, and the statistical rigor that this project's partial results don't yet provide.</p>
-<p>The tradition's famous hits — WWI, WWII, COVID — survive scrutiny as examples but not as statistical evidence. The misses must be counted equally. Until the complete analysis is performed, the specific claims of traditional mundane astrology remain unverified rather than confirmed or refuted.</p></div></main>
+<p>The tradition's famous hits — WWI, WWII, COVID — survive scrutiny as examples but not as statistical evidence. The misses must be counted equally. Until the complete analysis is performed, the specific claims of traditional mundane astrology remain unverified rather than confirmed or refuted.</p>
+<hr>
+<h2>✅ Bootstrap Completion — Added 2026-03-28</h2>
+<p>The incomplete analysis has now been completed using a <strong>bootstrap permutation test</strong> with 10,000 iterations. For each iteration, the aspect label arrays were independently shuffled — destroying the link between specific planetary geometries and specific events, while preserving the overall distribution of aspects across the dataset. This generates an empirical null distribution of "what aspect rates would look like by chance" for each traditional claim.</p>
+<p><strong>Script:</strong> <code>project19_bootstrap_analysis.py</code><br>
+<strong>Results:</strong> <code>bootstrap_results.csv</code></p>
+<hr>
+<h3>Method: Bootstrap Baseline Construction</h3>
+<p>The bootstrap approach shuffles each planetary aspect column independently across all 512 events. This is equivalent to reshuffling which planetary configuration goes with which historical event — destroying any real temporal relationship while keeping the overall frequency of each aspect type constant. The shuffling independently permutes:</p>
+<ul>
+<li>The year component of the date (via shuffled aspect geometry arrays)</li>
+<li>The month component</li>
+<li>The day component</li>
+</ul>
+<p>The result: 10,000 random reassignments of "which planetary aspects were active" for each event, giving us a null distribution of expected aspect rates for each claimed event category.</p>
+<hr>
+<h3>Results Summary</h3>
+<p><img alt="Bootstrap null distributions vs observed rates" src="plot_p19_bootstrap_distributions.png"></p>
+<p><img alt="Z-scores for all eight traditional claims" src="plot_p19_z_scores.png"></p>
+<table>
+<thead>
+<tr>
+<th>Aspect Pair</th>
+<th>Claimed Categories</th>
+<th>Observed Rate</th>
+<th>Bootstrap Mean</th>
+<th>Z-score</th>
+<th>p-value</th>
+<th>Verdict</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saturn-Pluto</td>
+<td>war, revolution, military</td>
+<td>21.1%</td>
+<td>18.0%</td>
+<td>+0.978</td>
+<td>0.198</td>
+<td>❌ Null</td>
+</tr>
+<tr>
+<td>Uranus-Pluto</td>
+<td>revolution, political</td>
+<td>23.7%</td>
+<td>21.9%</td>
+<td>+0.534</td>
+<td>0.342</td>
+<td>❌ Null</td>
+</tr>
+<tr>
+<td>Saturn-Neptune</td>
+<td>epidemic, disaster</td>
+<td>13.4%</td>
+<td>17.8%</td>
+<td>−0.993</td>
+<td>0.878</td>
+<td>❌ Null (inverse)</td>
+</tr>
+<tr>
+<td>Jupiter-Uranus</td>
+<td>tech, economic</td>
+<td>15.4%</td>
+<td>18.0%</td>
+<td>−0.763</td>
+<td>0.817</td>
+<td>❌ Null (inverse)</td>
+</tr>
+<tr>
+<td>Saturn-Uranus</td>
+<td>political, revolution, crisis</td>
+<td>16.0%</td>
+<td>18.4%</td>
+<td>−0.970</td>
+<td>0.862</td>
+<td>❌ Null (inverse)</td>
+</tr>
+<tr>
+<td>Jupiter-Saturn</td>
+<td>economic, political</td>
+<td>18.9%</td>
+<td>21.1%</td>
+<td>−0.753</td>
+<td>0.809</td>
+<td>❌ Null (inverse)</td>
+</tr>
+<tr>
+<td>Jupiter-Pluto</td>
+<td>war, military, crisis</td>
+<td>11.2%</td>
+<td>17.8%</td>
+<td>−1.909</td>
+<td>0.985</td>
+<td>❌ Null (inverse)</td>
+</tr>
+<tr>
+<td>Jupiter-Neptune</td>
+<td>epidemic, disaster</td>
+<td>10.4%</td>
+<td>16.0%</td>
+<td>−1.325</td>
+<td>0.936</td>
+<td>❌ Null (inverse)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>None of the 8 traditional mundane astrology claims achieved p &lt; 0.05.</strong></p>
+<hr>
+<h3>The Unexpected Finding: Saturn-Pluto by Category</h3>
+<p><img alt="Saturn-Pluto hard aspect rate by event category" src="plot_p19_saturn_pluto_by_category.png"></p>
+<p>While the broad traditional claim (Saturn-Pluto → wars/revolution/military) did not survive the bootstrap test (p=0.198), a more specific breakdown by event category revealed two statistically significant signals:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Saturn-Pluto Rate</th>
+<th>Base Rate</th>
+<th>p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>war_start</strong></td>
+<td><strong>32.4%</strong></td>
+<td>18.0%</td>
+<td><strong>0.028 ✅</strong></td>
+</tr>
+<tr>
+<td><strong>disaster</strong></td>
+<td><strong>28.8%</strong></td>
+<td>18.0%</td>
+<td><strong>0.041 ✅</strong></td>
+</tr>
+<tr>
+<td>economic_crisis</td>
+<td>26.5%</td>
+<td>18.0%</td>
+<td>0.078 ⚠️</td>
+</tr>
+<tr>
+<td>tech</td>
+<td>9.9%</td>
+<td>18.0%</td>
+<td>0.994 (inverse)</td>
+</tr>
+<tr>
+<td>assassination</td>
+<td>9.7%</td>
+<td>18.0%</td>
+<td>0.941 (inverse)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>War starts</strong> and <strong>natural disasters</strong> show Saturn-Pluto hard aspects at rates significantly above the bootstrap baseline. The traditional claim is directionally correct for war initiation — but fails for war endings, battles, and military events generally, and the signal disappears when the categories are aggregated.</p>
+<p><img alt="Aspect-category heatmap" src="plot_p19_aspect_category_heatmap.png"></p>
+<hr>
+<h3>What the Numbers Mean</h3>
+<p><strong>Saturn-Pluto and war starts (p=0.028):</strong> Of 37 war starts in the dataset, 32.4% occurred under a hard Saturn-Pluto aspect. The bootstrap null says you'd expect ~18% by chance. This is a real elevation — but note the confidence interval is wide (n=37) and the effect vanishes for battles and war endings. It's possible Saturn-Pluto aspects correlate with political conditions that trigger war declarations, rather than with warfare itself.</p>
+<p><strong>Saturn-Neptune specifically failed for epidemics:</strong> The observed rate (13.4%) was actually <em>below</em> the null expectation (17.8%). The COVID-2020/Saturn-Pluto conjunction fits the pattern — but the 14 other epidemic events in the dataset do not concentrate under Saturn-Neptune.</p>
+<p><strong>Most inverse claims:</strong> Six of eight traditional claims showed observed rates <em>below</em> the bootstrap null. Jupiter-Neptune and Jupiter-Pluto show the strongest inverse effects — these aspects appear <em>less</em> common during the claimed event types than chance predicts. The traditional claims for these pairs find no support.</p>
+<hr>
+<h3>Conclusion: Completed</h3>
+<p>The bootstrap analysis closes the loop on Project 19's incomplete statistical work.</p>
+<p><strong>The definitive answer:</strong> Traditional mundane astrology's specific aspect-event pair claims — tested as aggregate rates against a 10,000-iteration bootstrap baseline — are <strong>not supported</strong>. Seven of eight claims fail; the eighth (Saturn-Pluto → wars) is directionally consistent but misses significance once the category is properly defined.</p>
+<p>The two sub-category findings (war_starts and disaster at p&lt;0.05) are worth noting but require:<br>
+1. Pre-registration to avoid post-hoc category fishing<br>
+2. Replication on a different dataset<br>
+3. Correction for multiple comparisons (Bonferroni would set threshold at p&lt;0.006 for 8 tests)</p>
+<p>After Bonferroni correction, even the war_start result (p=0.028) does not survive (threshold would be p&lt;0.006).</p>
+<p><strong>In short:</strong> the famous Saturn-Pluto/WWI/WWII/COVID pattern is real and arresting — but it does not replicate statistically across the full dataset of 512 historical events when tested against a proper bootstrap baseline. The base rate problem (identified earlier in this project) was well-founded: once you control for how often Saturn-Pluto aspects occur at all, the signal largely dissolves.</p>
+<p><em>This completes the analysis originally flagged as incomplete in the archiving phase.</em></p>
+<hr>
+<p><em>Project 19 — Big Astrology Book Computational Research Series</em><br>
+<em>Completion script: <code>project19_bootstrap_analysis.py</code></em></p></div></main>
 <footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
 </body>
 </html>

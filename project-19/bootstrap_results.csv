@@ -1,0 +1,9 @@
+aspect,claimed_categories,n_events,observed_rate,bootstrap_mean,bootstrap_std,ci_lo_95,ci_hi_95,z_score,p_value_1tail,significant_p05,overall_base_rate,ratio_obs_to_base
+Saturn_Pluto,war_start;war_end;military;revolution;massacre,114,0.210526,0.179807,0.031400,0.122807,0.245614,0.9783,0.1981,NO,0.179688,1.1708
+Uranus_Pluto,revolution;political,114,0.236842,0.218837,0.033739,0.157895,0.289474,0.5337,0.3424,NO,0.218750,1.0823
+Saturn_Neptune,epidemic;disaster,67,0.134328,0.177510,0.043496,0.089552,0.268657,-0.9928,0.8781,NO,0.177734,0.7567
+Jupiter_Uranus,tech;economic,104,0.153846,0.179531,0.033668,0.115385,0.250000,-0.7629,0.8168,NO,0.179688,0.8569
+Saturn_Uranus,political;revolution;economic_crisis,163,0.159509,0.183590,0.024836,0.134969,0.233129,-0.9696,0.8620,NO,0.183594,0.8688
+Jupiter_Saturn,economic_crisis;economic;political,143,0.188811,0.210536,0.028836,0.153846,0.265734,-0.7534,0.8085,NO,0.210938,0.8968
+Jupiter_Pluto,war_start;military;economic_crisis,98,0.112245,0.178286,0.034598,0.112245,0.244898,-1.9088,0.9848,NO,0.177734,0.6296
+Jupiter_Neptune,epidemic;disaster,67,0.104478,0.159954,0.041872,0.074627,0.238806,-1.3249,0.9364,NO,0.160156,0.6532
