@@ -10,7 +10,7 @@
 
 The author is a computational biologist who became a practicing Vedic astrologer. This combination — scientific training alongside genuine engagement with astrological tradition — means the book asks hard questions and accepts uncomfortable answers. When the data says null, it says null. When the data says something surprising, it doesn't hide behind caveats.
 
-Thirty-four original research projects are collected here, spanning:
+Forty-eight original research projects are collected here, spanning:
 - Personality and birth charts
 - Financial markets and planetary cycles
 - Relationship compatibility and longevity
@@ -29,7 +29,7 @@ The pattern of what works and what doesn't is itself the finding. This is a book
 
 ## 📁 Project Structure
 
-Each project file in this directory (`project-01.md` through `project-34.md`) is a complete research report with:
+Each project folder in this directory (`project-01/` through `project-48/`) contains a complete research report with:
 
 - Overview of what was asked
 - Data sources and sample sizes
@@ -90,19 +90,19 @@ Throughout the book, two methodological choices recur and are worth explaining u
 | 32 | Historical Prediction Accuracy | **Null** — 56.4%, p=0.26 |
 | 33 | Planetary Dignities — Extended | **Positive (selective)** — Writers/Mars; Filmmakers/Sun |
 | 34 | Solar Return Predictions — Cosine Method | Mixed — Moon-Lilith/Death (p=0.009) |
-| 35 | Project in progress | — |
-| 36 | Project in progress | — |
-| 37 | Project in progress | — |
-| 38 | Project in progress | — |
-| 39 | Project in progress | — |
-| 40 | Project in progress | — |
-| 41 | Project in progress | — |
-| 42 | Project in progress | — |
-| 43 | Project in progress | — |
-| 44 | Project in progress | — |
-| 45 | Project in progress | — |
-| 46 | Project in progress | — |
-| 47 | Project in progress | — |
+| 35 | Professional Clustering — Unsupervised Learning | **Null** — ARI ≈ 0 across six algorithms; no vocational structure |
+| 36 | Synastry Harmonics & Logistic Regression | **Null** — RF lift = birth cohort artifact (~1905); ROC-AUC = 0.5 |
+| 37 | Planetary Cycles & Mood — The Great Chronocrators | **Partial positive** — Mercury Rx null; Jupiter-Saturn r=−0.19 (p<0.0001) |
+| 38 | Composite Charts & Group Dynamics — Band Longevity | **Inconclusive** — Moon Cohesion r=+0.25 promising; severely underpowered |
+| 39 | Retrograde Periods & Market Volatility | **Mixed positive** — Mercury Rx null; Venus Rx +10% VIX (p<0.0001) over 75 years |
+| 40 | Medical Astrology & Decumbiture (82M ED Visits) | **Mixed** — outer planets = artifacts; Sun-Saturn & Mars-Saturn genuine; Moon null |
+| 41 | Lunar Nodes & Life Purpose | **Suggestive/Underpowered** — Entertainers 1.52× 5th house; needs N>2,000 |
+| 42 | Solar Cycles & Social Sentiment | **Partial positive** — r=−0.193 over 64 years; 2016–2023 r=−0.74 was spurious |
+| 43 | Progressions & Psychological Development | **Mixed** — hard aspects inverted (Hardship Hypothesis); Mars/Venus ingresses genuine |
+| 44 | ML Chart Rectification | **Positive (synthetic)** — cosine features: MAE 6h→2.7h; +54.4% improvement |
+| 45 | Seismicity & Gravitational Vectors | **Anomalous positive** — Lunar Day p<0.0001 confirmed; inverts tidal triggering model |
+| 46 | NLP & Thematic Archetypes | **Descriptive positive** — element cosine 0.65–0.72; LDA recovers four elements |
+| 47 | Moon Phase & Sleep — Wearables | **Positive** — Full Moon −15.5 min deep sleep (~20%, p<0.00001) |
 | 48 | Genetic Algorithm Feature Selection for S&P 500 Prediction Using Planetary Data | Mixed — linear null; GA infrastructure validated |
 
 ---

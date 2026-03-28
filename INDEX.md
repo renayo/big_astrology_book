@@ -1,7 +1,7 @@
 # The Big Astrology Book of Research — Project Index
 
 > **By Renay Oshop** | [bigastrologybook.com/2/research](https://bigastrologybook.com/2/research)
-> **Projects:** 34 research studies | **Methodology:** Computational, statistical, empirical
+> **Projects:** 48 research studies | **Methodology:** Computational, statistical, empirical
 
 ---
 
@@ -43,19 +43,19 @@
 | [32](project-32.md) | Historical Prediction Accuracy | Practitioner Track Record | N=39 predictions (1555–2022) | **Null** — 56.4% accuracy, p=0.26 |
 | [33](project-33.md) | Planetary Dignities — Extended | Traditional | N=758 creatives | **Positive (selective)** — Writers: weak Mars; Filmmakers: strong Sun |
 | [34](project-34.md) | Solar Return Predictions — Cosine Method | Predictive | N=451 events, 104 figures | Mixed — Moon-Lilith at Death p=0.009 |
-| 35 | Project in progress | — | — | — |
-| 36 | Project in progress | — | — | — |
-| 37 | Project in progress | — | — | — |
-| 38 | Project in progress | — | — | — |
-| 39 | Project in progress | — | — | — |
-| 40 | Project in progress | — | — | — |
-| 41 | Project in progress | — | — | — |
-| 42 | Project in progress | — | — | — |
-| 43 | Project in progress | — | — | — |
-| 44 | Project in progress | — | — | — |
-| 45 | Project in progress | — | — | — |
-| 46 | Project in progress | — | — | — |
-| 47 | Project in progress | — | — | — |
+| [35](project-35/README.md) | Professional Clustering — Unsupervised Learning | Natal / ML | N=766 professionals, 8 categories | **Null** — ARI ≈ 0 across six algorithms; no vocational structure |
+| [36](project-36/README.md) | Synastry Harmonics & Logistic Regression — The Generational Confound | Relationships / ML | ~4,000 couples, 700+ features | **Null** — RF lift = birth cohort artifact (~1905); ROC-AUC = 0.5 |
+| [37](project-37/README.md) | Planetary Cycles & Mood — The Great Chronocrators Survive | Behavioral / Financial | 668 monthly Michigan Sentiment points (1952–present) | **Partial positive** — Mercury Rx null; Jupiter-Saturn r=−0.19 (p<0.0001) |
+| [38](project-38/README.md) | Composite Charts & Group Dynamics — Band Longevity | Relationships | N=31 bands (underpowered) | **Inconclusive** — Moon Cohesion r=+0.25 (p=0.176); needs N≥190 |
+| [39](project-39/README.md) | Retrograde Periods & Market Volatility — Mercury Myth, Venus Reality | Financial | ~9,100 VIX days + 19,106 S&P500 days (75 years) | **Mixed positive** — Mercury Rx null; Venus Rx +10% VIX (p<0.0001) |
+| [40](project-40/README.md) | Medical Astrology & Decumbiture — What 82 Million ED Visits Reveal | Health / Mundane | ~82M NYC ED visits, 1,008 days | **Mixed** — outer planets = artifacts; Sun-Saturn & Mars-Saturn genuine; Moon null |
+| [41](project-41/README.md) | Lunar Nodes & Life Purpose — The Destiny Vector | Natal / Vedic | N=763 professionals, 8 categories | **Suggestive/Underpowered** — Entertainers 1.52× 5th house; Politicians 1.63× 10th house |
+| [42](project-42/README.md) | Solar Cycles & Social Sentiment — The 11-Year Rhythm | Mundane / Solar | 624 monthly points (1960–2023) | **Partial positive** — r=−0.193 over 64 years; 2016–2023 r=−0.74 was spurious |
+| [43](project-43/README.md) | Progressions & Psychological Development — What Changes, and What Doesn't | Predictive | N=171 charts, 925 life events | **Mixed** — hard aspects inverted; Mars/Venus ingresses (p<0.0001) & Progressed Moon genuine |
+| [44](project-44/README.md) | Machine Learning Chart Rectification — Teaching an Algorithm to See Aspects | Computational | 5,000 synthetic individuals, 83,203 events | **Positive (synthetic)** — cosine features: MAE 6h→2.7h; +54.4% improvement |
+| [45](project-45/README.md) | Seismicity & Gravitational Vectors — The Moon's Inverted Signal | Mundane / Earth | 25,961 earthquakes M5.5+ (1970–2024) | **Anomalous positive** — Lunar Day χ²=78.54 (p<0.0001); inverts tidal triggering model |
+| [46](project-46/README.md) | NLP & Thematic Archetypes — The Internal Coherence of the Symbolic System | Computational / Language | 10,000 astrology readings | **Descriptive positive** — same-element cosine 0.65–0.72; LDA recovers four elements |
+| [47](project-47/README.md) | Moon Phase & Sleep — The Tithi System and Deep Sleep Suppression | Health / Behavioral | ~118,000 user-nights (99 aggregated samples) | **Positive** — Full Moon −15.5 min deep sleep (~20%, p<0.00001) |
 | [48](project-48/README.md) | Genetic Algorithm Feature Selection for S&P 500 Prediction Using Planetary Data | Financial / Computational | 18,870 trading days; GA feature selection | Mixed — linear null; planetary features survive GA but coefficients near zero |
 
 ---
