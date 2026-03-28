@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 36: Synastry Harmonics & Logistic Regression — The Generational Confound · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 36: Synastry Harmonics & Logistic Regression — The Generational Confound</span></div></nav>
+<main class="article"><div class="container">
+<h1>Project 36: Synastry Harmonics &amp; Logistic Regression — The Generational Confound</h1>
+<blockquote><p><strong>Source:</strong> <a href="https://bigastrologybook.com/2/research/19/project-36">bigastrologybook.com/2/research/19/project-36</a></p></blockquote>
+<blockquote><p><strong>Archive Date:</strong> 2026-03-21</p></blockquote>
+<blockquote><p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop</p></blockquote>
+<blockquote><p><strong>Dataset:</strong> ~4,000 couples from Wikidata; 700+ astrological features (Tropical signs, Vedic signs, inter-chart cosine interactions); logistic regression and Random Forest models</p></blockquote>
+<hr>
+<h2>Research Question</h2>
+<p>Can a machine learning model distinguish divorced couples from still-married couples using astrological synastry features? Specifically, do the harmonic relationships between partners' planets — encoded as the cosine of inter-chart angular distances — contain predictive information about relationship outcomes?</p>
+<h2>Hypothesis</h2>
+<p>Synastry astrology has elaborate rules for assessing compatibility: Venus trine Venus promises ease, Saturn opposite Venus warns of restriction, Mars square Mars suggests conflict. If these rules carry real predictive power, a sufficiently rich feature set capturing the full range of inter-chart planetary geometry should allow a well-trained model to classify relationship outcomes better than chance. The null hypothesis is that it cannot — that the 700+ features add no meaningful predictive lift above the class imbalance baseline.</p>
+<hr>
+<h2>Why Synastry Deserves Machine Learning</h2>
+<p>The traditional approach to synastry compatibility research checks whether specific aspect configurations (Venus conjunct partner's Mars; Moon trine partner's Sun) occur more frequently in lasting relationships than in failed ones. This is valid but inherently cherry-picks which aspects to examine. Hundreds of inter-chart configurations exist; testing them individually invites multiple-comparison inflation.</p>
+<p>Machine learning sidesteps this problem by considering all features simultaneously. A logistic regression or Random Forest does not need a priori hypotheses about which aspects matter; it discovers what matters from the pattern of the data. If Venus trine Venus really predicts longevity, the model will learn that coefficient. If Saturn square Ascendant predicts divorce, the model will learn that too. The approach is, in principle, more generous to astrology than traditional hypothesis-specific testing — it allows any of 700 features to contribute, and it considers interactions between features.</p>
+<p>The caveat is that this generosity cuts both ways: a model trained on noisy data will find patterns that aren't there. Which is precisely what happened — and the story of exactly what spurious pattern it found is the most instructive part of this project.</p>
+<hr>
+<h2>Data</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sample</strong></td>
+<td>~4,000 couples from Wikidata (filtered from Project 26 dataset)</td>
+</tr>
+<tr>
+<td><strong>Target variable</strong></td>
+<td>Divorced (1) vs. Not divorced (0)</td>
+</tr>
+<tr>
+<td><strong>Class balance</strong></td>
+<td>~20% divorced, ~80% not divorced → baseline accuracy = 79.1%</td>
+</tr>
+<tr>
+<td><strong>Feature count</strong></td>
+<td>700+ features</td>
+</tr>
+<tr>
+<td><strong>Feature types</strong></td>
+<td>Tropical sun/moon/etc. signs (one-hot); Vedic/Sidereal signs (one-hot); 12×12 inter-chart cosine interactions (pairwise angles between all partner planets)</td>
+</tr>
+<tr>
+<td><strong>Models tested</strong></td>
+<td>Logistic Regression (L1/Lasso), Random Forest, SVM, MLP</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+<h2>Experiment 1: Logistic Regression (L1 Regularization)</h2>
+<p>The first model was logistic regression with L1 (Lasso) regularization — a technique that forces the model to eliminate useless features by shrinking their coefficients to zero, retaining only genuinely informative predictors. L1 is well-suited to high-dimensional, potentially noisy feature spaces because it effectively performs automatic variable selection: if a feature has no real relationship with the outcome, its coefficient goes to zero.</p>
+<p>This experiment was restricted to the 144 geometric cosine features only (no categorical sign encodings), testing whether pure angular geometry between charts contains signal.</p>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Coefficients set to zero</strong></td>
+<td>~100% (essentially all)</td>
+</tr>
+<tr>
+<td><strong>Accuracy</strong></td>
+<td>80.50%</td>
+</tr>
+<tr>
+<td><strong>Baseline Accuracy</strong></td>
+<td>80.55%</td>
+</tr>
+<tr>
+<td><strong>ROC-AUC</strong></td>
+<td>0.5000</td>
+</tr>
+</tbody>
+</table>
+
+<p>The L1 regularization eliminated virtually every coefficient. The model that "learns nothing" — defaulting to the majority class — achieves essentially the same accuracy (80.55%) as the trained model (80.50%). An ROC-AUC of 0.500 means the model has precisely zero discriminative ability: it is predicting at the level of a coin flip after accounting for class imbalance.</p>
+<p>This is a particularly clean null result because the model architecture itself acts as a filter. L1 is not aggressive pruning applied externally — it is the mathematical expression of the data saying "none of these 144 features deserve any weight." The geometry of inter-chart planetary angles contains no detectable linear signal about divorce probability.</p>
+<hr>
+<h2>Experiment 2: Random Forest — The Discovery and the Trap</h2>
+<p>The Random Forest model achieved 80.88% accuracy — a lift of approximately 1.7% above the baseline. More impressively, it identified a small "High Risk" subset of couples with 94% precision for predicting divorce. These numbers sound promising: a machine learning model that can flag nearly-certain divorces with 94% confidence would be a remarkable finding.</p>
+<p>It is not a remarkable finding. It is a textbook demonstration of a generational artifact.</p>
+<h3>The Top Features and Their Problem</h3>
+<p>Investigating which features the Random Forest found most informative reveals the source of its apparent success:</p>
+<table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Feature</th>
+<th>What It Actually Encodes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code>Angle_Cos_Pluto_Neptune</code> (inter-chart)</td>
+<td>How close Pluto-Neptune are across both charts = <em>which era they were born in</em></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>Trop_P2_Pluto_Sign</code></td>
+<td>Partner 2's Pluto sign = <em>decade of birth</em></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>Angle_Cos_Saturn_Lilith</code> (inter-chart)</td>
+<td>Saturn-Lilith angular proximity = <em>birth year proximity</em></td>
+</tr>
+</tbody>
+</table>
+
+<p>Pluto transits a single sign for approximately 12–30 years. Neptune for approximately 14–21 years. A person's Pluto sign is not a personal attribute — it is a generational label. "Person born with Pluto in Cancer" means "person born between approximately 1914 and 1939." The inter-chart Pluto-Neptune angle is a measure of how close the two birth years are in terms of the slow outer planet cycle.</p>
+<p>The model's 94%-precision "High Risk" group was not detecting astrologically incompatible couples. It was detecting couples where one or both partners were born in a specific historical cohort — specifically, the "successfully predicted divorced" couples had an average birth year of approximately <strong>1905</strong> with a small standard deviation. The model had learned to identify a generation.</p>
+<h3>Why That Cohort Had Higher Divorce Rates</h3>
+<p>This is not mysterious: couples born around 1905, marrying primarily in the 1920s–1940s, and appearing in a dataset like Wikidata (which over-represents historically prominent individuals) include many figures from the Hollywood golden age, early 20th century aristocracy, and political circles — social contexts where divorce rates were genuinely higher than in the general population of the era, and where such divorces were historically documented. The model correctly identified this demographic cluster. It then dressed that identification in astrological language.</p>
+<h3>Testing Without Outer Planets</h3>
+<p>When Uranus, Neptune, and Pluto features were removed from the model to eliminate birth-year proxies, accuracy remained at 80.88%. But the model simply switched to Jupiter, Saturn, and the Node — slightly faster-moving bodies that still encode multi-year cohort information. The predictive lift was entirely robust to this substitution, because the substitute features were doing the same proxy job.</p>
+<table>
+<thead>
+<tr>
+<th>Configuration</th>
+<th>Accuracy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All 700+ features</td>
+<td>80.88%</td>
+</tr>
+<tr>
+<td>Outer planets removed</td>
+<td>80.88% (unchanged)</td>
+</tr>
+<tr>
+<td>All slow-cycle features removed</td>
+<td>~79.1% (baseline)</td>
+</tr>
+</tbody>
+</table>
+
+<p>The implication is precise: 100% of the predictive lift came from birth cohort encoding. Zero percent came from synastry astrology.</p>
+<hr>
+<h2>The Generational Confound: A Deeper Analysis</h2>
+<p>This project provides one of the book's clearest articulations of a problem that recurs throughout astrological research: slow outer planets are not personal astrological indicators — they are time stamps.</p>
+<p>Uranus takes 84 years to complete one orbit. Neptune takes 165 years. Pluto takes 248 years. At any given moment, everyone on Earth who is within roughly 12–30 years of your age shares essentially the same Pluto sign, the same Neptune sign, and nearly the same Uranus sign. These are generational markers, not individual fingerprints.</p>
+<p>When these bodies appear in research data, correlations involving them have a prior alternative explanation that must be ruled out before any astrological interpretation is warranted: they may simply be proxies for birth year. Any outcome that varies by historical era — divorce rates, career patterns, mortality statistics, economic behavior — will automatically correlate with outer planet positions. Not because the planets caused the outcome, but because both the planets and the outcome are time-indexed.</p>
+<p>The 94%-precision divorce detection in this project is a vivid illustration. The model did not learn about Venus and Mars and the complex geometry of attraction. It learned that "these two people were born around 1905, and therefore belong to a cohort with elevated Wikidata-recorded divorce rates." It then described that knowledge in terms of Pluto angles and Neptune signs. The language was astrological; the knowledge was demographic.</p>
+<h3>Jupiter and Saturn as Partial Proxies</h3>
+<p>Even Jupiter (12-year cycle) and Saturn (29-year cycle) can become partial cohort proxies in analyses that span decades. Saturn's position at birth cycles through all 12 signs in 29 years — meaning that any study sampling people born across multiple decades will find Saturn sign correlating with birth decade, and birth decade correlating with essentially everything: marriage patterns, educational attainment, economic outcomes, health. Saturn is not quite as contaminated a proxy as Pluto, but it is not a clean individual indicator either.</p>
+<hr>
+<h2>What a Genuine Synastry Effect Would Look Like</h2>
+<p>For this experiment to have produced evidence of real synastry effects, it would need to show predictive lift in a model that had been scrubbed of all birth-year information. This means:</p>
+<ol>
+<li>All outer planet features (Uranus, Neptune, Pluto) removed</li>
+<li>All features that encode absolute zodiacal position (sign placements, house positions) removed, or controlled for</li>
+<li>Only features that are genuinely person-specific remaining: fast-moving inner planet aspects, inter-chart angles between fast movers</li>
+</ol>
+<p>When the analysis is restricted to this residual feature set, accuracy returns to baseline. The fast-mover geometry carries no detectable predictive signal about divorce probability in this dataset.</p>
+<hr>
+<h2>Statistical Caveats</h2>
+<p><strong>The baseline is high.</strong> With 80% of couples classified as "not divorced," even a model that predicts nothing achieves 80% accuracy. This limits the apparent headroom for improvement and can make small lifts seem meaningful when they are not. The ROC-AUC (0.5000 in the logistic regression) is the correct metric for this problem — it is immune to class imbalance — and it is unambiguous.</p>
+<p><strong>Dataset definition matters.</strong> The Wikidata couples dataset used here includes historical public figures across a wide range of eras. Divorce rates varied enormously across eras (very low in 1900, rising through the century, high in 1970–1990). Any model trained on this data will find era-related signals. A study restricted to couples married within a single decade would eliminate much of this confound.</p>
+<p><strong>Feature engineering is theory.</strong> The 700+ features include one-hot encodings of sign placements — a feature engineering choice that encodes the traditional astrological assumption that sign membership is the relevant unit. If astrological influence operates at finer resolution (specific degrees) or coarser resolution (element/modality) or through a completely different axis (harmonic waveforms, midpoints), this feature set might miss it while still looking comprehensive.</p>
+<hr>
+<h2>Conclusion</h2>
+<p>A logistic regression model applied to 700+ synastry features found that L1 regularization set virtually all coefficients to zero, producing an ROC-AUC of 0.500 — random chance. A Random Forest model achieved a modest 1.7% accuracy improvement and a 94%-precision "High Risk" cluster, but follow-up analysis confirmed this was a generational artifact: the model had learned to identify couples born in a specific historical cohort rather than couples with astrologically "incompatible" charts.</p>
+<p>The conclusion is not merely that machine learning failed to find synastry effects. The conclusion is that when machine learning <em>appeared</em> to find something, the explanation was demographic rather than astrological — and this explanation was discovered through transparent feature-importance analysis and cohort investigation. The null hypothesis stands: in this dataset, astrological synastry features do not predict divorce beyond what birth cohort alone would predict.</p>
+<p>This joins Project 26 (r=0.009 for compatibility scoring against relationship duration) and Project 10 (outer planet mortality artifacts in synastry) as a third independent analysis reaching the same conclusion: when properly controlled for generational confounds, synastry data does not predict relationship outcomes.</p>
+<hr>
+<p><em>Archived source data and raw outputs preserved in <code>backup/</code>.</em></p>
+</div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

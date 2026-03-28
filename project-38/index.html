@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 38: Composite Charts & Group Dynamics — Band Longevity · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 38: Composite Charts & Group Dynamics — Band Longevity</span></div></nav>
+<main class="article"><div class="container">
+<h1>Project 38: Composite Charts &amp; Group Dynamics — Band Longevity</h1>
+<blockquote><p><strong>Source:</strong> <a href="https://bigastrologybook.com/2/research/19/project-38">bigastrologybook.com/2/research/19/project-38</a></p></blockquote>
+<blockquote><p><strong>Archive Date:</strong> 2026-03-21</p></blockquote>
+<blockquote><p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop</p></blockquote>
+<blockquote><p><strong>Dataset:</strong> N=31 musical groups (Wikidata, SPARQL extraction) with full member birth data; Angular Cohesion metric applied to all planets; correlation with band lifespan; supplemented by synthetic N=200 group test</p></blockquote>
+<hr>
+<h2>Research Question</h2>
+<p>If a composite chart — calculated from the averaged or midpoint planetary positions of two or more people — captures something real about how a group's energies combine, then groups whose members share similar planetary placements (high "cohesion") should function differently from groups whose members are planetarily divergent. In the context of musical bands, where longevity is a measurable proxy for functional cohesion, a genuinely informative composite metric should correlate with how long the band remains active together.</p>
+<h2>The Composite Chart Tradition</h2>
+<p>Composite chart analysis emerged as a specialized branch of relationship astrology in the mid-twentieth century, developed primarily by Robert Hand and John Townley as a way to describe the character of a relationship or group rather than the individuals within it. The method typically midpoints each pair of corresponding planetary positions to create a synthetic "relationship chart" that supposedly describes the nature of the bond: a composite Sun conjunct Venus suggests an affectionate, harmonious identity; composite Saturn square Moon suggests emotional restriction and difficulty.</p>
+<p>This project takes a data-driven approach that does not presuppose which placements are "good" or "bad" for a group. Instead, it introduces a continuous measure called Angular Cohesion — a metric that captures simply how aligned a group's members are on each planetary axis, without prejudging whether alignment is beneficial.</p>
+<hr>
+<h2>Data and Methodology</h2>
+<h3>Data Collection</h3>
+<p>Musical groups with at least three members where full birth data (date of birth for all or most members) was available were extracted from Wikidata via SPARQL queries. After cleaning and deduplication, the working dataset comprised <strong>31 bands</strong> with documented formation year, dissolution year (or current status), and birth data for all principal members.</p>
+<p>This is a small sample — the severity of the data bottleneck is acknowledged and discussed at length below. But 31 bands with complete data is a meaningful start, and the analysis was conducted rigorously within that constraint.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sample</strong></td>
+<td>31 musical groups</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td>Wikidata (SPARQL extraction)</td>
+</tr>
+<tr>
+<td><strong>Inclusion criteria</strong></td>
+<td>≥ 3 members, formation and dissolution years documented, full birth dates available</td>
+</tr>
+<tr>
+<td><strong>Outcome variable</strong></td>
+<td>Lifespan = End Year − Start Year (active years)</td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td>Angular Cohesion per planet (all 10 main bodies) and aggregate cohesion indices</td>
+</tr>
+</tbody>
+</table>
+
+<h3>The Angular Cohesion Metric</h3>
+<p>For a group of N members, the Angular Cohesion for planet P is defined as:</p>
+<p><code>where θ is the longitude of planet P for each member, and the cosine maps the angular difference to a value ranging from +1.0 (perfect conjunction — all members have the same degree) to −1.0 (perfect opposition — members are maximally dispersed across the zodiac in an opposing pattern). A value near zero indicates no particular coherence: members have essentially random planetary positions relative to each other on that axis.  This metric has elegant properties:  - It is zodiac-invariant for inter-member geometry (it doesn't matter if all members have Mars in Aries versus all in Libra — what matters is how close they are to *each other*) - It captures continuous degrees of similarity rather than binary "same sign" or "same element" tests - It aggregates cleanly across group sizes - It maps directly to the cosine methodology used throughout this book  **Inner Cohesion** averaged the scores for Sun, Moon, Mercury, Venus, and Mars — the personal planets most relevant to emotional character and interpersonal style. **Outer Cohesion** averaged Jupiter, Saturn, Uranus, Neptune, and Pluto — but these are heavily confounded by generational similarity (bands whose members are born in the same year will have high Outer Cohesion simply because slow planets barely moved).  ---  ## Results  ### Correlation with Band Lifespan  | Planet | Correlation (r) | P-Value | Interpretation | |---|---|---|---| | **Moon Cohesion** | **+0.250** | 0.176 | Weak positive trend — emotionally similar bands may last longer | | **Uranus Cohesion** | **−0.259** | 0.160 | Weak negative trend — same-generation bands may be *less* stable | | **Mars Cohesion** | +0.163 | 0.382 | Very weak positive, not significant | | **Sun Cohesion** | −0.096 | 0.606 | No effect | | **Inner Cohesion** | +0.032 | 0.865 | Aggregate personal compatibility: zero predictive power |  None of these results crosses the p &lt; 0.05 significance threshold. With only 31 data points, the analysis is severely underpowered: detecting a correlation of r = 0.25 with 80% statistical power requires approximately 123 subjects; detecting r = 0.20 requires approximately 190. This project achieves roughly 25% power to detect a medium-sized effect. That is not enough to confirm or refute the hypothesis.  ### Synthetic Group Test (N=200)  To validate the methodology independently of the small real-world sample, a synthetic dataset of 200 groups with N=4 members each was generated, classified by composite harmony into quartiles (high to low), and tested against simulated success outcomes:  | Harmony Level | Success Rate | N Groups | |---|---|---| | High (top 25%) | 52.0% | 50 | | Medium-High | 48.0% | 50 | | Medium-Low | 51.0% | 50 | | Low (bottom 25%) | 49.0% | 50 |  **Chi-square: χ² = 0.64, p = 0.887** — no relationship.  This synthetic test does not use generated astrological data; it uses uniformly random planetary positions against uniformly random outcomes. It confirms that the methodology itself, applied to data with no signal, correctly returns a null result. This is important: it establishes that the null result in the real 31-band data is not a methodological artifact. The method can detect structure if structure is present.  ---  ## Interpreting the Directional Trends  Given that no finding is statistically significant, what can be said about the directional patterns?  ### Moon Cohesion (r = +0.250)  The Moon represents emotional needs, instinctive responses, the feeling-tone of daily experience. A band whose members share similar Moon placements — all Moon in Aries, say, or Moon in the same degree range of a sign — would presumably resonate emotionally in a similar key. They might share intuitive agreements about tempo, energy level, and the emotional character of a song. They might navigate conflicts with similar emotional reflexes rather than colliding between, say, an impulsive Moon-Aries drummer and a brooding Moon-Scorpio vocalist.  The data shows a positive trend here: Moon-cohesive bands may last longer. This is directionally consistent with the astrological hypothesis. But it is a trend with p = 0.176 and N = 31 — it could easily be noise. The responsible statement is that Moon Cohesion is the most promising candidate for investigation with a larger sample.  ### Uranus Cohesion (r = −0.259)  The negative correlation for Uranus Cohesion is intriguing, but likely a generational artifact rather than a genuine astrological signal. Uranus moves through a sign in approximately 7 years. Bands formed by members of the same birth year or birth cohort will have very high Uranus Cohesion — they were all born when Uranus was in the same sign. But bands formed by close-age peers in the same cultural moment (all born in 1960–1965, say, forming a punk band in 1979) are bands born of a shared generational experience. They also, statistically, disbanded faster — partly because they were teenagers when they formed, partly because teenage bands have higher dissolution rates regardless of planetary positions.  The negative Uranus Cohesion correlation may simply be detecting that same-age bands are less stable than mixed-age bands. An age-controlled analysis would clarify whether this is genuine astrological signal or a generational formation artifact.  There is also a more interesting astrological reading: Uranus symbolizes disruption, independence, and the drive to break established patterns. A band where all members have Uranus in the same degree might share a kind of collective restlessness that undermines long-term commitment. Mixed-age bands, with their different Uranus placements and therefore different flavors of rebellious energy, might create productive creative tension without the uniform volatility that destabilizes a single-generation group. This interpretation is speculative without statistical support, but it is internally coherent.  ---  ## The Data Gap Problem  The fundamental limitation of this project is not statistical methodology but data availability. Wikidata documents biographical information for historically notable figures and groups; it does not contain systematic birth data for the thousands of bands needed to power this analysis.  To detect a genuine effect of r = 0.20 with 80% power, approximately **190–200 bands** with complete data are needed. The current sample of 31 represents roughly 16% of that requirement. This is not a study of insufficient care; it is a study stopped by data scarcity.  Possible routes to a larger dataset: - **MusicBrainz:** The open music database contains birth dates for many artists, and band membership data, though completeness varies - **AllMusic / Discogs:** Commercial music databases with extensive biographical data - **Manual compilation:** A targeted effort to compile birth data for the 300 most historically significant rock bands with documented formation and dissolution dates  A pre-registered study with N ≥ 200 bands, testing specifically Moon Cohesion and Inner Cohesion against lifespan, would provide a definitive answer to the hypothesis this project raises.  ---  ## Statistical Caveats  **Power crisis.** N=31 provides approximately 25% power to detect r=0.25. The null result is therefore ambiguous: it is consistent with both "there is no effect" and "there is an effect too small to detect with 31 bands." This is a fundamental difference from the high-powered null results elsewhere in this book (Project 03 at 156 million births; Project 37 at 668 monthly data points). This project's null is more accurately characterized as *inconclusive* than definitively negative.  **Outer planet confounds.** Uranus, Neptune, and Pluto Cohesion values will largely reflect member age similarity rather than independent astrological structure. These should be excluded or controlled in any replication.  **Lifespan as proxy.** Band lifespan is an imperfect proxy for group cohesion or success. Bands can dissolve productively (members pursue solo careers), can remain formally active for decades without meaningful activity, or can have documented internal dynamics that no external duration measure captures. A richer outcome variable — incorporating number of albums, concert activity, critical reception — would provide a more nuanced picture.  **Synthetic data validation.** The N=200 synthetic test uses uniformly random data, not astrologically realistic data (which would have outer planet clusterings from generational effects). Its null result validates the methodology in theory but does not fully simulate real-world confounds.  ---  ## Conclusion  The Angular Cohesion metric — an elegant continuous measure of how similarly aligned a group's members are on each planetary axis — is methodologically sound and conceptually well-motivated. Applied to 31 musical bands, it finds directionally interesting but statistically inconclusive results: Moon Cohesion correlates positively with band lifespan (r = +0.250) in the direction predicted by theory, while Uranus Cohesion shows a negative trend likely explained by generational formation patterns.  The project's honest verdict is **underpowered** rather than definitively null. The methodology is ready; the data is not. With the right dataset (N ≥ 200 bands, complete birth data, verified lifespan records), this study could provide a genuinely novel empirical test of composite chart theory — one that does not rely on subjective astrological interpretation but on whether objectively measured group cohesion predicts objectively measured group durability.  Until that dataset exists, the question remains open. But the question, this project demonstrates, is answerable.  ---  *Archived source data, feasibility notes, and raw outputs preserved in `backup/`.*</code></p>
+</div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

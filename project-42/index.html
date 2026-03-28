@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 42: Solar Cycles & Social Sentiment — The 11-Year Rhythm · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 42: Solar Cycles & Social Sentiment — The 11-Year Rhythm</span></div></nav>
+<main class="article"><div class="container">
+<h1>Project 42: Solar Cycles &amp; Social Sentiment — The 11-Year Rhythm</h1>
+<blockquote><p><strong>Source:</strong> <a href="https://bigastrologybook.com/2/research/19/project-42">bigastrologybook.com/2/research/19/project-42</a></p></blockquote>
+<blockquote><p><strong>Archive Date:</strong> 2026-03-21</p></blockquote>
+<blockquote><p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop</p></blockquote>
+<blockquote><p><strong>Dataset:</strong> University of Michigan Consumer Sentiment Index (UMCSENT) paired with SILSO/SIDC Monthly Mean Total Sunspot Number; February 1960 — December 2023; N=624 monthly data points</p></blockquote>
+<hr>
+<h2>Research Question</h2>
+<p>Does the 11-year solar activity cycle — measured by monthly sunspot counts, a proxy for overall solar electromagnetic output — correlate with aggregate human mood as captured by the University of Michigan Consumer Sentiment Index?</p>
+<h2>Background: The Sun as Physical Mechanism</h2>
+<p>Most of the astrological claims tested in this book are statistical — correlations between astronomical configurations and human outcomes with no obvious physical mechanism to explain them. The solar activity hypothesis is different. Here, there is at least a plausible causal chain:</p>
+<p><strong>Solar activity → geomagnetic disturbance → neurobiological effects → aggregate mood changes.</strong></p>
+<p>During periods of elevated solar activity (solar maxima), the Sun emits more X-ray radiation and energetic particles. These interact with Earth's magnetosphere, producing geomagnetic storms measurable as elevated Kp and Dst indices. Laboratory research has documented that geomagnetic disturbances are associated with changes in melatonin production, circadian rhythm disruption, and in some studies, elevated psychiatric emergency presentations. If these individual-level effects aggregate to population-level mood changes, they should be detectable in a long-running consumer sentiment index.</p>
+<p>This makes the solar activity hypothesis the most physically grounded of any test in this book — the one where the gap between "astrological cycle" and "measurable mechanism" is narrowest.</p>
+<hr>
+<h2>Data</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sentiment data</strong></td>
+<td>University of Michigan Consumer Sentiment Index (UMCSENT), FRED</td>
+</tr>
+<tr>
+<td><strong>Solar data</strong></td>
+<td>Monthly Mean Total Sunspot Number (SILSO, SIDC — Solar Influences Data Analysis Center)</td>
+</tr>
+<tr>
+<td><strong>Solar cycles covered</strong></td>
+<td>Solar Cycles 19 through 25 (1960–2023)</td>
+</tr>
+<tr>
+<td><strong>Range</strong></td>
+<td>February 1960 — December 2023</td>
+</tr>
+<tr>
+<td><strong>N</strong></td>
+<td>624 valid monthly data points</td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+<h2>Results</h2>
+<h3>A: The Long-Term Correlation</h3>
+<p>Over 64 years and six complete solar cycles, the relationship between monthly sunspot number and consumer sentiment is:</p>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pearson correlation (r)</strong></td>
+<td>−0.193</td>
+</tr>
+<tr>
+<td><strong>p-value</strong></td>
+<td>&lt; 10⁻⁶</td>
+</tr>
+<tr>
+<td><strong>Direction</strong></td>
+<td>Higher solar activity → lower sentiment</td>
+</tr>
+<tr>
+<td><strong>Low Solar months mean</strong></td>
+<td>87.5</td>
+</tr>
+<tr>
+<td><strong>High Solar months mean</strong></td>
+<td>83.1</td>
+</tr>
+<tr>
+<td><strong>Difference</strong></td>
+<td>~4.4 points</td>
+</tr>
+</tbody>
+</table>
+
+<p>The correlation of −0.193 is statistically highly significant — p &lt; 10⁻⁶ means this result would occur by chance less than one time in a million if there were no real relationship. But the <em>effect size</em> is modest: r = −0.193 explains approximately 3.7% of the variance in consumer sentiment. The remaining 96.3% is driven by actual economic conditions — recessions, recoveries, wars, policy changes, inflation. The Sun is a real but minor background factor in collective mood.</p>
+<p>The group comparison makes the effect more intuitive: in the 624 months of data, months with low solar activity show an average sentiment of 87.5, while months with high solar activity show 83.1. That 4.4-point difference is roughly comparable to the consumer mood impact of moderate news events — visible, but easily drowned by larger forces.</p>
+<h3>B: Lag Analysis — When Does the Effect Peak?</h3>
+<p>A systematic lag analysis identified the temporal pattern of the correlation:</p>
+<table>
+<thead>
+<tr>
+<th>Lag (months)</th>
+<th>Correlation r</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 (same month)</td>
+<td>−0.193</td>
+</tr>
+<tr>
+<td>+1 month</td>
+<td>−0.198</td>
+</tr>
+<tr>
+<td>+2 months</td>
+<td>−0.201</td>
+</tr>
+<tr>
+<td><strong>+3 months</strong></td>
+<td><strong>−0.204</strong></td>
+</tr>
+<tr>
+<td>+6 months</td>
+<td>−0.186</td>
+</tr>
+<tr>
+<td>+12 months</td>
+<td>−0.157</td>
+</tr>
+</tbody>
+</table>
+
+<p>The correlation is strongest at a 3-month lag: solar activity in month M is best correlated with sentiment in month M+3. This lagged structure is more consistent with a causal relationship than an instantaneous one — it suggests the mechanism takes approximately three months to propagate from elevated solar output through whatever chain of intermediary effects to aggregate human economic mood.</p>
+<p>Three months is a plausible delay if the mechanism operates through cumulative geomagnetic exposure affecting neurobiological baselines rather than through acute storm events. Chronic low-grade exposure to elevated geomagnetic disturbance may gradually shift population-level mood baselines rather than producing immediate sharp effects.</p>
+<h3>C: The 2016–2023 Cautionary Tale</h3>
+<p>The most methodologically important finding in this project is not the long-term correlation but its most dramatic period.</p>
+<p>Between 2016 and 2023, the correlation between solar activity and consumer sentiment was approximately <strong>r = −0.74</strong> — a near-perfect inverse relationship. This is far higher than the long-term r = −0.193, and it produced the initial hypothesis that inspired this research. Solar Cycle 25 (beginning around 2019) coincided, in apparent lockstep, with a dramatic deterioration of consumer sentiment.</p>
+<p>The long-term analysis reveals this as a <strong>spurious phase-alignment</strong>: during the 2016–2023 window, the ascending phase of Solar Cycle 25 happened to coincide almost exactly with the COVID-19 pandemic, the subsequent inflation surge, and the energy price crisis following Russia's invasion of Ukraine. All of these independently drove consumer sentiment to historically low readings. The solar cycle was rising at the same time, creating the appearance of a strong negative correlation that was largely driven by non-solar factors.</p>
+<table>
+<thead>
+<tr>
+<th>Period</th>
+<th>Correlation r</th>
+<th>Likely Driver</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1960–2015</td>
+<td>Weakly negative</td>
+<td>Multiple cycles, genuine weak effect</td>
+</tr>
+<tr>
+<td>2016–2023</td>
+<td>−0.74</td>
+<td>Phase-alignment of solar max with COVID/inflation era</td>
+</tr>
+<tr>
+<td>Full 1960–2023</td>
+<td>−0.193</td>
+<td>Long-term genuine but modest effect</td>
+</tr>
+</tbody>
+</table>
+
+<p>This is a textbook demonstration of why short-window analyses of cyclical phenomena are dangerous. A researcher who only examined 2016–2023 would conclude that solar activity is one of the most powerful predictors of consumer mood ever identified. The 64-year context reveals it as an era-specific coincidence that inflated an otherwise modest effect by approximately 4×.</p>
+<p>The methodological lesson generalizes across the entire book: whenever a striking correlation appears in a cyclical dataset, the appropriate response is to ask whether the analysis window happens to align the cycles in phase. If it does, the correlation may vanish or shrink dramatically when the window is extended.</p>
+<hr>
+<h2>The 11-Year Cycle as the Physical Zodiac</h2>
+<p>This project occupies a unique position in the book because the solar cycle is, in a precise sense, the most physically grounded "astrological cycle" of all. Traditional astrology works with the apparent positions of planets against the zodiacal backdrop — symbolic designations whose physical basis (if any) is debated. The solar activity cycle is not symbolic: it is a measurable electromagnetic and particle-radiation phenomenon with documented biological effects.</p>
+<p>When sunspot counts are high, Earth is embedded in more energetic solar wind, more frequent X-ray bursts, more intense geomagnetic variation. Satellites detect these changes. Power grids feel them. Migratory birds are temporarily disoriented by them. The question this project asks is whether human mood — the most complex and collectively buffered endpoint imaginable — can also register these changes.</p>
+<p>The answer, cautiously, is yes: about 4.4 sentiment points separate low-solar from high-solar months on average across 64 years. That is small. But it is real and it persists across the full dataset in a direction that makes mechanistic sense.</p>
+<hr>
+<h2>Plausibility of the Mechanism</h2>
+<p>The proposed causal chain — solar activity → geomagnetic disturbance → mood change — has empirical support at each step:</p>
+<p><strong>Step 1 (Solar → Geomagnetic):</strong> Well-documented. Elevated solar activity is robustly associated with higher Kp indices (geomagnetic storm frequency and intensity).</p>
+<p><strong>Step 2 (Geomagnetic → Biology):</strong> Supported with caveats. Elevated Kp has been associated with disrupted melatonin synthesis in experimental studies, with elevated psychiatric admission rates in some epidemiological studies, and with increased serotonin turnover in post-mortem brain studies. The literature is mixed but directionally consistent.</p>
+<p><strong>Step 3 (Biology → Aggregate Mood):</strong> The weakest link. Consumer sentiment aggregates the moods of millions of people responding to a survey about economic conditions. Even if geomagnetic disturbance shifts the individual mood baseline by a small amount, it would have to do so consistently enough that the aggregate signal survives the enormous noise of economic events, media framing, and individual variation. The correlation found here suggests this aggregation happens — imperfectly, with weak effect size, but detectably over 64 years.</p>
+<hr>
+<h2>Statistical Caveats</h2>
+<p><strong>Autocorrelation in both series.</strong> Monthly sunspot numbers are highly autocorrelated (solar activity trends over months and years). Consumer sentiment is also autocorrelated (mood in month M predicts mood in month M+1). Standard Pearson correlation treats observations as independent; when both variables are autocorrelated, this inflates the effective sample size, making the p-values too small. Correcting for autocorrelation would require computing the effective N and adjusting degrees of freedom, which would raise the corrected p-value — though given p &lt; 10⁻⁶, even substantial autocorrelation corrections would likely preserve significance.</p>
+<p><strong>Detrending not applied.</strong> Both series have long-term trends: consumer sentiment drifted downward somewhat from the 1960s highs to the 2000s–2020s; solar activity peaked in Cycle 19 (1958) and has been generally declining since, though with substantial cycle-to-cycle variation. Detrending both series before correlating might reduce or increase the observed correlation; this analysis has not been performed.</p>
+<p><strong>The 2016–2023 lesson should be heeded for the current claim.</strong> The long-term r = −0.193 may itself contain some era-specific phase-alignment that would not survive an even longer time series (1900–2023 if data were available). Treating r = −0.193 as the "true" effect size while acknowledging it could be contaminated by remaining phase-alignments within the 64-year window is the epistemically appropriate stance.</p>
+<p><strong>Effect size relative to practical utility.</strong> A 4.4-point difference in consumer sentiment between low-solar and high-solar months cannot be used for economic forecasting. Actual economic events move sentiment by 20–40 points. The solar signal is real, weak, and practically invisible against the noise of economic reality.</p>
+<hr>
+<h2>Conclusion</h2>
+<p>Sixty-four years of paired monthly data reveal a statistically significant but practically modest negative correlation between solar activity and consumer sentiment: r = −0.193, p &lt; 10⁻⁶, with an effect of approximately 4.4 sentiment points between solar extremes. The optimal lag is 3 months, consistent with a mechanism that propagates through cumulative biological exposure rather than acute storm events.</p>
+<p>The study's most important contribution may be its cautionary finding: the 2016–2023 period showed r = −0.74, suggesting an overwhelmingly strong solar-mood relationship. The 64-year context revealed this as a phase-alignment artifact — the ascending Solar Cycle 25 coinciding with the COVID/inflation era, creating an apparent correlation that is mostly driven by the pandemic and its aftermath rather than solar electromagnetic effects.</p>
+<p>The genuine effect, when the full 64-year window is used: real, small, and mechanistically plausible. The solar cycle is the closest thing to a physically grounded "astrological mechanism" in this entire book. That it produces an effect size of only r = −0.19 suggests that even the best-supported physical mechanism for celestial-mood correlation operates at the margin of detectability — a whisper against the roar of actual human events.</p>
+<hr>
+<p><em>Archived sentiment data, sunspot number series, lag analysis, and visualization outputs preserved in <code>backup/</code>.</em></p>
+</div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>

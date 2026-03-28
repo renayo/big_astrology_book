@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 35: Professional Clustering — Unsupervised Learning · Big Astrology Book of Research</title>
+  <style>
+:root{
+  --bg:#faf8f4;--bg-alt:#f3f0ea;--bg-card:#fff;--border:#e0dbd0;
+  --border-dark:#c8c0b0;--ink:#1e1a14;--ink-dim:#4a4438;--ink-mut:#8a8070;
+  --gold:#8a6d00;--gold-bg:#fdf6e0;--gold-bd:#e0c860;
+  --font-display:'Georgia','Times New Roman',serif;
+  --font-body:system-ui,-apple-system,'Segoe UI',sans-serif;
+  --font-mono:'SFMono-Regular','Consolas',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.75}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.topbar{background:var(--ink);color:rgba(255,255,255,.55);font-size:.78rem;padding:.5rem 0;text-align:center}
+.topbar a{color:#d4b84a}
+.breadcrumb{background:var(--bg-alt);border-bottom:1px solid var(--border);padding:.65rem 0;font-size:.82rem;color:var(--ink-mut)}
+.breadcrumb .container{display:flex;gap:.5rem;align-items:center}
+.breadcrumb a{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem}
+.article{padding:3rem 0 5rem}
+.article h1{font-family:var(--font-display);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:400;color:var(--ink);line-height:1.25;margin-bottom:1.5rem}
+.article h1 em{color:var(--gold);font-style:italic}
+.article h2{font-family:var(--font-display);font-size:1.4rem;font-weight:400;color:var(--ink);margin:2.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.article h3{font-size:1.05rem;font-weight:600;color:var(--ink);margin:1.75rem 0 .5rem}
+.article h4{font-size:.9rem;font-weight:700;color:var(--ink-dim);margin:1.25rem 0 .35rem;text-transform:uppercase;letter-spacing:.06em}
+.article p{color:var(--ink-dim);margin-bottom:1rem}
+.article ul,.article ol{color:var(--ink-dim);margin:0 0 1rem 1.5rem}
+.article li{margin-bottom:.3rem}
+.article strong{color:var(--ink)}
+.article em{color:var(--ink-dim)}
+.article blockquote{border-left:3px solid var(--gold-bd);background:var(--gold-bg);padding:.75rem 1.25rem;margin:1.25rem 0;color:var(--ink-dim);font-style:italic;border-radius:0 4px 4px 0}
+.article table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+.article th{background:var(--bg-alt);text-align:left;padding:.5rem .75rem;border:1px solid var(--border);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-mut);font-weight:600}
+.article td{padding:.5rem .75rem;border:1px solid var(--border);color:var(--ink-dim);vertical-align:top}
+.article tr:nth-child(even) td{background:var(--bg-alt)}
+.article code{background:var(--bg-alt);border:1px solid var(--border);border-radius:3px;padding:.1em .35em;font-family:var(--font-mono);font-size:.84em;color:var(--ink)}
+.article pre{background:#1e1a14;border-radius:6px;padding:1.25rem;overflow-x:auto;margin:1.25rem 0}
+.article pre code{background:none;border:none;color:#d4c89a;font-size:.84rem;padding:0}
+.article hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+.article img{max-width:100%;border-radius:4px;margin:1rem 0;border:1px solid var(--border)}
+footer{background:var(--ink);color:rgba(255,255,255,.45);padding:2rem 0;text-align:center;font-size:.8rem}
+footer a{color:#d4b84a}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container">By <a href="https://www.ayurastro.com" target="_blank" rel="noopener">Renay Oshop</a> &nbsp;·&nbsp; <a href="https://bigastrologybook.com/2/research" target="_blank" rel="noopener">bigastrologybook.com</a></div></div>
+<nav class="breadcrumb"><div class="container"><a href="../index.html">← All Projects</a> <span>/ Project 35: Professional Clustering — Unsupervised Learning</span></div></nav>
+<main class="article"><div class="container">
+<h1>Project 35: Professional Clustering — Unsupervised Learning</h1>
+<blockquote><p><strong>Source:</strong> <a href="https://bigastrologybook.com/2/research/19/project-35">bigastrologybook.com/2/research/19/project-35</a></p></blockquote>
+<blockquote><p><strong>Archive Date:</strong> 2026-03-21</p></blockquote>
+<blockquote><p><strong>Book:</strong> <em>The Big Astrology Book of Research</em> by Renay Oshop</p></blockquote>
+<blockquote><p><strong>Dataset:</strong> 766 verified professionals from Astro-Databank across 8 career categories; K-means, HDBSCAN, GMM, Spectral Clustering on planetary longitudes and cosine interaction features</p></blockquote>
+<hr>
+<h2>Research Question</h2>
+<p>If astrology contains genuine information about professional vocation — if the planetary configurations at birth shape what a person becomes — then professionals in the same field should resemble each other astrologically more than they resemble professionals in other fields. An unsupervised algorithm given only birth chart data should, in theory, be able to discover these groupings without being told which charts belong to which professions.</p>
+<p>This project tests that premise directly: do birth charts cluster by profession in high-dimensional planetary space?</p>
+<h2>Hypothesis</h2>
+<p>The null hypothesis is that they do not — that professionals in any given field do not form a detectable cluster in chart space, and that the clustering algorithms will produce groupings that bear no relationship to actual professional categories. This is the honest starting assumption for rigorous inquiry.</p>
+<hr>
+<h2>Why Unsupervised Learning Is the "Fair" Test</h2>
+<p>Before examining the results, it is worth dwelling on why this particular methodology deserves special attention among the book's many approaches to the profession question.</p>
+<p>Most of the analyses in this book are <em>supervised</em> — they start with labeled data (this person is a scientist, that person is an artist), and ask whether a model can learn to predict the label from the chart features. Supervised learning is sensitive to weak signals; given enough examples, even tiny correlations can produce statistically detectable patterns. The work in Project 33 found that Writers cluster around weak-Mars placements (p=0.011) and Filmmakers around strong-Sun charts (p=0.027). Project 20 identified Mars in Libra and Moon in Scorpio as frequency peaks in celebrity charts. These findings are real. But they describe small, specific correlations that don't necessarily imply that birth charts as a whole organize themselves around professional identity.</p>
+<p>Unsupervised learning asks a fundamentally different question. It removes the labels entirely and simply asks: <em>do these charts naturally group together?</em> If the answer is yes — if physicians' charts spontaneously cluster apart from athletes' charts, if musicians' planetary configurations form a natural cloud in feature space — that would be far stronger evidence for astrological influence than any supervised result. It would mean the structure is real enough that an algorithm can find it without being shown what to look for.</p>
+<p>This is the "fair" test because it grants astrology no interpretive assistance. The algorithm cannot cherry-pick which planets to emphasize, cannot lean on culturally transmitted associations between Saturn and discipline or Venus and beauty. It receives only numbers and is asked whether those numbers contain hidden structure that corresponds to human categories of meaning.</p>
+<p>The answer, across six different algorithms applied to 766 professionals, is an unambiguous no.</p>
+<hr>
+<h2>Data</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Sample</strong></td>
+<td>766 verified professionals (deduplicated from 771 initial entries)</td>
+</tr>
+<tr>
+<td><strong>Source</strong></td>
+<td>Astro-Databank (birth dates verified for biographical subjects)</td>
+</tr>
+<tr>
+<td><strong>Professional categories</strong></td>
+<td>8: Entertainer, Scientist, Athlete, Writer, Musician, Artist, Politician, Business</td>
+</tr>
+<tr>
+<td><strong>Feature Set 1</strong></td>
+<td>7 planetary longitudes (Sun through Saturn, 0–360°)</td>
+</tr>
+<tr>
+<td><strong>Feature Set 2</strong></td>
+<td>66 pairwise cosine interactions (all pairs of 12 bodies)</td>
+</tr>
+<tr>
+<td><strong>Dimensionality reduction</strong></td>
+<td>PCA (49% variance in 2 components), t-SNE, UMAP</td>
+</tr>
+<tr>
+<td><strong>Cluster algorithms</strong></td>
+<td>K-means, HDBSCAN, GMM, Spectral, Agglomerative, DBSCAN</td>
+</tr>
+</tbody>
+</table>
+
+<h3>Sample Distribution</h3>
+<table>
+<thead>
+<tr>
+<th>Profession</th>
+<th>Count</th>
+<th>Percentage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entertainer</td>
+<td>130</td>
+<td>17.0%</td>
+</tr>
+<tr>
+<td>Scientist</td>
+<td>115</td>
+<td>15.0%</td>
+</tr>
+<tr>
+<td>Athlete</td>
+<td>115</td>
+<td>15.0%</td>
+</tr>
+<tr>
+<td>Writer</td>
+<td>104</td>
+<td>13.6%</td>
+</tr>
+<tr>
+<td>Musician</td>
+<td>91</td>
+<td>11.9%</td>
+</tr>
+<tr>
+<td>Artist</td>
+<td>74</td>
+<td>9.7%</td>
+</tr>
+<tr>
+<td>Politician</td>
+<td>70</td>
+<td>9.1%</td>
+</tr>
+<tr>
+<td>Business</td>
+<td>67</td>
+<td>8.7%</td>
+</tr>
+<tr>
+<td><strong>TOTAL</strong></td>
+<td><strong>766</strong></td>
+<td><strong>100%</strong></td>
+</tr>
+</tbody>
+</table>
+
+<hr>
+<h2>Results</h2>
+<h3>Phase 1: K-Means and Hierarchical Clustering on Raw Planetary Positions</h3>
+<p>The initial analysis used K-means and agglomerative hierarchical clustering on the raw planetary longitude coordinates (converted to continuous 0–360° values for Sun, Moon, Mercury, Venus, Mars, Jupiter, Saturn). The number of clusters was varied from K=2 to K=8 and validated via Silhouette Score — a measure of how well-separated the resulting clusters are (scores above 0.5 indicate meaningful structure; scores below 0.25 indicate near-random partitioning).</p>
+<table>
+<thead>
+<tr>
+<th>K (clusters)</th>
+<th>Silhouette Score</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>0.222</td>
+<td>Best — still weak</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0.169</td>
+<td>Poor separation</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0.147</td>
+<td>Poor separation</td>
+</tr>
+<tr>
+<td>5</td>
+<td>0.147</td>
+<td>Poor separation</td>
+</tr>
+<tr>
+<td>6</td>
+<td>0.145</td>
+<td>Poor separation</td>
+</tr>
+<tr>
+<td>7</td>
+<td>0.140</td>
+<td>Poor separation</td>
+</tr>
+<tr>
+<td>8</td>
+<td>0.141</td>
+<td>Poor separation</td>
+</tr>
+</tbody>
+</table>
+
+<p>The maximum Silhouette Score of 0.222 is achieved with just two clusters — essentially the algorithm splitting the dataset in half. Even this best case falls well below the 0.5 threshold for meaningful clustering. More revealing still, when those clusters are cross-tabulated against actual profession:</p>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Statistic</th>
+<th>p-value</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K-Means (K=2) vs. Profession</td>
+<td>χ² = 8.69</td>
+<td>p = 0.276</td>
+<td>Not significant</td>
+</tr>
+<tr>
+<td>Hierarchical (K=2) vs. Profession</td>
+<td>χ² = 5.25</td>
+<td>p = 0.630</td>
+<td>Not significant</td>
+</tr>
+<tr>
+<td>K-Means (K=8, matched) vs. Profession</td>
+<td>χ² = 36.08</td>
+<td>p = 0.915</td>
+<td>Not significant</td>
+</tr>
+</tbody>
+</table>
+
+<p>The Adjusted Rand Index — the gold-standard measure of clustering alignment — tells the same story:</p>
+<table>
+<thead>
+<tr>
+<th>Configuration</th>
+<th>Adjusted Rand Index</th>
+<th>Cramér's V</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>K-Means (optimal)</td>
+<td>0.0009</td>
+<td>0.107</td>
+</tr>
+<tr>
+<td>Hierarchical (K=2)</td>
+<td>−0.0012</td>
+<td>—</td>
+</tr>
+<tr>
+<td>K-Means (K=8 matched)</td>
+<td>−0.0015</td>
+<td>0.082</td>
+</tr>
+</tbody>
+</table>
+
+<p>An ARI of zero means the clustering is no better than random assignment. Negative values mean it is literally worse than random. Cramér's V of 0.082 indicates negligible association. The profession distribution across eight K-means clusters shows every profession present in roughly equal proportions in every cluster — a perfectly undifferentiated mixture:</p>
+<table>
+<thead>
+<tr>
+<th>Profession</th>
+<th>C0</th>
+<th>C1</th>
+<th>C2</th>
+<th>C3</th>
+<th>C4</th>
+<th>C5</th>
+<th>C6</th>
+<th>C7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Artist</td>
+<td>7</td>
+<td>13</td>
+<td>7</td>
+<td>7</td>
+<td>10</td>
+<td>13</td>
+<td>9</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Athlete</td>
+<td>13</td>
+<td>13</td>
+<td>7</td>
+<td>11</td>
+<td>16</td>
+<td>22</td>
+<td>19</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Business</td>
+<td>6</td>
+<td>10</td>
+<td>8</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Entertainer</td>
+<td>16</td>
+<td>16</td>
+<td>12</td>
+<td>6</td>
+<td>22</td>
+<td>15</td>
+<td>23</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Musician</td>
+<td>13</td>
+<td>13</td>
+<td>8</td>
+<td>8</td>
+<td>10</td>
+<td>19</td>
+<td>9</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Politician</td>
+<td>7</td>
+<td>9</td>
+<td>13</td>
+<td>4</td>
+<td>7</td>
+<td>8</td>
+<td>13</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Scientist</td>
+<td>15</td>
+<td>18</td>
+<td>10</td>
+<td>7</td>
+<td>19</td>
+<td>17</td>
+<td>21</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Writer</td>
+<td>10</td>
+<td>13</td>
+<td>16</td>
+<td>10</td>
+<td>13</td>
+<td>18</td>
+<td>11</td>
+<td>13</td>
+</tr>
+</tbody>
+</table>
+
+<p>This is what randomness looks like. There is no cluster that is predominantly musicians, no cluster populated mainly by athletes. The numbers vary somewhat, as random fluctuations always will, but none of the variations approach significance.</p>
+<h3>Phase 2: Cosine Interaction Clustering — Testing Aspect Geometry</h3>
+<p>The second analysis phase switched from raw planetary positions to the 66 pairwise cosine interactions — the cosine of the angular difference between every pair of the twelve main celestial bodies. This feature set encodes the <em>relational geometry</em> of the chart: how conjunct or opposed each planet is to every other planet. It effectively asks not "where are the planets?" but "what aspects do they make?"</p>
+<p>Testing both Tropical and Vedic (sidereal) zodiac systems:</p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Adjusted Rand Index</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tropical (pairwise cosines)</td>
+<td>0.0386</td>
+</tr>
+<tr>
+<td>Vedic/Sidereal (pairwise cosines)</td>
+<td>0.0355</td>
+</tr>
+<tr>
+<td>Cosine interactions (zodiac-invariant)</td>
+<td>0.0124</td>
+</tr>
+</tbody>
+</table>
+
+<p>These values are technically higher than the Phase 1 results, but all remain functionally zero — no system of astrological features produced clusters that meaningfully corresponded to professional categories. Notably, the zodiac-invariant interaction score (0.0124) is the weakest of the three, suggesting that even the small amount of residual signal in the Tropical and Vedic results may derive from generational cohort effects (different professionals born in different eras having different outer planet configurations) rather than from genuine astrological structuring.</p>
+<h3>Phase 3: Advanced Algorithms — Exhausting the Hypothesis Space</h3>
+<p>The third phase expanded to a full battery of algorithms capable of detecting non-spherical, overlapping, or density-based clusters that K-means would miss. The input was the 66-dimensional cosine feature space, reduced via PCA to the number of components preserving 95% of variance:</p>
+<table>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Adjusted Rand Index</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gaussian Mixture Models (GMM)</td>
+<td>0.009</td>
+<td>Near zero</td>
+</tr>
+<tr>
+<td>Spectral Clustering</td>
+<td>0.004</td>
+<td>Near zero</td>
+</tr>
+<tr>
+<td>Agglomerative (Ward linkage)</td>
+<td>0.006</td>
+<td>Near zero</td>
+</tr>
+<tr>
+<td>DBSCAN</td>
+<td>−0.000</td>
+<td>Found only noise</td>
+</tr>
+</tbody>
+</table>
+
+<p>DBSCAN — a density-based algorithm that identifies high-density regions in feature space — classified essentially all points as noise, meaning the data has no regions of elevated planetary density at all. The GMM, which can detect probabilistic overlapping clusters with ellipsoidal shapes (more flexible than K-means's spherical assumption), produced an ARI of 0.009. Spectral Clustering, which maps data onto a graph manifold and is capable of finding arbitrarily shaped clusters, managed 0.004.</p>
+<p>These results collectively exhaust the methodological hypothesis space. K-means assumes spherical clusters; GMM assumes ellipsoidal; Spectral assumes manifold structure; DBSCAN assumes arbitrary density shapes; Agglomerative assumes hierarchical tree structure. All of them, applied to the same data, produced the same answer: nothing.</p>
+<hr>
+<h2>What Absence of Structure Means</h2>
+<p>The chart space of 766 professionals is, in the language of machine learning, <em>flat</em>. PCA retains only 49% of variance in two dimensions, and even the full high-dimensional space offers no detectable concentrations of professionals with shared astrological features.</p>
+<p>What would a positive result have required? It would require that, for instance, musicians tend to have Moon-Mercury conjunctions while scientists tend to have Saturn-Sun conjunctions — not just slightly elevated frequencies of these configurations (which supervised analysis might detect), but elevated enough that the clusters become visually and algorithmically apparent. It would require that when you map 766 charts into a 66-dimensional aspect space, distinct clouds emerge around professional identities.</p>
+<p>The data shows no such clouds. The musicians and scientists and athletes are distributed through the same undifferentiated fog, indistinguishable from one another by any algorithmic tool.</p>
+<h3>The Hardship Hypothesis and Unsupervised Learning</h3>
+<p>This result does not contradict the supervised findings in other chapters of this book. Project 33 found that Writers cluster around weak-Mars charts — a small frequency elevation that a supervised classifier can detect when told to look for it. Project 20 identified specific placements with elevated rates in the celebrity population as a whole. These weak signals exist; they are not artifacts.</p>
+<p>But here is the crucial distinction: a weak signal in a supervised context does not guarantee detectable structure in an unsupervised context. To illustrate: imagine that exactly 20% of musicians have Moon-Mercury conjunctions, while the general celebrity population has 15%. That is a real, statistically detectable signal in a supervised framework. But in unsupervised clustering, that 5% frequency difference is swamped by the 80% of musicians who do <em>not</em> have that placement, and the 15% of non-musicians who do. The algorithm cannot find a clean cluster because the "signal" musicians are distributed among the noise musicians, indistinguishable at the individual chart level.</p>
+<p>The Hardship Hypothesis — the book's most persistent theme, that successful people tend to have tense rather than harmonious charts — might actually explain part of this null result. If all professionals tend toward somewhat difficult placements, regardless of field, there would be no field-specific clustering to find. Difficulty is the uniform condition; the specific flavor of difficulty is the minor variation. Unsupervised learning cannot detect minor variations in a uniformly turbulent landscape.</p>
+<hr>
+<h2>Statistical Caveats</h2>
+<p><strong>The null is strong.</strong> With N=766 across 8 categories and six different algorithms all producing ARI values below 0.01, the probability of missing a genuine medium-strength effect (d &gt; 0.3) is extremely low. This is a well-powered null result, not a merely underpowered one.</p>
+<p><strong>Feature choice matters.</strong> These analyses used planetary longitudes and cosine interaction features. They did not include house placements (which require birth time), aspects with midpoints, or harmonic series. A future analysis with full birth time data and richer features might yield different results — though Projects 13 and 23 suggest this is unlikely to change the fundamental picture dramatically.</p>
+<p><strong>Generational confound suppressed but not eliminated.</strong> The slow outer planets (Jupiter, Saturn, Uranus, Neptune, Pluto) encode birth year rather than individual astrological character. Removing them from the feature set might reduce noise in some dimensions but would also remove features that astrologers do use in career assessment. The analysis in Phase 2 using only pairwise cosine interactions (which are zodiac-invariant but still include slow-planet aspects) shows no improvement over raw coordinates.</p>
+<p><strong>Sample composition.</strong> The 766 professionals come from Astro-Databank, a database of historically notable individuals — a population already filtered for celebrity and historical significance. This population may already be more homogeneous astrologically (due to the Hardship Hypothesis uniformity noted above) than a random sample of working professionals would be.</p>
+<hr>
+<h2>Conclusion</h2>
+<p>Unsupervised machine learning applied to 766 verified professionals across 8 career categories finds no evidence that birth charts cluster by profession. The Adjusted Rand Index across six algorithms and three feature sets ranges from −0.002 to 0.039 — all functionally zero. Silhouette scores peak at 0.222, well below the 0.5 threshold for meaningful cluster structure. All eight professions distribute uniformly across all generated clusters.</p>
+<p>This does not mean astrology has no information about profession — the supervised results elsewhere in this book suggest it may have a little. But it does mean that information is too weak, too diffuse, and too much overwhelmed by individual variation to produce the kind of natural grouping that would make a birth chart function as a vocational fingerprint. If the planets say something about what a person becomes, they are whispering, not shouting — and the whispers are inaudible to any algorithm listening without prior assumptions about what to hear.</p>
+<hr>
+<p><em>Archived source data and raw outputs preserved in <code>backup/</code>.</em></p>
+</div></main>
+<footer><div class="container">© 2026 Renay Oshop &nbsp;·&nbsp; <a href="https://www.ayurastro.com" target="_blank" rel="noopener">AyurAstro.com</a></div></footer>
+</body>
+</html>
