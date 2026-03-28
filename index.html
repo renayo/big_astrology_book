@@ -513,6 +513,63 @@
     }
 
     /* ── Responsive ── */
+    /* ── Replication banner ── */
+    .replication-banner {
+      background: #1a2e1a;
+      background: linear-gradient(90deg, #162812 0%, #1e3a1e 50%, #162812 100%);
+      border-top: 3px solid #4caf7d;
+      border-bottom: 1px solid #2a4a2a;
+      padding: 1.1rem 0;
+    }
+    .rep-inner {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .rep-icon {
+      font-size: 1.6rem;
+      flex-shrink: 0;
+      filter: drop-shadow(0 0 8px rgba(76,175,125,0.6));
+    }
+    .rep-text {
+      flex: 1;
+      min-width: 220px;
+      font-size: 0.92rem;
+      color: rgba(220,240,225,0.9);
+      line-height: 1.55;
+    }
+    .rep-text strong {
+      color: #7ddfaa;
+      font-weight: 600;
+      display: block;
+      font-size: 1rem;
+      margin-bottom: 0.2rem;
+    }
+    .rep-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: #4caf7d;
+      color: #0d1f0d;
+      font-family: var(--font-b);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.65rem 1.5rem;
+      border-radius: 2px;
+      white-space: nowrap;
+      flex-shrink: 0;
+      transition: background .15s, transform .1s;
+      text-decoration: none;
+    }
+    .rep-btn:hover {
+      background: #5dcf90;
+      color: #0d1f0d;
+      transform: translateY(-1px);
+    }
+
     @media (max-width: 720px) {
       .project-table th:nth-child(3),
       .project-table td:nth-child(3),
@@ -579,6 +636,23 @@
   </div>
   <div class="hero-scroll">Scroll</div>
 </header>
+
+<!-- Replication Banner -->
+<div class="replication-banner">
+  <div class="container">
+    <div class="rep-inner">
+      <div class="rep-icon">⚗</div>
+      <div class="rep-text">
+        <strong>All code &amp; data are open.</strong>
+        Every Python script, CSV dataset, and analysis file is available in the GitHub repository —
+        ready to run, extend, or replicate.
+      </div>
+      <a href="https://github.com/renayo/big_astrology_book" target="_blank" rel="noopener" class="rep-btn">
+        View on GitHub →
+      </a>
+    </div>
+  </div>
+</div>
 
 <!-- Filter bar -->
 <div class="filter-bar" id="experiments">
