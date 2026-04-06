@@ -137,7 +137,7 @@ footer a{color:#d4b84a}
 <hr>
 <h2>Phase 2: Geometric Cosine Approach — The Breakthrough</h2>
 <p>The insight of Phase 2 is that domain knowledge can be baked into the feature engineering rather than left for the algorithm to discover. Instead of providing raw coordinates, the analysis pre-computed the cosine of the angular difference between each transiting planet and each natal reference point:</p>
-<p>$$\text{Feature} = \cos(\theta_{\text{Transit}} - \theta_{\text{Natal}})$$</p>
+<p><strong>Formula:</strong> <code>Feature = cos(θ<sub>Transit</sub> - θ<sub>Natal</sub>)</code></p>
 <p>This encoding has precisely the properties the algorithm needs:
 - <strong>Conjunction (0°)</strong> maps to cos(0°) = <strong>+1.0</strong>
 - <strong>Opposition (180°)</strong> maps to cos(180°) = <strong>−1.0</strong>
