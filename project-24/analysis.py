@@ -16,8 +16,8 @@ import concurrent.futures
 import sys
 import math
 import itertools
-import itertools
 import requests_cache
+import re
 session = requests_cache.CachedSession('yfinance.cache')
 
 warnings.filterwarnings('ignore')
@@ -30,6 +30,8 @@ warnings.filterwarnings('ignore')
 
 OUTPUT_DIR = Path(__file__).parent
 OUTPUT_FILE = OUTPUT_DIR / 'large_scale_ipo_results.csv'
+REQUEST_TIMEOUT = 30
+TICKER_PATTERN = re.compile(r'^[A-Z0-9][A-Z0-9.\-]{0,14}$')
 
 # Configure Swisseph
 try:
@@ -176,15 +178,21 @@ def main():
 
         # FIX: Robust downloading and parsing manually
         import requests
-        resp = requests.get(url)
-        if resp.status_code == 200:
-            # Split by newlines and clean whitespace
-            raw_tickers = resp.text.splitlines()
-            tickers = [t.strip() for t in raw_tickers if t.strip()]
-            print(f"Loaded {len(tickers)} tickers from GitHub source.")
-            print(f"Sample tickers: {tickers[:5]}")
-        else:
-            raise Exception(f"GitHub download failed with status {resp.status_code}")
+        resp = requests.get(url, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+
+        # Split by newlines and keep only valid ticker symbols
+        raw_tickers = resp.text.splitlines()
+        tickers = [
+            t.strip().upper()
+            for t in raw_tickers
+            if t.strip() and TICKER_PATTERN.fullmatch(t.strip().upper())
+        ]
+        if not tickers:
+            raise ValueError("Downloaded ticker list contained no valid symbols matching pattern")
+
+        print(f"Loaded {len(tickers)} tickers from GitHub source.")
+        print(f"Sample tickers: {tickers[:5]}")
 
     except Exception as e:
         print(f"Could not load large list: {e}. Using S&P 500 fallback.")

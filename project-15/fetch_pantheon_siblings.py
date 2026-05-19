@@ -9,6 +9,7 @@ OUTPUT_FILE = 'pantheon_with_birth_order.csv'
 BATCH_SIZE = 50
 LIMIT = 500  # Process top 500 famous people for now to avoid timeout
 SPARQL_ENDPOINT = "https://query.wikidata.org/sparql"
+REQUEST_TIMEOUT = 60
 
 def get_sparql_query(qids):
     values = " ".join([f"wd:{qid}" for qid in qids])
@@ -41,13 +42,18 @@ def fetch_data(df):
 
         try:
             query = get_sparql_query(batch)
-            response = requests.get(SPARQL_ENDPOINT, params={'query': query, 'format': 'json'})
+            response = requests.get(
+                SPARQL_ENDPOINT,
+                params={'query': query, 'format': 'json'},
+                timeout=REQUEST_TIMEOUT
+            )
 
             if response.status_code == 429:
                 print("Rate limited, waiting...")
                 time.sleep(10)
                 continue
 
+            response.raise_for_status()
             data = response.json()
 
             # Process bindings

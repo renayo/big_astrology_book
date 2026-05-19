@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 
 WIKIDATA_ENDPOINT = "https://query.wikidata.org/sparql"
+REQUEST_TIMEOUT = 60
 
 # Query logic:
 # Select bands with > 2 members
@@ -35,7 +36,12 @@ def fetch_data():
     headers = {'User-Agent': 'AstrologyResearchBot/1.0 (rko@example.com)'}
     
     try:
-        response = requests.get(WIKIDATA_ENDPOINT, params={'query': SPARQL_QUERY, 'format': 'json'}, headers=headers)
+        response = requests.get(
+            WIKIDATA_ENDPOINT,
+            params={'query': SPARQL_QUERY, 'format': 'json'},
+            headers=headers,
+            timeout=REQUEST_TIMEOUT
+        )
         response.raise_for_status()
         data = response.json()
     except Exception as e:
@@ -99,4 +105,3 @@ if __name__ == "__main__":
         final_df.to_csv(output_path, index=False)
         print(f"Saved {len(final_df)} rows of member data for {final_df['band_name'].nunique()} bands to {output_path}")
         print(final_df.head())
-
